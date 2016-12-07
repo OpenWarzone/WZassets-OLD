@@ -1,0 +1,14 @@
+torso,models/players/TwinSuns/t4b.jpg
+r_arm,models/players/TwinSuns/t4b.jpg
+r_hand,models/players/TwinSuns/t4b.jpg
+hips,models/players/TwinSuns/t4b.jpg
+r_leg,models/players/TwinSuns/t4b.jpg
+l_leg,models/players/TwinSuns/t4b.jpg
+l_arm,models/players/TwinSuns/t4b.jpg
+l_hand,models/players/TwinSuns/t4b.jpg
+
+head2,models/players/TwinSuns/t4.jpg
+eyes,models/players/TwinSuns/t4.jpg
+Lekku2,models/players/TwinSuns/t4.jpg
+Lekku1,*off
+Head1,*off

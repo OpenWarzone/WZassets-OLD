@@ -1,0 +1,10 @@
+head_off,models/players/jedi_kdm/torso_6.tga
+heada,models/players/jedi_kdm/head_1.tga
+heada_ears,models/players/jedi_kdm/head_1.tga
+heada_mask,models/players/jedi_kdm/head_1.tga
+headb,*off
+headb_ears,*off
+headb_mask,*off
+headc,*off
+headc_ears,*off
+headc_mask,*off

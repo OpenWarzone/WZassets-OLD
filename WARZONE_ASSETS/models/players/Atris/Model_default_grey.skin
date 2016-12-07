@@ -1,0 +1,12 @@
+torso,models/players/Atris/body_grey.jpg
+r_arm,models/players/Atris/body_grey.jpg
+r_hand,models/players/Atris/body_grey.jpg
+hips,models/players/Atris/body_grey.jpg
+r_foot,models/players/Atris/body_grey.jpg
+l_foot,models/players/Atris/body_grey.jpg
+l_arm,models/players/Atris/body_grey.jpg
+l_hand,models/players/Atris/body_grey.jpg
+
+head,models/players/Atris/AtrisHead_default.jpg
+eyes,models/players/Atris/AtrisHead_default.jpg
+danglyhair,models/players/Atris/AtrisHead_default.jpg

@@ -1,0 +1,74 @@
+luckyshot
+{
+name			luckyshot	//light handler
+type			VH_SPEEDER
+numHands		2
+hideRider		1
+lookYaw			45
+lookPitch		45
+length			64
+width			25
+height			16
+centerOfGravity	"-0.222 0 0"
+speedMax		650
+speedMin		-300
+turboSpeed		1050
+turboDuration	10000
+turboRecharge	8500
+acceleration	500
+decelIdle		30
+strafePerc		11.5
+bankingSpeed	1.95
+rollLimit		360
+pitchLimit		90
+braking			3000
+mouseYaw		0.0038
+turningSpeed	1200
+turnWhenStopped	0
+traction		12
+friction		1.5
+maxSlope		0.75
+mass			200
+armor 			2000
+toughness 		100.0
+malfunctionArmorLevel	1000
+model			sentry
+skin			default
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX			"ships/jet"
+turboStartFX		"ships/swoop_turbo_start"
+flammable		1
+explosionRadius 200
+explosionDamage 500
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			700
+waterProof		1
+bouyancy		100
+hoverHeight		50
+hoverStrength	35
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+
+weap1			photon_laser
+
+weap1Delay		3
+
+weap1AmmoMax	800
+weap1AmmoRechargeMS	10
+
+weapMuzzle1		photon_laser
+}

@@ -1,0 +1,9 @@
+
+{
+name	"ShaakTiVM"
+model	ShaakTiVM
+color1	4
+personality	/botfiles/ShaakTiVM.jkb
+//ShaakTiVM - new bot! Light side...
+}
+

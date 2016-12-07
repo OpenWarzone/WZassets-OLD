@@ -1,0 +1,64 @@
+[GRASS]
+grassImage0=models/warzone/foliage/grasstropical
+grassImage1=models/warzone/foliage/grasstropical2
+grassImage2=models/warzone/foliage/grasstropical3
+seaGrassImage=models/warzone/foliage/seagrass
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=2.0
+
+// Per-tree model filenames...
+treeModel0=models/warzone/trees/uqpalm2.md3
+treeModel1=models/warzone/trees/uqpalm3.md3
+treeModel2=models/warzone/trees/giant1.md3
+treeModel3=models/warzone/trees/anvilpalm1.md3
+treeModel4=models/warzone/trees/willow.md3
+treeModel5=models/warzone/trees/willow2.md3
+treeModel6=models/warzone/trees/willow3.md3
+treeModel7=models/warzone/trees/willow4.md3
+treeModel8=models/warzone/trees/manfern.md3
+
+// Per-tree billboard texture filenames...
+treeBillboardShader0=models/warzone/billboard/uqpalm2
+treeBillboardShader1=models/warzone/billboard/uqpalm3
+treeBillboardShader2=models/warzone/billboard/giant1
+treeBillboardShader3=models/warzone/billboard/anvilpalm1
+treeBillboardShader4=models/warzone/billboard/willow
+treeBillboardShader5=models/warzone/billboard/willow2
+treeBillboardShader6=models/warzone/billboard/willow3
+treeBillboardShader7=models/warzone/billboard/willow4
+treeBillboardShader8=models/warzone/billboard/manfern
+
+// Per-tree billboard scales...
+treeBillboardSize0=128.0
+treeBillboardSize1=128.0
+treeBillboardSize2=204.0
+treeBillboardSize3=168.0
+treeBillboardSize4=183.0
+treeBillboardSize5=183.0
+treeBillboardSize6=203.0
+treeBillboardSize7=203.0
+treeBillboardSize8=153.0
+
+// Per-tree radius scales...
+treeRadius0=42.0
+treeRadius1=52.0
+treeRadius2=72.0
+treeRadius3=75.0
+treeRadius4=38.0
+treeRadius5=38.0
+treeRadius6=38.0
+treeRadius7=38.0
+treeRadius8=72.0
+
+// Per-tree vertical offsets...
+treeZoffset0=-64.0
+treeZoffset1=-64.0
+treeZoffset2=-64.0
+treeZoffset3=-64.0
+treeZoffset4=-64.0
+treeZoffset5=-64.0
+treeZoffset6=-64.0
+treeZoffset7=-64.0
+treeZoffset8=-64.0

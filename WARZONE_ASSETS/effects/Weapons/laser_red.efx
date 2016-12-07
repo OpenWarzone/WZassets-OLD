@@ -1,0 +1,55 @@
+Line
+{
+	flags				usePhysics impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	life			1 1
+
+	size
+	{
+		start			0.1 0.15
+	}
+
+	shaders
+	[
+		models/effects/laser_red
+	]
+
+	impactfx
+	[
+		weapons/laserImpactGlow_red
+	]
+}
+
+Particle
+{
+
+	life			1 1
+
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_red
+	]
+}
+
+OrientedParticle
+{
+
+	life			1 1
+
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_red
+	]
+}

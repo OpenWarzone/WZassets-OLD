@@ -1,0 +1,86 @@
+repeatDelay				50
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	count				3
+
+	life				200 300
+
+	rotation			0 360
+
+	velocity			15 -12 -12 20 12 12
+
+	gravity				12 32
+
+	rgb
+	{
+		start			0.6902 0.6078 0.4667 0.7294 0.702 0.6627
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			50
+		end				65 60
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Fire
+
+	count				0 1
+
+	life				35 70
+
+	rotation			0 180
+
+	rotationDelta		0 180
+
+	alpha
+	{
+		start			0.3 0.1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			35
+		end				80
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}

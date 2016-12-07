@@ -1,0 +1,462 @@
+repeatDelay				50
+
+Particle
+{
+	name				LightBeam
+
+	life				600 800
+
+	cullrange			800
+
+	origin				10 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			80 90
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			100 200
+		end				10 20
+		parm			70 80
+		flags			random linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				LightFlare
+
+	life				200 300
+
+	origin				0 0 0 10 0 0
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.9922 0.4118 0.2157 0.949 0.3059 0.1922
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			1 2
+		end				20 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_red
+		gfx/flares/flare_white
+	]
+}
+
+Emitter
+{
+	name				Chunkies
+
+	flags				expensivePhysics useModel usePhysics
+
+	spawnFlags			cheapOrgCalc absoluteVel
+
+	count				4 7
+
+	life				1e+004 1.9e+004
+
+	cullrange			800
+
+	bounce				0.2 0.3
+
+	origin				-2 -2 1 2 2 2
+
+	angle				0 0 0 360 360 0
+
+	angleDelta			-40 -20 -10 50 30 15
+
+	velocity			-200 -200 -200 -200 200 400
+
+	gravity				-700 -800
+
+	size
+	{
+		start			0.1 0.3
+	}
+
+	models
+	[
+		models/chunks/metal/metal1_1.md3
+		models/chunks/metal/metal1_2.md3
+		models/chunks/metal/metal1_3.md3
+		models/chunks/metal/metal1_4.md3
+		models/chunks/metal/metal2_1.md3
+		models/chunks/metal/metal2_2.md3
+		models/chunks/metal/metal2_3.md3
+		models/chunks/metal/metal2_4.md3
+		models/chunks/rock/rock1_1.md3
+		models/chunks/rock/rock1_2.md3
+		models/chunks/rock/rock1_3.md3
+		models/chunks/rock/rock1_4.md3
+		models/chunks/rock/rock3_1.md3
+		models/chunks/rock/rock3_2.md3
+		models/chunks/rock/rock3_3.md3
+		models/chunks/rock/rock3_4.md3
+	]
+}
+
+Line
+{
+	name				Lines
+
+	spawnFlags			cheapOrg2Calc orgOnSphere
+
+	count				5 8
+
+	life				700 800
+
+	delay				0 150
+
+	origin2				-30 -30 -30 30 30 50
+
+	radius				1
+
+	height				1
+
+	rgb
+	{
+		start			0.9843 0.6549 0.4078 0.4118 0.2392 0.1529
+	}
+
+	alpha
+	{
+		start			0.1 0.4
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+		end				10 20
+		parm			40 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Tail
+{
+	name				BlazingTrails
+
+	flags				usePhysics impactKills
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				4 7
+
+	life				1600 2200
+
+	origin2				-200 -200 -200 300 200 200
+
+	radius				1
+
+	height				1
+
+	velocity			10 0 0
+
+	rgb
+	{
+		start			1 0.7333 0.6157 0.9098 0.5373 0.5176
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				1 2
+		parm			40 50
+		flags			clamp
+	}
+
+	length
+	{
+		start			0
+		end				10 30
+		parm			10 15
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+Tail
+{
+	name				BurningDebris
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			absoluteVel
+
+	count				5 8
+
+	life				600 800
+
+	cullrange			800
+
+	bounce				0.2 0.3
+
+	velocity			-100 -100 -100 100 100 200
+
+	gravity				-200 -350
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			1 2
+		end				0
+		flags			linear
+	}
+
+	length
+	{
+		start			10 20
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/fire_debris
+	]
+}
+
+Particle
+{
+	name				Explosion
+
+	flags				setShaderTime
+
+	spawnFlags			absoluteVel
+
+	count				2
+
+	life				1150
+
+	rotation			0 360
+
+	rotationDelta		-2 2
+
+	velocity			-1 -1 5 1 1 10
+
+	alpha
+	{
+		end				0
+		parm			50 70
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			3 4
+		end				10 20
+		parm			10 25
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/exp/explosion1
+		gfx/flames/gas_explosion
+		gfx/flames/gas_explosion
+		gfx/exp/rocket_explosion
+		gfx/exp/slower_rocket_explosion
+	]
+}
+
+Particle
+{
+	name				SmokePillar
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			cheapOrgCalc absoluteVel rgbComponentInterpolation affectedByWind
+
+	count				7 8
+
+	life				2000 3000
+
+	delay				0 400
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	origin				-5 -5 0 5 5 10
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			-10 -10 0 10 10 10
+
+	acceleration		-5 0 0 -6 0 0
+
+	gravity				1 6
+
+	rgb
+	{
+		start			0.5333 0.549 0.6745 0.5373 0.4706 0.6706
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.4 0.8
+		end				0
+		parm			60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5 7
+		end				10 20
+		parm			50 60
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				400 500
+
+	rgb
+	{
+		start			0.3882 0.2902 0.1882 0.4235 0.2745 0.1843
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			100
+		end				50
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				200 300
+
+	bounce				3 6
+
+	radius				100 200
+}
+
+Flash
+{
+	name				Flash
+
+	life				400 600
+
+	cullrange			200
+
+	rgb
+	{
+		start			1 1 1 0.9961 0.8706 0.7804
+		end				0 0 0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Sound
+{
+	name				Boom
+
+	cullrange			1500
+
+	sounds
+	[
+		sound/effects/explode10.wav
+	]
+}

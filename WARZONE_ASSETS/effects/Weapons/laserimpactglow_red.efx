@@ -1,0 +1,15 @@
+OrientedParticle
+{
+
+	life			1 1
+
+	size
+	{
+		start			3 4
+	}
+
+	shaders
+	[
+		models/effects/laser_point_red
+	]
+}

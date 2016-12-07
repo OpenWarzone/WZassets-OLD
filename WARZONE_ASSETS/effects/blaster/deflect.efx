@@ -1,0 +1,7 @@
+FxRunner
+{
+	playfx
+	[
+		blasters/yellow_deflect.efx
+	]
+}

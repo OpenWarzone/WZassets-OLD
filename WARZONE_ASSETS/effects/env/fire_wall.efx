@@ -1,0 +1,200 @@
+repeatDelay				200
+
+Particle
+{
+	name				Fire
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				14 18
+
+	life				600 900
+
+	delay				0 200
+
+	origin				-3 0 -40 2 0 40
+
+	rotation			80 95
+
+	rotationDelta		-14 18
+
+	velocity			0 -10 -10 60 10 10
+
+	gravity				80 120
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+		end				0.9922 0.3804 0.1765 0.9843 0.3412 0.1843
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			clamp
+	}
+
+	size
+	{
+		start			20 30
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				4 5
+
+	life				1200
+
+	delay				0 200
+
+	origin				10 0 -40 40 0 40
+
+	rotationDelta		-8 10
+
+	velocity			10 -20 0 20 20 0
+
+	acceleration		0 -10 -10 0 10 10
+
+	gravity				40 100
+
+	rgb
+	{
+		start			0.8235 0.5294 0.2 1 0.5608 0.1686
+		end				0.1882 0.1882 0.1882 0.1765 0.1765 0.1765
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.3
+		parm			1.6
+		flags			wave
+	}
+
+	size
+	{
+		start			16 20
+		end				30 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				4 7
+
+	life				1100 2300
+
+	delay				0 1500
+
+	cullrange			300
+
+	origin				0 -8 -40 8 7 40
+
+	rotation			-180 180
+
+	velocity			-10 -10 -10 10 10 10
+
+	acceleration		-8 -8 -8 8 8 8
+
+	gravity				50 160
+
+	rgb
+	{
+		start			1 0.7843 0.2078 0.9922 0.5725 0.3922
+		end				0.7098 0.08627 0.01569 0.8078 0.1412 0.02353
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.8 1.6
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/spark1
+		gfx/flames/spark2
+		gfx/flames/spark3
+		gfx/flames/spark4
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	count				2
+
+	life				300
+
+	delay				0 100
+
+	cullrange			800
+
+	origin				10 0 -30 20 0 30
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+	}
+
+	size
+	{
+		start			80
+		end				90
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}

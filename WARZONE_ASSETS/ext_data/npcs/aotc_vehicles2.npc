@@ -1,0 +1,684 @@
+
+Acklay_mst
+{
+	playerModel 	acklay_mst
+	scale			125
+	weapon		WP_MELEE
+	health		1000
+	headPitchRangeDown 30
+	reactions		3
+	aim			1
+	move			3
+	aggression		3
+	evasion		1
+	intelligence	5
+	showhealth		1
+	rank		crewman
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_RANCOR
+	height	120
+	crouchheight 	70
+	width		70
+	snd		rancor
+	sndcombat	mutant_rancor
+	sndextra	rancor
+	yawspeed	40
+//	walkSpeed	173
+//	runSpeed	173
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead		0
+	dismemberProbArms		0
+	dismemberProbLegs		0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+Acklay_vehicle_mst
+{
+	weapon		WP_MELEE
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	snd			rancor
+	height		128
+	crouchheight 	128
+	width		70
+}
+ajsf-r4
+{
+	playermodel		ajsf-r4
+	weapon		WP_NONE
+	headYawRangeLeft	180
+	headYawRangeRight	180
+	headPitchRangeUp	0
+	headPitchRangeDown	0
+	torsoYawRangeLeft	0
+	torsoYawRangeRight	0
+	torsoPitchRangeUp	10
+	torsoPitchRangeDown	10
+	reactions		3
+	aim			1
+	move			3
+	aggression		3
+	evasion			1
+	intelligence		5
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+//	race			bot
+	class			CLASS_R2D2
+	yawSpeed		120
+	runSpeed		150
+	walkSpeed		50
+      scale             125
+	height			40
+	width			12
+	hFOV			120
+	vfov			45
+	snd			r2d2
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+anakin_pod
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			256
+	height			64
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+anakinjsf
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+aspeedermp
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			70
+	height			70
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+aspeedervm
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			70
+	height			32
+}
+
+atat
+{
+	playerModel	atat
+//	weapon		WP_MELEE
+//	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_BOWCASTER
+	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_EMPLACED_GUN
+//	health		1000
+//	width		20
+//	height		548
+//	crouchheight 88
+	height		548	
+	width		548
+	health		500
+	reactions	3
+	aim			5
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_DROIDEKA
+	sndcombat	atst
+	sndextra	atst
+	yawSpeed	50
+	walkSpeed	45
+	runSpeed	500
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	0
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+	headPitchRangeUp	60
+	headPitchRangeDown	60
+	torsoPitchRangeUp	60
+	torsoPitchRangeDown	60
+	snd			atst
+}
+
+ATAT_vehicle
+{
+	weapon		WP_BOWCASTER
+	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_EMPLACED_GUN
+	playerModel	atat
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_VEHICLE
+	height		548	
+	width		548
+	health		300
+}
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+awing
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			80
+	height		59
+
+}
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+clonetank
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			300
+	height		200
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+cobra_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+Dewback
+{
+	weapon		WP_NONE
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	snd		tauntaun
+	width			32
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+DtAawing
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			80
+	height		59
+
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+DtAdeceptor
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width		210
+	height		100
+}
+DtAjf-r4
+{
+	playermodel		DtAjf-r4
+	weapon		WP_NONE
+	headYawRangeLeft	180
+	headYawRangeRight	180
+	headPitchRangeUp	0
+	headPitchRangeDown	0
+	torsoYawRangeLeft	0
+	torsoYawRangeRight	0
+	torsoPitchRangeUp	10
+	torsoPitchRangeDown	10
+	reactions		3
+	aim			1
+	move			3
+	aggression		3
+	evasion			1
+	intelligence		5
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+//	race			bot
+	class			CLASS_R2D2
+	yawSpeed		120
+	runSpeed		150
+	walkSpeed		50
+      scale             125
+	height			40
+	width			12
+	hFOV			120
+	vfov			45
+	snd			r2d2
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+DtAjf
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+DtAsabre
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width		200
+	height		250
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+DtAxing
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+falconvm
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			300
+	height		60
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+gunshipx
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			130
+	height		100
+}
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+jawatank_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			300
+	height		200
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+JediStarFighter
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+juggernaut_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			500
+	height		400
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+n1_mst
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+n1bomber_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+naboocrusier_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			500
+	height		400
+}
+r4
+{
+	playermodel		r4
+	weapon		WP_NONE
+	headYawRangeLeft	180
+	headYawRangeRight	180
+	headPitchRangeUp	0
+	headPitchRangeDown	0
+	torsoYawRangeLeft	0
+	torsoYawRangeRight	0
+	torsoPitchRangeUp	10
+	torsoPitchRangeDown	10
+	reactions		3
+	aim			1
+	move			3
+	aggression		3
+	evasion			1
+	intelligence		5
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+//	race			bot
+	class			CLASS_R2D2
+	yawSpeed		120
+	runSpeed		150
+	walkSpeed		50
+      scale             125
+	height			40
+	width			12
+	hFOV			120
+	vfov			45
+	snd			r2d2
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+sebulba_pod
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			256
+	height			64
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+sithspeeder_mst
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+slave2_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		228
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+snow-speeder-tfp
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			130
+	height		60
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+speeder_bike_dun
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+speeder_bike_mst
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_dun
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mc
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mcb
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mcg
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mci
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mck
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mcr
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mst
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}
+tankdroid_hat
+{
+	weapon		WP_BOWCASTER
+	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_EMPLACED_GUN
+	playerModel	tankdroid_hat
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_VEHICLE
+	height		548	
+	width		548
+	health		100000
+}
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+tiecrawler_hat
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			100
+	height		100
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+tievadervm
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width		320
+	height	60
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+twin_pod
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			130
+	height		60
+}
+vehicle_hazardtrooper
+{
+	weapon		WP_CONCUSSION
+	playerModel	vehicle_hazardtrooper
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_VEHICLE
+	height		70	
+	width		80
+	health		3000
+}
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+xj3_x-wing
+{
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			230
+	height		128
+}
+
+
+//NOTE: for vehicle-class NPCs, the playerModel key is actually their entry in the vehicles.dat
+
+stap_mst
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			24
+	height			32
+}

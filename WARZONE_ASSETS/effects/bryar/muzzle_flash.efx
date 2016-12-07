@@ -1,0 +1,20 @@
+repeatDelay				50
+
+Sound
+{
+	sounds
+	[
+	sound/weapons/blasters/stingbeam1.mp3
+	sound/weapons/blasters/stingbeam2.mp3
+	sound/weapons/blasters/stingbeam3.mp3
+	sound/weapons/blasters/stingbeam4.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_stingbeam
+	]
+}

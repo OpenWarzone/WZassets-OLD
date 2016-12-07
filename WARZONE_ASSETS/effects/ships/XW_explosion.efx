@@ -1,0 +1,161 @@
+FxRunner
+{
+	name				Explosion
+
+	playfx
+	[
+		explosives/fraghuge
+	]
+}
+
+Emitter
+{
+	name				parts
+
+	flags				useModel emitFx
+
+	spawnFlags			absoluteAccel
+
+	life				1500 2000
+
+	angle				0 10 0 10 0 10
+
+	angleDelta			0 0 0 10 10 10
+
+	velocity			-1000 -1000 -1000 1000 1000 1000
+
+	acceleration		-100 0 0 -50 0 0
+
+	density				20 30
+
+	variance			4
+
+	models
+	[
+		models/players/x-wing/x_wing_part2.md3
+	]
+
+	emitfx
+	[
+		emitter/smoke_trail_fire
+	]
+}
+
+Emitter
+{
+	name				Copy of parts
+
+	flags				useModel emitFx
+
+	spawnFlags			absoluteAccel
+
+	life				2000 2500
+
+	angle				0 10 0 10 0 10
+
+	angleDelta			0 0 0 10 10 10
+
+	velocity			-1500 -1500 -1500 1500 1500 1500
+
+	density				20 30
+
+	variance			5 6
+
+	models
+	[
+		models/players/x-wing/x_wing_part1.md3
+	]
+
+	emitfx
+	[
+		emitter/smoke_trail_fire
+	]
+}
+
+Emitter
+{
+	name				Copy of Copy of parts
+
+	flags				useModel emitFx
+
+	spawnFlags			absoluteAccel
+
+	life				1000 1200
+
+	angle				0 10 0 10 0 10
+
+	angleDelta			0 0 0 10 10 10
+
+	velocity			-900 -900 -900 900 900 900
+
+	density				20 30
+
+	variance			6
+
+	models
+	[
+		models/players/x-wing/x_wing_part3.md3
+	]
+
+	emitfx
+	[
+		emitter/smoke_trail_fire
+	]
+}
+
+FxRunner
+{
+	name				Shockwave
+
+	playfx
+	[
+		explosives/shockwave
+	]
+}
+
+Particle
+{
+	name				dust
+
+	flags				useAlpha
+
+	count				2 3
+
+	life				1800 2000
+
+	delay				0 150
+
+	origin				-100 -100 -100 100 100 100
+
+	rotation			-180 180
+
+	rotationDelta		-1 1
+
+	velocity			5 -5 -5 10 5 5
+
+	rgb
+	{
+		start			1 0.9725 0.6235 1 0.8353 0.4902
+		end				0.502 0 0 0.9451 0.4078 0.01176
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 85
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			200
+		end				500 550
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/dotfill_a
+	]
+}

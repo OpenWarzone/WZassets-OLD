@@ -1,0 +1,55 @@
+eopie
+{
+name			eopie
+type			VH_ANIMAL
+numHands		4
+lookYaw			45
+lookPitch		45
+length			210
+width			32
+height			78
+centerOfGravity	"-0.222 0 0"
+speedMax		350
+speedMin		-150
+turboSpeed		650
+turboDuration		4000
+turboRecharge		1500
+acceleration		11
+decelIdle		15
+
+
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			9
+mouseYaw		0.006
+turningSpeed		4.5
+turnWhenStopped		0
+traction		100
+friction		100
+maxSlope		0.55
+mass			300
+armor 			400
+toughness 		45.0
+model			eopie
+riderAnim		BOTH_VT_IDLE
+radarIcon		"gfx/menus/radar/tauntaun"
+skin			"default"
+
+cameraOverride		1
+cameraRange			165
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			80
+cameraAlpha			0
+
+soundOn			"sound/chars/tauntaun/misc/buck1.mp3"
+soundOff		"sound/chars/tauntaun/misc/buck2.mp3"
+soundTurbo		"sound/chars/tauntaun/misc/anger1.mp3"
+soundShift1		"sound/chars/tauntaun/misc/anger3.mp3"
+soundShift2		"sound/chars/tauntaun/misc/chatter1.mp3"
+soundShift3		"sound/chars/tauntaun/misc/chatter3.mp3"
+soundShift4		"sound/chars/tauntaun/misc/pant1.mp3"
+
+}

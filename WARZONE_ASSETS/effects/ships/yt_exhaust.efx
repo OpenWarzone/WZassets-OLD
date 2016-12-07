@@ -1,0 +1,117 @@
+repeatDelay				50
+
+Particle
+{
+	name				Filler
+
+	count				0
+
+	size
+	{
+		start			30
+	}
+
+	shaders
+	[
+		gfx/flares/engine_square
+	]
+}
+
+OrientedParticle
+{
+	name				FlatExhaust
+
+	origin				0 15 0
+
+	origin2				0 90 90
+
+	size
+	{
+		start			40
+	}
+
+	shaders
+	[
+		gfx/flares/engine_square
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	cullrange			500
+
+	origin				0 30 0
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			50 60
+		end				350 420
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Line
+{
+	name				Exhaust
+
+	life				200
+
+	origin				-15 0 0
+
+	origin2				-15 50 0
+
+	rgb
+	{
+		start			0.4824 0.6392 0.9922 0.1294 0.4235 0.9804
+	}
+
+	size
+	{
+		start			50
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}
+
+Line
+{
+	name				Exhaust2
+
+	life				200
+
+	origin				15 0 0
+
+	origin2				15 50 0
+
+	rgb
+	{
+		start			0.4824 0.6392 0.9922 0.1294 0.4235 0.9804
+	}
+
+	size
+	{
+		start			50
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}

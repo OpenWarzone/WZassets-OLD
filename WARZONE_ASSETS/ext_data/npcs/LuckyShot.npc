@@ -1,0 +1,10 @@
+LuckyShot
+{
+	weapon		WP_BLASTER
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	width			12
+	height			16
+}
+

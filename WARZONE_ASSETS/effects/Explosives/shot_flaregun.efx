@@ -1,0 +1,127 @@
+repeatDelay				50
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3 4
+
+	life				800 1500
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			-1 -1 -1 27 1 1
+
+	gravity				3 10
+
+	rgb
+	{
+		start			0.9333 0.5765 0.5765 0.9098 0.451 0.4627
+		end				0.2353 0.2353 0.2353
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				10
+
+	rgb
+	{
+		start			0.3255 0.1059 0 0.3569 0.1098 0
+		end				0.2588 0.05882 0 0.2353 0.1137 0
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.7 0.8
+	}
+
+	size
+	{
+		start			70 80
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+		gfx/flares/flare_beam
+		gfx/flares/muzzleflare
+	]
+}
+
+Particle
+{
+	name				Copy of Flare
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				10
+
+	rgb
+	{
+		start			0.9961 0.6863 0.5059 1 0.549 0.4
+	}
+
+	size
+	{
+		start			40 50
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				10
+
+	rgb
+	{
+		start			1 0.7451 0.6588 1 0.8 0.6667
+	}
+
+	size
+	{
+		start			750
+		end				650
+		flags			linear
+	}
+}

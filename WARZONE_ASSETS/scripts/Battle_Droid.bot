@@ -1,0 +1,27 @@
+{
+name		"Battle_Droid"
+model		Battle_Droid
+color1	1
+personality	/botfiles/Trooper.jkb
+}
+
+{
+name		"Security_Droid"
+model		Battle_Droid/default_security
+color1	1
+personality	/botfiles/Security.jkb
+}
+
+{
+name		"Droid_Commander"
+model		Battle_Droid/default_commander
+color1	2
+personality	/botfiles/Commander.jkb
+}
+
+{
+name		"Pilot_Droid"
+model		Battle_Droid/default_pilot
+color1	4
+personality	/botfiles/Pilot.jkb
+}

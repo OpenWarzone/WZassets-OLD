@@ -1,0 +1,19 @@
+Bastila
+{
+	name		"^5Kotor^4Bastila"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/Bastila/Bastila.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	yellow
+	numBlades	2
+	saberLength	36
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	Medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}

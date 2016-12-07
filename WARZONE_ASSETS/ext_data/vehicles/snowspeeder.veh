@@ -1,0 +1,125 @@
+snowspeeder
+{
+name			snowspeeder
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			170
+width			150
+height			60
+g2radius		460
+centerOfGravity		"-1 0 0"
+//speedMax		2200
+//turboSpeed	4400
+speedMax		1600
+turboSpeed		1600
+turboDuration	3000
+turboRecharge	6000
+speedMin		0
+acceleration	26
+decelIdle		10
+accelIdle		15
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1
+bankingSpeed	0.5
+rollLimit		15
+pitchLimit		25
+braking		25
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.00275
+mousePitch		0.00275
+//turningSpeed	5
+turningSpeed	7.25
+turnWhenStopped		0
+traction		14
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 		1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		300
+//health_right	200
+//health_left		200
+//shields			300
+armor 		1000
+malfunctionArmorLevel	600
+//armor 		2000
+//malfunctionArmorLevel	1300
+health_front	400
+health_back		400
+health_right	400
+health_left		400
+shields		500
+toughness 		85.0
+model			snow-speeder-tfp
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/SS_radar"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/SS_top"
+icon_back		"gfx/menus/radar/SS_bottom"
+icon_right		"gfx/menus/radar/SS_right"
+icon_left		"gfx/menus/radar/SS_left"
+crosshairShader	"gfx/menus/radar/z95_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/z-95/on.wav"
+soundLoop 		"sound/vehicles/z-95/loop.wav"
+soundOff 		"sound/vehicles/z-95/off.wav"
+soundFlyBy 		"sound/vehicles/z-95/flyby.wav"
+soundFlyBy2 	"sound/vehicles/z-95/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/z-95/flyby.wav"
+exhaustFX		"ships/xwing_exhaust"
+turboFX			"ships/xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/SS_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+flammable		1
+hoverHeight		0
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser
+weap1Delay		85
+
+weap1AmmoMax	30
+weap1AmmoRechargeMS	400
+
+weap2			snowblaster
+weap2Delay		100
+
+weap2AmmoMax	30
+weap2AmmoRechargeMS	400
+
+weap1Aim		1
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+weapMuzzle3		snowblaster
+
+//should *all* ships really be able to do this?
+weap1Link		1
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}

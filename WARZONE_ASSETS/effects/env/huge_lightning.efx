@@ -1,0 +1,208 @@
+Electricity
+{
+	name				Electricity
+
+	flags				usePhysics impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	life				100
+
+	bounce				0.8 3
+
+	size
+	{
+		start			30 40
+		end				4 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity_glowy
+	]
+
+	impactfx
+	[
+		force/lightning_hit
+	]
+}
+
+Light
+{
+	name				LightSource
+
+	origin				5 0 0 150 0 0
+
+	rgb
+	{
+		start			0.5686 0.8392 1 0 0.02353 0.3569
+		end				1 0 0
+	}
+
+	size
+	{
+		start			50 70
+		flags			random
+	}
+}
+
+Particle
+{
+	name				LightFlare
+
+	count				2
+
+	life				150 200
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.102 0.3255 0.549 0 0.02353 0.3569
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			12 16
+		end				30 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				50 100
+
+	cullrange			300
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+		end				0 0.05882 0.2588 0 0.02353 0.2353
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			30 40
+		end				80 120
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Emitter
+{
+	name				Light
+
+	flags				expensivePhysics usePhysics impactKills emitFx
+
+	life				100
+
+	velocity			3000 0 0
+
+	density				100
+
+	emitfx
+	[
+		force/lightning_lights
+	]
+}
+
+Line
+{
+	name				Lines
+
+	count				8 10
+
+	life				150 200
+
+	cullrange			200
+
+	origin2				-10 -20 -20 30 20 20
+
+	rgb
+	{
+		start			1 0.9255 0.702 1 0.8941 0.5843
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				7 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	cullrange			800
+
+	rgb
+	{
+		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}

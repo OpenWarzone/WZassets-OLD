@@ -1,0 +1,39 @@
+{
+map			"mp/ctf1"
+bots			"Kyle Luke Jan Desann Tavion Stormtrooper"
+longname		"Imperial Drop Zone"
+fraglimit		10
+type			"ctf team supremacy"
+}
+
+{
+map			"mp/ctf2"
+bots			"Kyle Luke Jan Desann Tavion Stormtrooper"
+longname		"Hoth Wasteland"
+fraglimit		10
+type			"ctf team supremacy"
+}
+
+{
+map			"mp/ctf3"
+bots			"Kyle Luke Jan Desann Tavion Stormtrooper"
+longname		"Yavin Hilltops"
+fraglimit		10
+type			"ctf team supremacy"
+}
+
+{
+map			"mp/ctf4"
+bots			"Kyle Luke Jan Desann Tavion Stormtrooper"
+longname		"Coruscant Streets"
+fraglimit		10
+type			"ctf team supremacy"
+}
+
+{
+map			"mp/ctf5"
+bots			"Kyle Luke Jan Desann Tavion Stormtrooper"
+longname		"Factory"
+fraglimit		10
+type			"ctf team supremacy"
+}

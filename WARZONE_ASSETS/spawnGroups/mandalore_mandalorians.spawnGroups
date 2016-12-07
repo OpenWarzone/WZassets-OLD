@@ -1,0 +1,44 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn boba_fett
+    spawn boba_fett
+    spawn boba_fett
+    spawn boba_fett
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn boba_fett
+    spawn boba_fett
+    spawn boba_fett
+    spawn boba_fett
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn boba_fett
+    spawn boba_fett
+    spawn boba_fett
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn boba_fett
+    spawn boba_fett
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn boba_fett
+  }
+}

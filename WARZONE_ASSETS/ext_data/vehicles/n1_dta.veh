@@ -1,0 +1,125 @@
+n1_dta
+{
+name			n1_dta
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			170
+width			150
+height			60
+g2radius		460
+centerOfGravity		"-1 0 0"
+//speedMax		2500
+//turboSpeed	3000
+speedMax		2500
+turboSpeed		3000
+turboDuration	3000
+turboRecharge	6000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		15
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1
+bankingSpeed	0.5
+rollLimit		15
+pitchLimit		25
+braking		25
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.00275
+mousePitch		0.00275
+//turningSpeed	5
+turningSpeed	7.25
+turnWhenStopped		0
+traction		14
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 		1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		300
+//health_right	200
+//health_left		200
+//shields			300
+armor 		1000
+malfunctionArmorLevel	600
+//armor 		2000
+//malfunctionArmorLevel	1300
+health_front	400
+health_back		400
+health_right	400
+health_left		400
+shields		500
+toughness 		85.0
+model			n1_dta
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/XW_front"
+icon_back		"gfx/menus/radar/XW_back"
+icon_right		"gfx/menus/radar/XW_right"
+icon_left		"gfx/menus/radar/XW_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/chars/N1_dta/N1_flyby.wav"
+soundFlyBy2 		"sound/chars/N1_dta/N1_flyby.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"vehicles/n1_dta/N1_exhaust"
+turboFX			"vehicles/n1_dta/N1_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX			"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX			"ships/Z95_nose"
+lwingFX			"ships/Z95_lwing"
+rwingFX			"ships/Z95_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	20
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			imp_laser
+weap1Delay		100
+weap1Aim		1
+weap1AmmoMax	250
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		2000
+weap2Aim		1
+weap2AmmoMax	8
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+weapMuzzle3		concussion_missile
+
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}

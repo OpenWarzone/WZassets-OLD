@@ -1,0 +1,15 @@
+head,models/players/krayt/body.tga
+tongue,models/players/krayt/body.tga
+teeth,models/players/krayt/body.tga
+eyes,models/players/krayt/eyes.tga
+r_leg,models/players/krayt/body.tga
+r_leg1,models/players/krayt/body.tga
+r_leg2,models/players/krayt/body.tga
+r_leg3,models/players/krayt/body.tga
+l_leg,models/players/krayt/body.tga
+l_leg1,models/players/krayt/body.tga
+l_leg2,models/players/krayt/body.tga
+l_leg3,models/players/krayt/body.tga
+body,models/players/krayt/body.tga
+tail,models/players/krayt/tail.tga
+

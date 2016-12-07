@@ -1,0 +1,110 @@
+repeatDelay				200
+
+OrientedParticle
+{
+	name				Ripples
+
+	count				1 2
+
+	life				800 1600
+
+	rotation			0 360
+
+	rotationDelta		-24 24
+
+	velocity			0 -24 -24 0 24 24
+
+	rgb
+	{
+		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
+	}
+
+	alpha
+	{
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5 16
+		end				100 150
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+		gfx/water/screen_ripples_glow
+	]
+}
+
+OrientedParticle
+{
+	name				DropsRipples
+
+	spawnFlags			orgOnSphere
+
+	count				3 4
+
+	life				800 500
+
+	cullrange			320
+
+	radius				64 128
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-16 16
+
+	rgb
+	{
+		start			0.6 0.6392 0.6824 0.502 0.502 0.502
+	}
+
+	alpha
+	{
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			32
+		end				128 96
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+		gfx/water/screen_ripples_glow
+	]
+}

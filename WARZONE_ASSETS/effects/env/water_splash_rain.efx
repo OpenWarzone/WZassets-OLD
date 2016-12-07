@@ -1,0 +1,205 @@
+repeatDelay				200
+
+Particle
+{
+	name				Droplets
+
+	flags				useAlpha
+
+	count				0 0.65
+
+	life				500 600
+
+	delay				0 200
+
+	cullrange			400
+
+	velocity			60 -90 -90 100 90 90
+
+	acceleration		-15 0 0
+
+	gravity				-150 -250
+
+	rgb
+	{
+		start			0.5608 0.6863 0.651
+	}
+
+	alpha
+	{
+		start			0.25
+		end				0
+		parm			50 60
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0.3 0.5
+		end				0
+		parm			1 3
+	}
+
+	shaders
+	[
+		gfx/effects/bubble
+	]
+}
+
+OrientedParticle
+{
+	name				Ripples
+
+	count				1 2
+
+	life				800 1600
+
+	rotation			0 360
+
+	rotationDelta		-24 24
+
+	velocity			0 -24 -24 0 24 24
+
+	rgb
+	{
+		start			0.6 0.6392 0.6824 0.502 0.502 0.502
+	}
+
+	alpha
+	{
+		start			0.5 0.8
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			1 2
+		end				3 6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+		gfx/water/screen_ripples_glow
+	]
+}
+
+Particle
+{
+	name				Bubbles
+
+	flags				useAlpha
+
+	count				0.5 0.65
+
+	life				600
+
+	delay				0 200
+
+	origin				0 -8 -8 0 8 8
+
+	rotationDelta		-4 4
+
+	velocity			-180 -40 -40 -220 40 40
+
+	acceleration		-15 0 0
+
+	gravity				450 500
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			80
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			1 3
+	}
+
+	shaders
+	[
+		gfx/water/alpha_bubbles
+		gfx/water/alpha_bubbles2
+		gfx/water/alpha_bubbles3
+		gfx/water/overlay_bubbles
+		gfx/water/overlay_bubbles2
+		gfx/water/overlay_bubbles3
+		gfx/water/overlay_bubbles4
+		gfx/water/overlay_bubbles5
+		gfx/water/overlay_bubbles6
+	]
+}
+
+OrientedParticle
+{
+	name				DropsRipples
+
+	spawnFlags			orgOnCylinder
+
+	count				3 4
+
+	life				400 500
+
+	cullrange			320
+
+	radius				26 56
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-16 16
+
+	rgb
+	{
+		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
+	}
+
+	alpha
+	{
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0.3 0.6
+		end				2 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+	]
+}

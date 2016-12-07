@@ -1,0 +1,53 @@
+{
+name		"Jedi Female"
+model		Jedi_Genericfemale
+color1		1
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Jedi
+}
+
+{
+name		"Jedi Female Robed"
+model		Jedi_Genericfemale/robe
+color1		1
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Jedi
+}
+
+{
+name		"Jedi Female Hooded"
+model		Jedi_Genericfemale/hood
+color1		1
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Jedi
+
+{
+name		"Sith Female Red"
+model		Jedi_Genericfemale/red
+color1		6
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Reborn
+}
+
+{
+name		"Jedi Female Blue"
+model		Jedi_Genericfemale/blue
+color1		1
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Jedi
+}
+
+{
+name		"Jedi Female Siege"
+model		Jedi_Genericfemale/siege
+color1		2
+saber1     "saber_1"
+personality	/botfiles/Jedi_Genericfemale.jkb
+//Jedi_Genericfemale is aligned with Jedi
+}
+

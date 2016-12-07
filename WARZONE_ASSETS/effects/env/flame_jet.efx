@@ -1,0 +1,215 @@
+repeatDelay				2192
+
+Particle
+{
+	name				Jet
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				40
+
+	life				300 400
+
+	delay				0 600
+
+	origin				-10 0 0
+
+	rotation			-1 1
+
+	rotationDelta		-20 20
+
+	velocity			120 -10 -10 180 10 10
+
+	acceleration		-10 -5 -5 -50 5 5
+
+	rgb
+	{
+		start			1 1 1 0.3922 0.6157 0.9922
+		end				0.2235 0.1608 0.9961 0.003922 0.2431 0.3294
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				20 30
+		parm			50
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				Fire
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				50 60
+
+	life				400 500
+
+	delay				200 1000
+
+	origin				10 0 0 30 0 0
+
+	rotation			-1 1
+
+	rotationDelta		-20 20
+
+	velocity			120 -20 -20 180 20 20
+
+	acceleration		-10 -10 -10 -50 10 10
+
+	gravity				6 12
+
+	rgb
+	{
+		start			1 1 1 0.9569 0.702 0.4667
+		end				0.9843 0.3412 0.1843 1 0.251 0.1686
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			20 30
+		end				0
+		parm			60
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				4 5
+
+	life				1200
+
+	delay				0 200
+
+	origin				10 -10 -10 40 10 10
+
+	rotationDelta		-8 10
+
+	velocity			40 -20 0 80 20 0
+
+	acceleration		0 -10 -10 0 10 10
+
+	gravity				40 100
+
+	rgb
+	{
+		start			0.8235 0.5294 0.2 1 0.5608 0.1686
+		end				0.1882 0.1882 0.1882 0.1765 0.1765 0.1765
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.3
+		parm			1.6
+		flags			wave
+	}
+
+	size
+	{
+		start			16 20
+		end				30 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	count				5
+
+	life				300
+
+	delay				100 700
+
+	cullrange			800
+
+	origin				40 0 0 80 0 0
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+	}
+
+	size
+	{
+		start			60
+		end				70
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}
+
+Sound
+{
+	name				Burst
+
+	sounds
+	[
+		sound/effects/fireburst.mp3
+	]
+}

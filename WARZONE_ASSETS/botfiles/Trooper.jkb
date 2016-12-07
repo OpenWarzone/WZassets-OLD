@@ -1,0 +1,119 @@
+//Battle_Droid's personality
+
+//Do not let this file exceed 131072 bytes.
+
+//Do not let any group exceed 8192 bytes.
+
+//Do not let the chat section exceed 8192 bytes.
+
+//Some values are base values and changed by the in-game skill. The formula for reflex and accuracy
+//is basevalue/skill. So if you give a base reflex of 500ms, a nightmare bot will have a reaction time of
+//100ms. Other values, like turnspeed_combat (higher == faster), are multiplied by the skill number.
+
+//Note also that depending on if the bot and the enemy are moving at the same time, the degrees the bot
+//aims off by can be greater than the maximum accuracy value. So if the bot and its enemy are both flying
+//through the air and accuracy is at 20, the bot could easily aim off by 25 degrees instead. That is,
+//unless perfectaim is 1. In this case the bot will aim perfectly at all times (as the name indicates).
+
+GeneralBotInfo
+{
+	reflex			1300
+				//base reflex value, time in ms it takes the bot to react
+	accuracy		35
+				//base accuracy, number of degrees bot can aim off by. Lower value == better aim.
+	turnspeed		0.01
+	turnspeed_combat	0.02
+	maxturn			10
+	perfectaim		0
+	chatability		1
+	chatfrequency		3
+	hatelevel		2
+	camper			0
+	saberspecialist		0
+				//if 1, bot will not run just because it's forced to use a saber
+
+	//don't exceed 20 force points total
+	forceinfo		0-2-000000000000000000
+	//			     hlspptglrpattdssss
+	//			     eepuueriarbeereaaa
+	//			     aveslliggosaaaebbb
+	//			     l ehlephetommi eee
+	//			       d    t erhfn rrr
+	//			            n cbeo  adt
+	//			            i t ar  teh
+	//			            n   lc  tfr
+	//			            g    e  aeo
+	//			                    cnw
+	//			                    kd
+	//rank-side-heal.lev.speed.push.pull.tele.grip.lightning.rage.protect.absorb.teamheal.teamforce.drain.see.saberattack.saberdefend.saberthrow
+	//1==light side 2==dark side
+}
+
+//Weapons with a weight of 0 will be used in special cases outside of combat
+
+BotWeaponWeights
+{
+	WP_STUN_BATON		1
+	WP_SABER		0
+	WP_BRYAR_PISTOL		10
+	WP_BLASTER		16
+	WP_DISRUPTOR		11
+	WP_BOWCASTER		12
+	WP_REPEATER		17
+	WP_DEMP2		15
+	WP_FLECHETTE		16
+	WP_ROCKET_LAUNCHER	14
+	WP_THERMAL		13
+	WP_TRIP_MINE		2
+	WP_DET_PACK		3
+}
+
+//Battle_Droids have emotional attachments to other Battle Droids.
+
+EmotionalAttachments
+{
+	Battle_Droid	 			2
+	Security_Droid	 			2
+	Droid-Commander 			2
+	Pilot_Droid 				2
+}
+
+//all groups below here will be read in as chat sections
+BEGIN_CHAT_GROUPS
+
+Died
+{
+	Uh-oh!
+	Why did you do that, Dave?
+	That does not compute...
+	
+}
+
+Killed
+{
+	Die, scum!
+	You're under arrest.
+}
+
+Hatred
+{
+	I'll send you to the Sirius Cybernetics Complaints Department!
+}
+
+ResponseGreetings
+{
+	Yes sir!	
+}
+
+GeneralGreetings
+{
+	The diodes down my left side hurt.
+	There they are Blast them!
+}
+
+OrderAccepted
+{
+	Confirmed.
+	Roger Roger!
+	Copy that!
+}

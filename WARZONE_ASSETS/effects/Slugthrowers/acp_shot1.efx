@@ -1,0 +1,43 @@
+repeatDelay				50
+
+Particle
+{
+	name				Bolt
+
+	life				10
+
+	cullrange			1000
+
+	origin				60 0 0
+
+	rgb
+	{
+		start			0.5843 0.3804 0 0.5843 0.3373 0
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+	]
+}
+
+Line
+{
+	name				BoltTrail
+
+	life				10
+
+	origin				70 0 0
+
+	origin2				-15 0 0
+
+	rgb
+	{
+		start			0.9529 0.9333 0.8863
+	}
+
+	shaders
+	[
+		gfx/blasters/sparkyellow
+	]
+}

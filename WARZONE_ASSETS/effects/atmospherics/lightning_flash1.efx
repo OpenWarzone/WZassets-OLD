@@ -1,0 +1,46 @@
+Electricity
+{
+	flags				useModel useBBox usePhysics
+
+	spawnFlags			org2fromTrace
+
+	count				1 2
+
+	life				200 250
+
+	bounce				5 18
+
+	alpha
+	{
+		end				0
+	}
+
+	size
+	{
+		start			75 10
+		end				10 3
+		parm			40
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		textures/flares/light_white
+	]
+}
+
+Light
+{
+  life				250
+  
+	size
+	{
+		start 	8192	8192
+	}
+
+	rgb
+	{
+		start  0.25 0.25 0.25
+	}
+}
+

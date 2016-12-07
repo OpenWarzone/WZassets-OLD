@@ -1,0 +1,88 @@
+repeatDelay				50
+
+Cylinder
+{
+	name				Exhaust
+
+	rgb
+	{
+		start			0.6275 0.6275 0.6431
+		end				0.7529 0.7529 0.7529
+		flags			random
+	}
+
+	size
+	{
+		end				1.5 3
+		flags			random
+	}
+
+	size2
+	{
+		start			2
+	}
+
+	length
+	{
+		start			-15
+		end				-4 -8
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/effects/fl_blue2orange
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	cullrange			500
+
+	origin				-3 0 0
+
+	rgb
+	{
+		start			0.03922 0 0.1333 0.07059 0 0.1686
+	}
+
+	size
+	{
+		start			10 20
+		end				30 50
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	origin				-2 0 0
+
+	rgb
+	{
+		start			1 1 1 1 1 0.5765
+	}
+
+	size
+	{
+		start			6 8
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}

@@ -1,0 +1,9 @@
+{
+name		"Anakin Skywalker"
+model		KC_anakin
+color1		3
+color2		4
+saber1		"single_1"
+saber2		"single_1"
+personality	/botfiles/Anakin_Skywalker.jkb
+}

@@ -1,0 +1,21 @@
+Sound
+{
+	name				FiringSound
+
+	sounds
+	[
+		sound/weapons/blasters/x-wing1.mp3
+		sound/weapons/blasters/x-wing1.mp3
+		sound/weapons/blasters/x-wing2.mp3
+		sound/weapons/blasters/x-wing3.mp3
+		sound/weapons/blasters/x-wing4.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_red_big
+	]
+}

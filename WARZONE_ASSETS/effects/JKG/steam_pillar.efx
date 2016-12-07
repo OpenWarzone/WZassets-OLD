@@ -1,0 +1,44 @@
+repeatDelay				800
+
+Particle
+{
+	flags				useAlpha
+
+	life				8000
+
+	origin				-4 -13 -13 -8 13 13
+
+	wind				5 20
+
+	rotation			-180 180
+
+	rotationDelta		-1 1
+
+	velocity			8 -6 -6 12 6 6
+
+	gravity				3 4
+
+	alpha
+	{
+		start			0
+		end				0.01 0.03
+		parm			0.25
+		flags			wave
+	}
+
+	size
+	{
+		start			6 14
+		end				100 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_64
+		gfx/atmospheric/cloud2_64
+		gfx/atmospheric/cloud3_64
+		gfx/atmospheric/cloud4_64
+		gfx/atmospheric/cloud5_64
+	]
+}

@@ -1,0 +1,9 @@
+{
+name	"KelDor_Soldier"
+model	 Keldor_Soldier
+color1	1
+personality	/botfiles/keldor.jkb
+//Kel-Dor - new bot! Light side...
+}
+
+

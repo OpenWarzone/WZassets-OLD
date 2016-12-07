@@ -1,0 +1,12 @@
+
+tusken_staff
+{
+//note: the SABER_SITH_SWORD type of saber draws no blade and does knockback
+	name		"Tusken Staff"
+	saberType	SABER_CLAW
+//SABER_DAGGER
+	saberModel	"models/weapons2/tusken_staff/tusken_staff_w.glm"
+	saberLength	64
+	notInMP	0
+}
+

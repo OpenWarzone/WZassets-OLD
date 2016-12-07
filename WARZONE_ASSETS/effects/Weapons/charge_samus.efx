@@ -1,0 +1,134 @@
+repeatDelay				50
+
+Light
+{
+	name				Illumination
+
+	life				5 10
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0.003922 0.1294 0.3216
+		end				0.03922 0.07843 0.1961
+		flags			linear
+	}
+
+	size
+	{
+		start			20 30
+	}
+}
+
+Particle
+{
+	name				MuzzleFrontInnerCore
+
+	flags				setShaderTime
+
+	life				10
+
+	cullrange			1500
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.1804 0.9804 0.5804 0.5255 0.8588 0.9843
+	}
+
+	alpha
+	{
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			1 1.4
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				10
+
+	cullrange			300
+
+	rgb
+	{
+		start			0.003922 0.1294 0.3216 0 0.03922 0.3569
+		end				0.01961 0.09412 0.2392 0.03922 0.07843 0.1961
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.6 0.7
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			3 5
+		end				20 40
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Copy of LightBeam
+
+	life				10
+
+	rgb
+	{
+		start			0.6118 0.7686 0.9961 0.5255 0.8588 0.9843
+		end				0.01961 0.09412 0.2392 0.03922 0.07843 0.1961
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 5
+		end				6 9
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}

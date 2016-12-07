@@ -1,0 +1,8 @@
+FxRunner
+{
+
+	playfx
+	[
+		blasters/shot_greenblue_big
+	]
+}

@@ -1,0 +1,201 @@
+repeatDelay				50
+
+Electricity
+{
+	name				Electricity
+
+	flags				impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	count				0 1
+
+	life				80
+
+	intensity			0.5 1
+
+	origin				3 0 0
+
+	size
+	{
+		start			3 4
+		end				1 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+		gfx/electricity/electricity
+		gfx/electricity/electricity_glowy
+	]
+
+	impactfx
+	[
+		blasters/electric_impacttiny
+	]
+}
+
+Particle
+{
+	name				ElectricityBurst
+
+	life				50 80
+
+	origin				3 0 0 5 0 0
+
+	rotation			-180 180
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			2 3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}
+
+Particle
+{
+	name				LightFlare
+
+	life				50 80
+
+	origin				3 0 0
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.102 0.3255 0.549 0 0.02353 0.3569
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			1 3
+		end				7 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				50 100
+
+	cullrange			300
+
+	origin				3 0 0 5 0 0
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			10 16
+		end				50 60
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				LightBeams
+
+	flags				expensivePhysics usePhysics impactKills
+
+	count				1 2
+
+	life				50 80
+
+	origin				10 0 0
+
+	velocity			1000 -100 -50 4000 100 50
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			20 30
+		end				70 80
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	origin				5 0 0 150 0 0
+
+	rgb
+	{
+		start			0.3294 0.2588 0.5176 0.2196 0.2471 0.3529
+	}
+
+	size
+	{
+		start			50 70
+		flags			random
+	}
+}
+
+Emitter
+{
+	name				IlluminationBeam
+
+	flags				expensivePhysics usePhysics impactKills emitFx
+
+	life				50 80
+
+	velocity			4000 -200 -100 8000 200 100
+
+	density				8
+
+	variance			8
+
+	emitfx
+	[
+		force/lightning_lights
+	]
+}

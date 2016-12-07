@@ -1,0 +1,48 @@
+repeatDelay				50
+
+Particle
+{
+	name				HeadFlare
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				8 10
+
+	life				100 150
+
+	delay				0 300
+
+	cullrange			1200
+
+	rotation			0 360
+
+	rotationDelta		-90 90
+
+	velocity			120 0 0 130 0 0
+
+	rgb
+	{
+		start			1 0.9843 0.9412
+		end				0.502 0.502 0.502
+	}
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}

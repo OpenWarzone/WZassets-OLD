@@ -1,0 +1,216 @@
+{
+map			"academy1"
+longname		"Academy 1"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"academy2"
+longname		"Academy 2"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"academy3"
+longname		"Academy 3"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"academy4"
+longname		"Academy 4"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"academy5"
+longname		"Academy 5"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"academy6"
+longname		"Academy 6"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"hoth2"
+longname		"Hoth Part 1"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"hoth3"
+longname		"Hoth Part 2"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"kor1"
+longname		"Korriban Part 1"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"kor2"
+longname		"Korriban Part 2"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_fatal"
+longname		"Fatal"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_sour"
+longname		"Sour"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_danger"
+longname		"Danger"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_rail"
+longname		"Rail"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_inter"
+longname		"Inter"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t1_surprise"
+longname		"Surprise"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t2_dpred"
+longname		"Dpred"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t2_rancor"
+longname		"Rancor"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t2_rogue"
+longname		"Rogue"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t2_trip"
+longname		"Trip"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t2_wedge"
+longname		"Wedge"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t3_rift"
+longname		"Rift"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"t3_bounty"
+longname		"Bounty"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"t3_byss"
+longname		"Byss"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"t3_hevil"
+longname		"Hevil"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"t3_stamp"
+longname		"Stamp"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"vjun1"
+longname		"Vjun Part 1"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"vjun2"
+longname		"Vjun Part 2"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"vjun3"
+longname		"Vjun Part 3"
+fraglimit		10
+type			"coop instance supremacy"
+}
+
+{
+map			"yavin1b"
+longname		"Crashed on Yavin"
+fraglimit		10
+type			"coop instance"
+}
+
+{
+map			"yavin2"
+longname		"Yavin Training"
+fraglimit		10
+type			"coop instance"
+}

@@ -1,0 +1,31 @@
+repeatDelay				50
+
+Tail
+{
+	name				Ribbon
+
+	velocity			1 0 0
+
+	gravity				-1
+
+	rgb
+	{
+		start			0.8824 0 0
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	length
+	{
+		start			80 100
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}

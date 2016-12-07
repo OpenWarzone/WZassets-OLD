@@ -1,0 +1,145 @@
+Line
+{
+	count				4 8
+
+	life				100 200
+
+	origin2				12 -10 -10 18 10 10
+
+	alpha
+	{
+		start			0.25 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.2 0.5
+	}
+
+	shaders
+	[
+		gfx/misc/spark
+		gfx/misc/spark2
+	]
+}
+
+Tail
+{
+	flags				usePhysics
+
+	count				4 6
+
+	life				500 900
+
+	bounce				0.25 0.4
+
+	velocity			120 -80 -80 250 80 80
+
+	gravity				-350 -450
+
+	size
+	{
+		start			0.3 0.4
+	}
+
+	length
+	{
+		start			4 10
+		end				0.1 1
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/spark
+	]
+}
+
+Particle
+{
+	count	4	5
+	life	800	1200
+	delay	0	120
+
+	origin	4 -6 -6		4 6 6
+	vel	15 -12 -12		20 12 12
+	gravity	12	32
+
+	flags	useAlpha
+
+	size
+	{
+		start 	4.0	10.0
+		end	12.0	24.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.6
+		end 	0.0
+		flags	linear
+	}
+
+	shader
+	[
+		gfx/misc/black_smoke
+	]
+}
+
+Particle
+{
+	count	4	5
+	life	800	1200
+	delay	0	120
+
+	origin	4 -6 -6		4 6 6
+	vel	15 -12 -12		20 12 12
+	gravity	12	32
+
+	size
+	{
+		start 	6.0	14.0
+		end	12.0	24.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.3	0.4
+		end 	0.0
+		flags	linear
+	}
+
+	shader
+	[
+		gfx/misc/steam
+	]
+}
+
+Decal
+{
+	cullrange			1200
+
+	size
+	{
+		start			5.5 7
+	}
+
+	shaders
+	[
+		gfx/damage/burnmark4
+	]
+}
+
+Sound
+{
+	cullrange			750
+
+	sounds
+	[
+		sound/weapons/blaster/hit_wall.wav
+	]
+}

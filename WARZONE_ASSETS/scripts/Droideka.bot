@@ -1,0 +1,7 @@
+// This file adds the Droideka bot
+{
+name		"Droideka"
+model		droideka_pl
+color1		1
+personality	/botfiles/droideka.jkb
+}

@@ -1,0 +1,23 @@
+sithmine
+{
+name		sithmine
+projectile	1
+hasGravity	1
+muzzleFX	"ships/bomb_launch"
+shotFX	"ships/bomb"
+impactFX	"ships/mine_impact"
+g2MarkShader	"gfx/damage/bodybigburnmark1"
+g2MarkSize	100
+speed		0
+//damage		1000
+//splashDamage	500
+damage		4000
+splashDamage	1000
+splashRadius	500
+ammoPerShot	1
+health	50
+width		6
+height	6
+lifetime	2000
+explodeOnExpire 1
+}

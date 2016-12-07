@@ -1,0 +1,26 @@
+awing_weapon_2
+{
+name		awing_weapon_2
+projectile	1
+ionweapon       1
+muzzleFX	"ships/st_muzzleflash"
+shotFX		"ships/awing_torpshot"
+impactFX	"ships/st_impact"
+g2MarkShader	"gfx/effects/scorch"
+g2MarkSize	75
+loopSound	"sound/vehicles/weapons/proton/loop.wav"
+speed		4500
+homing		1.0
+lockOnTime	1000
+//damage		850
+//splashDamage	325
+damage		1885
+splashDamage	800
+splashRadius	350
+ammoPerShot	1
+health		10
+width		6
+height		6
+lifetime	30000
+explodeOnExpire	1
+}

@@ -1,0 +1,92 @@
+repeatDelay				200
+
+Particle
+{
+	name				SnowBits
+
+	flags				useAlpha
+
+	count				5 6
+
+	life				800 900
+
+	velocity			150 -30 -30 200 30 30
+
+	gravity				-700 -800
+
+	rgb
+	{
+		start			0.5098 0.451 0.2157 0.4667 0.3373 0.2902
+		end				0.7451 0.6471 0.07843 0.8275 0.7882 0.4863
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 5
+	}
+
+	shaders
+	[
+		gfx/flares/flares_group_invert
+		gfx/flares/flares_group2_invert
+	]
+}
+
+Particle
+{
+	name				Snowcloud
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 2
+
+	life				500 600
+
+	rotation			0.5 20
+
+	rotationDelta		0 10
+
+	velocity			75 0 0 100 0 0
+
+	acceleration		-75 0 0
+
+	gravity				-200 -250
+
+	rgb
+	{
+		start			0.3725 0.3333 0.2392 0.4588 0.3882 0.2235
+		end				0.7451 0.6471 0.07843 0.8275 0.7882 0.4863
+	}
+
+	alpha
+	{
+		start			0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				20 25
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}

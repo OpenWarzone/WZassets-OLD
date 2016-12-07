@@ -1,0 +1,196 @@
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				900 1000
+
+	cullrange			250
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			8 -5 -5 10 5 5
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.5451 0.5451 0.5451 0.4549 0.4549 0.4549
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				10 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+OrientedParticle
+{
+	name				LightFlare
+
+	life				100 150
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		start			1 1 1 1 0.8235 0.651
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				16 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}
+
+Tail
+{
+	name				SparktailsY
+
+	flags				useBBox usePhysics useAlpha
+
+	spawnFlags			affectedByWind
+
+	count				3 5
+
+	life				700 1100
+
+	delay				0 20
+
+	cullrange			300
+
+	bounce				0.2 0.4
+
+	min					-0.5 -0.5 -0.5
+
+	max					0.5 0.5 0.5
+
+	velocity			80 -50 -50 100 50 50
+
+	acceleration		-10 0 0 -30 0 0
+
+	gravity				-200 -300
+
+	rgb
+	{
+		start			0.9529 0.9529 0.9608 1 0.851 0.7176
+		end				1 0.7961 0.6078 1 0.6196 0.2745
+		flags			linear
+	}
+
+	size
+	{
+		start			0.5 0.6
+		end				0
+		flags			linear
+	}
+
+	length
+	{
+		start			4 6
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/sparkblue
+		gfx/blasters/sparkyellow
+		gfx/blasters/sparkyellow
+		gfx/blasters/sparkyellow
+		gfx/blasters/sparkyellow
+		gfx/blasters/sparkyellow
+	]
+}
+
+Sound
+{
+	cullrange			1200
+
+	sounds
+	[
+		sound/ambience/spark1.mp3
+		sound/ambience/spark2.mp3
+		sound/ambience/spark3.mp3
+		sound/ambience/spark4.mp3
+		sound/ambience/spark5.mp3
+		sound/ambience/spark6.mp3
+	]
+}
+
+Light
+{
+	life				70
+
+	origin				30 0 0
+
+	rgb
+	{
+		start			0.4941 0.4275 0.2784 0.3725 0.3451 0.2039
+		end				0.1294 0.04706 0.02745
+		flags			linear
+	}
+
+	size
+	{
+		start			100
+		end				20
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	flags				usePhysics
+
+	bounce				0.2 1
+
+	radius				100 150
+}

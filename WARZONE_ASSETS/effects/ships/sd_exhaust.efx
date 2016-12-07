@@ -1,0 +1,62 @@
+repeatDelay				200
+
+Particle
+{
+	name				LightBeam
+
+	life				400 500
+
+	cullrange			8000
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			3000 4000
+		end				6000 7000
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 2
+
+	life				800
+
+	rgb
+	{
+		start			0.502 0.9255 1
+		end				0.502 0.9255 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.5 0.25
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1300
+		end				1500
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/sd_glow
+	]
+}

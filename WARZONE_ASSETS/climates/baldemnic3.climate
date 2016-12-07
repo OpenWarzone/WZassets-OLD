@@ -1,0 +1,65 @@
+[GRASS]
+grassImage0=models/warzone/foliage/maingrass
+grassImage1=models/warzone/foliage/maingrass
+grassImage2=models/warzone/foliage/maingrass
+seaGrassImage=models/warzone/foliage/seagrass
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=1.0
+
+// Per-tree model filenames...
+treeModel0=models/map_objects/vjun/vrock_tall.md3
+treeModel1=models/map_objects/vjun/vrock2.md3
+treeModel2=models/map_objects/vjun/vbridge.md3
+//treeModel3=models/map_objects/yavin/rock_b.md3
+treeModel3=models/warzone/trees/gkbjungletreenew27v2weeping.md3
+treeModel4=models/map_objects/rift/crystal_floor.md3
+treeModel5=models/map_objects/rift/crystal_floor.md3
+treeModel6=models/map_objects/rift/crystal_pilar.md3
+treeModel7=models/map_objects/rift/crystal_pilar.md3
+treeModel8=models/warzone/trees/gkbjungletreenew24v2weeping.md3
+
+// Per-tree billboard texture filenames...
+treeBillboardShader0=
+treeBillboardShader1=
+treeBillboardShader2=
+treeBillboardShader3=
+treeBillboardShader4=
+treeBillboardShader5=
+treeBillboardShader6=
+treeBillboardShader7=
+treeBillboardShader8=
+
+// Per-tree billboard scales...
+treeBillboardSize0=128.0
+treeBillboardSize1=128.0
+treeBillboardSize2=128.0
+treeBillboardSize3=128.0
+treeBillboardSize4=128.0
+treeBillboardSize5=128.0
+treeBillboardSize6=128.0
+treeBillboardSize7=183.0
+treeBillboardSize8=203.0
+
+// Per-tree radius scales...
+treeRadius0=24.0
+treeRadius1=24.0
+treeRadius2=24.0
+treeRadius3=24.0
+treeRadius4=24.0
+treeRadius5=24.0
+treeRadius6=24.0
+treeRadius7=38.0
+treeRadius8=38.0
+
+// Per-tree vertical offsets...
+treeZoffset0=128.0
+treeZoffset1=-4.0
+treeZoffset2=128.0
+treeZoffset3=-48.0
+treeZoffset4=0.0
+treeZoffset5=0.0
+treeZoffset6=0.0
+treeZoffset7=0.0
+treeZoffset8=-48.0

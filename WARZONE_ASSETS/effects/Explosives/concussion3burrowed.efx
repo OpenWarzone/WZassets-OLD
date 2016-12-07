@@ -1,0 +1,607 @@
+repeatDelay				2747
+
+Emitter
+{
+	name				ImplosionSphere
+
+	flags				useModel
+
+	life				1000
+
+	angleDelta			0 0 0 0 0 12
+
+	size
+	{
+		start			0
+		end				0.3 0.4
+		parm			2
+		flags			wave
+	}
+
+	models
+	[
+		models/effects/sg_waterpillar.md3
+		models/effects/sg_waterpillar2.md3
+		models/effects/sg_waterpillar3.md3
+	]
+}
+
+Emitter
+{
+	name				Chunkies
+
+	flags				expensivePhysics useModel usePhysics
+
+	count				3 8
+
+	life				1e+004 1.9e+004
+
+	delay				0 1000
+
+	cullrange			800
+
+	bounce				0.2 0.3
+
+	origin				1 -2 -2 2 2 2
+
+	angle				0 0 0 360 360 0
+
+	angleDelta			-40 -20 -10 50 30 15
+
+	velocity			600 -100 -100 1200 100 100
+
+	acceleration		300 0 0 400 0 0
+
+	gravity				-700 -800
+
+	size
+	{
+		start			0.2 0.4
+	}
+
+	models
+	[
+		models/chunks/metal/metal1_1.md3
+		models/chunks/metal/metal1_2.md3
+		models/chunks/metal/metal1_3.md3
+		models/chunks/metal/metal1_4.md3
+		models/chunks/metal/metal2_1.md3
+		models/chunks/metal/metal2_2.md3
+		models/chunks/metal/metal2_3.md3
+		models/chunks/metal/metal2_4.md3
+		models/chunks/rock/rock1_1.md3
+		models/chunks/rock/rock1_2.md3
+		models/chunks/rock/rock1_3.md3
+		models/chunks/rock/rock1_4.md3
+		models/chunks/rock/rock3_1.md3
+		models/chunks/rock/rock3_2.md3
+		models/chunks/rock/rock3_3.md3
+		models/chunks/rock/rock3_4.md3
+	]
+}
+
+Particle
+{
+	name				SparksDetail
+
+	flags				useBBox usePhysics
+
+	count				20 50
+
+	life				1200 1500
+
+	delay				1000
+
+	cullrange			500
+
+	bounce				0.25 0.4
+
+	min					-0.5 -0.5 -0.5
+
+	max					0.5 0.5 0.5
+
+	velocity			-200 -100 -100 200 100 100
+
+	acceleration		-500 -300 -300 500 300 300
+
+	gravity				-100 -200
+
+	rgb
+	{
+		end				0.6745 0.7412 0.8157 0.4745 0.4824 0.5255
+		flags			linear
+	}
+
+	size
+	{
+		start			1 4
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Light
+{
+	name				PrimaryIllumination
+
+	life				700 750
+
+	rgb
+	{
+		start			0.6275 0.749 0.9804 0.7804 0.8078 0.8471
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			150
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Vacuum
+
+	cullrange			1500
+
+	sounds
+	[
+		sound/effects/vacuum_improved.mp3
+	]
+}
+
+OrientedParticle
+{
+	name				GroundShockwaves
+
+	count				2 3
+
+	life				600 800
+
+	delay				0 800
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	velocity			-10 0 0
+
+	size
+	{
+		end				120 150
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple
+		gfx/water/overlay_ripple2
+		gfx/water/overlay_ripple3
+		gfx/water/overlay_ripple4
+		gfx/water/overlay_ripple5
+	]
+}
+
+Particle
+{
+	name				ExplosionFlare
+
+	count				2 3
+
+	life				500
+
+	delay				1000
+
+	rotation			0 360
+
+	rotationDelta		-1 2
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+		end				0.8353 0.6353 0.1686 0.5882 0.3882 0.1137
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			100 150
+		end				50 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+		gfx/flares/muzzleflare
+	]
+}
+
+OrientedParticle
+{
+	name				Flare
+
+	count				1 2
+
+	life				500
+
+	delay				1000
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	rotationDelta		-1 2
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.7922 0.8118 0.8353
+		end				0.8353 0.6353 0.1686 0.5882 0.3882 0.1137
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			150 200
+		end				50 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Line
+{
+	name				Lines
+
+	spawnFlags			orgOnSphere
+
+	count				2 4
+
+	life				490
+
+	delay				800 1100
+
+	origin				-10 0 0
+
+	origin2				70 -60 -60 140 60 60
+
+	radius				1
+
+	height				1
+
+	rgb
+	{
+		start			0.8941 0.8627 0.7294 0.9373 0.8549 0.5608
+	}
+
+	alpha
+	{
+		start			0
+		end				0.4 0.8
+		parm			4
+		flags			wave
+	}
+
+	size
+	{
+		start			1 2
+		end				30 50
+		parm			40 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Particle
+{
+	name				SmokeThick
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			evenDistribution rgbComponentInterpolation affectedByWind
+
+	count				4 5
+
+	life				5000 6000
+
+	delay				200 1100
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	origin				1 0 0
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	velocity			-15 -15 -15 120 15 15
+
+	gravity				20 30
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+		end				0.5843 0.5843 0.651
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			10 20
+		end				230 370
+		parm			40 50
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Tail
+{
+	name				BlazingTrails
+
+	flags				usePhysics impactKills
+
+	spawnFlags			axisFromSphere
+
+	count				3 4
+
+	life				2500 3200
+
+	delay				0 600
+
+	origin2				-200 -200 -200 300 200 200
+
+	velocity			1 -0.3 -0.3 1 0.3 0.3
+
+	rgb
+	{
+		start			0.851 0.8902 1 0.5569 0.6902 0.9176
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				10 40
+		parm			20 30
+		flags			clamp
+	}
+
+	length
+	{
+		start			0
+		end				-120 -220
+		parm			10 20
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	life				500 800
+
+	delay				1000
+
+	intensity			5 7
+
+	radius				500 600
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	delay				1000
+
+	cullrange			500
+
+	rgb
+	{
+		start			0.9961 0.8902 0.8118 0.8 0.8941 1
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Decal
+{
+	name				Burnmark
+
+	rotation			0 360
+
+	size
+	{
+		start			40 70
+	}
+
+	shaders
+	[
+		gfx/burnmarks/projmark1
+		gfx/burnmarks/projmark2
+		gfx/burnmarks/projmark3
+		gfx/burnmarks/projmark4
+	]
+}
+
+Light
+{
+	name				SecondaryIllumination
+
+	life				700 750
+
+	delay				1000
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			200 300
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Boom!
+
+	delay				1000
+
+	cullrange			2500
+
+	sounds
+	[
+		sound/weapons/explosions/explosion_05.wav
+		sound/weapons/explosions/explosion_06.wav
+		sound/weapons/explosions/explosion_08.wav
+		sound/weapons/explosions/explosion_10.wav
+		sound/weapons/explosions/explosion_10.wav
+		sound/weapons/impacts/bigbolthit1.wav
+		sound/weapons/impacts/bigbolthit1.wav
+		sound/weapons/impacts/bigbolthit1.wav
+		sound/weapons/impacts/bigbolthit2.wav
+		sound/weapons/impacts/bigbolthit2.wav
+		sound/weapons/impacts/bigbolthit2.wav
+		sound/weapons/impacts/bigbolthit3.wav
+		sound/weapons/impacts/bigbolthit3.wav
+		sound/weapons/impacts/bigbolthit3.wav
+		sound/weapons/impacts/bigbolthit4.wav
+		sound/weapons/impacts/bigbolthit4.wav
+		sound/weapons/impacts/bigbolthit4.wav
+		sound/weapons/impacts/bigbolthit5.wav
+		sound/weapons/impacts/bigbolthit5.wav
+		sound/weapons/impacts/bigbolthit5.wav
+		sound/weapons/impacts/bigbolthit6.wav
+		sound/weapons/impacts/bigbolthit6.wav
+		sound/weapons/impacts/bigbolthit6.wav
+		sound/weapons/impacts/bigbolthit7.wav
+		sound/weapons/impacts/bigbolthit8.wav
+		sound/weapons/impacts/bigbolthit9.wav
+		sound/weapons/impacts/bigbolthit10.wav
+		sound/weapons/impacts/bigbolthit11.wav
+		sound/weapons/impacts/bigbolthit12.wav
+		sound/weapons/impacts/bigbolthit13.wav
+		sound/weapons/impacts/bigbolthit14.wav
+		sound/weapons/impacts/bigbolthit15.wav
+		sound/weapons/impacts/bigbolthit16.wav
+		sound/weapons/impacts/bigbolthit17.wav
+		sound/weapons/impacts/bigbolthit18.wav
+		sound/weapons/impacts/bigbolthit19.wav
+		sound/weapons/impacts/bigbolthit20.wav
+		sound/weapons/impacts/bigbolthit21.wav
+		sound/weapons/impacts/bigbolthit22.wav
+		sound/weapons/impacts/bigbolthit23.wav
+		sound/weapons/impacts/bigbolthit24.wav
+		sound/weapons/impacts/bigbolthit25.wav
+		sound/weapons/impacts/bigbolthit27.wav
+		sound/weapons/impacts/bigbolthit26.wav
+		sound/weapons/explosions/bigblast1.wav
+		sound/weapons/explosions/bigblast2.wav
+	]
+}

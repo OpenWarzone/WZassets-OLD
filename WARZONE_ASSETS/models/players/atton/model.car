@@ -1,0 +1,4 @@
+$aseanimgrabinit
+$aseanimgrab_gla models/players/_humanoid/_humanoid.gla
+$aseanimgrabfinalize
+$aseanimconvertmdx_noask models/players/_humanoid/root 

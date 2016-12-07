@@ -1,0 +1,14 @@
+droideka_laser
+{
+name		droideka_laser
+projectile	1
+saberBlockable	1
+muzzleFX	"vehicles/droideka/droideka_blastermuzzleflash"
+shotFX		"vehicles/droideka/droideka_blastershot"
+impactFX	"vehicles/droideka/droideka_blasterhit"
+g2MarkShader	"gfx/damage/bodyburnmark1"
+g2MarkSize	16
+speed		2000
+damage		20
+ammoPerShot	1
+}

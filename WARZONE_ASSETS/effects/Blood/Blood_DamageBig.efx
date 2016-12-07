@@ -1,0 +1,178 @@
+Tail
+{
+	name				BloodSpray
+
+	flags				usePhysics impactKills useAlpha
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				10 16
+
+	life				800 1300
+
+	delay				0 300
+
+	velocity			50 -10 -10 120 10 10
+
+	acceleration		-5 -5 -5 5 5 5
+
+	gravity				-200
+
+	alpha
+	{
+		end				0
+		parm			30
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0.5 0.6
+		end				1.5 1
+	}
+
+	length
+	{
+		start			-10
+		end				-2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsBig
+		gfx/blood/Blood_DropsMed
+		gfx/blood/Blood_DropsSmall
+		gfx/blood/Blood_DropsTiny
+	]
+}
+
+Particle
+{
+	name				BloodMist
+
+	flags				useAlpha
+
+	count				5 7
+
+	life				1000 2000
+
+	origin				-2 -5 -5 2 5 5
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			7 0 0 12 0 0
+
+	gravity				10
+
+	rgb
+	{
+		start			0.502 0 0
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			60 75
+		flags			linear clamp
+	}
+
+	size
+	{
+		end				4 8
+		parm			4
+		flags			clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud5_256
+	]
+}
+
+Tail
+{
+	name				DropsBig
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				1 2
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			40 -10 -10 80 10 10
+
+	gravity				-250 -300
+
+	size
+	{
+		end				4 5
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsBig
+	]
+
+	impactfx
+	[
+		blood/blood_splatbig
+	]
+}
+
+Tail
+{
+	name				DropsPool
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				0 0.6
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			20 -10 -10 50 10 10
+
+	gravity				-300 -400
+
+	size
+	{
+		end				5 6
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsPool
+	]
+
+	impactfx
+	[
+		blood/blood_splatpool
+	]
+}

@@ -1,0 +1,267 @@
+repeatDelay				200
+
+Tail
+{
+	name				Splash
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 2
+
+	life				990
+
+	origin				-7 0 0
+
+	velocity			4 -1 -1 5 1 1
+
+	gravity				0 -1
+
+	rgb
+	{
+		start			0.6431 0.7333 0.7412 0.549 0.7569 0.7529
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				6 7
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				-10 -14
+		parm			2
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_64
+		gfx/atmospheric/cloud2_64
+		gfx/atmospheric/cloud3_64
+		gfx/atmospheric/cloud4_64
+		gfx/atmospheric/cloud5_64
+		gfx/atmospheric/cloud6_64
+		gfx/atmospheric/cloud7_add_64
+		gfx/atmospheric/cloud8_add_64
+		gfx/atmospheric/cloud9_add_64
+	]
+}
+
+Particle
+{
+	name				SplashFiller
+
+	flags				usePhysics impactKills useAlpha
+
+	count				2 3
+
+	life				600 800
+
+	delay				100 300
+
+	origin				1 0 0
+
+	rotation			0 360
+
+	rotationDelta		-3 4
+
+	velocity			20 -4 -4 40 4 4
+
+	gravity				-100 -120
+
+	alpha
+	{
+		start			0.1 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_64
+		gfx/atmospheric/cloud8_add_64
+		gfx/atmospheric/cloud9_add_64
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+	]
+}
+
+Particle
+{
+	name				Drops
+
+	flags				usePhysics impactKills useAlpha
+
+	count				1 2
+
+	life				600 800
+
+	delay				100 300
+
+	origin				1 0 0
+
+	velocity			30 -5 -5 50 5 5
+
+	gravity				-100 -120
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				8 12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/alpha_bubbles
+		gfx/water/alpha_bubbles2
+		gfx/water/alpha_bubbles3
+		gfx/water/overlay_bubbles
+		gfx/water/overlay_bubbles2
+		gfx/water/overlay_bubbles3
+		gfx/water/overlay_bubbles4
+		gfx/water/overlay_bubbles5
+		gfx/water/overlay_bubbles6
+	]
+}
+
+Sound
+{
+	name				Splash!
+
+	sounds
+	[
+		sound/player/footsteps/water_walk1.mp3
+		sound/player/footsteps/water_walk2.mp3
+		sound/player/footsteps/water_walk3.mp3
+		sound/player/footsteps/water_walk4.mp3
+	]
+}
+
+OrientedParticle
+{
+	name				DropsRipples
+
+	spawnFlags			orgOnCylinder
+
+	count				2 3
+
+	life				400 500
+
+	delay				500 540
+
+	cullrange			320
+
+	radius				1 10
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-16 16
+
+	rgb
+	{
+		start			0.3412 0.3569 0.3843 0.2235 0.2471 0.251
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				4 7
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+	]
+}
+
+OrientedParticle
+{
+	name				Ripples
+
+	life				800 1200
+
+	radius				26 56
+
+	rotationDelta		-6 6
+
+	rgb
+	{
+		start			0.3412 0.3569 0.3843 0.2235 0.2471 0.251
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				20 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+		gfx/water/screen_ripples_glow
+	]
+}

@@ -1,0 +1,785 @@
+repeatDelay				2747
+
+Particle
+{
+	name				LightBeam
+
+	life				1000 1200
+
+	cullrange			300
+
+	origin				0 0 0 20 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			500 700
+		end				300 400
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Emitter
+{
+	name				ImplosionSphere
+
+	flags				useModel
+
+	life				1000
+
+	rotation			0 360
+
+	angleDelta			0 0 0 360 180 90
+
+	size
+	{
+		start			4
+		end				0
+		parm			30 60
+		flags			linear nonlinear
+	}
+
+	models
+	[
+		models/effects/concussion_implosive_sphere.md3
+	]
+}
+
+Particle
+{
+	name				Swirls
+
+	count				2 3
+
+	life				1000
+
+	rotation			0 360
+
+	rotationDelta		-30 40
+
+	rgb
+	{
+		start			0.8118 0.8078 0.7961 0.4431 0.7216 1
+	}
+
+	alpha
+	{
+		start			0
+		end				0.6 1
+		parm			2
+		flags			wave
+	}
+
+	size
+	{
+		start			150 180
+		end				4 5
+		parm			30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+		gfx/flames/particle_blur1
+		gfx/flames/particle_blur2
+		gfx/flames/particle_blur3
+		gfx/flames/particle_blur4
+		gfx/flames/particle_blur5
+		gfx/flames/particle_blur6
+		gfx/flames/particle_blur7
+		gfx/flames/particle_blur8
+	]
+}
+
+Particle
+{
+	name				Shell
+
+	count				4 5
+
+	life				1000
+
+	delay				0 300
+
+	rotation			0 360
+
+	rotationDelta		-30 40
+
+	size
+	{
+		start			120 140
+		end				0
+		parm			30 60
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple
+		gfx/water/overlay_ripple2
+		gfx/water/overlay_ripple3
+		gfx/water/overlay_ripple4
+		gfx/water/overlay_ripple5
+	]
+}
+
+Emitter
+{
+	name				Chunkies
+
+	flags				expensivePhysics useModel usePhysics
+
+	count				3 8
+
+	life				1e+004 1.9e+004
+
+	cullrange			800
+
+	bounce				0.2 0.3
+
+	origin				1 -2 -2 2 2 2
+
+	angle				0 0 0 360 360 0
+
+	angleDelta			-40 -20 -10 50 30 15
+
+	velocity			600 -100 -100 1200 100 100
+
+	acceleration		300 0 0 400 0 0
+
+	gravity				-700 -800
+
+	size
+	{
+		start			0.2 0.8
+	}
+
+	models
+	[
+		models/chunks/metal/metal1_1.md3
+		models/chunks/metal/metal1_2.md3
+		models/chunks/metal/metal1_3.md3
+		models/chunks/metal/metal1_4.md3
+		models/chunks/metal/metal2_1.md3
+		models/chunks/metal/metal2_2.md3
+		models/chunks/metal/metal2_3.md3
+		models/chunks/metal/metal2_4.md3
+		models/chunks/rock/rock1_1.md3
+		models/chunks/rock/rock1_2.md3
+		models/chunks/rock/rock1_3.md3
+		models/chunks/rock/rock1_4.md3
+		models/chunks/rock/rock3_1.md3
+		models/chunks/rock/rock3_2.md3
+		models/chunks/rock/rock3_3.md3
+		models/chunks/rock/rock3_4.md3
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	count				3 4
+
+	life				1200 1500
+
+	delay				1000
+
+	rotation			-180 180
+
+	rotationDelta		-20 10
+
+	velocity			50 -50 -50 100 50 50
+
+	acceleration		50 -50 -50 50 50 50
+
+	gravity				-100 -200
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 1 1 0.6157
+		end				0.6745 0.7412 0.8157 0.4431 0.7216 1
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 70
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				70 120
+		parm			20 30
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/flares_group
+		gfx/flares/flares_group2
+	]
+}
+
+Particle
+{
+	name				SparksDetail
+
+	flags				useBBox usePhysics
+
+	count				20 50
+
+	life				1200 1500
+
+	delay				1000
+
+	cullrange			500
+
+	bounce				0.25 0.4
+
+	min					-0.5 -0.5 -0.5
+
+	max					0.5 0.5 0.5
+
+	velocity			-200 -100 -100 200 100 100
+
+	acceleration		-500 -300 -300 500 300 300
+
+	gravity				-100 -200
+
+	rgb
+	{
+		end				0.6745 0.7412 0.8157 0.4745 0.4824 0.5255
+		flags			linear
+	}
+
+	size
+	{
+		start			1 4
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				Shockwave
+
+	life				200 300
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.4745 0.6588 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.5 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				400 500
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Light
+{
+	name				PrimaryIllumination
+
+	life				700 750
+
+	rgb
+	{
+		start			0.6275 0.749 0.9804 0.7804 0.8078 0.8471
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			350
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Vacuum
+
+	cullrange			1500
+
+	sounds
+	[
+		sound/effects/vacuum_improved.mp3
+	]
+}
+
+OrientedParticle
+{
+	name				GroundShockwaves
+
+	count				4 5
+
+	life				800 1200
+
+	delay				200 800
+
+	origin				-10 0 0 10 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.7843 0.8471 0.9922 0.702 0.7373 0.9922
+		end				0.2941 0.6118 0.9608 0.6275 0.749 0.9804
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		end				180 220
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				ExplosionFlare
+
+	count				2 3
+
+	life				500
+
+	delay				1000
+
+	rotation			0 360
+
+	rotationDelta		-1 2
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+		end				0.8353 0.6353 0.1686 0.5882 0.3882 0.1137
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			400 500
+		end				50 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+		gfx/flares/muzzleflare
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	count				1 2
+
+	life				500
+
+	delay				1000
+
+	rotation			0 360
+
+	rotationDelta		-1 2
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.7922 0.8118 0.8353
+		end				0.8353 0.6353 0.1686 0.5882 0.3882 0.1137
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			700 800
+		end				50 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Line
+{
+	name				Lines
+
+	spawnFlags			orgOnSphere
+
+	count				3 6
+
+	life				490
+
+	delay				800 1100
+
+	origin2				-150 -200 -200 300 200 200
+
+	radius				1
+
+	height				1
+
+	rgb
+	{
+		start			0.8941 0.8627 0.7294 0.9373 0.8549 0.5608
+	}
+
+	alpha
+	{
+		start			0
+		end				0.4 0.8
+		parm			4
+		flags			wave
+	}
+
+	size
+	{
+		start			10 20
+		end				120 150
+		parm			40 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Particle
+{
+	name				SmokeThick
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			orgOnSphere rgbComponentInterpolation affectedByWind
+
+	count				4 5
+
+	life				5000 6000
+
+	delay				900 1100
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				50
+
+	height				50
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	velocity			-15 -15 -15 15 15 15
+
+	gravity				20 30
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+		end				0.5843 0.5843 0.651
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			40 50
+		end				430 570
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Tail
+{
+	name				BlazingTrails
+
+	flags				usePhysics impactKills
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				6 7
+
+	life				2500 3200
+
+	delay				500 600
+
+	origin2				-200 -200 -200 300 200 200
+
+	radius				1
+
+	height				1
+
+	velocity			10 0 0
+
+	rgb
+	{
+		start			0.851 0.8902 1 0.5569 0.6902 0.9176
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				20 60
+		parm			40 50
+		flags			clamp
+	}
+
+	length
+	{
+		start			0
+		end				200 500
+		parm			20 30
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	life				500 800
+
+	delay				1000
+
+	intensity			5 7
+
+	radius				500 600
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	delay				1000
+
+	cullrange			800
+
+	rgb
+	{
+		start			0.9961 0.8902 0.8118 0.8 0.8941 1
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Decal
+{
+	name				Burnmark
+
+	delay				1000
+
+	rotation			0 360
+
+	size
+	{
+		start			160 200
+	}
+
+	shaders
+	[
+		gfx/burnmarks/burnmark_1
+		gfx/burnmarks/burnmark_10
+		gfx/burnmarks/burnmark_2
+		gfx/burnmarks/burnmark_3
+		gfx/burnmarks/burnmark_4
+		gfx/burnmarks/burnmark_5
+		gfx/burnmarks/burnmark_6
+		gfx/burnmarks/burnmark_7
+		gfx/burnmarks/burnmark_8
+		gfx/burnmarks/burnmark_9
+	]
+}
+
+Light
+{
+	name				SecondaryIllumination
+
+	life				700 750
+
+	delay				1000
+
+	rgb
+	{
+		start			0.9373 0.8549 0.5608 0.8941 0.8627 0.7294
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			400 500
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Boom!
+
+	delay				1000
+
+	cullrange			2500
+
+	sounds
+	[
+		sound/weapons/explosions/explosion_05.wav
+		sound/weapons/explosions/explosion_06.wav
+		sound/weapons/explosions/explosion_08.wav
+		sound/weapons/explosions/explosion_10.wav
+		sound/weapons/explosions/explosion_10.wav
+	]
+}

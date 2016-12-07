@@ -1,0 +1,187 @@
+repeatDelay				200
+
+Light
+{
+	name				LightFlash
+
+	life				400 500
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0.3294 0.2588 0.5176 0.2196 0.2471 0.3529
+		end				0.02745 0.05098 0.1294 0.06275 0.02353 0.1333
+		flags			linear
+	}
+
+	size
+	{
+		start			80 100
+		end				0
+		flags			linear
+	}
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				400 500
+
+	cullrange			300
+
+	origin				1 0 0
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			80 100
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+OrientedParticle
+{
+	name				Flare
+
+	spawnFlags			evenDistribution
+
+	count				1 2
+
+	life				300 400
+
+	delay				0 200
+
+	cullrange			200
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				8 12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}
+
+Particle
+{
+	name				Explosion
+
+	spawnFlags			evenDistribution
+
+	count				2 3
+
+	life				100 200
+
+	delay				200 600
+
+	cullrange			3000
+
+	origin				1 0 0 3 0 0
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -3 -3 20 3 3
+
+	gravity				1 8
+
+	size
+	{
+		end				5 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/particle1
+		gfx/electricity/particle2
+		gfx/electricity/particle3
+		gfx/electricity/particle4
+		gfx/electricity/particle5
+		gfx/electricity/particle6
+		gfx/electricity/particle7
+		gfx/electricity/particle8
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				800 1600
+
+	cullrange			4000
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -3 -3 3 3 3
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.3608 0.4471 0.7294 0.3255 0.3725 0.5843
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_64
+		gfx/atmospheric/cloud4_64
+		gfx/atmospheric/cloud6_64
+	]
+}

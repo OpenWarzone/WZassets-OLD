@@ -1,0 +1,463 @@
+repeatDelay				50
+
+Particle
+{
+	name				LightFlare
+
+	count				2 3
+
+	life				1200 1500
+
+	delay				0 300
+
+	origin				0 0 0 10 0 0
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.2235 0.2471 0.251 0.1176 0.2 0.2157
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			30 50
+		end				150 180
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_green
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				1200 1500
+
+	cullrange			300
+
+	origin				0 0 0 20 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			50 70
+		end				400 500
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Emitter
+{
+	name				Chunkies
+
+	flags				expensivePhysics useModel usePhysics
+
+	count				3 8
+
+	life				1e+004 1.9e+004
+
+	cullrange			800
+
+	bounce				0.2 0.3
+
+	origin				1 -2 -2 2 2 2
+
+	angle				-3 0 0 360 360 0
+
+	angleDelta			-40 -20 -10 50 30 15
+
+	velocity			600 -100 -100 1200 100 100
+
+	acceleration		300 0 0 400 0 0
+
+	gravity				-700 -800
+
+	size
+	{
+		start			0.1 0.3
+	}
+
+	models
+	[
+		models/chunks/metal/metal1_1.md3
+		models/chunks/metal/metal1_2.md3
+		models/chunks/metal/metal1_3.md3
+		models/chunks/metal/metal1_4.md3
+		models/chunks/metal/metal2_1.md3
+		models/chunks/metal/metal2_2.md3
+		models/chunks/metal/metal2_3.md3
+		models/chunks/metal/metal2_4.md3
+		models/chunks/rock/rock1_1.md3
+		models/chunks/rock/rock1_2.md3
+		models/chunks/rock/rock1_3.md3
+		models/chunks/rock/rock1_4.md3
+		models/chunks/rock/rock3_1.md3
+		models/chunks/rock/rock3_2.md3
+		models/chunks/rock/rock3_3.md3
+		models/chunks/rock/rock3_4.md3
+	]
+}
+
+Particle
+{
+	name				Shock
+
+	count				4 5
+
+	life				100 200
+
+	delay				0 400
+
+	rgb
+	{
+		start			0.702 1 0.8275 0.5843 1 0.949
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.7 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				200 300
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Line
+{
+	name				LightBeams
+
+	spawnFlags			orgOnSphere
+
+	count				60 80
+
+	life				500
+
+	delay				0 900
+
+	origin2				-100 -150 -150 200 150 150
+
+	radius				1
+
+	height				1
+
+	rgb
+	{
+		start			0.702 1 0.8275 0 0.7255 0.6353
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1 0.4
+		parm			4
+		flags			wave
+	}
+
+	size
+	{
+		start			10 20
+		end				70 80
+		parm			40 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Particle
+{
+	name				LingeringSmoke
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation affectedByWind
+
+	count				4 7
+
+	life				3000 4000
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	origin				30 -35 -35 50 35 35
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			40 -25 -25 60 25 25
+
+	gravity				3 10
+
+	rgb
+	{
+		start			0.5961 0.7765 0.9961 0.1176 0.2 0.2157
+		end				0.05882 0.05882 0.06667 0.08627 0.08627 0.1137
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				200 250
+		parm			90
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Particle
+{
+	name				SmokePillar
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			evenDistribution rgbComponentInterpolation affectedByWind
+
+	count				7 8
+
+	life				3000 4000
+
+	delay				0 1400
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	origin				10 -15 -15 20 15 15
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			5 -10 -10 60 10 10
+
+	acceleration		-5 0 0 -6 0 0
+
+	gravity				1 6
+
+	rgb
+	{
+		start			0.6824 0.8431 1 0.1176 0.2 0.2157
+		end				0.08627 0.08627 0.1137 0.05882 0.05882 0.06667
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			20 30
+		end				120 170
+		parm			90
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				1500
+
+	rgb
+	{
+		start			0.2471 0.4784 0.5294 0.2 0.3765 0.3725
+		end				0.02745 0.05098 0.1294 0.06275 0.02353 0.1333
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			250
+		end				100
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				1000 1200
+
+	bounce				5 8
+
+	radius				350 500
+}
+
+Flash
+{
+	name				Flash
+
+	life				1200 1600
+
+	cullrange			400
+
+	rgb
+	{
+		start			0.2471 0.4784 0.5294 0.2 0.3765 0.3725
+		end				0 0 0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Sound
+{
+	name				Boom
+
+	cullrange			2000
+
+	sounds
+	[
+		sound/weapons/explosions/explosion_01.wav
+		sound/weapons/explosions/explosion_02.wav
+		sound/weapons/explosions/explosion_03.wav
+		sound/weapons/explosions/explosion_04.wav
+		sound/weapons/explosions/explosion_05.wav
+		sound/weapons/explosions/explosion_06.wav
+		sound/weapons/explosions/explosion_07.wav
+		sound/weapons/explosions/explosion_08.wav
+		sound/weapons/explosions/explosion_09.wav
+		sound/weapons/explosions/explosion_10.wav
+		sound/weapons/impacts/bigbolthit26.wav
+		sound/weapons/explosions/bigblast1.wav
+		sound/weapons/explosions/bigblast2.wav
+	]
+}
+
+Decal
+{
+	name				Burnmark
+
+	rotation			-180 180
+
+	size
+	{
+		start			50 60
+	}
+
+	shaders
+	[
+		gfx/burnmarks/burnmark_1
+		gfx/burnmarks/burnmark_10
+		gfx/burnmarks/burnmark_2
+		gfx/burnmarks/burnmark_3
+		gfx/burnmarks/burnmark_4
+		gfx/burnmarks/burnmark_5
+		gfx/burnmarks/burnmark_6
+		gfx/burnmarks/burnmark_7
+		gfx/burnmarks/burnmark_8
+		gfx/burnmarks/burnmark_9
+	]
+}

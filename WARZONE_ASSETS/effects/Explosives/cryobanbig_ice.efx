@@ -1,0 +1,272 @@
+Emitter
+{
+	name				IceField01
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.4e+004
+
+	angle				0 0 0
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_01.md3
+	]
+}
+
+Emitter
+{
+	name				IceField02
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1e+004
+
+	delay				150
+
+	angle				0 0 0
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_02.md3
+	]
+}
+
+Emitter
+{
+	name				IceField03
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				7000
+
+	delay				400
+
+	angle				0 0 0
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_03.md3
+	]
+}
+
+Emitter
+{
+	name				IceField04
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				6000
+
+	delay				800
+
+	angle				0 0 0
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_04.md3
+	]
+}
+
+Emitter
+{
+	name				IceField05
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				5000
+
+	delay				1000
+
+	angle				0 0 0
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_05.md3
+	]
+}
+
+Emitter
+{
+	name				IceMelt01
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.2e+004
+
+	delay				1.4e+004
+
+	angle				0 0 0
+
+	velocity			-4 0 0 -5 0 0
+
+	gravity				-0.05 -0.1
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_01.md3
+//		models/effects/icemelt_01.md3
+	]
+}
+
+Emitter
+{
+	name				IceMelt02
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.2e+004
+
+	delay				1.015e+004
+
+	angle				0 0 0
+
+	velocity			-4 0 0 -5 0 0
+
+	gravity				-0.05 -0.1
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_02.md3
+//		models/effects/icemelt_02.md3
+	]
+}
+
+Emitter
+{
+	name				IceMelt03
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.2e+004
+
+	delay				7400
+
+	angle				0 0 0
+
+	velocity			-4 0 0 -5 0 0
+
+	gravity				-0.05 -0.1
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_03.md3
+//		models/effects/icemelt_03.md3
+	]
+}
+
+Emitter
+{
+	name				IceMelt04
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.2e+004
+
+	delay				6800
+
+	angle				0 0 0
+
+	velocity			-4 0 0 -5 0 0
+
+	gravity				-0.05 -0.1
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_04.md3
+//		models/effects/icemelt_04.md3
+	]
+}
+
+Emitter
+{
+	name				IceMelt05
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				1.2e+004
+
+	delay				6000
+
+	angle				0 0 0
+
+	velocity			-4 0 0 -5 0 0
+
+	gravity				-0.05 -0.1
+
+	size
+	{
+		start			4
+	}
+
+	models
+	[
+		models/effects/icefield_05.md3
+//		models/effects/icemelt_05.md3
+	]
+}

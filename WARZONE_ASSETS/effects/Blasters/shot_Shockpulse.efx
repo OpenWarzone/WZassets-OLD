@@ -1,0 +1,66 @@
+repeatDelay				50
+
+OrientedParticle
+{
+	name				Plane
+
+	count				2
+
+	life				100
+
+	size
+	{
+		start			0
+		end				16
+		parm			20
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple3
+		gfx/water/overlay_ripple4
+		gfx/water/overlay_ripple5
+	]
+}
+
+Line
+{
+	name				Body
+
+	count				2
+
+	life				100
+
+	origin				16 0 0
+
+	origin2				-16 0 0
+
+	size
+	{
+		start			0
+		end				16
+		parm			20
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple3
+		gfx/water/overlay_ripple4
+		gfx/water/overlay_ripple5
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				10
+
+	bounce				2
+
+	radius				60
+}

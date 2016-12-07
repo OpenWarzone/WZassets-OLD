@@ -1,0 +1,122 @@
+repeatDelay				50
+
+Particle
+{
+	name				LightBeam
+
+	life				50 100
+
+	cullrange			500
+
+	origin				0 3 0
+
+	rgb
+	{
+		start			0.03922 0 0.1333 0.07059 0 0.1686
+	}
+
+	size
+	{
+		start			20 30
+		end				120 160
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	count				3
+
+	life				400 450
+
+	origin				0 3 0
+
+	velocity			0 200 0
+
+	rgb
+	{
+		start			0.1294 0 0.2824 0.1294 0 0.2078
+		end				1 0.05098 0.07451
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Particle
+{
+	life				200
+
+	origin				0 3 0
+
+	rgb
+	{
+		start			0.0549 0 0.08235 0.04706 0 0.102
+	}
+
+	alpha
+	{
+		end				0
+	}
+
+	size
+	{
+		start			18 22
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 1
+
+	life				200
+
+	origin				0 3 0
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+	}
+
+	size
+	{
+		start			12 16
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_white
+	]
+}

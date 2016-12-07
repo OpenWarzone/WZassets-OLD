@@ -1,0 +1,22 @@
+repeatDelay				50
+
+Sound
+{
+	sounds
+	[
+	sound/weapons/blasters/generic1.mp3
+	sound/weapons/blasters/generic2.mp3
+	sound/weapons/blasters/generic3.mp3
+	sound/weapons/blasters/generic4.mp3
+	sound/weapons/blasters/generic5.mp3
+	sound/weapons/blasters/generic6.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_red_small
+	]
+}

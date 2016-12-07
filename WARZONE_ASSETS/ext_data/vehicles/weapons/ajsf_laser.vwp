@@ -1,0 +1,19 @@
+ajsf_laser
+{
+name		ajsf_laser
+projectile	1
+muzzleFX	"ajsf/main_muzzleflash"
+shotFX		"ajsf/green_ajsfshot"
+impactFX	"atst/wall_impact"
+g2MarkShader	"gfx/damage/bodyburnmark1"
+g2MarkSize	52
+//loopSound
+speed		30000
+damage		80
+//damage		40
+splashDamage	50
+splashRadius	80
+ammoPerShot	1
+lifetime	3000
+}
+

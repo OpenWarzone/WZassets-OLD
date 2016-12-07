@@ -1,0 +1,128 @@
+repeatDelay				753
+
+Tail
+{
+	name				BlazingTrails
+
+	flags				usePhysics impactKills
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				6 7
+
+	life				4000
+
+	delay				0 700
+
+	origin2				-200 -200 -200 300 200 200
+
+	radius				1
+
+	height				1
+
+	velocity			10 0 0
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				40 60
+		parm			20 30
+		flags			clamp
+	}
+
+	length
+	{
+		start			0
+		end				300 600
+		parm			10 15
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+Particle
+{
+	name				SmokeThick
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere evenDistribution rgbComponentInterpolation affectedByWind
+
+	count				50 60
+
+	life				5000
+
+	delay				0 1.5e+004
+
+	bounce				0.1
+
+	min					-300 -300 -300
+
+	max					300 300 300
+
+	origin				30 0 0 40 0 0
+
+	height				10 40
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-7 6
+
+	velocity			70 0 40 80 0 80
+
+	gravity				8 14
+
+	rgb
+	{
+		start			1 1 1 0.7294 0.702 0.6627
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			0.4
+		flags			wave
+	}
+
+	size
+	{
+		end				230 370
+		parm			20 25
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Sound
+{
+	name				Burst
+
+	sounds
+	[
+		sound/effects/air_burst.mp3
+	]
+}

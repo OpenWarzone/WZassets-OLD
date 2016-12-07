@@ -1,0 +1,188 @@
+repeatDelay				10000
+
+Particle
+{
+	name				smoke_pillar
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				20
+
+	life				7500
+
+	delay				0 1e+004
+
+	origin				40 0 0
+
+	rotation			0 360
+
+	rotationDelta		-5 5
+
+	gravity				50
+
+	rgb
+	{
+		start			0.07843 0.07843 0.07843 0.07059 0.07059 0.07059
+	}
+
+	alpha
+	{
+		start			0.6
+		end				0
+		parm			50
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				200 400
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_128
+		gfx/atmospheric/cloud8_128
+		gfx/atmospheric/cloud9_128
+	]
+}
+
+Particle
+{
+	name				primary_burn
+
+	spawnFlags			evenDistribution
+
+	count				80
+
+	life				700
+
+	delay				0 1e+004
+
+	rotation			0 360
+
+	rotationDelta		-20 20
+
+	velocity			0 -10 -10 0 10 10
+
+	gravity				400 500
+
+	rgb
+	{
+		start			1 0.7765 0.4667 0.949 0.502 0
+	}
+
+	alpha
+	{
+		start			0
+		parm			2.857
+		flags			wave
+	}
+
+	size
+	{
+		start			5
+		end				50 100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				Copy of smoke_pillar
+
+	spawnFlags			evenDistribution
+
+	count				20
+
+	life				2500
+
+	delay				0 1e+004
+
+	origin				60 0 0
+
+	rotation			0 360
+
+	rotationDelta		-5 5
+
+	gravity				50
+
+	rgb
+	{
+		start			0.8745 0.3294 0
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1
+		parm			0.8
+		flags			wave
+	}
+
+	size
+	{
+		start			0
+		end				150 200
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blur1
+		gfx/flames/particle_blur2
+		gfx/flames/particle_blur3
+		gfx/flames/particle_blur4
+		gfx/flames/particle_blur5
+		gfx/flames/particle_blur6
+		gfx/flames/particle_blur7
+		gfx/flames/particle_blur8
+	]
+}
+
+FxRunner
+{
+	count				0 1
+
+	delay				0 1e+004
+
+	playfx
+	[
+		inferno/smokestack_explosion
+	]
+}
+
+Sound
+{
+	spawnFlags			evenDistribution
+
+	count				4
+
+	delay				0 1e+004
+
+	sounds
+	[
+		sound/effects/fire_lp.wav
+	]
+}

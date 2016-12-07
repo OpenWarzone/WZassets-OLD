@@ -1,0 +1,51 @@
+repeatDelay				50
+
+Particle
+{
+	name				SplashFiller
+
+	flags				useAlpha
+
+	count				2 3
+
+	life				200 300
+
+	delay				0 10
+
+	rotation			0 360
+
+	rotationDelta		-3 4
+
+	velocity			-10 -10 -10 40 10 10
+
+	gravity				-16 -18
+
+	rgb
+	{
+		start			0.4118 0.4392 0.4706 0.5059 0.5569 0.6392
+	}
+
+	alpha
+	{
+		start			0.4 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+		end				8 12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+	]
+}

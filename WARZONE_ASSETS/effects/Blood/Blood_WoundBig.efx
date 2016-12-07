@@ -1,0 +1,129 @@
+Tail
+{
+	name				BloodSpray
+
+	flags				usePhysics impactKills useAlpha
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				10 16
+
+	life				800 1300
+
+	delay				0 300
+
+	velocity			1 -1 -1 2 1 1
+
+	acceleration		-5 -5 -5 5 5 5
+
+	gravity				-200
+
+	alpha
+	{
+		end				0
+		parm			30
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0.5 0.6
+	}
+
+	length
+	{
+		start			-10
+		end				-2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsBig
+		gfx/blood/Blood_DropsMed
+		gfx/blood/Blood_DropsSmall
+		gfx/blood/Blood_DropsTiny
+	]
+}
+
+Tail
+{
+	name				DropsBig
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				1 2
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			1 -1 -1 1 1 1
+
+	gravity				-250 -300
+
+	size
+	{
+		end				4 5
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsBig
+	]
+
+	impactfx
+	[
+		blood/blood_splatbig
+	]
+}
+
+Tail
+{
+	name				DropsPool
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				0 0.6
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			1 -1 -1 1 1 1
+
+	gravity				-300 -400
+
+	size
+	{
+		end				5 6
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsPool
+	]
+
+	impactfx
+	[
+		blood/blood_splatpool
+	]
+}

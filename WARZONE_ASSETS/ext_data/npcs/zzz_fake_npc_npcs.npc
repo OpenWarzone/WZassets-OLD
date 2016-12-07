@@ -1,0 +1,1034 @@
+galak_fyarr
+{
+	playerModel	galak
+	weapon		WP_BLASTER
+	altFire		1
+	rank		commander
+	snd			galak
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		captain
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_IMPERIAL
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+}
+
+lannik_racto
+{
+	playerModel human_merc
+	weapon		WP_BLASTER
+	surfOff		"l_arm_pocket l_arm_key"
+	health		100
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_MERC
+	height		64
+	crouchheight 48
+	walkSpeed	51
+	runSpeed	200
+	snd			humanmerc1
+	sndcombat	humanmerc1
+	sndextra	humanmerc1
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+imperial_officer
+{
+	playerModel imperial
+	weapon		WP_BLASTER
+	surfOff		l_arm_key
+	customSkin	officer
+	health		40
+	reactions	3
+	aim			3
+	move		3
+	aggression	3
+	evasion		3
+	intelligence	3
+	rank		ltcomm
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_IMPERIAL
+	snd			io1
+	sndcombat	io1
+	sndextra	io1
+	yawspeed	110
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+imperial_saboteur
+{
+	playerModel	saboteur
+	weapon	WP_BLASTER_RIFLE
+	altFire	1
+	rank		crewman
+	reactions	5
+	aim		3
+	move		5
+	aggression	5
+	evasion		4
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_SABOTEUR
+	snd		sab2
+	sndcombat	sab2
+	sndextra	sab2
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	health	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+imperial_worker
+{
+	playerModel imperial_worker
+	weapon		WP_BLASTER_PISTOL
+	headPitchRangeDown 30
+	health 		30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		imperial
+	class		CLASS_IMPWORKER
+	height		64
+	crouchheight 48
+	walkSpeed	51
+	runSpeed	200
+	snd			worker1
+	sndcombat	worker1
+	sndextra	worker1
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+new_reborn
+{
+	playerModel	reborn_new
+	saber		reborn_new
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			2
+	FP_TELEPATHY	0
+	FP_GRIP			3
+	FP_LIGHTNING	1
+	FP_RAGE			2
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		2
+	FP_SEE			2
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		ltcomm
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	hfov		160
+	vfov		160
+	hfov		120
+	vfov		120
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_REBORN
+	snd		reborn2
+	sndcombat	reborn2
+	sndjedi	reborn2
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	health	300
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
+	dismemberProbWaist	0
+}
+
+rax_joris
+{
+	playerModel	rax_joris
+	weapon		WP_CONCUSSION
+	altFire		1
+	rank		commander
+	snd		galak
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	4
+	rank		captain
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_IMPERIAL
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	health		300
+	visrange	3000
+}
+
+reborn_master
+{
+	playerModel	reborn
+	customSkin	boss
+	saber		shadowtrooper
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	2
+	saberStyle	3
+	FP_HEAL			0
+	FP_LEVITATION	2
+	FP_SPEED		2
+	FP_PUSH			2
+	FP_PULL			1
+	FP_TELEPATHY	0
+	FP_GRIP			2
+	FP_LIGHTNING	0
+	FP_RAGE			1
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		1
+	FP_SEE			1
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		lt
+	reactions	3
+	aim			3
+	move		5
+	aggression	4
+	evasion		3
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		human
+	class		CLASS_REBORN
+	snd			reborn3
+	sndcombat	reborn3
+	sndjedi		reborn3
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	health		150
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
+	dismemberProbWaist	0
+}
+
+reborn_twin
+{
+	playerModel	reborn_twin
+	customSkin	boss
+	saber		shadowtrooper
+	saber2	shadowtrooper
+	weapon	WP_SABER
+	saberStyle	6
+	health		200
+	FP_HEAL		3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH		3
+	FP_PULL		3
+	FP_TELEPATHY	0
+	FP_GRIP		3
+	FP_LIGHTNING	3
+	FP_RAGE		3
+	FP_PROTECT		2
+	FP_ABSORB		2
+	FP_DRAIN		2
+	FP_SEE		0
+	FP_SABERTHROW	3
+	FP_SABER_DEFENSE 	3
+	FP_SABER_OFFENSE 	3
+	forcePowerMax	200
+	forceRegenRate	50
+	forceRegenAmount	2
+	rank		captain
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	hfov		160
+	vfov		160
+	hfov		120
+	vfov		120
+	scale		100
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_SHADOWTROOPER
+	snd		reborn2
+	sndcombat	reborn2
+	sndjedi		reborn2
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
+	dismemberProbWaist	0
+}
+
+tavion
+{
+	playerModel	tavion_new
+	rank		commander
+	saber		tavion
+	saberColor	red
+	weapon	WP_SABER
+	saberStyle	5
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			2
+	FP_TELEPATHY	0
+	FP_GRIP			3
+	FP_LIGHTNING	2
+	FP_RAGE			2
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		2
+	FP_SEE			1
+	FP_SABERTHROW	3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	reactions	3
+	aim			3
+	move		5
+	aggression	3
+	evasion		4
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		human
+	class		CLASS_TAVION
+	sex		female
+	snd			tavion
+	sndcombat	tavion
+	sndjedi		tavion
+	yawSpeed	120
+	walkSpeed	55
+	runSpeed	200
+	health		300
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+tie_pilot
+{
+	playerModel stormpilot
+	weapon		WP_BLASTER_PISTOL
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			5
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 48
+	walkSpeed	51
+	runSpeed	200
+//	snd			stofficer1
+//	sndcombat	stofficer1
+//	sndextra	stofficer1
+	snd			worker2
+	sndcombat	worker2
+	sndextra	worker2
+	yawspeed	80
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+chiss
+{
+	playerModel	chiss
+	saber		reborn
+	saber2		sabersai
+	saber2color red
+	weapon	WP_SABER
+	saberStyle	6
+	FP_HEAL			0
+	FP_LEVITATION	0
+	FP_SPEED		1
+	FP_PUSH			2
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			1
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			1
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 2
+	rank		ltjg
+	reactions	3
+	aim			3
+	move		5
+	aggression	4
+	evasion		2
+	intelligence	5
+	hfov		160
+	vfov		160
+	scale		96
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		human
+	class		CLASS_REBORN
+	snd			bartender
+	sndcombat	bartender
+	sndjedi		bartender
+//	snd			reborn2
+//	sndcombat	reborn2
+//	sndjedi		reborn2
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	health		100
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
+	dismemberProbWaist	0
+}
+
+gran
+{
+	playerModel	gran
+	customSkin	sp
+	customRGBA	random1
+	weapon		WP_BLASTER
+	surfOff		"l_leg_kneeguard"
+	reactions	3
+	aim			5
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	health 		40
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_GRAN
+	snd			gran1
+	sndcombat	gran1
+	sndextra	gran1
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	1
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+mercenary
+{
+	playerModel human_merc
+	surfOff		"l_arm_pocket l_arm_key"
+	weapon		WP_CONCUSSION
+	health		100
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_MERC
+	height		64
+	crouchheight 48
+	walkSpeed	51
+	runSpeed	200
+	snd			humanmerc2
+	sndcombat	humanmerc2
+	sndextra	humanmerc2
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+noghri
+{
+	playerModel	noghri
+	weapon	WP_NOGHRI_STICK
+	reactions	4
+	aim		2
+	move		5
+	aggression	3
+	evasion	5
+	intelligence	3
+	rank		crewman
+	health 	100
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_NOGHRI
+	snd		noghri1
+	sndcombat	noghri1
+	sndextra	noghri1
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	1
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+tusken_raider
+{
+	playerModel	tusken
+	weapon		WP_TUSKEN_RIFLE
+	altFire		1
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	health 		50
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_TUSKEN
+	snd			tusken
+	sndcombat	tusken
+	sndextra	tusken
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	visRange	3000
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	1
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+bespin_cop
+{
+	playerModel bespin_cop
+	weapon		WP_BLASTER_PISTOL
+	health		40
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	walkSpeed	55
+	runSpeed	200
+	yawspeed	120
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+//	race		bespincop
+	class		CLASS_BESPIN_COP
+	snd			bespincop1
+	sndcombat	bespincop1
+	sndextra	bespincop1
+}
+
+chewbacca
+{
+	playerModel		chewbacca
+	altFire			0
+	weapon			WP_BOWCASTER
+	FP_HEAL			0
+	FP_LEVITATION		0
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY		0
+	FP_GRIP			0
+	FP_LIGHTNING		0
+	FP_SABERTHROW		0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health			400
+	scale			122
+	width			18
+	height			78
+	crouchheight		42
+	headPitchRangeDown	30
+	reactions		5
+	aim			5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence		5
+	earshot			1024
+	visrange		2048
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	class			CLASS_REBEL
+	walkSpeed		60
+	runSpeed		160
+	snd			chewbacca
+	sndcombat		chewbacca
+	sndextra		chewbacca
+	yawspeed		90
+}
+
+jan_ors
+{
+	playerModel	jan
+	weapon		WP_BLASTER
+	altFire		1
+	rank		lt
+	reactions	3
+	aim			5
+	move		3
+	aggression	3
+	evasion		3
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JAN
+	sex		female
+	snd			jan
+	sndcombat	jan
+	sndextra	jan
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+//	race		human
+	snd			jan
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	1
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+}
+
+jedi_trainer
+{
+	playerModel	jeditrainer
+	saber		jedi
+	saber2		jedi
+	saberColor	purple
+	saber2Color	purple
+	weapon	WP_SABER
+	saberStyle	6
+	FP_HEAL			2
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			2
+	FP_TELEPATHY	2
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		2
+	FP_ABSORB		2
+	FP_DRAIN		0
+	FP_SEE			2
+	FP_SABERTHROW	3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		commander
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			jedi2
+	sndcombat	jedi2
+	sndjedi		jedi2
+	health		400
+	dismemberProbHead	0
+	dismemberProbArms	5
+	dismemberProbLegs	0
+	dismemberProbHands	10
+	dismemberProbWaist	0
+}
+
+kyle_katarn
+{
+	playerModel	kyle
+	saber		kyle_boss
+	rank		captain
+	health		300
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	2
+	saberStyle	3
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			3
+	FP_LIGHTNING	0
+//	FP_SABERTHROW	3
+	FP_SABERTHROW	0
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	reactions	4
+	aim		5
+	move		3
+	aggression	5
+	evasion		5
+	intelligence	5
+	playerTeam	TEAM_PLAYER
+	class		CLASS_KYLE
+	snd			kyle_boss
+	sndcombat	kyle_boss
+	sndjedi		kyle_boss
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	0
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+}
+
+luke_skywalker
+{
+	playerModel	luke
+	saber		luke
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_LUKE
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+//	race		human
+	snd			luke
+	sndcombat	luke
+	sndjedi		luke
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+mon_mothma
+{
+	playerModel	monmothma
+	saber		kyle
+	weapon		WP_SABER
+	snd			monmothma
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		human
+	class		CLASS_MONMOTHMA
+	walkSpeed	55
+	runSpeed	200
+	yawspeed	90
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+morgan_katarn
+{
+	playerModel	morgan
+	saber		kyle
+	weapon		WP_SABER
+	snd			morgan
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+//	race		human
+	class		CLASS_MORGAN
+	walkSpeed	55
+	runSpeed	200
+	yawspeed	90
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+prisoner
+{
+	playerModel	prisoner
+	weapon		WP_BLASTER_PISTOL
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_PRISONER
+	snd			prisoner1
+	sndcombat	prisoner1
+	sndextra	prisoner1
+	walkSpeed	55
+	runSpeed	200
+	yawspeed	110
+	dismemberProbHead	0
+	dismemberProbArms	5
+	dismemberProbLegs	0
+	dismemberProbHands	10
+	dismemberProbWaist	0
+}
+
+rebel_pilot
+{
+	playerModel rebel
+	weapon		WP_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		human
+	class		CLASS_REBEL
+//	snd			rebel2
+//	sndcombat	rebel2
+//	sndextra	rebel2
+	snd		rebel_pilot
+	sndcombat	rebel_pilot
+	sndextra	rebel_pilot
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+rosh_penin
+{
+	playerModel	rosh_penin
+	saber		shadowtrooper
+	weapon	WP_SABER
+	saberStyle		3
+	health		500
+	FP_HEAL		0
+	FP_LEVITATION	2
+	FP_SPEED		2
+	FP_PUSH		2
+	FP_PULL		2
+	FP_TELEPATHY	0
+	FP_GRIP		2
+	FP_LIGHTNING	1
+	FP_RAGE		1
+	FP_PROTECT		1
+	FP_ABSORB		1
+	FP_DRAIN		0
+	FP_SEE		0
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 	2
+	FP_SABER_OFFENSE 	2
+	rank		lt
+	reactions	2
+	aim			2
+	move		3
+	aggression	5
+	evasion		3
+	intelligence	2
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_REBORN
+	snd		rosh_boss
+	sndcombat	rosh_boss
+	sndjedi		rosh_boss
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	0
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+}
+
+ugnaught
+{
+	playerModel	ugnaught
+	weapon		WP_BLASTER
+	scale 		75
+	health		10
+	snd			ugnaught
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_UGNAUGHT
+	yawspeed	90
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	1
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+

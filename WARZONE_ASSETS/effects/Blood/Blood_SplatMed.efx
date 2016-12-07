@@ -1,0 +1,16 @@
+Decal
+{
+	flags				ghoul2decals
+
+	rotation			360 0
+
+	size
+	{
+		start			8
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_SplatMed
+	]
+}

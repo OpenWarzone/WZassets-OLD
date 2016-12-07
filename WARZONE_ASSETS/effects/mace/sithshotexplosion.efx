@@ -1,0 +1,11 @@
+FxRunner
+{
+	name				Explosion
+
+	playfx
+	[
+		explosives/demobig
+		explosives/fragbig_delayed
+		explosives/protbig_delayed
+	]
+}

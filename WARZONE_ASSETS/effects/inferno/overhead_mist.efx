@@ -1,0 +1,126 @@
+repeatDelay				10000
+
+Tail
+{
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				20
+
+	life				3e+004
+
+	delay				0 1e+004
+
+	origin				0 0 -4000 0 1000 4000
+
+	velocity			0 -400 -50 0 -300 50
+
+	rgb
+	{
+		start			0.6588 0.8471 1
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1 0.14
+		parm			0.1333
+		flags			wave
+	}
+
+	size
+	{
+		start			700
+		end				1000
+		flags			linear
+	}
+
+	length
+	{
+		start			1400
+		end				3000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+		gfx/atmospheric/cloud7_256
+		gfx/atmospheric/cloud8_256
+		gfx/atmospheric/cloud9_256
+	]
+}
+
+Particle
+{
+	flags				useAlpha
+
+	count				3 4
+
+	life				1.5e+004
+
+	delay				0 1e+004
+
+	origin				0 0 -4000 0 1000 4000
+
+	rotation			0 360
+
+	rotationDelta		5 10
+
+	velocity			0 -700 -50 0 -600 50
+
+	gravity				40
+
+	rgb
+	{
+		start			0.6588 0.8471 1
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1 0.14
+		parm			0.1333
+		flags			wave
+	}
+
+	size
+	{
+		start			800
+		end				1800
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+		gfx/atmospheric/cloud7_256
+		gfx/atmospheric/cloud8_256
+		gfx/atmospheric/cloud9_256
+	]
+}
+
+Sound
+{
+	count				1 2
+
+	delay				0 1e+004
+
+	sounds
+	[
+		sound/ambience/outdoor/windy_b.mp3
+		sound/ambience/outdoor/windy_c.mp3
+		sound/ambience/outdoor/windy_d.mp3
+	]
+}

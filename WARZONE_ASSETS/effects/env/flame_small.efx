@@ -1,0 +1,298 @@
+repeatDelay				200
+
+Tail
+{
+	name				Flame
+
+	spawnFlags			cheapOrgCalc absoluteVel
+
+	life				200
+
+	origin				0 0 -9
+
+	origin2				0 -0.2 1 0 0.2 6
+
+	wind				-0.04 -0.07
+
+	velocity			0 0 -0.1
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+	}
+
+	size
+	{
+		start			3.5
+	}
+
+	length
+	{
+		start			12
+	}
+
+	shaders
+	[
+		gfx/flames/fire_smooth
+	]
+}
+
+Particle
+{
+	name				Fire
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				1 2
+
+	life				600 900
+
+	delay				0 200
+
+	cullrange			1100
+
+	origin				-8 0 0 -6 0 0
+
+	wind				-0.04 -0.07
+
+	rotation			80 95
+
+	rotationDelta		-14 18
+
+	velocity			0 -2 -1 5 1 2
+
+	gravity				40 60
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+		end				0.9922 0.3804 0.1765 0.9843 0.3412 0.1843
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			clamp
+	}
+
+	size
+	{
+		start			5 7
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	life				1000 1200
+
+	delay				0 200
+
+	cullrange			512
+
+	origin				-6 0 0 0 0 0
+
+	wind				-0.04 -0.07
+
+	rotationDelta		-8 10
+
+	velocity			3 0 0 10 0 0
+
+	acceleration		0 -4 -3 0 4 5
+
+	gravity				16 30
+
+	rgb
+	{
+		start			0.8235 0.5294 0.2 1 0.5608 0.1686
+		end				0.1882 0.1882 0.1882 0.1765 0.1765 0.1765
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.2 0.3
+		parm			1.8
+		flags			wave
+	}
+
+	size
+	{
+		start			3 4
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Tail
+{
+	name				SmokeTail
+
+	flags				useAlpha
+
+	spawnFlags			absoluteVel
+
+	count				1 2
+
+	life				1200 1600
+
+	delay				0 700
+
+	origin				-12 -1 -1 -4 1 1
+
+	origin2				0 -0.2 1 0 0.2 6
+
+	wind				-0.1 -0.3
+
+	velocity			0 0 -1
+
+	rgb
+	{
+		start			0.9922 0.3804 0.1765 0.9843 0.3412 0.1843
+		end				0.4588 0.4588 0.4588 0.4118 0.4118 0.4118
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+		end				8 10
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				50 70
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail_alpha2
+		gfx/flames/smokeTrail_alpha3
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				1100 2300
+
+	delay				0 1500
+
+	cullrange			300
+
+	origin				-8 -1 -1 0 1 1
+
+	rotation			-180 180
+
+	velocity			-7 -7 -7 7 7 7
+
+	acceleration		-3 -3 -3 3 3 3
+
+	gravity				10 60
+
+	rgb
+	{
+		start			1 0.7843 0.2078 0.9922 0.5725 0.3922
+		end				0.7098 0.08627 0.01569 0.8078 0.1412 0.02353
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/spark1
+		gfx/flames/spark2
+		gfx/flames/spark3
+		gfx/flames/spark4
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	spawnFlags			cheapOrgCalc
+
+	life				300
+
+	delay				0 100
+
+	cullrange			300
+
+	origin				0 0 -6 0 0 -1
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+	}
+
+	size
+	{
+		start			12
+		end				15
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}

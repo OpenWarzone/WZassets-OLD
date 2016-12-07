@@ -1,0 +1,64 @@
+[GRASS]
+grassImage0=models/warzone/foliage/grasspineforest
+grassImage1=models/warzone/foliage/grasspineforest2
+grassImage2=models/warzone/foliage/grasspineforest3
+seaGrassImage=models/warzone/foliage/seagrass
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=2.5
+
+// Per-tree model filenames...
+treeModel0=models/warzone/trees/uqconifer7.md3
+treeModel1=models/warzone/trees/uqconifer7.md3
+treeModel2=models/warzone/trees/uqconifer7.md3
+treeModel3=models/warzone/trees/uqconifer8.md3
+treeModel4=models/warzone/trees/uqconifer8.md3
+treeModel5=models/warzone/trees/uqconifer8.md3
+treeModel6=models/warzone/trees/uqconifer8.md3
+treeModel7=models/warzone/trees/uqbigtree1.md3
+treeModel8=models/warzone/trees/uqbigtree2.md3
+
+// Per-tree billboard texture filenames...
+treeBillboardShader0=models/warzone/billboard/uqconifer7
+treeBillboardShader1=models/warzone/billboard/uqconifer7
+treeBillboardShader2=models/warzone/billboard/uqconifer7
+treeBillboardShader3=models/warzone/billboard/uqconifer8
+treeBillboardShader4=models/warzone/billboard/uqconifer8
+treeBillboardShader5=models/warzone/billboard/uqconifer8
+treeBillboardShader6=models/warzone/billboard/uqconifer8
+treeBillboardShader7=models/warzone/billboard/uqbigtree1
+treeBillboardShader8=models/warzone/billboard/uqbigtree2
+
+// Per-tree billboard scales...
+treeBillboardSize0=128.0
+treeBillboardSize1=128.0
+treeBillboardSize2=128.0
+treeBillboardSize3=128.0
+treeBillboardSize4=128.0
+treeBillboardSize5=128.0
+treeBillboardSize6=128.0
+treeBillboardSize7=183.0
+treeBillboardSize8=203.0
+
+// Per-tree radius scales...
+treeRadius0=24.0
+treeRadius1=24.0
+treeRadius2=24.0
+treeRadius3=24.0
+treeRadius4=24.0
+treeRadius5=24.0
+treeRadius6=24.0
+treeRadius7=38.0
+treeRadius8=38.0
+
+// Per-tree vertical offsets...
+treeZoffset0=-4.0
+treeZoffset1=-4.0
+treeZoffset2=-4.0
+treeZoffset3=-4.0
+treeZoffset4=-4.0
+treeZoffset5=-4.0
+treeZoffset6=-4.0
+treeZoffset7=-64.0
+treeZoffset8=-64.0

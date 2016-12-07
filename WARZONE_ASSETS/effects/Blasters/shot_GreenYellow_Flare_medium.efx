@@ -1,0 +1,152 @@
+repeatDelay				50
+
+Line
+{
+	name				BlasterBolt
+
+	life				10
+
+	origin				106 0 0
+
+	origin2				-15 0 0
+
+	size
+	{
+		start			7
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Beam_GreenYellow
+	]
+}
+
+Line
+{
+	name				BlasterBolt_Glow
+
+	life				10
+
+	origin				106 0 0
+
+	origin2				-25 0 0
+
+	rgb
+	{
+		start			0.2902 0.7255 0 0.3451 0.7255 0
+	}
+
+	size
+	{
+		start			10
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Beam_Glow_GreenYellow
+	]
+}
+
+Particle
+{
+	name				BlasterBolt_Cap
+
+	life				10
+
+	cullrange			1000
+
+	origin				105 0 0
+
+	size
+	{
+		start			6
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+		gfx/flares/flare_green
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				LightBeams
+
+	count				0.7 1.6
+
+	life				10 50
+
+	cullrange			300
+
+	origin				60 0 0 105 0 0
+
+	rgb
+	{
+		start			0.02745 0.1333 0 0.007843 0.1686 0
+	}
+
+	size
+	{
+		start			30 80
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				2 3
+
+	cullrange			800
+
+	rgb
+	{
+		start			0.2902 0.7255 0 0.3451 0.7255 0
+	}
+
+	size
+	{
+		start			80 100
+	}
+}
+
+Particle
+{
+	name				Flare
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 2
+
+	life				10
+
+	origin				105 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.2902 0.7255 0 0.3451 0.7255 0
+	}
+
+	size
+	{
+		start			16 32
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+		gfx/flares/flare_beam
+		gfx/flares/flare_white
+	]
+}

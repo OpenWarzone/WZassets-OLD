@@ -1,0 +1,7 @@
+FxRunner
+{
+	playfx
+	[
+		player/jetpack.efx
+	]
+}

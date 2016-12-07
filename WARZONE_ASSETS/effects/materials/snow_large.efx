@@ -1,0 +1,159 @@
+repeatDelay				200
+
+Particle
+{
+
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				16
+
+	life				2000
+
+	origin				0 0 0 5 0 0
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-4 4
+
+	velocity			70 0 0 80 0 0
+
+	acceleration		-40 0 0 -50 0 0
+
+	gravity				-200
+
+	rgb
+	{
+		start			0.8588 0.8745 0.902 1 1 1
+	}
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			1
+		flags			linear
+	}
+
+	size
+	{
+		start			12 15
+		end				20 25
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				8
+
+	life				3000
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-10 10
+
+	velocity			40 0 0
+
+	acceleration		-10 0 0 -12 0 0
+
+	gravity				-20
+
+	rgb
+	{
+		start			0.8588 0.8745 0.902 1 1 1
+	}
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			6 10
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				23 21
+
+	life				500 700
+
+	radius				5 20
+
+	height				0
+
+	velocity			50 50 50
+
+	gravity				-100 -700
+
+	rgb
+	{
+		start			0.9059 0.8627 0.7608 1 1 1
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.5 0.3
+	}
+
+	shaders
+	[
+		gfx/atmospheric/snowflake
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/player/snow_land.mp3
+	]
+}

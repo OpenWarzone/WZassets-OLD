@@ -1,0 +1,91 @@
+repeatDelay				50
+
+Light
+{
+	name				LightFlash
+
+	life				10
+
+	rgb
+	{
+		start			0.3294 0.2588 0.5176 0.2196 0.2471 0.3529
+	}
+
+	size
+	{
+		start			250 300
+	}
+}
+
+OrientedParticle
+{
+	name				Shock
+
+	life				10
+
+	rgb
+	{
+		start			0.08627 0.4745 0.7608 0.01176 0.3059 0.7451
+	}
+
+	size
+	{
+		start			32
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripple5_glow
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	spawnFlags			orgOnCylinder
+
+	count				2 3
+
+	life				300 400
+
+	cullrange			1000
+
+	radius				22
+
+	height				4
+
+	rotation			0 360
+
+	rotationDelta		0 50
+
+	velocity			10 0 0 60 0 0
+
+	rgb
+	{
+		start			0.08627 0.4745 0.7608 0.01176 0.3059 0.7451
+	}
+
+	alpha
+	{
+		start			0.1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 12
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_128
+		gfx/atmospheric/cloud8_add_128
+		gfx/atmospheric/cloud9_add_128
+	]
+}

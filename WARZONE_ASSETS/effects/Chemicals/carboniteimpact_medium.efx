@@ -1,0 +1,145 @@
+repeatDelay				200
+
+Tail
+{
+	name				Splash
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				5 8
+
+	life				990
+
+	origin				-10 -10 -10 -10 10 10
+
+	velocity			4 -2 -2 5 2 2
+
+	gravity				0 -1
+
+	rgb
+	{
+		start			0.4706 0.5176 0.5216 0.5059 0.5373 0.5608
+	}
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			5 6
+		end				12 18
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				-15 -25
+		parm			2
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_add_128
+		gfx/atmospheric/cloud8_add_128
+		gfx/atmospheric/cloud9_add_128
+	]
+}
+
+Particle
+{
+	name				SplashFiller
+
+	flags				usePhysics impactKills useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				5 6
+
+	life				600 800
+
+	delay				0 300
+
+	origin				1 -5 -5 1 5 5
+
+	rotation			0 360
+
+	rotationDelta		-3 4
+
+	velocity			20 -30 -30 40 30 30
+
+	gravity				-100 -150
+
+	rgb
+	{
+		start			0.4118 0.4392 0.4706 0.4706 0.5176 0.5216
+	}
+
+	alpha
+	{
+		start			0.4 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 12
+		end				20 30
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_128
+		gfx/atmospheric/cloud8_add_128
+		gfx/atmospheric/cloud9_add_128
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+	]
+}
+
+Sound
+{
+	name				Splash!
+
+	sounds
+	[
+		sound/player/bodyfall_water1.mp3
+		sound/player/bodyfall_water2.mp3
+		sound/player/bodyfall_water3.mp3
+	]
+}
+
+Decal
+{
+	name				Freeze
+
+	rotation			0 360
+
+	size
+	{
+		start			30 40
+	}
+
+	shaders
+	[
+		gfx/water/alpha_woosh_decal
+		gfx/water/alpha_woosh2_decal
+		gfx/water/alpha_woosh3_decal
+	]
+}

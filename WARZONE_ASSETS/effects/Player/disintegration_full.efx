@@ -1,0 +1,218 @@
+repeatDelay				200
+
+Particle
+{
+	name				Fire
+
+	count				15 18
+
+	life				500 700
+
+	delay				0 600
+
+	cullrange			1600
+
+	origin				-8 -15 -15 8 15 15
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			-5 -3 -3 5 3 3
+
+	gravity				1 8
+
+	rgb
+	{
+		start			1 1 1 0.9961 0.8706 0.7804
+		end				0.7216 0.3451 0.003922
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			affectedByWind
+
+	count				18 20
+
+	life				3000 4000
+
+	delay				0 600
+
+	cullrange			3000
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	origin				-8 -15 -15 8 15 15
+
+	wind				1 20
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			5 -8 -9 10 7 6
+
+	gravity				-2 14
+
+	rgb
+	{
+		start			1 0.7882 0.549 0.9843 0.6745 0.5255
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		parm			10 15
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.6 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 5
+		end				20 40
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud5_256
+	]
+}
+
+Particle
+{
+	name				Ashes
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation affectedByWind
+
+	count				8 13
+
+	life				4.8e+004 5.2e+004
+
+	delay				0 600
+
+	cullrange			800
+
+	bounce				0.1
+
+	min					-10 -10 -10
+
+	max					10 10 10
+
+	origin				-8 -15 -15 8 15 15
+
+	wind				1 20
+
+	rotation			-180 180
+
+	rotationDelta		-3 4
+
+	velocity			2 -4 -4 6 3 3
+
+	gravity				-12 -14
+
+	rgb
+	{
+		start			0.8275 0.5882 0.3451 0.8196 0.4824 0.3373
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		parm			0.4 0.5
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0
+		end				0.4 0.8
+		parm			4 5
+		flags			clamp
+	}
+
+	size
+	{
+		start			15 30
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud5_256
+		gfx/flares/flares_group_invert
+		gfx/flares/flares_group_invert
+		gfx/flares/flares_group2_invert
+		gfx/flares/flares_group2_invert
+	]
+}
+
+Emitter
+{
+	name				Carcass
+
+	flags				expensivePhysics useModel usePhysics
+
+	life				1.2e+005 1.8e+005
+
+	cullrange			2000
+
+	bounce				0.2 0.3
+
+	angle				0 -30 0 0 80 0
+
+	gravity				-800
+
+	size
+	{
+		start			0.3 0.6
+	}
+
+	models
+	[
+		models/chunks/tissue/bone_pile.md3
+		models/chunks/tissue/bone_pile_ribs.md3
+		models/chunks/tissue/bone_pile_scattered.md3
+	]
+}

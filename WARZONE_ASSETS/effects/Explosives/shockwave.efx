@@ -1,0 +1,61 @@
+OrientedParticle
+{
+	name				Shocky1
+
+	life				600
+
+	rgb
+	{
+		start			0.8706 0.7843 0.6392 0.9961 0.9922 0.8039
+	}
+
+	alpha
+	{
+		start			0.7 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			100
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				Shocky2
+
+	life				600
+
+	rgb
+	{
+		start			0.8706 0.7843 0.6392 0.9961 0.9922 0.8039
+	}
+
+	alpha
+	{
+		start			0.4
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			100
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}

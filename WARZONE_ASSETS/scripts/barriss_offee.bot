@@ -1,0 +1,9 @@
+
+{
+name	"Barriss_Offee"
+model	barriss_offee
+color1	4
+personality	/botfiles/barriss_offee.jkb
+//
+}
+

@@ -1,0 +1,96 @@
+// Eeth_Koth personality
+// SW:JKII JO Bot Maker v1.00 by Firestorm [FirestormEmail@yandex.ru]
+
+//Bot name: EEth_Koth
+//Created by: Aaron Smith
+//E-mail: jediknightmas@hotmail.com
+
+
+GeneralBotInfo
+{
+	reflex	500
+	accuracy	10
+	turnspeed	0.01
+	turnspeed_combat	0.03
+	maxturn	300
+	perfectaim	0
+	chatability	1
+	chatfrequency	3
+	hatelevel	3
+	camper	1
+	saberspecialist	1
+	forceinfo	7-1-232221000221111331
+}
+
+BotWeaponWeights
+
+{
+	WP_STUN_BATON	1
+	WP_SABER	75
+	WP_BRYAR_PISTOL	9
+	WP_BLASTER	13
+	WP_DISRUPTOR	1
+	WP_BOWCASTER	1
+	WP_REPEATER	1
+	WP_DEMP2	1
+	WP_FLECHETTE	1
+	WP_ROCKET_LAUNCHER	1
+	WP_THERMAL	1
+	WP_TRIP_MINE	0
+	WP_DET_PACK	0
+}
+
+EmotionalAttachments
+{
+yoda	2
+
+}
+
+BEGIN_CHAT_GROUPS
+
+Died
+{
+This is far from over...........................
+}
+
+Killed
+{
+I regret that it came to this.................. but you left me little choice.
+}
+
+BelovedKilled
+{
+%s! You'll pay dearly for that, %a!
+%s! NO!
+}
+
+Hatred
+{
+For what you have done, you will pay %s!
+}
+
+KilledHatedOne
+{
+This was the only way it could have ended .......you had to die.
+}
+
+KilledOnPurposeByLove
+{
+%s, what are you doing?!
+}
+
+GeneralGreetings
+{
+Come let us dance.
+}
+
+ResponseGreetings
+{
+Is that a challenge.
+}
+
+OrderAccepted
+{
+Consider it done.
+}
+

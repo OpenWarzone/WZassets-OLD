@@ -1,0 +1,20 @@
+Sound
+{
+	name				FiringSound
+
+	sounds
+	[
+		sound/weapons/blasters/tie_cannon1.mp3
+		sound/weapons/blasters/tie_cannon2.mp3
+		sound/weapons/blasters/tie_cannon3.mp3
+		sound/weapons/blasters/tie_cannon4.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_green_big
+	]
+}

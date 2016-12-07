@@ -1,0 +1,204 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn jedi
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_hf1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_hf2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_hm1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_hm2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_kdm1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_kdm2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_rm1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_rm2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_tf1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_tf2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_zf1
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn jedi_zf2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn JediTrainer
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn JediMaster
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn jan
+    spawn prisoner
+    spawn rebel2
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn lando
+    spawn prisoner
+    spawn rebel2
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn chewie
+    spawn bespincop
+    spawn rebel2
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn chewie
+    spawn bespincop2
+    spawn rebel2
+    spawn rebel
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn prisoner
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn prisoner2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn bespincop
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn bespincop2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn rebel2
+    spawn rebel2
+    spawn rebel
+    spawn rebel
+  }
+  spawnGroup
+  {
+    spawn rebel2
+    spawn rebel2
+    spawn rebel2
+    spawn rebel
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn rebel
+    spawn rebel
+    spawn rebel
+    spawn rebel
+  }
+}

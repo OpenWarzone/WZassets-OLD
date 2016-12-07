@@ -1,0 +1,124 @@
+Particle
+{
+	name				explosion_cloud
+
+	flags				setShaderTime useAlpha
+
+	spawnFlags			orgOnCylinder rgbComponentInterpolation
+
+	count				12
+
+	life				2800
+
+	delay				0 100
+
+	radius				20 30
+
+	rotation			0 360
+
+	rotationDelta		-8 8
+
+	velocity			20 -40 -40 70 40 0
+
+	gravity				0 5
+
+	rgb
+	{
+		start			0.9412 0.5725 0.2353 0.4392 0.3137 0.2275
+		end				0.1529 0.1529 0.1529
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			50
+	}
+
+	size
+	{
+		start			5 10
+		end				80 90
+		parm			10 20
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/exp/explosion1_a
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				500
+
+	delay				50 100
+
+	bounce				2
+
+	radius				2000 2500
+}
+
+Decal
+{
+	size
+	{
+		start			25.5 29
+	}
+
+	shaders
+	[
+		gfx/damage/burnmark4
+	]
+}
+
+Particle
+{
+	name				explosion_cloud2
+
+	flags				setShaderTime useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3
+
+	life				2800
+
+	delay				0 100
+
+	origin				20 -2 -2 -30 2 2
+
+	rotation			0 360
+
+	rotationDelta		-8 8
+
+	velocity			160 -20 -20 160 20 20
+
+	acceleration		-60 -3 -3 -60 3 3
+
+	gravity				0 15
+
+	rgb
+	{
+		end				0.4392 0.3137 0.2275 0.7608 0.4667 0.1961
+		parm			20 60
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			5 10
+		end				70 90
+		parm			20 30
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/exp/explosion1_a
+	]
+}

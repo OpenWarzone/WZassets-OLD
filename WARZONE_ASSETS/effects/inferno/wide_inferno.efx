@@ -1,0 +1,300 @@
+repeatDelay				10000
+
+Particle
+{
+	name				smoke_pillar
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				7 10
+
+	life				7000
+
+	delay				0 1e+004
+
+	rotation			0 360
+
+	rotationDelta		-3 4
+
+	velocity			0 0 0 0 0 -40
+
+	gravity				180
+
+	rgb
+	{
+		start			0.8235 0.5294 0.2 1 0.5608 0.1686
+		end				0.07059 0.07059 0.07059 0.07843 0.07843 0.07843
+		parm			20
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0
+		end				0.5
+		parm			0.2857
+		flags			wave
+	}
+
+	size
+	{
+		start			25
+		end				1250
+		parm			70 80
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_128
+		gfx/atmospheric/cloud8_128
+		gfx/atmospheric/cloud9_128
+	]
+}
+
+Particle
+{
+	name				primary_burn
+
+	spawnFlags			evenDistribution
+
+	count				120
+
+	life				2000
+
+	delay				0 1e+004
+
+	origin				0 -60 -40 0 60 40
+
+	radius				0 260
+
+	rotation			0 360
+
+	rotationDelta		-25 25
+
+	velocity			0 0 0 0 0 -20
+
+	acceleration		-20 0 0
+
+	gravity				180 240
+
+	rgb
+	{
+		start			1 1 1 0.8157 0.5569 0.2078
+		end				1 0.06667 0.0902
+		parm			50
+		flags			nonlinear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.7
+		parm			0.8
+		flags			wave
+	}
+
+	size
+	{
+		start			140
+		end				0
+		parm			80
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				outer_burn
+
+	spawnFlags			evenDistribution
+
+	count				150
+
+	life				2000
+
+	delay				0 1e+004
+
+	origin				0 -300 -40 0 300 40
+
+	radius				0 260
+
+	rotation			0 360
+
+	rotationDelta		-25 25
+
+	velocity			0 0 0 0 0 -20
+
+	acceleration		-20 0 0
+
+	gravity				180 240
+
+	rgb
+	{
+		start			1 1 1 0.8157 0.5569 0.2078
+		end				1 0.06667 0.0902
+		parm			50
+		flags			nonlinear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.7
+		parm			1
+		flags			wave
+	}
+
+	size
+	{
+		start			150 180
+		end				0
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				secondary_burn
+
+	spawnFlags			evenDistribution
+
+	count				120
+
+	life				3000
+
+	delay				0 1e+004
+
+	origin				0 -200 -80 0 200 80
+
+	radius				0 260
+
+	rotation			0 360
+
+	rotationDelta		-25 25
+
+	velocity			0 0 0 0 0 -20
+
+	acceleration		-20 0 0
+
+	gravity				180 240
+
+	rgb
+	{
+		start			1 1 1 0.8157 0.5569 0.2078
+		end				1 0.06667 0.0902
+		parm			50
+		flags			nonlinear
+	}
+
+	alpha
+	{
+		start			0.7
+		end				0
+		parm			70
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				150 180
+		parm			0.3333
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				12
+
+	life				3000
+
+	delay				0 1e+004
+
+	origin				0 0 0 800 0 0
+
+	rgb
+	{
+		start			0.8392 0.4431 0.003922 0.8745 0.3294 0
+	}
+
+	alpha
+	{
+		start			0
+		end				0.15 0.2
+		parm			0.6667
+		flags			wave
+	}
+
+	size
+	{
+		start			1500
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}
+
+Sound
+{
+	spawnFlags			evenDistribution
+
+	count				7
+
+	delay				0 1e+004
+
+	sounds
+	[
+		sound/inferno/inferno_burn1.mp3
+	]
+}

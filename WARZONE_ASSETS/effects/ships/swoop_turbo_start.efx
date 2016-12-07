@@ -1,0 +1,141 @@
+repeatDelay				50
+
+Cylinder
+{
+	name				Exhaust
+
+	life				250 350
+
+	rgb
+	{
+		start			0.6275 0.6275 0.6431
+		end				0.7529 0.7529 0.7529
+		flags			random
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				1.5 3
+		flags			random
+	}
+
+	size2
+	{
+		start			2
+	}
+
+	length
+	{
+		start			-15
+		end				-60
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fl_blue2orange
+	]
+}
+
+Particle
+{
+	name				Shock
+
+	life				100 200
+
+	rgb
+	{
+		start			0.9922 0.7961 0.651 0.3922 0.8039 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.3 0.4
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				60 70
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				450 550
+
+	cullrange			500
+
+	origin				-3 0 0
+
+	rgb
+	{
+		start			0.03922 0 0.1333 0.07059 0 0.1686
+	}
+
+	size
+	{
+		start			80 120
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	life				250 350
+
+	origin				-2 0 0
+
+	rgb
+	{
+		start			1 1 1 1 1 0.5765
+	}
+
+	size
+	{
+		start			10 12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Sound
+{
+	name				KickSound
+
+	sounds
+	[
+		sound/effects/fireburst.mp3
+	]
+}

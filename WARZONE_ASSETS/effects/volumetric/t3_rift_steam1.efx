@@ -1,0 +1,57 @@
+repeatDelay				200
+
+Particle
+{
+	spawnFlags			cheapOrgCalc orgOnCylinder evenDistribution
+
+	count				18
+
+	life				700
+
+	delay				100 500
+
+	origin				0 0 -200 0 0 -40
+
+	radius				65
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-10 10
+
+	velocity			600 -80 -80 420 80 80
+
+	acceleration		-60 -60 -60 60 60 60
+
+	gravity				12 20
+
+	alpha
+	{
+		start			0
+		end				0.05 0.2
+		parm			3
+		flags			wave
+	}
+
+	size
+	{
+		start			35 45
+		end				70 90
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+CameraShake
+{
+	delay				0 100
+
+	radius				1000 2000
+}

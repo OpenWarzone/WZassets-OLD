@@ -1,0 +1,21 @@
+photon_laser
+{
+name		photon_laser
+projectile	1
+muzzleFX	"ships/ion_pulseflash"
+shotFX		"ships/ion_pulse"
+impactFX	"ships/proton_impact"
+g2MarkShader	"gfx/damage/bodybigburnmark1"
+g2MarkSize	1
+loopSound	"sound/vehicles/weapons/mine/loop.wav"
+speed		1200
+damage		250
+splashDamage	150
+splashRadius	3
+ammoPerShot	1
+width		2
+height		2
+lifetime	1800
+
+explodeOnExpire	1
+}

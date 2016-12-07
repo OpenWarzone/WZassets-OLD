@@ -1,0 +1,209 @@
+repeatDelay				200
+
+Light
+{
+	name				LightFlash
+
+	life				400 500
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0.5098 0.2667 0.451 0.5412 0.07843 0.6392
+		end				0.1216 0.02353 0.1333 0.1333 0.02353 0.1176
+		flags			linear
+	}
+
+	size
+	{
+		start			80 100
+		end				0
+		flags			linear
+	}
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				400 500
+
+	cullrange			300
+
+	origin				1 0 0
+
+	rgb
+	{
+		start			0.03922 0 0.1333 0.07059 0 0.1686
+	}
+
+	size
+	{
+		start			60 80
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+OrientedParticle
+{
+	name				Flare
+
+	life				300 400
+
+	cullrange			200
+
+	origin				1 0 0
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			20 30
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+		gfx/flares/flare_purple
+		gfx/flares/flare_red
+	]
+}
+
+Particle
+{
+	name				Explosion
+
+	flags				setShaderTime
+
+	count				3 4
+
+	life				500 600
+
+	cullrange			3000
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -3 -3 20 3 3
+
+	gravity				1 8
+
+	rgb
+	{
+		start			0.8118 0.4588 1 0.9255 0.2431 1
+		end				0.3255 0 0.7255 0.5804 0 0.7255
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				5 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Sound
+{
+	name				WallhitSounds
+
+	cullrange			1100
+
+	sounds
+	[
+		sound/weapons/shield/shieldhit1.mp3
+		sound/weapons/shield/shieldhit2.mp3
+		sound/weapons/shield/shieldhit3.mp3
+		sound/weapons/shield/shieldhit4.mp3
+		sound/weapons/shield/shieldhit5.mp3
+		sound/weapons/shield/shieldhit6.mp3
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				1200 2200
+
+	cullrange			4000
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -3 -3 3 3 3
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.6863 0.4039 0.6078 0.5765 0.3137 0.5961
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_64
+		gfx/atmospheric/cloud4_64
+		gfx/atmospheric/cloud6_64
+	]
+}

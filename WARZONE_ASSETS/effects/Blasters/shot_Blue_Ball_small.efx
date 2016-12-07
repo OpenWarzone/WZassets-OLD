@@ -1,0 +1,122 @@
+repeatDelay				50
+
+Line
+{
+	name				Trail
+
+	life				10
+
+	cullrange			1000
+
+	origin				3 0 0
+
+	origin2				-15 0 0
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	shaders
+	[
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	life				10
+
+	cullrange			1000
+
+	size
+	{
+		start			3
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				LightBeams
+
+	life				10 50
+
+	cullrange			300
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			20 40
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				2 3
+
+	cullrange			800
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	size
+	{
+		start			40 50
+	}
+}
+
+Particle
+{
+	name				Plasma
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				10
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	shaders
+	[
+		gfx/flames/particle_white3
+	]
+}

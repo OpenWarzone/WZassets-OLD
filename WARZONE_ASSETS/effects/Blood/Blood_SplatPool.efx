@@ -1,0 +1,30 @@
+Decal
+{
+	flags				ghoul2decals
+
+	rotation			360 0
+
+	size
+	{
+		start			12 16
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsPool
+		gfx/blood/Blood_SplatPool
+		gfx/blood/Blood_SplatPool
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/weapons/impacts/BloodSplat_1.wav
+		sound/weapons/impacts/BloodSplat_2.wav
+		sound/weapons/impacts/BloodSplat_3.wav
+		sound/weapons/impacts/BloodSplat_4.wav
+		sound/weapons/impacts/BloodSplat_5.wav
+	]
+}

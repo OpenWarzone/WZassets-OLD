@@ -1,0 +1,168 @@
+repeatDelay				10000
+
+Line
+{
+	spawnFlags			evenDistribution
+
+	count				10
+
+	life				1e+004
+
+	delay				0 1e+004
+
+	origin				-80 0 0
+
+	origin2				2600 -200 -200 2300 200 200
+
+	alpha
+	{
+		start			0
+		end				0.02 0.06
+		parm			0.2
+		flags			wave
+	}
+
+	size
+	{
+		start			300 400
+		end				200 300
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}
+
+Particle
+{
+	name				lower_smoke
+
+	flags				useAlpha
+
+	count				10
+
+	life				5000
+
+	delay				0 1e+004
+
+	origin				400 -150 -150 600 150 150
+
+	rotation			0 360
+
+	rotationDelta		-2 2
+
+	velocity			-30 -40 -40 30 40 40
+
+	alpha
+	{
+		start			0
+		end				0.03 0.04
+		parm			0.4
+		flags			wave
+	}
+
+	size
+	{
+		start			225 250
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_128
+		gfx/atmospheric/cloud8_128
+		gfx/atmospheric/cloud9_128
+	]
+}
+
+Particle
+{
+	name				upper_smoke
+
+	flags				useAlpha
+
+	count				10
+
+	life				5000
+
+	delay				0 1e+004
+
+	origin				1000 -150 -100 900 150 150
+
+	rotation			0 360
+
+	rotationDelta		-2 2
+
+	velocity			-30 -40 -40 30 40 40
+
+	alpha
+	{
+		start			0
+		end				0.01 0.02
+		parm			0.4
+		flags			wave
+	}
+
+	size
+	{
+		start			225 250
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_128
+		gfx/atmospheric/cloud8_128
+		gfx/atmospheric/cloud9_128
+	]
+}
+
+Line
+{
+	name				Copy of Unnamed Line 0
+
+	spawnFlags			evenDistribution
+
+	count				0
+
+	life				1e+004
+
+	delay				0 1e+004
+
+	origin				-500 0 0
+
+	origin2				2600 -200 -200 2300 200 200
+
+	alpha
+	{
+		start			0
+		end				0.02 0.06
+		parm			0.2
+		flags			wave
+	}
+
+	size
+	{
+		start			500 600
+		end				500
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/inferno/lightshaft
+	]
+}

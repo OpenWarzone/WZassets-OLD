@@ -1,0 +1,12 @@
+head_a,models/players/human_male/head_a.tga
+eyes_teeth_a,models/players/human_male/head_a.tga
+head_a_cap_torso_off,models/players/stormtrooper/caps.tga
+
+head_b,*off
+eyes_teeth_b,*off
+head_b_cap_torso_off,*off
+
+head_c,*off
+eyes_teeth_c,*off
+bangs_c,*off
+head_c_cap_torso_off,*off

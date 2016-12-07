@@ -1,0 +1,81 @@
+Tail
+{
+	name				DropsSmall
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				1 2
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			40 -20 -20 80 20 20
+
+	gravity				-150 -200
+
+	size
+	{
+		end				2 3
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_DropsSmall
+	]
+
+	impactfx
+	[
+		blood/blood_splatsmall
+	]
+}
+
+Tail
+{
+	name				DropsTiny
+
+	flags				ghoul2collision expensivePhysics usePhysics impactKills impactFx useAlpha
+
+	count				1 2
+
+	life				2000
+
+	rotation			0 360
+
+	rotationDelta		-15 15
+
+	velocity			40 -20 -20 40 20 20
+
+	gravity				-100 -150
+
+	size
+	{
+		end				2 3
+		flags			linear
+	}
+
+	length
+	{
+		end				-80 -120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blood/Blood_SplatTiny
+	]
+
+	impactfx
+	[
+		blood/blood_splattiny
+	]
+}

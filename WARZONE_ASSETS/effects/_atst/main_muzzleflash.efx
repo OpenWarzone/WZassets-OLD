@@ -1,0 +1,23 @@
+Sound
+{
+	name				FiringSound
+
+	sounds
+	[
+		sound/weapons/blasters/burstshots1.mp3
+		sound/weapons/blasters/burstshots2.mp3
+		sound/weapons/blasters/burstshots3.mp3
+		sound/weapons/blasters/walker1.mp3
+		sound/weapons/blasters/walker2.mp3
+		sound/weapons/blasters/walker3.mp3
+		sound/weapons/blasters/walker4.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_red_big
+	]
+}

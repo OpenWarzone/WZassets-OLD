@@ -1,0 +1,180 @@
+repeatDelay				50
+
+Particle
+{
+	name				ElectricityFiller
+
+	life				20 50
+
+	origin				1 0 0
+
+	rotation			-180 180
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			3 4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}
+
+Electricity
+{
+	name				Electricity
+
+	flags				useModel usePhysics useAlpha
+
+	count				4 6
+
+	life				30 40
+
+	bounce				5 8
+
+	origin2				-5 -15 -10 15 15 10
+
+	size
+	{
+		start			2 4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity_glowy
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				5 10
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0.003922 0.1294 0.3216
+		end				0.03922 0.07843 0.1961
+		flags			linear
+	}
+
+	size
+	{
+		start			20 30
+	}
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				10
+
+	cullrange			300
+
+	rgb
+	{
+		start			0.003922 0.1294 0.3216 0 0.03922 0.3569
+		end				0.01961 0.09412 0.2392 0.03922 0.07843 0.1961
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.6 0.7
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			3 5
+		end				30 50
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Copy of LightBeam
+
+	life				10
+
+	rgb
+	{
+		start			0.6118 0.7686 0.9961 0.5255 0.8588 0.9843
+		end				0.01961 0.09412 0.2392 0.03922 0.07843 0.1961
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 5
+		end				6 9
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				Copy of ElectricityFiller
+
+	life				20 50
+
+	origin				1 0 0
+
+	rotation			-180 180
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			5 6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/particle1
+		gfx/electricity/particle2
+		gfx/electricity/particle3
+		gfx/electricity/particle4
+		gfx/electricity/particle5
+		gfx/electricity/particle6
+		gfx/electricity/particle7
+		gfx/electricity/particle8
+	]
+}

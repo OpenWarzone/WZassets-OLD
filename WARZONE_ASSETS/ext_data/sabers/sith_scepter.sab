@@ -1,0 +1,11 @@
+
+sith_scepter
+{
+//note: the SABER_SITH_SWORD type of saber draws no blade and does knockback
+	name		"Glory of the Sith"
+	saberType	SABER_SITH_SCEPTER
+	saberModel	"models/weapons2/sith_scepter/sith_scepter_w.glm"
+	saberLength	2048
+	notInMP	0
+}
+

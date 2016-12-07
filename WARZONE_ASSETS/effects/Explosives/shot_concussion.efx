@@ -1,0 +1,289 @@
+repeatDelay				50
+
+Line
+{
+	name				Trail
+
+	life				10
+
+	cullrange			1000
+
+	origin				12 0 0
+
+	origin2				-80 0 0
+
+	rgb
+	{
+		start			0.5529 0.3882 0.9961 0.3804 0.3098 1
+	}
+
+	size
+	{
+		start			6 8
+	}
+
+	shaders
+	[
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+	]
+}
+
+Particle
+{
+	name				Flare
+
+	life				10
+
+	size
+	{
+		start			12
+	}
+
+	shaders
+	[
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				LightBeams
+
+	life				10 50
+
+	cullrange			300
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			50 150
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				2 3
+
+	cullrange			800
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	size
+	{
+		start			150 200
+	}
+}
+
+Particle
+{
+	name				Plasma
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				10
+
+	cullrange			1200
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.07451 0 0.749
+	}
+
+	size
+	{
+		start			10 12
+	}
+
+	shaders
+	[
+		gfx/flames/particle_white3
+	]
+}
+
+Particle
+{
+	name				Energy
+
+	spawnFlags			evenDistribution
+
+	count				2 3
+
+	life				200 300
+
+	delay				0 50
+
+	cullrange			1200
+
+	origin				-10 0 0 -30 0 0
+
+	gravity				5 10
+
+	rgb
+	{
+		start			0.549 0.7529 1 0.651 0.7529 1
+		end				0.007843 0.2157 0.4235 0.2235 0.1608 0.9961
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 10
+		end				20 30
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blur1
+		gfx/flames/particle_blur2
+		gfx/flames/particle_blur3
+		gfx/flames/particle_blur4
+		gfx/flames/particle_blur5
+		gfx/flames/particle_blur6
+		gfx/flames/particle_blur7
+		gfx/flames/particle_blur8
+	]
+}
+
+Tail
+{
+	name				SmokeTail
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	life				250 550
+
+	delay				0 50
+
+	cullrange			1600
+
+	origin				-15 0 0 -30 0 0
+
+	velocity			-1 0 0
+
+	gravity				0 1
+
+	rgb
+	{
+		start			0.5529 0.3882 0.9961 0.3804 0.3098 1
+		end				0.007843 0.2157 0.4235 0.003922 0.2431 0.3294
+		parm			20
+		flags			clamp
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 12
+		end				15 22
+		flags			linear
+	}
+
+	length
+	{
+		start			-50 -70
+		end				-80 -100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+OrientedParticle
+{
+	name				Shockwave
+
+	spawnFlags			evenDistribution
+
+	count				2 3
+
+	life				100
+
+	delay				0 50
+
+	cullrange			800
+
+	origin				5 0 0
+
+	size
+	{
+		start			0
+		end				5 6
+		parm			20
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple
+	]
+}
+
+Particle
+{
+	name				Sphere
+
+	life				10
+
+	cullrange			800
+
+	size
+	{
+		start			12
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				10
+
+	bounce				2
+
+	radius				60
+}

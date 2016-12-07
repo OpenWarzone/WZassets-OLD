@@ -1,0 +1,19 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		slugthrowers/flesh_impact
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blood/Blood_DamageBig
+		blood/Blood_DamageMed
+		blood/Blood_DamageSmall
+	]
+}

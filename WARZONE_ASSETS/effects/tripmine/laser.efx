@@ -1,0 +1,69 @@
+Line
+{
+	name				line1
+
+	spawnFlags			cheapOrg2Calc
+
+	size
+	{
+		start			0.1 0.15
+	}
+
+	shaders
+	[
+		models/effects/laser_blue
+	]
+
+	impactfx
+	[
+		tripMine/laserImpactGlow
+	]
+}
+
+Line
+{
+	name	line2
+
+	spawnflags	cheapOrg2Calc
+
+	size
+	{
+		start	0.5	0.6
+	}
+
+	rgb
+	{
+		start 0.0 0.0 0.12
+	}
+
+	shaders
+	[
+		gfx/blasters/whiteLine
+	]
+}
+
+Particle
+{
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_blue
+	]
+}
+
+OrientedParticle
+{
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_blue
+	]
+}

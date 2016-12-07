@@ -1,0 +1,7 @@
+FxRunner
+{
+	playfx
+	[
+		materials/water_medium
+	]
+}

@@ -1,0 +1,22 @@
+repeatDelay				200
+
+Flash
+{
+	name				Flash
+
+	life				4800 5200
+
+	cullrange			600
+
+	rgb
+	{
+		start			0.9098 0.9529 1
+		end				0 0 0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlash
+	]
+}

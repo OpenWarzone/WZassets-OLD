@@ -1,0 +1,64 @@
+//colorshadername	{action block}
+
+*white
+{
+	setcvar			ui_char_color_red 255
+	setcvar			ui_char_color_green 255
+	setcvar			ui_char_color_blue 255
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_blue1
+{
+	setcvar			ui_char_color_red 85
+	setcvar			ui_char_color_green 120
+	setcvar			ui_char_color_blue 255
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_violet1
+{
+	setcvar			ui_char_color_red 173
+	setcvar			ui_char_color_green 142
+	setcvar			ui_char_color_blue 219
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_brown1
+{
+	setcvar			ui_char_color_red 138
+	setcvar			ui_char_color_green 83
+	setcvar			ui_char_color_blue 0
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_gold1
+{
+	setcvar			ui_char_color_red 254
+	setcvar			ui_char_color_green 199
+	setcvar			ui_char_color_blue 14
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_blue2
+{
+	setcvar			ui_char_color_red 68
+	setcvar			ui_char_color_green 194
+	setcvar			ui_char_color_blue 217
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_red1
+{
+	setcvar			ui_char_color_red 170
+	setcvar			ui_char_color_green 3
+	setcvar			ui_char_color_blue 30
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_yellow1
+{
+	setcvar			ui_char_color_red 225
+	setcvar			ui_char_color_green 226
+	setcvar			ui_char_color_blue 144
+}
+
+gfx/menus/players/jedi_kdm/tintchoice_kdm_violet2
+{
+	setcvar			ui_char_color_red 167
+	setcvar			ui_char_color_green 202
+	setcvar			ui_char_color_blue 255
+}

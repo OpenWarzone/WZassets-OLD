@@ -1,0 +1,19 @@
+// Fail execution of the torches in jkg_sandpeople - should use env/flame with 200 ms respawn rate with fx_runner entities moved up 8 units.
+
+repeatDelay				4500
+
+FxRunner
+{
+	count				23
+
+	spawnFlags			evenDistribution
+
+	delay				0 4500
+
+	origin				8 0 0
+
+	playfx
+	[
+		env/flame
+	]
+}

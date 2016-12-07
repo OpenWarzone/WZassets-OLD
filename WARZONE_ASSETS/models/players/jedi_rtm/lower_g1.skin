@@ -1,0 +1,10 @@
+hips,models/players/jedi_rtm/torso_red.tga
+hips_lthigh,models/players/jedi_rtm/legs_red.tga
+hips_rthigh,models/players/jedi_rtm/legs_red.tga
+l_leg,models/players/jedi_rtm/legs_red.tga
+l_leg_cap_hips_off,models/players/stormtrooper/caps.tga
+r_leg,models/players/jedi_rtm/legs_red.tga
+r_leg_cap_hips_off,models/players/stormtrooper/caps.tga
+hips_cap_torso_off,models/players/stormtrooper/caps.tga
+hips_cap_l_leg_off,models/players/stormtrooper/caps.tga
+hips_cap_r_leg_off,models/players/stormtrooper/caps.tga

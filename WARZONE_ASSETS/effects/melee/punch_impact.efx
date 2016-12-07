@@ -1,0 +1,81 @@
+FxRunner
+{
+	count				0 0.6
+
+	playfx
+	[
+		blood/Blood_DamageMed
+		blood/Blood_DamageSmall
+		blood/Blood_DamageSmall
+		blood/Blood_DamageSmall
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				900 1000
+
+	cullrange			250
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			8 -5 -5 10 5 5
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.5451 0.5451 0.5451 0.4549 0.4549 0.4549
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				10 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/weapons/melee/hit1.mp3
+		sound/weapons/melee/hit2.mp3
+		sound/weapons/melee/hit3.mp3
+		sound/weapons/melee/hit4.mp3
+	]
+}

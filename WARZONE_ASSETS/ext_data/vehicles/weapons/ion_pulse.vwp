@@ -1,0 +1,26 @@
+ion_pulse
+{
+name		ion_pulse
+projectile	1
+ionWeapon	1
+muzzleFX	"ships/ion_pulseflash"
+shotFX		"ships/ion_pulse"
+impactFX	"ships/proton_impact"
+g2MarkShader	"gfx/effects/scorch"
+g2MarkSize	72
+loopSound	"sound/weapons/ion_loop.wav"
+speed		4000
+homing		0.5
+lockOnTime	1400
+//damage		800
+//splashDamage	300
+damage		600
+splashDamage	300
+splashRadius	400
+ammoPerShot	5
+health		5
+width		6
+height		6
+lifetime	30000
+explodeOnExpire	1
+}

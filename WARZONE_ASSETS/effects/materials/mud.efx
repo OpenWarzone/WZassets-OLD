@@ -1,0 +1,172 @@
+repeatDelay				200
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			absoluteAccel orgOnSphere rgbComponentInterpolation
+
+	count				9 13
+
+	life				650 700
+
+	cullrange			200
+
+	radius				2 3
+
+	velocity			100 -60 -60 120 60 60
+
+	acceleration		0 0 -10 0 0 -5
+
+	gravity				-400 -500
+
+	rgb
+	{
+		start			0.1686 0.1176 0.08235 0.7333 0.6941 0.5843
+		end				0.5373 0.4196 0.3725 0.3922 0.2627 0.2157
+	}
+
+	alpha
+	{
+		start			0.8 1
+		end				0
+		parm			80
+	}
+
+	size
+	{
+		start			1 2
+		end				0
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3 4
+
+	life				700
+
+	cullrange			200
+
+	origin				10 0 0 15 0 0
+
+	velocity			50 -8 -8 50 8 8
+
+	gravity				-500 -600
+
+	rgb
+	{
+		start			0.1686 0.1176 0.08235 0.4078 0.2627 0.2
+		end				0.5373 0.4196 0.3725 0.4078 0.2627 0.2
+	}
+
+	alpha
+	{
+		start			0.5 1
+		end				0
+		parm			90
+	}
+
+	size
+	{
+		start			1.6 2.5
+		end				0.5 1
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Line
+{
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3
+
+	life				350 400
+
+	cullrange			350
+
+	origin				-4 -3 -3 -4 3 3
+
+	origin2				5 -30 -30 7 30 30
+
+	rgb
+	{
+		start			0.4157 0.3255 0.2824 0.3529 0.2863 0.2549
+	}
+
+	alpha
+	{
+		start			0.5 0.7
+		end				0
+		parm			80
+	}
+
+	size
+	{
+		start			1.4 1.6
+		end				3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+		gfx/effects/water_splash
+	]
+}
+
+Line
+{
+	name				Copy of Unnamed Line 2
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				6
+
+	life				350 400
+
+	origin				-4 -6 -6 -4 6 6
+
+	origin2				3 -15 -15 3 15 15
+
+	rgb
+	{
+		start			0.3059 0.2549 0.1529 0.7333 0.6941 0.5843
+	}
+
+	alpha
+	{
+		start			0.5 0.6
+		end				0
+		parm			80
+		flags			linear
+	}
+
+	size
+	{
+		start			2
+		end				6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+		gfx/effects/water_splash
+	]
+}

@@ -1,0 +1,134 @@
+repeatDelay				100
+
+OrientedParticle
+{
+	name				Shockwave
+
+	count				1 2
+
+	life				200 300
+
+	origin				-15 0 0 -20 0 0
+
+	rgb
+	{
+		start			0.549 0.7529 1 0.651 0.7529 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 10
+		end				40 50
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				Energy
+
+	count				2 3
+
+	life				200 300
+
+	origin				-10 0 0 -30 0 0
+
+	gravity				5 10
+
+	rgb
+	{
+		start			0.549 0.7529 1 0.651 0.7529 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 10
+		end				20 30
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Tail
+{
+	name				SmokeTail
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				550 1250
+
+	origin				-15 0 0 -30 0 0
+
+	velocity			-1 0 0
+
+	gravity				0 1
+
+	rgb
+	{
+		start			0.549 0.7529 1 0.651 0.7529 1
+		end				0.9529 0.9529 0.9608
+		parm			20
+		flags			clamp
+	}
+
+	alpha
+	{
+		start			0.7 0.9
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 12
+		end				15 22
+		flags			linear
+	}
+
+	length
+	{
+		start			-50 -70
+		end				-80 -100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail_alpha2
+		gfx/flames/smokeTrail_alpha3
+	]
+}

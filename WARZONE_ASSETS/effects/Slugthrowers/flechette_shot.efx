@@ -1,0 +1,26 @@
+Particle
+{
+	count				1 2
+
+	life				15
+
+	velocity			40 0 0 140 0 0
+
+	rgb
+	{
+		start			0.9 0.3 0.1 1 0.8 0.3
+		end				0.4 0.1 0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 6
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+		gfx/effects/flare1
+	]
+}

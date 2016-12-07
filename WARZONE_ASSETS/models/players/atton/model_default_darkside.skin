@@ -1,0 +1,13 @@
+head,models/players/atton/atton_head_ds.tga
+torso,models/players/atton/atton_body_ds.tga
+r_arm,models/players/atton/atton_body_ds.tga
+r_hand,models/players/atton/atton_body_ds.tga
+l_arm,models/players/atton/atton_body_ds.tga
+l_hand,models/players/atton/atton_body_ds.tga
+r_leg,models/players/atton/atton_body_ds.tga
+l_leg,models/players/atton/atton_body_ds.tga
+hips,models/players/atton/atton_body_ds.tga
+hair,models/players/atton/atton_head_ds.tga
+head_mouth_eyes,models/players/atton/atton_head_ds.tga
+tongue,models/players/atton/atton_head_ds.tga
+holster,models/players/atton/atton_body_ds.tga

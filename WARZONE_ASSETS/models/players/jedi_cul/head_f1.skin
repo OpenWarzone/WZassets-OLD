@@ -1,0 +1,4 @@
+head,models/players/jedi_cul/head_white.tga
+head_face,models/players/jedi_cul/face_white.tga
+head_cap_torso_off,models/players/stormtrooper/caps.tga
+torso_cap_head_off,models/players/stormtrooper/caps.tga

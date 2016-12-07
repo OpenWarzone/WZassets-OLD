@@ -1,0 +1,14 @@
+FxRunner
+{
+	name			Random tracer rounds
+
+	playfx
+	[
+		slugthrowers/slug_tracershot
+		slugthrowers/slug_shot
+		slugthrowers/slug_shot
+		slugthrowers/slug_shot
+		slugthrowers/slug_shot
+		slugthrowers/slug_shot
+	]
+}

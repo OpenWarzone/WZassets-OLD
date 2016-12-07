@@ -1,0 +1,10 @@
+FxRunner
+{
+
+	playfx
+	[
+		materials/water_huge
+		materials/water_big
+		materials/water_big
+	]
+}

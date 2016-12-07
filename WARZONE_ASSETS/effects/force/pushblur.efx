@@ -1,0 +1,47 @@
+repeatDelay				50
+
+Particle
+{
+	spawnFlags			orgOnCylinder evenDistribution
+
+	count				5 4
+
+	life				1400 2000
+
+	delay				0 50
+
+	rotation			0 360
+
+	rotationDelta		-10 10
+
+	rgb
+	{
+		start			0.1098 0.1255 0.1412
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				150
+		parm			1
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}

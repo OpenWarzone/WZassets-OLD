@@ -1,0 +1,127 @@
+repeatDelay				50
+
+Particle
+{
+	name				Round
+
+	life				10
+
+	cullrange			1000
+
+	origin				-5 0 0
+
+	rgb
+	{
+		start			0.8157 0.5569 0.2078
+	}
+
+	size
+	{
+		start			12
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Cap_White
+	]
+}
+
+Tail
+{
+	name				SmokeTrail
+
+	flags				useAlpha
+
+	life				100 150
+
+	cullrange			1000
+
+	origin				5 0 0
+
+	origin2				-125 0 0
+
+	velocity			10 0 0
+
+	gravity				1 3
+
+	rgb
+	{
+		start			0.1569 0.1176 0.0902 0.302 0.2353 0.1569
+	}
+
+	alpha
+	{
+		start			0.7 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				2 3
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				125
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail_alpha2
+		gfx/flames/smokeTrail_alpha3
+	]
+}
+
+OrientedParticle
+{
+	name				Shockwave
+
+	life				100
+
+	cullrange			300
+
+	origin				5 0 0
+
+	size
+	{
+		start			0
+		end				1 2
+		parm			20
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/water/overlay_ripple
+	]
+}
+
+Line
+{
+	name				BoltTrail
+
+	life				10
+
+	origin				5 0 0
+
+	origin2				-120 0 0
+
+	rgb
+	{
+		start			0.851 0.7176 0.5333
+	}
+
+	size
+	{
+		start			3
+	}
+
+	shaders
+	[
+		gfx/blasters/sparkyellow
+	]
+}

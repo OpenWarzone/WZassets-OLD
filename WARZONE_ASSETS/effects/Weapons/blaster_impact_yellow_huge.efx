@@ -1,0 +1,11 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		blasters/yellow_impacthuge
+		blasters/yellow_impactbig
+		blasters/yellow_impactbig
+	]
+}

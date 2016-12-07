@@ -1,0 +1,28 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		blasters/green_impactmedium
+		blasters/green_impactsmall
+		blasters/green_impactsmall
+		blasters/green_impactsmall
+	]
+}
+
+FxRunner
+{
+	name				Flame
+
+	count			0 0.6
+
+	playfx
+	[
+		emitter/flamestiny
+		emitter/flamestiny
+		emitter/flamesmedium
+		emitter/flamesmedium2
+		emitter/flamesmedium3
+	]
+}

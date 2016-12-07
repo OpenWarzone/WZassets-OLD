@@ -1,0 +1,97 @@
+// Shaak_Ti personality
+// SW:JKII JO Bot Maker v1.00 by Firestorm [FirestormEmail@yandex.ru]
+
+//Bot name: Shaak_Ti
+//Created by: Aaron Smith
+//E-mail: jediknightmas@hotmail.com
+
+
+GeneralBotInfo
+{
+	reflex	500
+	accuracy	20
+	turnspeed	0.01
+	turnspeed_combat	0.03
+	maxturn	300
+	perfectaim	0
+	chatability	1
+	chatfrequency	3
+	hatelevel	2
+	camper	1
+	saberspecialist	1
+	forceinfo	7-1-231233000010001230
+}
+
+BotWeaponWeights
+
+{
+	WP_STUN_BATON	1
+	WP_SABER	16
+	WP_BRYAR_PISTOL	9
+	WP_BLASTER	13
+	WP_DISRUPTOR	1
+	WP_BOWCASTER	1
+	WP_REPEATER	1
+	WP_DEMP2	1
+	WP_FLECHETTE	1
+	WP_ROCKET_LAUNCHER	1
+	WP_THERMAL	1
+	WP_TRIP_MINE	0
+	WP_DET_PACK	0
+}
+
+EmotionalAttachments
+{
+PloKoonVM	2
+saesee_tiin	2
+
+}
+
+BEGIN_CHAT_GROUPS
+
+Died
+{
+In death as in life I am one with the force..............
+}
+
+Killed
+{
+I regret that it came to this..
+}
+
+BelovedKilled
+{
+%s! You'll pay dearly for that, %a!
+%s! NO!
+}
+
+Hatred
+{
+For what you have done, you will pay %s!
+}
+
+KilledHatedOne
+{
+Once again  there is balance......
+}
+
+KilledOnPurposeByLove
+{
+%s, but.......how could you?!
+}
+
+GeneralGreetings
+{
+
+}
+
+ResponseGreetings
+{
+
+}
+
+OrderAccepted
+{
+Don't worry, I am on it.
+}
+

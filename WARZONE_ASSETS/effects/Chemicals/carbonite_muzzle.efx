@@ -1,0 +1,108 @@
+repeatDelay				50
+
+Line
+{
+	name				Splash
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2 3
+
+	life				150 200
+
+	origin				-7 0 0
+
+	origin2				40 0 0 80 0 0
+
+	velocity			4 0 0 5 0 0
+
+	gravity				0 -1
+
+	rgb
+	{
+		start			0.5059 0.5569 0.6392 0.4118 0.4392 0.4706
+	}
+
+	alpha
+	{
+		start			0.4 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				2 3
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				-30 -100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				SplashFiller
+
+	flags				usePhysics impactKills useAlpha
+
+	count				3 4
+
+	life				200 300
+
+	origin				1 0 0
+
+	rotation			0 360
+
+	rotationDelta		-3 4
+
+	velocity			60 0 0 130 0 0
+
+	gravity				-10 -12
+
+	rgb
+	{
+		start			0.5059 0.5373 0.5608 0.4706 0.5176 0.5216
+	}
+
+	alpha
+	{
+		start			0.4 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				3 4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+	]
+}

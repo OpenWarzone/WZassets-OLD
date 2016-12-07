@@ -1,0 +1,9 @@
+//Full beard+Hair
+head,models/players/stormtrooper/caps.tga
+heada,models/players/prisoner/head_01.tga
+heada_face,models/players/prisoner/face_01.tga
+heada_eyes_mouth,models/players/prisoner/mouth_eyes.tga
+headb,*off
+headb_face,*off
+headb_eyes_mouth,*off
+head_cap_torso_off,models/players/stormtrooper/caps.tga

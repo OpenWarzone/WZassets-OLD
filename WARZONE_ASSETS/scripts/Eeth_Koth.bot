@@ -1,0 +1,9 @@
+
+{
+name	"Eeth_Koth"
+model	eeth_koth
+color1	3
+personality	/botfiles/Eeth_Koth.jkb
+//Eeth_Koth - new bot! Light side...
+}
+

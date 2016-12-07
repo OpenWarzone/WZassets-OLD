@@ -1,0 +1,8 @@
+
+{
+name	"Ki_Adi_Mundi"
+model	ki_adi
+color1	4
+personality	/botfiles/Ki_Adi_Mundi.jkb
+}
+

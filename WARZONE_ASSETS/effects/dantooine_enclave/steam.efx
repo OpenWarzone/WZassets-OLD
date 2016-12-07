@@ -1,0 +1,39 @@
+repeatDelay				1161
+
+Particle
+{
+	count				12
+
+	life				600 900
+
+	delay				0 700
+
+	rotation			-180 180
+
+	rotationDelta		-1 4
+
+	velocity			100 -24 -24 200 24 24
+
+	gravity				12 24
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			10 16
+		end				24 32
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}

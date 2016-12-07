@@ -1,0 +1,12 @@
+OrientedParticle
+{
+	size
+	{
+		start			1.5 1.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_blue
+	]
+}

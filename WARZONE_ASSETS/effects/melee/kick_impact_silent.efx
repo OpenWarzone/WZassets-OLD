@@ -1,0 +1,208 @@
+FxRunner
+{
+	count				0 0.6
+
+	playfx
+	[
+		blood/Blood_DamageMed
+		blood/Blood_DamageSmall
+		blood/Blood_DamageSmall
+		blood/Blood_DamageSmall
+	]
+}
+
+Particle
+{
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				16
+
+	life				1500
+
+	origin				0 0 0 3 0 0
+
+	radius				3
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-4 4
+
+	velocity			10 0 0
+
+	acceleration		-5 0 0
+
+	rgb
+	{
+		start			0.8863 0.902 0.7843 0.8745 0.8431 0.7686
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			1
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				4 6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				16 15
+
+	life				1000
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-10 10
+
+	velocity			20 0 0
+
+	acceleration		-5 0 0 -8 0 0
+
+	rgb
+	{
+		start			0.8863 0.902 0.7843 0.8745 0.8431 0.7686
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 4
+		end				8 12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				32
+
+	life				500
+
+	radius				15
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-4 4
+
+	velocity			40 0 0 50 0 0
+
+	acceleration		-10 0 0 -15 0 0
+
+	rgb
+	{
+		start			0.8863 0.902 0.7843 0.8745 0.8431 0.7686
+	}
+
+	alpha
+	{
+		start			0.3 0.4
+		end				0
+		parm			1
+		flags			linear
+	}
+
+	size
+	{
+		start			10 14
+		end				20 25
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	spawnFlags			axisFromSphere evenDistribution rgbComponentInterpolation
+
+	count				8
+
+	life				500
+
+	delay				0 200
+
+	radius				1
+
+	height				1
+
+	rotation			0 360
+
+	rotationDelta		-4 4
+
+	velocity			-50 0 0
+
+	rgb
+	{
+		start			0.8863 0.902 0.7843 0.8745 0.8431 0.7686
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			1
+		flags			linear
+	}
+
+	size
+	{
+		end				8
+		parm			80
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}

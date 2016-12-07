@@ -1,0 +1,53 @@
+repeatDelay				300
+
+Line
+{
+	name				BlasterBolt
+
+	life				10
+
+	origin				89 0 0
+
+	origin2				-15 0 0
+
+	rgb
+	{
+		start			0.8157 0.5569 0.2078
+	}
+
+	size
+	{
+		start			4
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Beam_White
+	]
+}
+
+Particle
+{
+	name				BlasterBolt_Cap
+
+	life				10
+
+	cullrange			1000
+
+	origin				88 0 0
+
+	rgb
+	{
+		start			0.8157 0.5569 0.2078
+	}
+
+	size
+	{
+		start			8
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Cap_White
+	]
+}

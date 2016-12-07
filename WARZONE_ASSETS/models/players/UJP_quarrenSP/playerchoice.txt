@@ -1,0 +1,64 @@
+//colorshadername	{action block}
+
+*white
+{
+	setcvar			ui_char_color_red 255
+	setcvar			ui_char_color_green 255
+	setcvar			ui_char_color_blue 255
+}
+
+gfx/menus/players/UJP/yellow
+{
+	setcvar			ui_char_color_red 225
+	setcvar			ui_char_color_green 212
+	setcvar			ui_char_color_blue 167
+}
+
+gfx/menus/players/jedi_zf/tintchoice_zabrak_gold1
+{
+	setcvar			ui_char_color_red 255
+	setcvar			ui_char_color_green 164
+	setcvar			ui_char_color_blue 59
+}
+
+gfx/menus/players/UJP/darkblue
+{
+	setcvar			ui_char_color_red 34
+	setcvar			ui_char_color_green 50
+	setcvar			ui_char_color_blue 103
+}
+
+gfx/menus/players/UJP/black
+{
+	setcvar			ui_char_color_red 59
+	setcvar			ui_char_color_green 59
+	setcvar			ui_char_color_blue 59
+}
+
+gfx/menus/players/UJP/brown
+{
+	setcvar			ui_char_color_red 116
+	setcvar			ui_char_color_green 85
+	setcvar			ui_char_color_blue 52
+}
+
+gfx/menus/players/UJP/green
+{
+	setcvar			ui_char_color_red 85
+	setcvar			ui_char_color_green 158
+	setcvar			ui_char_color_blue 84
+}
+
+gfx/menus/players/UJP/red
+{
+	setcvar			ui_char_color_red 127
+	setcvar			ui_char_color_green 14
+	setcvar			ui_char_color_blue 14
+}
+
+gfx/menus/players/jedi_tf/tintchoice_twilek_green1
+{
+	setcvar			ui_char_color_red 255
+	setcvar			ui_char_color_green 235 
+	setcvar			ui_char_color_blue 100
+}

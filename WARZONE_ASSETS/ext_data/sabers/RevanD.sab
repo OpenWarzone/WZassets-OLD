@@ -1,0 +1,14 @@
+RevanD
+
+{
+
+	name		"^5Kotor^1RevanDark"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/RevanDark/RevanD.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	40
+	saberColor     red
+
+}

@@ -1,0 +1,61 @@
+aspeedervm
+{
+name			aspeedervm
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+speedMin		-200
+turboSpeed		2200
+turboDuration		8000
+turboRecharge		2400
+acceleration		30
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.009
+turningSpeed		6
+turnWhenStopped		0
+traction		12
+friction		2.00
+maxSlope		0.65
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	20
+model			aspeedervm
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+impactFX		"ships/scrape_sparks"
+turboStartFX		"ships/swoop_turbo_start"
+flammable		1
+explosionRadius 200
+explosionDamage 500
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		45
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			200
+cameraVertOffset	110
+cameraPitchOffset	10
+cameraFOV			100
+cameraAlpha			0
+
+}

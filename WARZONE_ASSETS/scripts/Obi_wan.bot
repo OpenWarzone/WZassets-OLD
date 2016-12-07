@@ -1,0 +1,26 @@
+
+{
+name	"Obi_wan"
+model	obi_wan
+color1	4
+personality	/botfiles/Obi_wan.jkb
+//Obi_wan - new bot! Light side...
+}
+
+{
+name	"Obi_robed"
+model	obi_wan/default_robed
+color1	4
+personality	/botfiles/Obi_wan.jkb
+//Obi_wan - new bot! Light side...
+}
+
+{
+name	"Obi_hooded"
+model	obi_wan/default_hooded
+color1	4
+personality	/botfiles/Obi_wan.jkb
+//Obi_wan - new bot! Light side...
+}
+
+

@@ -1,0 +1,171 @@
+repeatDelay				1428
+
+FxRunner
+{
+	name				Generic saber flare
+
+	playfx
+	[
+		saber/saber_block
+	]
+}
+
+Tail
+{
+	name				Sparktails
+
+	flags				usePhysics useAlpha
+
+	count				2 4
+
+	life				400 500
+
+	delay				0 50
+
+	cullrange			500
+
+	bounce				0.2 0.4
+
+	origin				2 -2 -2 2 2 2
+
+	velocity			-50 -50 -50 50 50 50
+
+	gravity				-60 -80
+
+	rgb
+	{
+		start			0.9529 0.9529 0.9608 1 0.851 0.7176
+		end				1 0.7961 0.6078 1 0.6196 0.2745
+		flags			linear
+	}
+
+	size
+	{
+		start			0.4 1.1
+		end				0
+		flags			linear
+	}
+
+	length
+	{
+		start			5 8
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/sparkblue
+		gfx/blasters/sparkyellow
+		gfx/blasters/sparkyellow
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3
+
+	life				4000 5000
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -5 -5 3 5 5
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.8353 0.6627 0.2588 0.7137 0.5059 0.1961
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		parm			10 20
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Fire
+
+	count				1 2
+
+	life				500 700
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -3 -3 20 3 3
+
+	gravity				1 8
+
+	rgb
+	{
+		start			1 1 1 0.9961 0.8706 0.7804
+		end				0.7216 0.3451 0.003922
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.6 0.8
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}

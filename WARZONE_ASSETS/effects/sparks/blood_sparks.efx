@@ -1,0 +1,9 @@
+FxRunner
+{
+	name				Like all the other hits...
+
+	playfx
+	[
+		saber/blood_sparks_mp
+	]
+}

@@ -1,0 +1,15 @@
+hips,*off
+l_leg,*off
+l_leg_cylindera,*off
+l_leg_cylinderb,*off
+l_leg_foot,*off
+torso,models/players/r4/body_r4.tga
+head,models/players/r4/body_r4.tga
+head_eye,models/players/r4/body_r4.tga
+l_arm,*off
+l_hand,*off
+r_arm,*off
+r_hand,*off
+torso_r_joint,*off
+torso_l_joint,*off
+torso_cap,models/players/r4/body_r4.tga

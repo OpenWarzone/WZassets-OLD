@@ -1,0 +1,13 @@
+head,models/players/dustil/dustil_head.tga
+tongue,models/players/dustil/dustil_head.tga
+teeth,models/players/dustil/dustil_head.tga
+eyes,models/players/dustil/dustil_head.tga
+eyelids,models/players/dustil/dustil_head.tga
+torso,models/players/dustil/dustil2.tga
+r_arm,models/players/dustil/dustil2.tga
+r_hand,models/players/dustil/dustil2.tga
+r_leg,models/players/dustil/dustil2.tga
+l_arm,models/players/dustil/dustil2.tga
+l_hand,models/players/dustil/dustil2.tga
+l_leg,models/players/dustil/dustil2.tga
+hips,models/players/dustil/dustil2.tga

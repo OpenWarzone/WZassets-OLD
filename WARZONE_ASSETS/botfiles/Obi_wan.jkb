@@ -1,0 +1,96 @@
+// Obi_wan personality
+// SW:JKII JO Bot Maker v1.00 by Firestorm [FirestormEmail@yandex.ru]
+
+//Bot name: Obi_wan
+
+
+GeneralBotInfo
+{
+	reflex	300
+	accuracy	15
+	turnspeed	0.01
+	turnspeed_combat	0.03
+	maxturn	300
+	perfectaim	0
+	chatability	1
+	chatfrequency	3
+	hatelevel	3
+	camper	1
+	saberspecialist	1
+	forceinfo	7-1-233320000220000330
+}
+
+BotWeaponWeights
+
+{
+	WP_STUN_BATON	0
+	WP_SABER	18
+	WP_BRYAR_PISTOL	0
+	WP_BLASTER	0
+	WP_DISRUPTOR	0
+	WP_BOWCASTER	0
+	WP_REPEATER	0
+	WP_DEMP2	0
+	WP_FLECHETTE	0
+	WP_ROCKET_LAUNCHER	0
+	WP_THERMAL	0
+	WP_TRIP_MINE	0
+	WP_DET_PACK	0
+}
+
+EmotionalAttachments
+{
+
+}
+
+BEGIN_CHAT_GROUPS
+
+Died
+{
+Lucky shot.
+How did that happen?!
+}
+
+Killed
+{
+Now THAT is what I would call skill!
+Looks like I've still got it!
+}
+
+BelovedKilled
+{
+%s! You'll pay dearly for that, %a!
+%s! NO!
+}
+
+Hatred
+{
+For what you have done, you will pay %s!
+}
+
+KilledHatedOne
+{
+Finally, I have my revenge.
+Take that as a lesson.
+}
+
+KilledOnPurposeByLove
+{
+%s, what are you doing?!
+}
+
+GeneralGreetings
+{
+Is this where the action is?
+}
+
+ResponseGreetings
+{
+Should we be scared yet?
+}
+
+OrderAccepted
+{
+Don't worry, I am on it.
+}
+

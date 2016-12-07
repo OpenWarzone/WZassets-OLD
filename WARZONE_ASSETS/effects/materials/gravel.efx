@@ -1,0 +1,146 @@
+repeatDelay				200
+
+Particle
+{
+	name				small_bits
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3 4
+
+	life				600 700
+
+	cullrange			300
+
+	origin				10 0 0
+
+	rotation			0 360
+
+	rotationDelta		-10 6
+
+	velocity			74 -60 -60 80 60 60
+
+	gravity				-500
+
+	rgb
+	{
+		start			0.5294 0.5059 0.3373 0.7333 0.6941 0.5843
+		end				0.7176 0.5804 0.4431 0.702 0.5529 0.4078
+	}
+
+	alpha
+	{
+		end				0
+		parm			65 75
+		flags			linear
+	}
+
+	size
+	{
+		start			6 8
+		end				10
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flares_group_invert
+		gfx/flares/flares_group2_invert
+	]
+}
+
+Particle
+{
+	name				Dust
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				800
+
+	rotation			0 360
+
+	velocity			10 -5 -5 20 5 5
+
+	gravity				-100 -50
+
+	rgb
+	{
+		start			0.4745 0.4353 0.302 0.2941 0.2706 0.2118
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0
+		parm			30 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			8
+		end				20 25
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Particle
+{
+	name				Pebbles
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				15 18
+
+	life				800 850
+
+	bounce				0.1 0.2
+
+	origin				0 0 0 10 0 0
+
+	rotation			0 360
+
+	rotationDelta		-6 6
+
+	velocity			100 -50 -50 100 50 50
+
+	gravity				-500 -600
+
+	rgb
+	{
+		start			0 0 0 0.7333 0.6941 0.5843
+		end				0.7176 0.5804 0.4431 0.702 0.5529 0.4078
+	}
+
+	alpha
+	{
+		end				0
+		parm			65 75
+	}
+
+	size
+	{
+		start			1 0.5
+	}
+
+	shaders
+	[
+		gfx/effects/jk_terra_chunk2
+	]
+}

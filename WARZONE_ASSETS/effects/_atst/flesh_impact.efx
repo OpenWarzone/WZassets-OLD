@@ -1,0 +1,17 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		blasters/red_flesh_impact
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/exit_wound
+	]
+}

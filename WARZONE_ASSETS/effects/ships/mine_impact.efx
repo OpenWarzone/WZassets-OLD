@@ -1,0 +1,9 @@
+FxRunner
+{
+	name				Explosion
+
+	playfx
+	[
+		explosives/demohuge
+	]
+}

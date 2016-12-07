@@ -1,0 +1,17 @@
+apexdesign_droideka_flame
+{
+name		apexdesign_droideka_flame
+projectile	1
+saberBlockable	0
+muzzleFX	"vehicles/droideka/flame_muzzle"
+shotFX		"vehicles/droideka/apexdesign_fthrow"
+impactFX	"vehicles/droideka/fire"
+g2MarkShader	"gfx/damage/bodyburnmark1"
+g2MarkSize	50
+speed		1000
+splashdamage	500
+splashradius	500
+damage		100
+ammoPerShot	.5
+lifetime	1000  //Skip the liquid fire thing.
+}

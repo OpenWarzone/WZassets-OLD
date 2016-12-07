@@ -1,0 +1,28 @@
+Sound
+{
+	name				FiringSound
+
+	sounds
+	[
+		sound/weapons/blasters/tie_cannon1.mp3
+		sound/weapons/blasters/tie_cannon2.mp3
+		sound/weapons/blasters/tie_cannon3.mp3
+		sound/weapons/blasters/walker1.mp3
+		sound/weapons/blasters/walker2.mp3
+		sound/weapons/blasters/walker3.mp3
+		sound/weapons/blasters/walker4.mp3
+		sound/weapons/flechette/launch.wav
+		sound/weapons/flechette/oldie_shot1.wav
+		sound/weapons/flechette/shot2.wav
+		sound/weapons/flechette/shot3.wav
+		sound/weapons/rocket/oldie_shot.wav
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		slugthrowers/muzzleflash_big
+	]
+}

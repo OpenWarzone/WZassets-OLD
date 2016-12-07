@@ -1,0 +1,129 @@
+repeatDelay				200
+
+Tail
+{
+	name				Water
+
+	flags				useAlpha
+
+	spawnFlags			cheapOrgCalc evenDistribution rgbComponentInterpolation
+
+	count				8 10
+
+	life				1000 1200
+
+	delay				0 250
+
+	cullrange			4000
+
+	origin				-100 -100 -150 100 100 -100
+
+	velocity			20 -5 -100 150 5 100
+
+	acceleration		300 0 0 320 0 0
+
+	gravity				-3500 -3000
+
+	alpha
+	{
+		end				0
+		parm			70 90
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			48 64
+		end				256 320
+		flags			linear
+	}
+
+	length
+	{
+		start			200 100
+		end				800 1100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/alpha_bubbles
+		gfx/water/alpha_bubbles2
+		gfx/water/alpha_bubbles3
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+		gfx/water/overlay_woosh
+		gfx/water/overlay_woosh2
+		gfx/water/overlay_woosh3
+	]
+}
+
+Particle
+{
+	name				Steam
+
+	flags				useAlpha
+
+	spawnFlags			cheapOrgCalc evenDistribution rgbComponentInterpolation
+
+	count				6 8
+
+	life				1000 1200
+
+	delay				0 250
+
+	cullrange			4000
+
+	origin				-100 -100 -150 100 100 -100
+
+	velocity			20 -5 -100 150 5 100
+
+	acceleration		300 0 0 320 0 0
+
+	gravity				-3500 -3000
+
+	rgb
+	{
+		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
+		end				1 0.9843 0.9412
+	}
+
+	alpha
+	{
+		start			0.3 0.6
+		end				0
+		parm			70 90
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			60 70
+		end				300 400
+		flags			linear
+	}
+
+	length
+	{
+		start			200 100
+		end				800 1100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud6_256
+		gfx/atmospheric/cloud6_256
+		gfx/water/alpha_bubbles
+		gfx/water/alpha_bubbles2
+		gfx/water/alpha_bubbles3
+		gfx/water/alpha_woosh
+		gfx/water/alpha_woosh2
+		gfx/water/alpha_woosh3
+	]
+}

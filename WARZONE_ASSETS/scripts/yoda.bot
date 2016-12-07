@@ -1,0 +1,6 @@
+{
+name		"yoda"
+model		Yoda
+color1		3
+personality	/botfiles/Yoda.jkb
+}

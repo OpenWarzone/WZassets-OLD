@@ -1,0 +1,9 @@
+{
+name		"Super Battle Droid"
+model		superbattledroid
+color1		0
+personality	/botfiles/superbattledroid.jkb
+}
+
+
+

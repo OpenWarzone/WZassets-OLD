@@ -1,0 +1,138 @@
+repeatDelay				200
+
+Particle
+{
+	name				DarkCloudGathering
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				7 8
+
+	life				1e+004 1.2e+004
+
+	bounce				0.1
+
+	origin				-500 -400 400 400 500 500
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-2 4
+
+	velocity			2 -3 -3 3 3 3
+
+	gravity				5 6
+
+	rgb
+	{
+		start			1 1 1 0.7765 0.7765 0.8157
+		end				0.302 0.302 0.3686
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.3 0.8
+		parm			0.18
+		flags			wave
+	}
+
+	size
+	{
+		start			400 500
+		end				800 1200
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+FxRunner
+{
+	name				LightningBolt
+
+	spawnFlags			cheapOrgCalc
+
+	count				1 5
+
+	delay				1200 6000
+
+	origin				-300 -400 150 400 200 200
+
+	playfx
+	[
+		force/thunderstrike
+	]
+}
+
+Tail
+{
+	name				Rain
+
+	flags				usePhysics impactKills
+
+	spawnFlags			cheapOrgCalc orgOnSphere affectedByWind
+
+	count				0 400
+
+	life				1000
+
+	delay				1600 8000
+
+	cullrange			800
+
+	origin				0 0 200 0 0 400
+
+	radius				5 400
+
+	height				10 20
+
+	wind				3 5
+
+	gravity				-600 -700
+
+	rgb
+	{
+		start			1 1 1 0.8667 0.9333 1
+	}
+
+	alpha
+	{
+		start			0
+		end				0.4 0.6
+		parm			20 30
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	length
+	{
+		start			-20 -24
+		end				-40 -50
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/world/rain
+	]
+}

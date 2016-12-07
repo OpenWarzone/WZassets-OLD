@@ -1,0 +1,7 @@
+{
+name		"Count_Dooku"
+model		gl_dooku
+color1		0
+personality	/botfiles/gl_dooku.jkb
+//Dooku is aligned with Reborn
+}

@@ -1,0 +1,131 @@
+repeatDelay				500
+
+Tail
+{
+	spawnFlags			evenDistribution
+
+	count				150
+
+	life				3000
+
+	delay				0 3000
+
+	origin				100 2500 -500 500 3500 500
+
+	acceleration		0 -1000 0
+
+	size
+	{
+		start			3
+	}
+
+	length
+	{
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Tail
+{
+	name				Copy of Unnamed Tail 1
+
+	spawnFlags			evenDistribution
+
+	count				150
+
+	life				3000
+
+	delay				0 3000
+
+	origin				-500 2500 100 500 3500 500
+
+	acceleration		0 -1000 0
+
+	size
+	{
+		start			3
+	}
+
+	length
+	{
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Tail
+{
+	name				Copy of Copy of Unnamed Tail 1
+
+	spawnFlags			evenDistribution
+
+	count				150
+
+	life				3000
+
+	delay				0 3000
+
+	origin				-500 2500 -500 -100 3500 500
+
+	acceleration		0 -1000 0
+
+	size
+	{
+		start			3
+	}
+
+	length
+	{
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Tail
+{
+	name				Copy of Copy of Copy of Unnamed
+
+	spawnFlags			evenDistribution
+
+	count				150
+
+	life				3000
+
+	delay				0 3000
+
+	origin				-500 2500 -500 500 3500 -50
+
+	acceleration		0 -1000 0
+
+	size
+	{
+		start			3
+	}
+
+	length
+	{
+		end				1000
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}

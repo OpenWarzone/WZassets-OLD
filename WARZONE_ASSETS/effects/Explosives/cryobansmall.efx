@@ -1,0 +1,449 @@
+Particle
+{
+	name				Snow
+
+	flags				usePhysics impactKills useAlpha
+
+	count				80 100
+
+	life				1500
+
+	delay				500 1.4e+004
+
+	cullrange			500
+
+	origin				20 -70 -70 170 70 70
+
+	rotation			0 360
+
+	rotationDelta		-2 4
+
+	velocity			-100 -100 -100 100 100 100
+
+	gravity				-100 -200
+
+	alpha
+	{
+		start			0
+		end				0.4 0.8
+		parm			1.3
+		flags			wave
+	}
+
+	size
+	{
+		start			1.6 2
+	}
+
+	shaders
+	[
+		gfx/atmospheric/snowflake
+	]
+}
+
+Particle
+{
+	name				Baseflare
+
+	life				1500 2200
+
+	rotation			0 360
+
+	rotationDelta		-3 20
+
+	rgb
+	{
+		start			1 1 1 0.8667 0.9412 1
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			4 6
+		end				100 150
+		parm			30 40
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				Firey
+
+	flags				expensivePhysics useBBox usePhysics
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				16 22
+
+	life				1600 2800
+
+	delay				100 700
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				5 10
+
+	height				5
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			20 -10 -10 60 10 10
+
+	acceleration		5 5 5 10 5 5
+
+	gravity				-10 60
+
+	rgb
+	{
+		start			1 1 1 0.6431 0.749 1
+		end				0.4353 0.5725 0.8 0.149 0.3412 0.5765
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 70
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			10 12
+		end				80 100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_128
+		gfx/atmospheric/cloud8_add_128
+		gfx/atmospheric/cloud9_add_128
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				SmokeThick
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			orgOnSphere rgbComponentInterpolation affectedByWind
+
+	count				3 4
+
+	life				5000 6000
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				20
+
+	height				20
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	velocity			-15 -15 -15 15 15 15
+
+	gravity				15 30
+
+	rgb
+	{
+		start			1 1 1 0.7765 0.7843 0.851
+		end				0.5843 0.5843 0.651
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1 0.2
+		parm			0.35
+		flags			wave
+	}
+
+	size
+	{
+		start			50 80
+		end				200 270
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Particle
+{
+	name				Steam
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			orgOnSphere evenDistribution rgbComponentInterpolation affectedByWind
+
+	count				7 10
+
+	life				5000 6000
+
+	delay				2000 2.1e+004
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				15 20
+
+	height				10 20
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	velocity			-15 -15 -15 15 15 15
+
+	gravity				10 20
+
+	rgb
+	{
+		start			1 1 1 0.7765 0.7843 0.851
+		end				0.5843 0.5843 0.651
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.1 0.2
+		parm			0.35
+		flags			wave
+	}
+
+	size
+	{
+		start			40 70
+		end				230 370
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+OrientedParticle
+{
+	name				Shocky
+
+	life				800 1000
+
+	delay				200
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 1 1 0.702 0.7373 0.9922
+		end				0.4353 0.5725 0.8 0.6275 0.749 0.9804
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		end				100 120
+		parm			30 40
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	life				500 800
+
+	intensity			2 4
+
+	radius				200 250
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	delay				100 200
+
+	cullrange			70
+
+	rgb
+	{
+		start			1 1 1 0.8 0.8941 1
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				700 750
+
+	rgb
+	{
+		start			0.6275 0.749 0.9804 0.7804 0.8078 0.8471
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			100
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Boom
+
+	cullrange			2000
+
+	sounds
+	[
+		sound/weapons/explosions/cryoban.wav
+	]
+}
+
+Decal
+{
+	name				Freeze
+
+	rotation			0 360
+
+	size
+	{
+		start			30 40
+	}
+
+	shaders
+	[
+		gfx/burnmarks/freeze
+	]
+}
+
+Decal
+{
+	name				Freeze2
+
+	delay				800 1000
+
+	rotation			0 360
+
+	size
+	{
+		start			70 100
+	}
+
+	shaders
+	[
+		gfx/burnmarks/freeze2
+	]
+}
+
+Emitter
+{
+	name				Ice
+
+	flags				expensivePhysics usePhysics impactKills impactFx
+
+	life				150
+
+	velocity			-100 0 0
+
+//	gravity				-800
+
+	impactfx
+	[
+		explosives/cryobansmall_ice
+	]
+}

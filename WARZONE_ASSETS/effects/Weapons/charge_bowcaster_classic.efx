@@ -1,0 +1,139 @@
+repeatDelay				50
+
+Line
+{
+	name				Left
+
+	spawnFlags			cheapOrgCalc cheapOrg2Calc
+
+	count				0
+
+	life				10
+
+	origin				-4.7 -8 -0.47
+
+	origin2				-4.7 -5 -0.47 -4.7 4 -0.47
+
+	rgb
+	{
+		start			0.6627 0.8863 0.7922 0.4118 0.7137 0.5451
+	}
+
+	alpha
+	{
+		start			0.4 0.8
+	}
+
+	size
+	{
+		start			0.4 2
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}
+
+Line
+{
+	name				Right
+
+	spawnFlags			cheapOrgCalc cheapOrg2Calc
+
+	count				0
+
+	life				10
+
+	origin				-4.7 8 -0.47
+
+	origin2				-4.7 5 -0.47 -4.7 -4 -0.47
+
+	rgb
+	{
+		start			0.6627 0.8863 0.7922 0.4118 0.7137 0.5451
+	}
+
+	alpha
+	{
+		start			0.4 0.8
+	}
+
+	size
+	{
+		start			0.4 2
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+	]
+}
+
+OrientedParticle
+{
+	name				Left
+
+	spawnFlags			cheapOrgCalc
+
+	life				10
+
+	origin				-4.7 -5 -0.47
+
+	rotation			90
+
+	rgb
+	{
+		start			0.6627 0.8863 0.7922 0.4118 0.7137 0.5451
+	}
+
+	alpha
+	{
+		start			0.4 0.8
+	}
+
+	size
+	{
+		start			3
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+	]
+}
+
+OrientedParticle
+{
+	name				Right
+
+	spawnFlags			cheapOrgCalc
+
+	life				10
+
+	origin				-4.7 5 -0.47
+
+	rotation			-90
+
+	rgb
+	{
+		start			0.6627 0.8863 0.7922 0.4118 0.7137 0.5451
+	}
+
+	alpha
+	{
+		start			0.4 0.8
+	}
+
+	size
+	{
+		start			3
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+	]
+}

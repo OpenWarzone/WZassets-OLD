@@ -1,0 +1,418 @@
+Particle
+{
+	name				Firey
+
+	flags				expensivePhysics useBBox usePhysics
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				10 16
+
+	life				1600 2800
+
+	delay				100 700
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				50 60
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			20 -10 -10 50 10 10
+
+	acceleration		20 0 0 30 0 0
+
+	gravity				8 10
+
+	rgb
+	{
+		start			0.8235 0.9333 1 0.6431 0.749 1
+		end				0 0.1451 0.7255 0 0.2902 0.7255
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 70
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			30 50
+		end				120 150
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				600 800
+
+	rgb
+	{
+		start			0.502 0.502 1
+		end				0 0 0
+		parm			60 70
+		flags			nonlinear
+	}
+
+	size
+	{
+		end				1800 2200
+		flags			linear
+	}
+}
+
+Tail
+{
+	name				LightBeams
+
+	spawnFlags			orgOnCylinder
+
+	count				3 4
+
+	life				2200 2400
+
+	delay				0 800
+
+	origin				-10 0 0
+
+	origin2				300 -60 -60 400 60 60
+
+	radius				40 45
+
+	height				1
+
+	velocity			-1 0 0
+
+	rgb
+	{
+		start			0.6824 0.7804 1 0.5961 0.7765 0.9961
+		end				0.7529 0.7529 0.7529 0.9412 0.7686 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		end				0.3 0.7
+		parm			0.84
+		flags			wave
+	}
+
+	size
+	{
+		start			50 60
+		end				160 200
+		parm			10 20
+		flags			linear clamp
+	}
+
+	length
+	{
+		start			100 400
+	}
+
+	shaders
+	[
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+		gfx/flares/lightbeam4
+	]
+}
+
+Flash
+{
+	name				LensFlash
+
+	life				3000 5000
+
+	cullrange			600
+
+	rgb
+	{
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/PlayerOverlays/EMP_screenflash
+		gfx/PlayerOverlays/EMP_screenflash2
+		gfx/PlayerOverlays/EMP_screenflash3
+	]
+}
+
+Decal
+{
+	name				Burnmark
+
+	count				2
+
+	delay				350
+
+	rotation			0 360
+
+	size
+	{
+		start			150 180
+	}
+
+	shaders
+	[
+		gfx/burnmarks/electricaldamage_glow
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				700 1200
+
+	bounce				4 5
+
+	radius				120
+}
+
+Sound
+{
+	name				Boom
+
+	delay				150
+
+	sounds
+	[
+		sound/weapons/demp2/alt_detonate.wav
+	]
+}
+
+Electricity
+{
+	name				Electricity 0
+
+	flags				useModel useBBox usePhysics
+
+	count				2 3
+
+	life				200 300
+
+	delay				0 250
+
+	bounce				2 4
+
+	origin				-2 -20 -20 -2 20 20
+
+	origin2				60 -130 -130 180 130 130
+
+	size
+	{
+		start			3 5
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}
+
+Electricity
+{
+	name				Electricity 1
+
+	flags				useModel useBBox usePhysics
+
+	count				8
+
+	life				200 300
+
+	delay				250 850
+
+	bounce				2 5
+
+	origin				-2 -15 -15 -2 15 15
+
+	origin2				60 -120 -120 180 120 120
+
+	size
+	{
+		start			3 5
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}
+
+Electricity
+{
+	name				Electricity 2
+
+	flags				useModel useBBox usePhysics
+
+	count				2 4
+
+	life				300 600
+
+	delay				800 2000
+
+	bounce				2 5
+
+	origin				-2 -15 -15 -2 15 15
+
+	origin2				40 -120 -120 180 120 120
+
+	size
+	{
+		start			3 5
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}
+
+Electricity
+{
+	name				Electricity 3
+
+	flags				useModel useBBox usePhysics
+
+	count				2
+
+	life				200 300
+
+	delay				0 100
+
+	bounce				2 4
+
+	origin				-2 -20 -20 -2 20 20
+
+	origin2				60 -130 -130 180 130 130
+
+	size
+	{
+		start			9 12
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}
+
+Electricity
+{
+	name				Electricity 4
+
+	flags				useModel useBBox usePhysics
+
+	count				8
+
+	life				200 300
+
+	delay				250 850
+
+	bounce				2 5
+
+	origin				-2 -15 -15 -2 15 15
+
+	origin2				60 -120 -120 180 120 120
+
+	size
+	{
+		start			3 5
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}
+
+Electricity
+{
+	name				Electricity 5
+
+	flags				useModel useBBox usePhysics
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				12 15
+
+	life				350 500
+
+	delay				250 500
+
+	bounce				5 8
+
+	origin				-2 -15 -15 -2 15 15
+
+	origin2				-60 -120 -120 180 120 120
+
+	radius				120
+
+	height				70
+
+	size
+	{
+		start			3 5
+		end				0.2
+		parm			70
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity
+	]
+}

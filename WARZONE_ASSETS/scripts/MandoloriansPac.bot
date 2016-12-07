@@ -1,0 +1,110 @@
+
+{
+name	"jangoh_fett"
+model	MandoloriansPac/default_jangoh_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"bobaa_fett"
+model	MandoloriansPac/default_bobaa_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"boba2_fett"
+model	MandoloriansPac/default_boba2_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"jango2_fett"
+model	MandoloriansPac/default_jango2_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"jango3_fett"
+model	MandoloriansPac/default_jango3_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"jangosniper"
+model	MandoloriansPac/default_jangosniper
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"montross_fett"
+model	MandoloriansPac/default_montross_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"alpha_fett"
+model	MandoloriansPac/default_alpha_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"omega_fett"
+model	MandoloriansPac/default_omega_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"infantry_fett"
+model	MandoloriansPac/default_infantry_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"jaster_fett"
+model	MandoloriansPac/default_jaster_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"dak_fett"
+model	MandoloriansPac/default_dak_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+

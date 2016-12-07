@@ -1,0 +1,159 @@
+FxRunner
+{
+	name				LightningBolt
+
+	playfx
+	[
+		env/huge_lightning
+		force/lightning
+		force/lightning
+		force/lightning
+		force/lightningwide
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				150
+
+	rgb
+	{
+		start			1 1 1 0.8667 0.9333 1
+	}
+
+	size
+	{
+		start			1200 1800
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Boom!
+
+	cullrange			2500
+
+	sounds
+	[
+		sound/ambience/thunder_close1.mp3
+		sound/ambience/thunder_close1.mp3
+		sound/ambience/thunder_close2.mp3
+		sound/ambience/thunder_close2.mp3
+		sound/ambience/thunder1.mp3
+		sound/ambience/thunder2.wav
+		sound/ambience/thunder3.wav
+		sound/ambience/thunder4.mp3
+	]
+}
+
+Particle
+{
+	name				LightFlare
+
+	life				200 250
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.102 0.3255 0.549 0 0.02353 0.3569
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.5 1
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			30 50
+		end				120 150
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_purple
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				100 150
+
+	cullrange			300
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+		end				0 0.05882 0.2588 0 0.02353 0.2353
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			50 70
+		end				200 300
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	cullrange			800
+
+	rgb
+	{
+		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}

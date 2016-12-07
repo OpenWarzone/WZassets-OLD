@@ -1,0 +1,704 @@
+repeatDelay				300
+
+Particle
+{
+	name				LightBeam
+
+	life				700 800
+
+	cullrange			500
+
+	origin				0 0 0 20 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			50 70
+		end				400 500
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Emitter
+{
+	name				ExplosiveSphere
+
+	flags				useModel
+
+	life				800 1200
+
+	rotation			0 360
+
+	angleDelta			0 0 0 360 180 90
+
+	size
+	{
+		start			3
+		end				0
+		parm			30 60
+		flags			linear clamp
+	}
+
+	models
+	[
+		models/effects/concussion_explosive_sphere.md3
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	flags				useBBox usePhysics
+
+	count				80 100
+
+	life				1200 1500
+
+	delay				50 150
+
+	cullrange			500
+
+	bounce				0.25 0.4
+
+	min					-0.5 -0.5 -0.5
+
+	max					0.5 0.5 0.5
+
+	velocity			-300 -300 -300 300 300 300
+
+	gravity				-100 -200
+
+	rgb
+	{
+		start			0.549 0.7529 1 0.7804 0.8078 0.8471
+		end				0.1294 0.3216 0.9804 0.1255 0.1451 0.9843
+		flags			linear
+	}
+
+	size
+	{
+		start			1.6 2
+		end				0
+		parm			70
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow
+	]
+}
+
+Line
+{
+	name				Lines
+
+	count				6 14
+
+	life				1300 1600
+
+	delay				150 200
+
+	origin2				-60 -100 -100 120 100 100
+
+	rgb
+	{
+		start			0.7804 0.8078 0.8471 0.549 0.7529 1
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			20 30
+		end				50 60
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/ftail1
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+	]
+}
+
+Particle
+{
+	name				Baseflare
+
+	count				3
+
+	life				1500 2200
+
+	rotation			0 360
+
+	rotationDelta		-30 40
+
+	rgb
+	{
+		start			1 1 1 1 0.7098 0.4431
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			4 6
+		end				200 300
+		parm			30 40
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+	]
+}
+
+Particle
+{
+	name				Shockwave
+
+	life				200 300
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.4745 0.6588 1
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.5 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				500 600
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				Firey
+
+	flags				useBBox
+
+	spawnFlags			orgOnSphere axisFromSphere evenDistribution
+
+	count				16 20
+
+	life				600 800
+
+	delay				100 1400
+
+	intensity			0.1
+
+	radius				50 80
+
+	height				20 30
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-16 18
+
+	velocity			20 -10 -10 50 10 10
+
+	gravity				200 300
+
+	rgb
+	{
+		end				0.3098 0.502 1 0.2235 0.1608 0.9961
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			80 120
+		end				0
+		parm			60 70
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+		gfx/flames/particle_blur1
+		gfx/flames/particle_blur2
+		gfx/flames/particle_blur3
+		gfx/flames/particle_blur4
+		gfx/flames/particle_blur5
+		gfx/flames/particle_blur6
+		gfx/flames/particle_blur7
+		gfx/flames/particle_blur8
+	]
+}
+
+Particle
+{
+	name				SmokeThick
+
+	flags				expensivePhysics useBBox usePhysics useAlpha
+
+	spawnFlags			orgOnSphere rgbComponentInterpolation affectedByWind
+
+	count				4 5
+
+	life				5000 6000
+
+	delay				200 300
+
+	bounce				0.1
+
+	min					-1 -1 -1
+
+	max					1 1 1
+
+	radius				50
+
+	height				50
+
+	wind				5 25
+
+	rotation			-180 180
+
+	rotationDelta		-10 10
+
+	velocity			-15 -15 -15 15 15 15
+
+	gravity				20 30
+
+	rgb
+	{
+		start			1 1 1 0.7765 0.7843 0.851
+		end				0.5843 0.5843 0.651
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.4
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			80 120
+		end				430 570
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+	]
+}
+
+Tail
+{
+	name				BlazingTrails
+
+	flags				usePhysics impactKills
+
+	spawnFlags			orgOnSphere axisFromSphere
+
+	count				6 7
+
+	life				2500 3200
+
+	origin2				-200 -200 -200 300 200 200
+
+	radius				1
+
+	height				1
+
+	velocity			10 0 0
+
+	rgb
+	{
+		start			0.851 0.8902 1 0.5569 0.6902 0.9176
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				20 60
+		parm			40 50
+		flags			clamp
+	}
+
+	length
+	{
+		start			0
+		end				200 500
+		parm			20 30
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}
+
+OrientedParticle
+{
+	name				Shocky
+
+	life				400 500
+
+	delay				200
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.7843 0.8471 0.9922 0.702 0.7373 0.9922
+		end				0.2941 0.6118 0.9608 0.6275 0.749 0.9804
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		end				300 400
+		parm			30 40
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+CameraShake
+{
+	name				Shake
+
+	life				500 800
+
+	intensity			3 5
+
+	radius				500 600
+}
+
+Flash
+{
+	name				Flash
+
+	life				800 1200
+
+	delay				100 200
+
+	cullrange			800
+
+	rgb
+	{
+		start			0.9961 0.8902 0.8118 0.8 0.8941 1
+		end				0 0 0
+		flags			linear
+	}
+
+	alpha
+	{
+		parm			80
+	}
+
+	shaders
+	[
+		gfx/flares/lensflash1
+		gfx/flares/lensflash2
+		gfx/flares/lensflash3
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				700 750
+
+	rgb
+	{
+		start			0.6275 0.749 0.9804 0.7804 0.8078 0.8471
+	}
+
+	alpha
+	{
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			350
+		end				0
+		flags			linear
+	}
+}
+
+Sound
+{
+	name				Boom
+
+	cullrange			2500
+
+	sounds
+	[
+		sound/weapons/explosions/explosion_05.wav
+		sound/weapons/explosions/explosion_06.wav
+		sound/weapons/explosions/explosion_08.wav
+		sound/weapons/explosions/explosion_10.wav
+		sound/weapons/explosions/explosion_10.wav
+	]
+}
+
+Decal
+{
+	name				Burnmark
+
+	delay				100 200
+
+	rotation			0 360
+
+	size
+	{
+		start			160 200
+	}
+
+	shaders
+	[
+		gfx/burnmarks/burnmark_1
+		gfx/burnmarks/burnmark_10
+		gfx/burnmarks/burnmark_2
+		gfx/burnmarks/burnmark_3
+		gfx/burnmarks/burnmark_4
+		gfx/burnmarks/burnmark_5
+		gfx/burnmarks/burnmark_6
+		gfx/burnmarks/burnmark_7
+		gfx/burnmarks/burnmark_8
+		gfx/burnmarks/burnmark_9
+	]
+}
+
+Particle
+{
+	name				Copy of Explosion
+
+	life				500
+
+	delay				200 300
+
+	rgb
+	{
+		start			0.502 0.7765 1 0.7804 0.8078 0.8471
+		end				0.02745 0.7569 0.9725 0.0902 0.02353 0.6745
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			400 500
+		end				80 120
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/muzzleflare
+	]
+}
+
+OrientedParticle
+{
+	name				Copy of Shocky
+
+	count				4 5
+
+	life				800 1200
+
+	delay				200 800
+
+	origin				-10 0 0 10 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.7843 0.8471 0.9922 0.702 0.7373 0.9922
+		end				0.2941 0.6118 0.9608 0.6275 0.749 0.9804
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		end				180 220
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/shockwave
+	]
+}
+
+Particle
+{
+	name				Copy of Firey
+
+	flags				useBBox
+
+	spawnFlags			orgOnSphere axisFromSphere evenDistribution
+
+	count				6 8
+
+	life				600 800
+
+	delay				300 1000
+
+	intensity			0.1
+
+	radius				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-16 18
+
+	velocity			20 -10 -10 50 10 10
+
+	acceleration		0 5 5
+
+	gravity				500 700
+
+	rgb
+	{
+		end				0 0.1451 0.7255 0 0.2902 0.7255
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			120 150
+		end				0
+		parm			60 70
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+		gfx/flames/particle_white1
+		gfx/flames/particle_white2
+		gfx/flames/particle_white3
+		gfx/flames/particle_white4
+		gfx/flames/particle_white5
+		gfx/flames/particle_white6
+		gfx/flames/particle_white7
+		gfx/flames/particle_white8
+	]
+}

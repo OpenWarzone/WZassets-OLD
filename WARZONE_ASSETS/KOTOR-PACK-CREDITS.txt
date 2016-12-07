@@ -1,0 +1,44 @@
+ TITLE : Kotorpack_v.8.0_CompleteEdition
+ AUTHOR of the collection: DarthStiv
+ Mail : ivansteblyuk@rambler.ru
+ Official page: http://www.moddb.com/members/darthstiv
+
+ FILENAME : Kotorpack_v.8.0_CompleteEdition
+ FILESIZE : 348 MB
+ DATE RELEASED : August/2013
+ 
+  -- Credits --
+ 
+Spesial thanks: Raven, Bioware, Obsidian Entertainment and guys like Ambrom.
+Kotor skins by: Joseph Melia, svösh, LordRevan999, Marius Fett, Inyri Forge, 90 SK, Darth Sapiens, Woogiee, Anonymous08.
+Tor hilts by: Jose Carlos
+Female custumization by: Scerendo
+Zaalbar by: Corel
+Darth Revan by: Almighty Gir
+Supported by: RCTX-47, LordRevian
+And everyone whos names are unknown...
+ 
+*************************************************************************************************
+ -- Features --
+ 
+ Tones of Kotor models\skins. Completly new content. Final version with sp/mp customizible characters.
+                                                                   
+*************************************************************************************************
+ -- To Install --
+ 
+ Unzip and place "Kotorpack_v.8.0_CompleteEdition.pk3" into your Jedi Academy base folder:   
+ 
+ StarWars JediKnight Jedi Academy/GameData/base
+         
+ *************************************************************************************************
+ -- To Uninstall --
+ 
+ Remove "Kotorpack_v.8.0_CompleteEdition.pk3" from Jedi Academy base folder.
+ 
+ *************************************************************************************************
+ 
+ THIS MOD FILE IS NOT MADE, DISTRIBUTED, OR SUPPORTED
+ BY LUCASARTS ENTERTAINMENT COMPANY LLC. ELEMENTS
+ TM & LUCASARTS ENTERTAINMENT COMPANY LLC AND/OR
+ ITS LICENSORS. 
+  

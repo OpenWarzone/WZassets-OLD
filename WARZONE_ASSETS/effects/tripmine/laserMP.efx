@@ -1,0 +1,67 @@
+Line
+{
+	flags				usePhysics impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	size
+	{
+		start			0.1 0.15
+	}
+
+	shaders
+	[
+		models/effects/laser_blue
+	]
+
+	impactfx
+	[
+		JKG/laserImpactGlow_blue
+	]
+}
+
+Line
+{
+	spawnflags	org2fromTrace
+
+	size
+	{
+		start	0.5	0.6
+	}
+
+	rgb
+	{
+		start 0.0 0.0 0.12
+	}
+
+	shaders
+	[
+		gfx/blasters/whiteLine
+	]
+}
+
+Particle
+{
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_blue
+	]
+}
+
+OrientedParticle
+{
+	size
+	{
+		start			0.7 0.8
+	}
+
+	shaders
+	[
+		models/effects/laser_point_blue
+	]
+}

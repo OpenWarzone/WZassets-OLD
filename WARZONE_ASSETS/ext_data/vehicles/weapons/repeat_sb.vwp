@@ -1,0 +1,19 @@
+repeat_sb
+{
+name		repeat_sb
+projectile	1
+muzzleFX	"repeater/altmuzzle_flash.efx"
+shotFX		"repeater/alt_projectile"
+impactFX	"repeater/concussion"
+g2MarkShader	"gfx/damage/bodybigburnmark1"
+g2MarkSize	300
+//loopSound	
+speed		8000
+damage		50000
+splashDamage	1000
+splashRadius	1000
+ammoPerShot	100
+width		60
+height		60
+lifetime	20000
+}

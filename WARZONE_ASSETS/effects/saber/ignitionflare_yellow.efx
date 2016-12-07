@@ -1,0 +1,100 @@
+repeatDelay				50
+
+Particle
+{
+	name				Flare Core
+
+	life				30
+
+	alpha
+	{
+		start			0.6 0.8
+	}
+
+	size
+	{
+		start			7
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+	]
+}
+
+Particle
+{
+	name				Flare Stream Additive
+
+	life				30
+
+	rgb
+	{
+		start			0.9765 1 0.4745 1 0.9882 0.4745
+	}
+
+	alpha
+	{
+		start			0.2
+	}
+
+	size
+	{
+		start			40
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Flare Additive
+
+	life				30
+
+	rgb
+	{
+		start			1 0.9804 0.5843 1 0.9216 0.4745
+		end				0.9961 0.9922 0.8392
+	}
+
+	alpha
+	{
+		start			0.6
+	}
+
+	size
+	{
+		start			20
+	}
+
+	shaders
+	[
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				Flare Stream core
+
+	life				30
+
+	alpha
+	{
+		start			0.1 0.2
+	}
+
+	size
+	{
+		start			13 15
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}

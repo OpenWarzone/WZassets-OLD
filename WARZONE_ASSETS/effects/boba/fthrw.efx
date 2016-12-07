@@ -1,0 +1,7 @@
+FxRunner
+{
+	playfx
+	[
+		chemicals/flamethrower.efx
+	]
+}

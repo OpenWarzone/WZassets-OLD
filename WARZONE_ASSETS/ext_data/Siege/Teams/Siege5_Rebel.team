@@ -1,0 +1,16 @@
+//Siege team definition file.
+
+name "Siege5_Rebels"
+FriendlyShader "sprites/team_allies" //Name of shader to display above heads of teammates (to others on this team)
+
+Classes
+{
+	class1		"Rebel Sniper"
+	class2		"Rebel Assault Specialist"
+	class3		"Rebel Infantry"
+	class4		"Wookie"
+	class5		"Rebel Demolitionist"
+	class6		"Rebel Supply"
+	class7		"Rebel Tech"
+	class8		"Jedi Knight"
+}

@@ -1,0 +1,21 @@
+
+staff1
+{
+	name		"Force Staff"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons4/staff1/force_staff_1.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	numBlades	2
+	saberLength	32
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}
+

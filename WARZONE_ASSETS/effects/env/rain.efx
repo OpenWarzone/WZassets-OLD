@@ -1,0 +1,75 @@
+Tail
+{
+	flags				usePhysics impactKills impactFx useAlpha
+
+	spawnFlags			cheapOrgCalc
+
+	life				500
+
+	delay				400
+
+	cullrange			8450
+
+	gravity				-500
+
+	alpha
+	{
+		start			0.4
+	}
+
+	size
+	{
+		start			0.1
+		end				0.2
+		parm			1 3
+		flags			wave
+	}
+
+	length
+	{
+		end				550
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bubble
+	]
+
+	impactfx
+	[
+		env/dripsplash
+	]
+}
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			cheapOrgCalc
+
+	life				399
+
+	cullrange			8400
+
+	rotation			180
+
+	alpha
+	{
+		start			0.3
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			0.1
+		end				0.2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bubble
+	]
+}

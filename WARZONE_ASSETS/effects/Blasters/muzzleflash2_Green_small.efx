@@ -1,0 +1,200 @@
+repeatDelay				250
+
+Particle
+{
+	name				MuzzleFrontInnerCore
+
+	count				2
+
+	cullrange			1500
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 1 1 1 0.8353 0.6824
+	}
+
+	alpha
+	{
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			2 2.3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_green
+		gfx/flares/flare_green
+		gfx/flares/flare_green
+		gfx/flares/flare_green
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				MuzzleFront
+
+	flags				setShaderTime
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0 0.7255 0.01569 0.003922 0.7216 0.04314
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				20 40
+
+	cullrange			300
+
+	rgb
+	{
+		start			0 0.1333 0.07059 0 0.1686 0.06667
+	}
+
+	size
+	{
+		start			3 5
+		end				20 40
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	count				2 3
+
+	life				400 600
+
+	delay				10 20
+
+	cullrange			3000
+
+	rotation			0 360
+
+	rotationDelta		0 50
+
+	velocity			10 -10 -10 60 10 10
+
+	gravity				1 3
+
+	rgb
+	{
+		start			0 0.7255 0.01569 0.003922 0.7216 0.04314
+		end				0.5 0.5 0.5
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0 0.7255 0.01569 0.003922 0.7216 0.04314
+		end				0 0.1333 0.07059 0 0.1686 0.06667
+		flags			linear
+	}
+
+	size
+	{
+		start			50
+		end				30
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	bounce				1
+
+	radius				60
+}

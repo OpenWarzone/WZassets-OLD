@@ -1,0 +1,1364 @@
+anakin_noforce
+{
+	playerModel	KC_anakin
+	saber		anakin2
+	weapon		WP_SABER
+	saberStyle	3
+	FP_HEAL			0
+	FP_LEVITATION	0
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			1
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE 0
+	FP_SABER_OFFENSE 0
+	rank		crewman
+	reactions	1
+	aim		1
+	move		1
+	aggression	1
+	evasion		1
+	intelligence	1
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_REBORN
+	snd		anakin
+	sndcombat	anakin
+	sndjedi		anakin
+	dismemberProbHead	10
+	dismemberProbArms	20
+	dismemberProbHands	50
+	dismemberProbLegs	0
+	dismemberProbWaist	20
+	aotctc_npc		1
+	scale		90
+}
+
+anakin
+{
+	playerModel	KC_anakin
+	saber		anakin
+	weapon	WP_SABER
+	saberStyle	3
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			2
+	FP_PULL			3
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			0
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		lt
+	reactions	2
+	aim		2
+	move		3
+	aggression	5
+	evasion		3
+	intelligence	2
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	snd		anakin
+	sndcombat	anakin
+	sndjedi		anakin
+	dismemberProbHead	10
+	dismemberProbArms	20
+	dismemberProbHands	50
+	dismemberProbLegs	0
+	dismemberProbWaist	20
+	aotctc_npc		1
+	scale		90
+}
+
+anakin_dual
+{
+	playerModel	KC_anakin
+	saber		anakin
+	saberColor	red
+	saber2		quigon
+	saber2Color	red
+	weapon	WP_SABER
+	saberStyle	6
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			2
+	FP_PULL			3
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			0
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		lt
+	reactions	2
+	aim		2
+	move		3
+	aggression	5
+	evasion		3
+	intelligence	2
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_REBORN
+	snd		anakin
+	sndcombat	anakin
+	sndjedi		anakin
+	dismemberProbHead	10
+	dismemberProbArms	20
+	dismemberProbHands	50
+	dismemberProbLegs	0
+	dismemberProbWaist	20
+	aotctc_npc		1
+	scale		90
+}
+
+battle_droid
+{
+	playerModel 	Battle_Droid
+	weapon		WP_DROID_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd		Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale		110
+}
+
+security_droid
+{
+	playerModel 	Battle_Droid
+	customSkin	default_security
+	weapon		WP_DROID_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale		130
+}
+
+commander_droid
+{
+	playerModel 	Battle_Droid
+	customSkin	default_commander
+	weapon		WP_CLONE_LIGHT_RIFLE
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale			140
+}
+
+pilot_droid
+{
+	playerModel 	Battle_Droid
+	customSkin	default_pilot
+	weapon		WP_DROID_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale			120
+}
+
+superbattledroid
+{
+	playerModel	superbattledroid
+	weapon		WP_SEP_ROCKET
+//	weapon		WP_MELEE
+	health		400
+	reactions	5
+	aim		5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	rank		captain
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_STORMTROOPER
+	snd		Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	110
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+	scale		160
+}
+
+super_droid
+{
+	playerModel 	superbattledroid
+	weapon		WP_DROID_BLASTER
+	health		400
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			Battle_Droid
+	sndcombat	Battle_Droid
+	sndextra	Battle_Droid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale		160
+}
+
+CloneTrooper
+{
+	playerModel 	ClonesPac
+	customSkin	officer
+	weapon		WP_CLONE_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+clonecpt1
+{
+	playerModel 	ClonesPac
+	customSkin	default_clonecpt1
+	weapon		WP_DEMP2
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+clonecpt2
+{
+	playerModel 	ClonesPac
+	customSkin	default_clonecpt2
+	weapon		WP_CLONE_BLASTER
+	weapon		WP_CLONE_LIGHT_RIFLE
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+clonelt
+{
+	playerModel 	ClonesPac
+	customSkin	default_clonelt
+	weapon		WP_CLONE_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+arcclone
+{
+	playerModel 	ClonesPac
+	customSkin	default_arcclone
+	weapon		WP_MP_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+arcclone2_fett
+{
+	playerModel 	ClonesPac
+	customSkin	default_arcclone2_fett
+	weapon		WP_WESTAR
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+arcclone3_fett
+{
+	playerModel 	ClonesPac
+	customSkin	default_arcclone3_fett
+	weapon		WP_FETT_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+clonescout_fett
+{
+	playerModel 	ClonesPac
+	customSkin	default_clonescout_fett
+	weapon		WP_NABOO_BLASTER
+	weapon		WP_MP_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+clonesgt
+{
+	playerModel 	ClonesPac
+	customSkin	default_clonesgt
+	weapon		WP_CLONE_LIGHT_RIFLE
+	weapon		WP_MP_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+sniperclone
+{
+	playerModel 	ClonesPac
+	customSkin	default_sniperclone
+	weapon		WP_ZAM_RIFLE
+	weapon		WP_CLONE_LIGHT_RIFLE
+	weapon		WP_MP_BLASTER
+	health		30
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_GENERIC_SHOOTER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			ClonesPac
+	sndcombat	ClonesPac
+	sndextra	ClonesPac
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+	aotctc_npc		1
+}
+
+dooku
+{
+	playerModel	gl_dooku
+	saber		dooku
+	weapon		WP_SABER
+	saberStyle	3
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			2
+	FP_PULL			3
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			0
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		commander
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_ENEMY
+	enemyTeam	TEAM_PLAYER
+	class		CLASS_JEDI
+	snd		dooku
+	sndcombat	dooku
+	sndjedi		dooku
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	0
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale		90
+}
+
+
+jangoh_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_jangoh_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_FETT_BLASTER
+	weapon		WP_WESTAR
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+bobaa_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_bobaa_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_ZAM_RIFLE
+	weapon		WP_FETT_BLASTER
+	weapon		WP_WESTAR
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+boba2_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_boba2_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_FETT_BLASTER
+	weapon		WP_WESTAR
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+jango2_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_jango2_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_FETT_BLASTER
+	weapon		WP_TUSKEN_RIFLE
+//	weapon		WP_WESTAR
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+jango3_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_jango3_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_DISRUPTOR
+	weapon		WP_FETT_BLASTER
+	weapon		WP_SEP_ROCKET
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+jangosniper
+{
+	playerModel	MandoloriansPac
+	customSkin	default_jangosniper
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_ZAM_RIFLE
+	weapon		WP_CLONE_LIGHT_RIFLE
+	weapon		WP_MP_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+montross_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_montross_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_ZAM_RIFLE
+	weapon		WP_FETT_BLASTER
+	weapon		WP_VIBROBLADE
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+alpha_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_alpha_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_VIBROBLADE
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_NABOO_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+omega_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_omega_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_ZAM_RIFLE
+	weapon		WP_VIBROBLADE
+	weapon		WP_ZAM_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+infantry_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_infantry_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_ZAM_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+jaster_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_jaster_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_ZAM_BLASTER
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_FETT_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+dak_fett
+{
+	playerModel	MandoloriansPac
+	customSkin	default_dak_fett
+	altFire		1
+	weapon		WP_MELEE
+	weapon		WP_ZAM_BLASTER
+	weapon		WP_TUSKEN_RIFLE
+	weapon		WP_FETT_BLASTER
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		0
+	FP_PUSH			0
+	FP_PULL			0
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	0
+	FP_SABER_DEFENSE	0
+	FP_SABER_OFFENSE	0
+	health		200
+	headPitchRangeDown 30
+	reactions		5
+	aim				5
+	move			5
+	aggression		5
+	evasion			5
+	intelligence	5
+	earshot			2048
+	visrange		4096
+	hfov			120
+	vfov			100
+	rank			captain
+	playerTeam		TEAM_ENEMY
+	enemyTeam		TEAM_PLAYER
+	class			CLASS_BOBAFETT
+//	class			CLASS_STORMTROOPER
+	walkSpeed		80
+	runSpeed		250
+	snd				MandoloriansPac
+	sndcombat		MandoloriansPac
+	sndextra		MandoloriansPac
+	yawspeed		180
+	aotctc_npc		1
+}
+
+yoda
+{
+	playerModel	yoda
+	saber		yoda
+	weapon	WP_SABER
+	saberStyle	3
+	FP_HEAL			0
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			2
+	FP_PULL			3
+	FP_TELEPATHY	0
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		0
+	FP_ABSORB		0
+	FP_DRAIN		0
+	FP_SEE			0
+	FP_SABERTHROW	2
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		commander
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	snd		yoda
+	sndcombat	yoda
+	sndjedi		yoda
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbHands	0
+	dismemberProbLegs	0
+	dismemberProbWaist	0
+	aotctc_npc		1
+	scale		50
+}
+
+
+
+
+
+

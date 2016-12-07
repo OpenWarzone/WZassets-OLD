@@ -1,0 +1,9 @@
+
+{
+name	"General-Windu"
+model	general_windu
+color1	5
+personality	/botfiles/General-Windu.jkb
+//General-Windu - new bot! Light side...
+}
+

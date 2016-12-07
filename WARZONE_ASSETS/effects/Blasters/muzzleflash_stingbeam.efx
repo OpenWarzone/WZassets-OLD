@@ -1,0 +1,258 @@
+repeatDelay				50
+
+Electricity
+{
+	name				Electricity
+
+	flags				useModel useBBox impactFx
+
+	count				0 1
+
+	life				80
+
+	intensity			0.8 2
+
+	origin2				50 0 0 60 0 0
+
+	rgb
+	{
+		start			0.9765 0.5451 0.2235 1 0.8196 0.1098
+	}
+
+	size
+	{
+		start			7 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity_glowy
+	]
+}
+
+Particle
+{
+	name				LightFlare
+
+	life				50 80
+
+//	origin				3 0 0
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.5725 0.3255 0.07843 0.3569 0.2784 0
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			2 6
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_golden
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				50 100
+
+	cullrange			300
+
+//	origin				3 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+		end				0 0.05882 0.2588 0 0.02353 0.2353
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			10 16
+		end				50 60
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				ElectricityFiller
+
+	life				80
+
+//	origin				3 0 0
+
+	rotation			-180 180
+
+	rgb
+	{
+		start			0.9765 0.5451 0.2235 1 0.8196 0.1098
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			3 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}
+
+Line
+{
+	name				Core
+
+	cullrange			2000
+
+	origin2				16 0 0 20 0 0
+
+	rgb
+	{
+		start			0.9843 0.6157 0.1255
+	}
+
+	alpha
+	{
+		start			0.9 1
+		end				0.35
+		flags			linear
+	}
+
+	size
+	{
+		start			3.8 4.5
+		end				3.3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/sideflash1
+		gfx/blasters/sideflash2
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+		gfx/blasters/sideflash3
+		gfx/blasters/sideflash4
+		gfx/blasters/sideflash5
+		gfx/blasters/sideflash6
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+		gfx/flares/lightbeam2
+	]
+}
+
+Particle
+{
+	name				MuzzleFront
+
+	flags				setShaderTime
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.5843 0.3961 0 0.5843 0.3098 0
+	}
+
+	alpha
+	{
+		start			0.7 0.8
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			5 6
+		end				4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0.7176 0.3765 0
+		end				0.2353 0.102 0 0.1765 0.0902 0
+		flags			linear
+	}
+
+	size
+	{
+		start			75
+		end				65
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	bounce				2
+
+	radius				60
+}

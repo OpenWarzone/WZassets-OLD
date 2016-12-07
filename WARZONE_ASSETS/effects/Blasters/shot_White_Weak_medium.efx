@@ -1,0 +1,101 @@
+repeatDelay				50
+
+Line
+{
+	name				BlasterBolt_Glow
+
+	life				10
+
+	origin				120 0 0
+
+	origin2				-15 0 0
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+	}
+
+	size
+	{
+		start			7
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Glow_White
+	]
+}
+
+OrientedParticle
+{
+	name				BlasterBolt_Cap
+
+	life				10
+
+	cullrange			1000
+
+	origin				105 0 0
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+	}
+
+	size
+	{
+		start			6
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Cap_White
+	]
+}
+
+Particle
+{
+	name				LightBeams
+
+	count				0.7 1.6
+
+	life				10 50
+
+	cullrange			300
+
+	origin				60 0 0 105 0 0
+
+	rgb
+	{
+		start			0.02745 0.02745 0.07843 0.05882 0.05882 0.1098
+	}
+
+	size
+	{
+		start			20 60
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				2 3
+
+	cullrange			800
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+	}
+
+	size
+	{
+		start			80 100
+	}
+}

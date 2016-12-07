@@ -1,0 +1,11 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		slugthrowers/acp_impactmedium
+		slugthrowers/acp_impactmedium
+		slugthrowers/acp_impactsmall
+	]
+}

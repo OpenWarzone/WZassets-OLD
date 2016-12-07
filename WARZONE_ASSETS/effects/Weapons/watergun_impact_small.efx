@@ -1,0 +1,13 @@
+FxRunner
+{
+
+	playfx
+	[
+		materials/water_medium
+		materials/water_small
+		materials/water_small
+		materials/water_tiny
+		materials/water_tiny
+		materials/water_tiny
+	]
+}

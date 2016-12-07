@@ -1,0 +1,278 @@
+repeatDelay				250
+
+Particle
+{
+	name				MuzzleFrontInnerCore
+
+	count				2
+
+	cullrange			1500
+
+//	origin				2 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.9412 0.902 0.8353 1 1 1
+	}
+
+	alpha
+	{
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			2 2.3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_white1
+		gfx/flames/particle_white2
+		gfx/flames/particle_white3
+		gfx/flames/particle_white4
+		gfx/flames/particle_white5
+		gfx/flames/particle_white6
+		gfx/flames/particle_white7
+		gfx/flames/particle_white8
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				MuzzleFront
+
+	flags				setShaderTime
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_white1
+		gfx/flames/particle_white2
+		gfx/flames/particle_white3
+		gfx/flames/particle_white4
+		gfx/flames/particle_white5
+		gfx/flames/particle_white6
+		gfx/flames/particle_white7
+		gfx/flames/particle_white8
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				20 40
+
+	cullrange			300
+
+//	origin				3 0 0
+
+	rgb
+	{
+		start			0.02745 0.02745 0.07843 0.05882 0.05882 0.1098
+	}
+
+	size
+	{
+		start			3 5
+		end				20 40
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	count				2 3
+
+	life				400 600
+
+	delay				10 20
+
+	cullrange			3000
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rotationDelta		0 50
+
+	velocity			10 -10 -10 60 10 10
+
+	gravity				1 3
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+		end				0.5 0.5 0.5
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+	]
+}
+
+Tail
+{
+	name				BlasterBolt
+
+	life				50 60
+
+	cullrange			1500
+
+//	origin				1 0 0
+
+	origin2				-120 0 0
+
+	velocity			3 0 0
+
+	size
+	{
+		start			4
+	}
+
+	length
+	{
+		start			-28 -30
+		end				-85
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Beam_White
+	]
+}
+
+Tail
+{
+	name				BlasterBolt_Glow
+
+	life				50 60
+
+	cullrange			1500
+
+	origin2				-120 0 0
+
+	velocity			3 0 0
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+	}
+
+	size
+	{
+		start			8
+	}
+
+	length
+	{
+		start			-28 -30
+		end				-85
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	cullrange			4000
+
+	rgb
+	{
+		start			1 1 1 0.9098 0.9529 1
+		end				0.02745 0.02745 0.07843 0.05882 0.05882 0.1098
+		flags			linear
+	}
+
+	size
+	{
+		start			50
+		end				30
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	bounce				1
+
+	radius				60
+}

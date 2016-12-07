@@ -1,0 +1,55 @@
+  ///////////////////////////////////
+  //                               // 
+  //   **** Clean Shaders ****     //
+  //         Nov. 7th, 2003        //
+  //          By Astrocreep        //
+  //          -------------        //
+  //    For Level Editing info:    //
+  //       www.map-center.com      //
+  //          -------------        //
+  //    For GtkRadiant Updates:    //
+  //       www.qeradiant.com       //
+  //                               //
+  ///////////////////////////////////
+
+
+bespin
+bounty
+byss
+common
+danger
+decals
+desert
+doomgiver
+factory
+flares
+fogs
+hoth
+imp_mine
+imperial
+jnegretetest
+korriban
+models
+mp
+quicktrip
+rbettenbergtest
+rift
+siege
+skies
+stu
+system
+taspir
+vjun
+wedge
+yavin
+zzz_warzone_overlays
+zzz_warzone_steepmaps
+zzZ_Warzone_Radar
+zzz_foliage
+zzz_foliage_dense
+zzz_foliage_light
+zzz_warzone_trees_nonsolid
+zzz_warzone_trees_solid
+zzz_warzone_mapobjects_nonsolid
+zzz_warzone_mapobjects_solid
+

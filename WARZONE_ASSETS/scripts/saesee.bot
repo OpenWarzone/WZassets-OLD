@@ -1,0 +1,16 @@
+{
+name		"Saesee_Tiin"
+model		saesee_tiin
+color1          3	
+hilt        "q_saesse"
+personality	/botfiles/saesee.jkb
+}
+
+
+{
+name      "Darth_Leshiik"
+model        saesee_tiin/red
+color1      0
+hilt       "darksaber"
+personality /botfiles/leshiik.jkb
+}

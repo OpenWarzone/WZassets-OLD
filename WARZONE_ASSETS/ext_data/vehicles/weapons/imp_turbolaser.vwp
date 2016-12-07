@@ -1,0 +1,18 @@
+imp_turbolaser
+{
+name		imp_turbolaser
+projectile	1
+muzzleFX	"ships/imp_blastermuzzleflash"
+shotFX		"ships/imp_blastershot2"
+impactFX	"ships/imp_blasterimpact"
+g2MarkShader	"gfx/effects/scorch"
+g2MarkSize	56
+//loopSound	
+speed		10000
+damage		1000000
+//damage		500
+splashDamage	1000
+splashRadius	1000
+ammoPerShot	100
+lifetime	200000
+}

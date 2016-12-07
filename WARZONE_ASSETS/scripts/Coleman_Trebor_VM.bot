@@ -1,0 +1,8 @@
+
+{
+name	"Coleman_Trebor_VM"
+model	coleman_trebor_vm
+color1	4
+personality	/botfiles/Coleman_Trebor_VM.jkb
+}
+

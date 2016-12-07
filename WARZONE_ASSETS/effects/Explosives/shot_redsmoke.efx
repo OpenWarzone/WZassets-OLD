@@ -1,0 +1,50 @@
+repeatDelay				50
+
+Particle
+{
+	name				Steam
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 2
+
+	life				2000 3500
+
+	origin				0 -1 0 0 1 0
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			-5 -1 -1 -50 1 1
+
+	gravity				5 20
+
+	rgb
+	{
+		start			0.9333 0.5765 0.5765 0.9098 0.451 0.4627
+		end				0.3804 0.08627 0.08627 0.3686 0.102 0.102
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}

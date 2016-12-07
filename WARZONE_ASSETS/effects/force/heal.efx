@@ -1,0 +1,330 @@
+repeatDelay				200
+
+Particle
+{
+	name				head
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				900 800
+
+	origin				-2 -2 5 2 2 3
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5
+		end				13 17
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				rshoulder
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				2500 3000
+
+	origin				0 -10 -3 0 -8 -5
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5
+		end				25 20
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				lshoulder
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				2500 3000
+
+	origin				0 10 -3 0 8 -5
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			7 9
+		end				30
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				head1
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				1000 3000
+
+	origin				-2 -4 1 2 -2 3
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			7 13
+		end				35 45
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				head2
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				2500 3000
+
+	origin				-2 2 1 2 4 3
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			4 8
+		end				33 25
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				rshoulder2
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				2500 3000
+
+	origin				0 -4 -2 0 -6 -4
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			12 8
+		end				33 35
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				lshoulder2
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				2500 3000
+
+	origin				0 4 -2 0 6 -4
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				15
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		parm			20 50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			8 14
+		end				33 45
+		parm			20 30
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}

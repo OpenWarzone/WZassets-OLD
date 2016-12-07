@@ -1,0 +1,170 @@
+repeatDelay				200
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				8 7
+
+	life				650 700
+
+	radius				20
+
+	height				0
+
+	rotation			0 7
+
+	rotationDelta		0 180
+
+	velocity			200 -50 -50 100 50 50
+
+	gravity				-600 -800
+
+	rgb
+	{
+		start			0.7333 0.6941 0.5843 0.2863 0.2196 0.1725
+	}
+
+	size
+	{
+		start			4 5
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 3
+
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				16 15
+
+	life				650 700
+
+	radius				20
+
+	rotation			0 7
+
+	rotationDelta		0 180
+
+	velocity			150 -60 -60 150 60 60
+
+	gravity				-700
+
+	rgb
+	{
+		start			0.2824 0.2078 0.1765 0.7333 0.6941 0.5843
+	}
+
+	size
+	{
+		start			2
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Line
+{
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				3
+
+	life				350 400
+
+	origin				30 0 0
+
+	origin2				5 0 0 7 0 0
+
+	radius				30 50
+
+	height				0
+
+	rgb
+	{
+		start			0.2941 0.2196 0.1608 0.2588 0.2118 0.1765
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				4 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Line
+{
+	name				Copy of Unnamed Line 5
+
+	flags				useAlpha
+
+	spawnFlags			orgOnCylinder axisFromSphere rgbComponentInterpolation
+
+	count				8 9
+
+	life				350 400
+
+	origin				20 0 0
+
+	origin2				2 0 0 6 0 0
+
+	radius				10 30
+
+	height				0
+
+	rgb
+	{
+		start			0.7333 0.6941 0.5843 0.2588 0.2118 0.1765
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3
+		end				4 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bp_blob
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/player/mud_land.mp3
+	]
+}

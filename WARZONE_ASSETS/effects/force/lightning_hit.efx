@@ -1,0 +1,320 @@
+repeatDelay				200
+
+Particle
+{
+	name				Explosion
+
+	count				1 2
+
+	life				400 500
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -3 -3 20 3 3
+
+	gravity				1 8
+
+	rgb
+	{
+		start			0.4588 0.7961 1 0.2431 0.4706 1
+		end				0 0.1451 0.7255 0 0.2902 0.7255
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 70
+		flags			linear clamp
+	}
+
+	size
+	{
+		start			3 5
+		end				12 15
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_fire1
+		gfx/flames/particle_fire2
+		gfx/flames/particle_fire3
+		gfx/flames/particle_fire4
+		gfx/flames/particle_fire5
+		gfx/flames/particle_fire6
+		gfx/flames/particle_fire7
+		gfx/flames/particle_fire8
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	life				2000 3000
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -3 -3 3 3 3
+
+	gravity				5 6
+
+	rgb
+	{
+		start			1 1 1 0.7765 0.7765 0.8157
+		end				0.302 0.302 0.3686
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}
+
+Light
+{
+	name				LightFlash
+
+	life				100
+
+	rgb
+	{
+		start			0.2196 0.2824 0.4471 0.2275 0.2667 0.4392
+		end				0.02745 0.06275 0.1294 0.03529 0.01961 0.1373
+		flags			linear
+	}
+
+	size
+	{
+		start			80 100
+		end				0
+		flags			linear
+	}
+}
+
+Electricity
+{
+	name				Electricity
+
+	flags				useModel useBBox usePhysics useAlpha
+
+	count				2 3
+
+	life				300 400
+
+	bounce				3 5
+
+	origin2				-5 -20 -20 30 20 20
+
+	size
+	{
+		start			4 5
+		end				2 3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity_glowy
+	]
+}
+
+OrientedParticle
+{
+	name				LightningBurst
+
+	count				1 2
+
+	life				300 400
+
+	rotation			-180 180
+
+	rotationDelta		-8 12
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		end				10 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}
+
+Line
+{
+	name				Fire
+
+	spawnFlags			cheapOrg2Calc absoluteVel
+
+	life				500 600
+
+	origin2				0 0 18 5 0 28
+
+	velocity			0 0 -0.1
+
+	rgb
+	{
+		start			0.4588 0.7961 1 0.2431 0.4706 1
+		end				0 0.1451 0.7255 0 0.2902 0.7255
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		parm			70 80
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			4 7
+	}
+
+	length
+	{
+		start			16 20
+		end				26 34
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/fire
+	]
+}
+
+Line
+{
+	name				SideFlash
+
+	count				4 5
+
+	life				200 300
+
+	origin				1 0 0
+
+	origin2				5 -16 -15 12 20 18
+
+	rgb
+	{
+		start			0.1294 0.3216 0.9804
+	}
+
+	alpha
+	{
+		end				0.35
+		flags			linear
+	}
+
+	size
+	{
+		start			5 6
+		end				2 3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/ftail1
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+		gfx/effects/plume1
+		gfx/effects/plume2
+		gfx/effects/rocket_muz
+		gfx/effects/rocket_muz2
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+		gfx/flares/lightbeam2
+	]
+}
+
+FxRunner
+{
+	name				Storm
+
+	spawnFlags			cheapOrgCalc orgOnSphere axisFromSphere
+
+	count				0 //0.55
+
+	origin				0 0 160 0 0 260
+
+	radius				10 70
+
+	height				10 20
+
+	playfx
+	[
+		force/lightning_storm
+		force/lightning_storm_big
+		force/lightning_storm_huge
+		force/lightning_storm_small
+		force/lightning_storm_tiny
+		force/lightning_storm
+		force/lightning_storm_big
+		force/lightning_storm_small
+		force/lightning_storm_tiny
+		force/lightning_storm
+		force/lightning_storm_small
+		force/lightning_storm_tiny
+		force/lightning_storm_small
+		force/lightning_storm_tiny
+		force/lightning_storm_tiny
+	]
+}

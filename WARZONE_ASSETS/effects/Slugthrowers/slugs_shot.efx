@@ -1,0 +1,141 @@
+Particle
+{
+	name				Flare
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				1 3
+
+	life				12 15
+
+	cullrange			400
+
+	origin				-7 -6 -12 10 7 10
+
+	rgb
+	{
+		start			1 0.9255 0.702 1 0.8 0.302
+	}
+
+	size
+	{
+		start			4 5
+		flags			random
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+		gfx/flares/flare_golden
+		gfx/flares/flare_red
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+		gfx/flares/muzzleflare
+	]
+}
+
+Particle
+{
+	name				Steam
+
+	life				400 500
+
+	origin				-7 -6 -12 10 7 10
+
+	velocity			-10 0 0 -60 0 0
+
+	acceleration		0 -10 -10 0 10 10
+
+	gravity				20 50
+
+	rgb
+	{
+		start			1 1 1 0.8431 0.8431 0.7569
+		end				0.2353 0.2353 0.2353
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			6 8
+		end				10 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Emitter
+{
+	name				Projectile
+
+	flags				useModel
+
+	count				3 4
+
+	origin				-7 -6 -12 10 7 10
+
+	angle				0 0 0 0 0 30
+
+	size
+	{
+		start			0.3 1
+	}
+
+	models
+	[
+		models/weapons2/golan_arms/projectilemain.md3
+		models/weapons2/golan_arms/projectilemain_1.md3
+		models/weapons2/golan_arms/projectilemain_2.md3
+	]
+}
+
+Line
+{
+	name				Tail
+
+	count				2 3
+
+	life				100
+
+	origin				-7 0 -1 10 0 1
+
+	origin2				-40 0 0 -70 0 0
+
+	rgb
+	{
+		start			1 1 1 0.8431 0.8431 0.7569
+		end				0.2353 0.2353 0.2353
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+	}
+
+	size
+	{
+		start			3 20
+		end				10 30
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail2
+		gfx/flames/smokeTrail3
+	]
+}

@@ -1,0 +1,19 @@
+plasma_cannon
+{
+name		plasma_cannon
+projectile	1
+muzzleFX	"ships/plasma_launch"
+shotFX		"ships/mine"
+impactFX	"ships/mine_impact"
+g2MarkShader	"gfx/damage/bodybigburnmark1"
+g2MarkSize	100
+//loopSound	
+speed		15000
+damage		200
+//damage		50
+splashDamage	175
+splashRadius	200
+ammoPerShot	2
+lifetime	550
+explodeOnExpire	1
+}

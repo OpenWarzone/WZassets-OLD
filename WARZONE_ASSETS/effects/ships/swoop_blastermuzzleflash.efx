@@ -1,0 +1,17 @@
+Sound
+{
+	name				FiringSound
+
+	sounds
+	[
+		sound/vehicles/weapons/swoop_laser/fire1.mp3
+	]
+}
+
+FxRunner
+{
+	playfx
+	[
+		blasters/muzzleflash_yellow_medium
+	]
+}

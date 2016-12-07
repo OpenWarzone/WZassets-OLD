@@ -1,0 +1,97 @@
+
+{
+name	"clone"
+model	ClonesPac/default_clone
+color1	4
+personality	/botfiles/jango.jkb
+//clone is attached to clone
+merc        5
+}
+
+
+{
+name	"clonecpt1"
+model	ClonesPac/default_clonecpt1
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"clonecpt2"
+model	ClonesPac/default_clonecpt2
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"clonelt"
+model	ClonesPac/default_clonelt
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"arcclone"
+model	ClonesPac/default_arcclone
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"arcclone2_fett"
+model	ClonesPac/default_arcclone2_fett
+color1	4
+personality	/botfiles/jango.jkb
+//arcclone2_fett is aligned with arcclone2_fett, and clone
+merc        2
+}
+
+
+{
+name	"arcclone3_fett"
+model	ClonesPac/default_arcclone3_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"clonescout_fett"
+model	ClonesPac/default_clonescout_fett
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"clonesgt"
+model	ClonesPac/default_clonesgt
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+{
+name	"sniperclone"
+model	ClonesPac/default_sniperclone
+color1	4
+personality	/botfiles/jango.jkb
+//jango - new bot! Light side...
+}
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+repeatDelay				200
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				3 4
+
+	life				700 1000
+
+	delay				0 200
+
+	origin				0 -5 -5 0 5 5
+
+	rotation			0 360
+
+	rotationDelta		-2 3
+
+	velocity			100 -8 -8 160 8 8
+
+	acceleration		-40 0 0
+
+	gravity				20 54
+
+	rgb
+	{
+		start			0.9804 0.8627 0.8627 0.9882 0.9216 0.9216
+		parm			20 30
+		flags			linear clamp
+	}
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			10
+		end				40 45
+		parm			10 20
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}

@@ -1,0 +1,43 @@
+Information file for model 'model.glm'
+
+
+GLM Header info:
+
+->ident:             1296518194
+->version:           6
+->name:              model.glm
+->animName:          models/players/_humanoid/_humanoid
+->animIndex:         ( only used by game, but defaulted to 0 )
+->numBones:          53
+->numLODs:           1
+->ofsLODs:           8976
+->numSurfaces:       58
+->ofsSurfHierarchy:  396
+->ofsEnd:            139964  ( also gives overall filesize )
+
+
+Shader Info:
+
+1 unique shaders used, list follows:
+[nomaterial]
+
+Rendering Info:
+
+1 surfaces out of 58 default to OFF
+46 surfaces out of 58 are tags only
+...therefore default rendered surface total = 11
+
+LOD 0/1:
+{
+Total Verts:                 2359
+Total Tris :                 2811
+Unique Bone Refs:            32
+
+Default rendered Verts:      2218
+Default rendered Tris:       2764
+Default rendered Bone Refs:  32
+}
+
+
+
+( Skeleton file not written out by this model, uses file 'models/players/_humanoid/_humanoid.gla' )

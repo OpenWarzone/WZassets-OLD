@@ -1,0 +1,96 @@
+zallow
+{
+	name		"^5Kotor^7Zallow"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/tor_sabers/zallow.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	40
+	saberColor	random
+}
+
+malgus
+{
+	name		"^5Kotor^1Malgus"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/tor_sabers/malgus.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	40
+	saberColor	random
+}
+
+vanguard
+{
+	name		"^5Kotor^7Vanguard"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/tor_sabers/vanguard_single.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	40
+	saberColor	random
+}
+
+thorn
+{
+	name		"^5Kotor^7Thorn"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/tor_sabers/thorn.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	numBlades	2
+	saberLength	32
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}
+
+vanguard_staff
+{
+	name		"^5Kotor^7Vanguard"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/tor_sabers/vanguard.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	numBlades	2
+	saberLength	32
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}
+
+centurion
+{
+	name		"^5Kotor^7Centurion"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/tor_sabers/centurion.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	numBlades	2
+	saberLength	32
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}
+

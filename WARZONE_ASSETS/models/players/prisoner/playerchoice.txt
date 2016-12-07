@@ -1,0 +1,58 @@
+//colorshadername	{action block}
+
+*white
+{
+	setcvar			ui_char_color_red 255
+	setcvar			ui_char_color_green 255
+	setcvar			ui_char_color_blue 255
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_blue1
+{
+	setcvar			ui_char_color_red 85
+	setcvar			ui_char_color_green 120
+	setcvar			ui_char_color_blue 255
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_violet1
+{
+	setcvar			ui_char_color_red 203
+	setcvar			ui_char_color_green 136
+	setcvar			ui_char_color_blue 60
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_brown1
+{
+	setcvar			ui_char_color_red 100
+	setcvar			ui_char_color_green 119
+	setcvar			ui_char_color_blue 30
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_gold1
+{
+	setcvar			ui_char_color_red 22
+	setcvar			ui_char_color_green 65
+	setcvar			ui_char_color_blue 193
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_red1
+{
+	setcvar			ui_char_color_red 170
+	setcvar			ui_char_color_green 3
+	setcvar			ui_char_color_blue 30
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_yellow1
+{
+	setcvar			ui_char_color_red 225
+	setcvar			ui_char_color_green 226
+	setcvar			ui_char_color_blue 144
+}
+
+gfx/menus/players/prisoner/tintchoice_prisoner_violet2
+{
+	setcvar			ui_char_color_red 167
+	setcvar			ui_char_color_green 202
+	setcvar			ui_char_color_blue 255
+}
+

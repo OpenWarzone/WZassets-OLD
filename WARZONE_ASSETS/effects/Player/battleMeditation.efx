@@ -1,0 +1,19 @@
+Emitter
+{
+	name				Hologram
+
+	flags				useModel
+
+	spawnFlags			cheapOrgCalc
+
+	life				10
+
+	origin				0 0 80
+
+	angle				90 90 90
+
+	models
+	[
+		models/effects/battlemeditation.md3
+	]
+}

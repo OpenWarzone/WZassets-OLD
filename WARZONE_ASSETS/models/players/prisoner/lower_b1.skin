@@ -1,0 +1,9 @@
+//Prisoner-Merchant
+hips,models/players/prisoner/legs_trans2.tga
+hips_cap_l_leg_off,models/players/stormtrooper/caps.tga
+hips_cap_torso_off,models/players/stormtrooper/caps.tga
+hips_cap_r_leg_off,models/players/stormtrooper/caps.tga
+l_leg,models/players/prisoner/boots_hips_trans.tga
+l_leg_cap_hips_off,models/players/stormtrooper/caps.tga
+r_leg,models/players/prisoner/boots_hips_trans.tga
+r_leg_cap_hips_off,models/players/stormtrooper/caps.tga

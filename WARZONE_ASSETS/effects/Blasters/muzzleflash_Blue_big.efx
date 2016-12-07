@@ -1,0 +1,332 @@
+repeatDelay				50
+
+Particle
+{
+	name				MuzzleFrontInnerCore
+
+	count				2
+
+	cullrange			1500
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0.6824 0.7804 1 1 1 1
+	}
+
+	alpha
+	{
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			6 7
+		end				1 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_blue
+		gfx/flares/flare_purple
+		gfx/flares/flare_purple
+		gfx/flares/flare_white
+		gfx/flares/flare_white
+	]
+}
+
+Particle
+{
+	name				MuzzleFront
+
+	flags				setShaderTime
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	alpha
+	{
+		start			0.7 1
+		end				0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			12 16
+		end				8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/particle_blue1
+		gfx/flames/particle_blue2
+		gfx/flames/particle_blue3
+		gfx/flames/particle_blue4
+		gfx/flames/particle_blue5
+		gfx/flames/particle_blue6
+		gfx/flames/particle_blue7
+		gfx/flames/particle_blue8
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				20 40
+
+	cullrange			300
+
+//	origin				3 0 0
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			3 5
+		end				60 120
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	count				2 3
+
+	life				400 600
+
+	delay				0 10
+
+	cullrange			3000
+
+//	origin				3 0 0
+
+	rotation			0 360
+
+	rotationDelta		0 50
+
+	velocity			20 -20 -20 90 20 20
+
+	gravity				1 3
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+		end				0.5 0.5 0.5
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			8 12
+		end				16 32
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+	]
+}
+
+Line
+{
+	name				SideFlash
+
+	count				4 5
+
+	cullrange			1500
+
+//	origin				1 0 0
+
+	origin2				6 -7 -6 8 9 8
+
+	rgb
+	{
+		start			0.7529 0.7529 0.7529 0.6824 0.7804 1
+	}
+
+	alpha
+	{
+		end				0.35
+		flags			linear
+	}
+
+	size
+	{
+		start			6 7
+		end				1 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/sideflash1
+		gfx/blasters/sideflash2
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+		gfx/blasters/sideflash3
+		gfx/blasters/sideflash4
+		gfx/blasters/sideflash5
+		gfx/blasters/sideflash6
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam
+		gfx/flares/lightbeam2
+		gfx/flares/lightbeam2
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam3
+		gfx/flares/lightbeam4
+		gfx/flares/lightbeam4
+	]
+}
+
+Tail
+{
+	name				BlasterBolt
+
+	life				50 60
+
+	cullrange			1500
+
+//	origin				1 0 0
+
+	origin2				-120 0 0
+
+	velocity			3 0 0
+
+	size
+	{
+		start			14
+	}
+
+	length
+	{
+		start			-28 -30
+		end				-185
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/BlasterBolt_Beam_Blue
+	]
+}
+
+Tail
+{
+	name				BlasterBolt_Glow
+
+	life				50 60
+
+	cullrange			1500
+
+	origin2				-120 0 0
+
+	velocity			3 0 0
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+	}
+
+	size
+	{
+		start			28
+	}
+
+	length
+	{
+		start			-28 -30
+		end				-185
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/muzzlesideflash
+		gfx/blasters/muzzlesideflash2
+		gfx/blasters/muzzlesideflash3
+		gfx/blasters/muzzlesideflash4
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	cullrange			4000
+
+	rgb
+	{
+		start			0 0.3255 0.7255 0 0.3608 0.7255
+		end				0 0.007843 0.1333 0.02353 0 0.1686
+		flags			linear
+	}
+
+	size
+	{
+		start			140
+		end				65
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	bounce				3 4
+
+	radius				120
+}

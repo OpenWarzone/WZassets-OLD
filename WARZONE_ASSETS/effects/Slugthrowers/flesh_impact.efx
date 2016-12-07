@@ -1,0 +1,168 @@
+repeatDelay				200
+
+Sound
+{
+	name				WallhitSounds
+
+	cullrange			1100
+
+	sounds
+	[
+		sound/weapons/impacts/flesh_impact1.wav
+		sound/weapons/impacts/flesh_impact2.wav
+		sound/weapons/impacts/flesh_impact3.wav
+		sound/weapons/impacts/flesh_impact4.wav
+		sound/weapons/impacts/flesh_impact5.wav
+		sound/weapons/impacts/flesh_impact6.wav
+		sound/weapons/impacts/flesh_impact7.wav
+		sound/weapons/impacts/flesh_impact8.wav
+		sound/weapons/impacts/flesh_impact9.wav
+		sound/weapons/impacts/flesh_impact10.wav
+	]
+}
+
+Particle
+{
+	name				Dust
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				800 1200
+
+	cullrange			800
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	rotation			-180 180
+
+	rotationDelta		-2 3
+
+	velocity			5 -3 -3 15 3 3
+
+	gravity				-20 -30
+
+	rgb
+	{
+		start			0.6353 0.5373 0.3098 0.3137 0.2784 0.2039
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flares_group_invert
+		gfx/flares/flares_group2_invert
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	life				1200 2200
+
+	cullrange			4000
+
+	bounce				0.1
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -3 -3 3 3 3
+
+	gravity				-5 -6
+
+	rgb
+	{
+		start			0.2353 0 0.04706 0.6667 0.5412 0.349
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				16 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud5_256
+	]
+}
+
+Emitter
+{
+	name				Chunkies
+
+	flags				expensivePhysics useModel usePhysics
+
+	count				0 4
+
+	life				1.3e+004 1.9e+004
+
+	cullrange			600
+
+	bounce				0.2 0.3
+
+	origin				1 -2 -2 2 2 2
+
+	angle				0 0 0 360 360 0
+
+	angleDelta			-20 -20 0 20 20 0
+
+	velocity			0 -100 -100 260 100 100
+
+	gravity				-400 -600
+
+	size
+	{
+		start			0.07 0.1
+	}
+
+	models
+	[
+		models/chunks/tissue/burnt_1.md3
+		models/chunks/tissue/burnt_2.md3
+		models/chunks/tissue/burnt_3.md3
+		models/chunks/tissue/burnt_4.md3
+	]
+}

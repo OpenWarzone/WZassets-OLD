@@ -1,0 +1,4230 @@
+acklay_vehicle_mst
+{
+name			acklay_vehicle_mst
+type			VH_ANIMAL
+numHands		2
+lookYaw		45
+lookPitch		45
+length		130
+width			40
+height		32
+centerOfGravity	"-0.222 0 0"
+speedMax		350
+speedMin		-80
+turboSpeed		700
+turboDuration	4000
+turboRecharge	8000
+acceleration	15
+decelIdle		20
+strafePerc		10.0
+bankingSpeed	0.0
+rollLimit		2
+pitchLimit		0
+braking		10
+mouseYaw		0.006
+turningSpeed	5
+turnWhenStopped	1
+traction		100
+friction		100
+maxSlope		0.65
+mass			250
+armor 		200
+toughness 		10.0
+health		100
+showhealth		1
+model			acklay_mst
+riderAnim		BOTH_FORCEHEAL_START
+radarIcon		"gfx/menus/radar/rancor"
+soundOn 		"sound/vehicles/rancor/on.mp3"
+
+cameraOverride		1
+cameraRange			160
+cameraVertOffset	0
+cameraPitchOffset	-30
+cameraFOV			100
+cameraAlpha			0
+}
+anakin_pod
+{
+name			anakin_pod
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			384
+width			112
+height			64
+centerOfGravity	"-0.222 0 0"
+speedMax		2000
+speedMin		-400
+turboSpeed		2500
+turboDuration		8000
+turboRecharge		24000
+acceleration		20
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.05
+turningSpeed		6
+turnWhenStopped		10
+traction		12
+friction		2.00
+maxSlope		0.65
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	20
+model			anakins_pod
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX			"ships/jet"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		150
+hoverStrength		45
+
+cameraOverride		1
+cameraRange		175
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+
+}
+
+anakinjsf
+{
+name			anakinjsf
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			370
+width			200
+height			128
+g2radius		460
+centerOfGravity		"0 0 0"
+speedMax		3600
+turboSpeed		7000
+turboDuration	2500
+turboRecharge	6000
+speedMin		0
+acceleration	20
+decelIdle		8
+accelIdle		10
+speedIdle		900
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.8
+rollLimit		75
+pitchLimit		70
+braking			30
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		6.2
+turnWhenStopped		1
+traction		10
+friction		0.3
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 			900
+//malfunctionArmorLevel	555
+//health_front	200
+//health_back		250
+//health_right	300
+//health_left		300
+//shields		500
+armor 		1000
+malfunctionArmorLevel	700
+//armor 		2000
+//malfunctionArmorLevel	1000
+health_front	550
+health_back		550
+health_right	600
+health_left		600
+shields		650
+//ms per point of recharge
+shieldRechargeMS	5
+toughness 		75.0
+model			ajsf
+riderAnim		BOTH_VS_IDLE
+droidNPC		"ajsf-r4"
+radarIcon		"gfx/menus/radar/ajsf"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/ajsf-front"
+icon_back		"gfx/menus/radar/ajsf-back"
+icon_right		"gfx/menus/radar/ajsf-right"
+icon_left		"gfx/menus/radar/ajsf-left"
+crosshairShader	"gfx/menus/radar/ajsf-reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ajsf/AJSF_exhaust"
+turboFX			"ajsf/AJSF_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		90
+hoverStrength		20
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			ajsf_laser
+weap1Delay		120
+weap1Aim		1
+weap1AmmoMax	80
+weap1AmmoRechargeMS	600
+weap1Link		1
+
+weap2			conc_missile_straight
+weap2Aim          1
+weap2Delay		1000
+weap2AmmoMax	6
+
+
+
+weapMuzzle1		ajsf_laser
+weapMuzzle2		ajsf_laser
+weapMuzzle3		ajsf_laser
+weapMuzzle4		ajsf_laser
+weapMuzzle5       conc_missile_straight
+
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	100
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+aspeedermp
+{
+name			aspeedermp
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 1
+lookYaw			45
+length			170
+width			150
+height			128
+g2radius		320
+centerOfGravity	"-0.222 0 0"
+speedMax		1100
+turboSpeed		2000
+turboDuration	6000
+turboRecharge	6000
+speedMin		0
+acceleration	25
+decelIdle		12
+accelIdle		20
+speedIdle		1200
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1125
+bankingSpeed	0.5
+rollLimit		45
+pitchLimit		80
+//rollLimit		-1
+//pitchLimit		-1
+braking			30
+mouseYaw		0.009
+mousePitch		0.003
+turningSpeed	6
+turnWhenStopped	0
+traction		18
+friction		0.75
+speedDependantTurning	1
+maxSlope		0.65
+mass			500
+//armor 		1000
+//malfunctionArmorLevel	500
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+armor 		1000
+malfunctionArmorLevel	400
+//armor 		1800
+//malfunctionArmorLevel	600
+health_front	250
+health_back		250
+health_right	500
+health_left		500
+toughness 		75.0
+model			aspeedervm
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/tieF"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_imp"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/TF_front"
+icon_back		"gfx/menus/radar/TF_back"
+icon_right		"gfx/menus/radar/TF_right"
+icon_left		"gfx/menus/radar/TF_left"
+crosshairShader	"gfx/menus/radar/TF_reticle"
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+turboStartFX		"ships/swoop_turbo_start"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/TF_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/TF_nose"
+lwingFX		"ships/TF_lwing"
+rwingFX		"ships/TF_rwing"
+flammable		1
+hoverHeight		45
+hoverStrength	45
+explosionRadius 400
+explosionDamage 1000
+
+surfDestruction	1
+
+landingHeight	300
+
+cameraOverride		1
+cameraRange			300
+cameraVertOffset	110
+cameraPitchOffset	10
+cameraFOV			100
+cameraAlpha			0
+}
+aspeedervm
+{
+name			aspeedervm
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+speedMin		-200
+turboSpeed		2200
+turboDuration		8000
+turboRecharge		2400
+acceleration		30
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.009
+turningSpeed		6
+turnWhenStopped		0
+traction		12
+friction		2.00
+maxSlope		0.65
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	20
+model			aspeedervm
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+impactFX		"ships/scrape_sparks"
+turboStartFX		"ships/swoop_turbo_start"
+flammable		1
+explosionRadius 200
+explosionDamage 500
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		45
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			200
+cameraVertOffset	110
+cameraPitchOffset	10
+cameraFOV			100
+cameraAlpha			0
+
+}
+ATAT_vehicle
+{
+name			ATAT_vehicle
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 1
+lookYaw			45
+lookPitch		45
+length			548
+width			548
+height			548
+centerOfGravity		"-0.222 0 0"
+speedMax		100
+speedMin		-50
+acceleration		8
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		1
+turnWhenStopped		0
+traction		100
+friction		100
+maxSlope		0.7
+mass			400
+armor 			300
+toughness 		0.0
+model			atat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 400
+explosionDamage 1000
+explodeFX		"ships/ship_explosion2"
+explosionDelay	15000
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+
+weap1			atat_laser
+weap1Delay		200
+weap1AmmoMax		50
+weap1AmmoRechargeMS	500
+
+weapMuzzle1		atat_laser
+weapMuzzle2		atat_laser
+
+
+weap2			atat_gun
+weap2Delay		500
+weap2Aim		1
+weap2AmmoMax		20
+weap1AmmoRechargeMS	500
+
+weapMuzzle3		atat_gun
+weapMuzzle4		atat_gun
+
+cameraOverride		1
+cameraRange			1000
+cameraVertOffset		280
+//cameraPitchOffset		0
+cameraFOV			400
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
+awing	
+{
+name			awing
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			225	
+width			220	
+height			59
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		2600
+turboSpeed		4000
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		35
+pitchLimit		60
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+//armor 			1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+//shields		600
+armor 		1500
+malfunctionArmorLevel	750
+//armor 		2400
+//malfunctionArmorLevel	1200
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields		700
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			awing
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/aw"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/aw_front"
+icon_back		"gfx/menus/radar/aw_back"
+icon_right		"gfx/menus/radar/aw_right"
+icon_left		"gfx/menus/radar/aw_left"
+crosshairShader	"gfx/menus/radar/aw_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ships/awing_exhaust"
+turboFX			"ships/awing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/TF_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/TF_nose"
+lwingFX		"ships/TF_lwing"
+rwingFX		"ships/TF_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			yt_turbolaser
+weap1Delay		150
+weap1Aim		1
+weap1AmmoMax	40
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			awing_weapon_2
+weap2Delay		2000
+weap2Aim		1
+weap2AmmoMax	10
+weap2Link		1
+
+weapMuzzle1		yt_turbolaser
+weapMuzzle2		yt_turbolaser
+weapMuzzle3		awing_weapon_2
+weapMuzzle4		awing_weapon_2
+
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+clonetank
+{
+name			clonetank
+type			VH_WALKER
+numHands		2
+hideRider		0
+killRiderOnDeath 	1
+maxPassengers	3
+lookYaw			45
+lookPitch		45
+length			500
+width			300
+height			200
+centerOfGravity		"-.022 0 0"
+speedMax		1000
+speedMin		-100
+acceleration		2
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		4
+turnWhenStopped		1
+traction		100
+friction		100
+maxSlope		0.7
+mass			600
+armor 			5000
+toughness 		90.0
+model			clonetank
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 	500
+explosionDamage 	500
+explodeFX		"ships/ship_explosion2"
+explosionDelay		0
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+soundLoop 		"sound/tiecrawler/loop.wav"
+
+weap1			      rebel_turbolaser
+weap1Delay			100
+weap1AmmoMax		500
+weap1AmmoRechargeMS	100
+weap1Link			1
+
+weap2			atst_rocket
+weap2Delay			1
+weap2AmmoMax		500
+weap2AmmoRechargeMS	100
+weap1Link			1
+
+weapMuzzle1		rebel_turbolaser
+weapMuzzle2		rebel_turbolaser
+weapMuzzle3		rebel_turbolaser
+weapMuzzle4		atst_rocket
+weapMuzzle5		atst_rocket
+
+
+cameraOverride		1
+cameraRange			400
+cameraVertOffset		150
+//cameraPitchOffset		0
+cameraFOV			100
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
+cobra_hat
+{
+name			cobra_hat
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw		60
+length		350
+width			230
+height		188
+g2radius		350
+centerOfGravity	"-0.222 0 0"
+speedMax		6000
+turboSpeed		7000
+turboDuration	5000
+turboRecharge	1000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		10
+speedIdle		100
+//test: speed stays at whatever you last set it to...
+throttleSticks	0
+strafePerc		.05
+bankingSpeed	3.0
+rollLimit		45
+pitchLimit		60
+braking		100
+mouseYaw		.05
+mousePitch		.05
+turningSpeed	6.0
+turnWhenStopped	0
+traction		50
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 		2000
+malfunctionArmorLevel	600
+health_front	500
+health_back		700
+health_right	700
+health_left		700
+shields		500
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			cobra_hat
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/Z95_nose"
+lwingFX		"ships/Z95_lwing"
+rwingFX		"ships/Z95_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	20
+explosionRadius 	600
+explosionDamage 	1000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			rebel_laser 
+weap1Delay		0
+weap1Aim		1
+weap1AmmoMax	550
+weap1AmmoRechargeMS	50
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		0
+weap2Aim		1
+weap2AmmoMax	10
+weap2Link		1
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+weapMuzzle3		concussion_missile
+weapMuzzle4		concussion_missile
+weapMuzzle5		concussion_missile
+weapMuzzle6		imp_laser
+weapMuzzle7		imp_laser
+weapMuzzle8		imp_laser
+weapMuzzle9		imp_laser
+
+cameraOverride	1
+cameraRange		500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+}
+Dewback
+{
+name			Dewback
+type			VH_ANIMAL
+numHands		2
+lookYaw		45
+lookPitch		45
+length		128
+width			32
+height		32
+centerOfGravity	"-0.222 0 0"
+
+speedMax		200
+speedMin		-100
+turboSpeed		600
+turboDuration	5000
+turboRecharge	8000
+acceleration	10
+decelIdle		20
+
+
+strafePerc		0.0
+bankingSpeed	0.0
+rollLimit		2
+pitchLimit		0
+braking		10
+mouseYaw		0.006
+turningSpeed	5
+turnWhenStopped	1
+traction		100
+friction		100
+maxSlope		0.55
+mass			200
+armor 		300
+toughness 		10.0
+health		100
+model			dewback
+riderAnim		BOTH_FORCEHEAL_START
+radarIcon		"gfx/menus/radar/tauntaun"
+
+cameraOverride	1
+cameraRange		220
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV		80
+cameraAlpha		0
+
+
+soundOn		"sound/chars/dewback/misc/buck1.wav"
+soundOff		"sound/chars/dewback/misc/buck2.wav"
+soundTurbo		"sound/chars/dewback/misc/anger1.wav"
+soundShift1		"sound/chars/dewback/misc/anger3.wav"
+soundShift2		"sound/chars/dewback/misc/chatter1.wav"
+soundShift3		"sound/chars/dewback/misc/chatter3.wav"
+soundShift4		"sound/chars/dewback/misc/pant1.mp3"
+}
+DtAawing	
+{
+name			DtAawing
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			225	
+width			220	
+height			59
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		2600
+turboSpeed		4000
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		35
+pitchLimit		60
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+//armor 			1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+//shields		600
+armor 		1500
+malfunctionArmorLevel	750
+//armor 		2400
+//malfunctionArmorLevel	1200
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields		700
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			DtAawing
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/aw"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/aw_front"
+icon_back		"gfx/menus/radar/aw_back"
+icon_right		"gfx/menus/radar/aw_right"
+icon_left		"gfx/menus/radar/aw_left"
+crosshairShader	"gfx/menus/radar/aw_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ships/awing_exhaust"
+turboFX			"ships/awing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/TF_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/TF_nose"
+lwingFX		"ships/TF_lwing"
+rwingFX		"ships/TF_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			yt_turbolaser
+weap1Delay		150
+weap1Aim		1
+weap1AmmoMax	40
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			awing_weapon_2
+weap2Delay		2000
+weap2Aim		1
+weap2AmmoMax	10
+weap2Link		1
+
+weapMuzzle1		yt_turbolaser
+weapMuzzle2		yt_turbolaser
+weapMuzzle3		awing_weapon_2
+weapMuzzle4		awing_weapon_2
+
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+//NOTE: this really acts more like an A-Wing right now, for variety's sake
+
+DtAdeceptor
+{
+name			DtAdeceptor
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			220
+width			210
+height			100
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+//speedMax		2200
+//turboSpeed	4400
+speedMax		3000
+turboSpeed		5200
+turboDuration	4500
+turboRecharge	5000
+speedMin		0
+acceleration	25
+decelIdle		20
+accelIdle		25
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.2
+bankingSpeed	0.5
+rollLimit		85
+pitchLimit		100
+braking		25
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.003
+mousePitch		0.003
+//turningSpeed	5
+turningSpeed	10
+turnWhenStopped		1
+traction		22
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.95
+mass			800
+armor 		1000
+malfunctionArmorLevel	0
+health_front	350
+health_back		350
+health_right	450
+health_left		450
+shields		350
+toughness 		70.0
+model		DtAdeceptor
+skin		default
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/deceptor"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/ar_front"
+icon_back		"gfx/menus/radar/ar_back"
+icon_right		"gfx/menus/radar/ar_right"
+icon_left		"gfx/menus/radar/ar_left"
+crosshairShader	"gfx/menus/radar/deceptor_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/z-95/on.wav"
+soundLoop 		"sound/vehicles/z-95/loop.wav"
+soundOff 		"sound/vehicles/z-95/off.wav"
+soundFlyBy 		"sound/vehicles/z-95/flyby.wav"
+soundFlyBy2 	"sound/vehicles/z-95/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/z-95/flyby.wav"
+exhaustFX		"ships/deceptor_exhaust"
+turboFX			"ships/deceptor_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/deceptor_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/deceptor_guns"
+lwingFX		"ships/deceptor_left"
+rwingFX		"ships/deceptor_right"
+flammable		1
+flammable		1
+hoverHeight		120
+hoverStrength		100
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			plasma_cannon
+weap1Delay		115
+weap1Aim		1
+weap1AmmoMax	80
+weap1AmmoRechargeMS	350
+weap1Link		1
+
+weap2			smart_mine
+weap2Delay		2500
+weap2Aim		1
+weap2AmmoMax	15
+weap1Link		0
+
+weapMuzzle1		plasma_cannon
+weapMuzzle2		plasma_cannon
+weapMuzzle3		plasma_cannon
+weapMuzzle4		plasma_cannon
+weapMuzzle5		smart_mine
+weapMuzzle6		smart_mine
+
+cameraOverride		1
+cameraRange			400
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+DtAjf
+{
+name			DtAjf
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			370
+width			200
+height			128
+g2radius		460
+centerOfGravity		"0 0 0"
+speedMax		3600
+turboSpeed		7000
+turboDuration	2500
+turboRecharge	6000
+speedMin		0
+acceleration	20
+decelIdle		8
+accelIdle		10
+speedIdle		900
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.8
+rollLimit		75
+pitchLimit		70
+braking			30
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		6.2
+turnWhenStopped		1
+traction		10
+friction		0.3
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 			900
+//malfunctionArmorLevel	555
+//health_front	200
+//health_back		250
+//health_right	300
+//health_left		300
+//shields		500
+armor 		1000
+malfunctionArmorLevel	700
+//armor 		2000
+//malfunctionArmorLevel	1000
+health_front	550
+health_back		550
+health_right	600
+health_left		600
+shields		650
+//ms per point of recharge
+shieldRechargeMS	5
+toughness 		75.0
+model			DtAjf
+riderAnim		BOTH_VS_IDLE
+droidNPC		"ajsf-r4"
+radarIcon		"gfx/menus/radar/ajsf"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/ajsf-front"
+icon_back		"gfx/menus/radar/ajsf-back"
+icon_right		"gfx/menus/radar/ajsf-right"
+icon_left		"gfx/menus/radar/ajsf-left"
+crosshairShader	"gfx/menus/radar/ajsf-reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ajsf/AJSF_exhaust"
+turboFX			"ajsf/AJSF_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		90
+hoverStrength		20
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			ajsf_laser
+weap1Delay		120
+weap1Aim		1
+weap1AmmoMax	80
+weap1AmmoRechargeMS	600
+weap1Link		1
+
+weap2			conc_missile_straight
+weap2Aim          1
+weap2Delay		1000
+weap2AmmoMax	6
+
+
+
+weapMuzzle1		ajsf_laser
+weapMuzzle2		ajsf_laser
+weapMuzzle3		ajsf_laser
+weapMuzzle4		ajsf_laser
+weapMuzzle5       conc_missile_straight
+
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	100
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+DtAsabre
+{
+name			DtAsabre
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			340
+width			340
+height			360
+g2radius		340
+centerOfGravity		"-0.222 0 0"
+//speedMax		2200
+//turboSpeed	4400
+speedMax		2900
+turboSpeed		4900
+turboDuration	5500
+turboRecharge	4800
+speedMin		0
+acceleration	75
+decelIdle		10
+accelIdle		15
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc	0.5
+bankingSpeed	1
+rollLimit		320
+pitchLimit		100
+braking		35
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.004
+mousePitch		0.004
+//turningSpeed	5
+turningSpeed	10
+turnWhenStopped		1
+traction		28
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.95
+mass			800
+armor 		900
+malfunctionArmorLevel	0
+health_front	380
+health_back		415
+health_right	450
+health_left		450
+shields		600
+//ms per point of recharge
+shieldRechargeMS	600
+toughness 		99.0
+model		DtAsabre
+skin		default
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/sabre"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/sabre_front"
+icon_back		"gfx/menus/radar/sabre_back"
+icon_right		"gfx/menus/radar/sabre_right"
+icon_left		"gfx/menus/radar/sabre_left"
+crosshairShader	"gfx/menus/radar/sabre_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/z-95/on.wav"
+soundLoop 		"sound/vehicles/z-95/loop.wav"
+soundOff 		"sound/vehicles/z-95/off.wav"
+soundFlyBy 		"sound/vehicles/z-95/flyby.wav"
+soundFlyBy2 	"sound/vehicles/z-95/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartimp.wav"
+soundTurbo 		"sound/vehicles/z-95/flyby.wav"
+exhaustFX		"ships/sabre_exhaust"
+turboFX			"ships/sabre_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/sabre_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/sabre_eng"
+lwingFX		"ships/sabre_left"
+rwingFX		"ships/sabre_right"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	500
+explosionDamage 	1000
+maxPassengers	1
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			particle_pulse
+weap1Delay		85
+weap1Aim		1
+weap1AmmoMax	500
+weap1Link		1
+
+weap2			ion_pulse
+weap2Delay		1800
+weap2Aim		1
+weap2AmmoMax	20
+weap2AmmoRechargeMS	800
+
+weapMuzzle1		particle_pulse
+weapMuzzle2		particle_pulse
+weapMuzzle3		particle_pulse
+weapMuzzle4		particle_pulse
+weapMuzzle5		ion_pulse
+weapMuzzle6		ion_pulse
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+DtAxing
+{
+name			DtAxing
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			460
+width			460
+height			128
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		2600
+turboSpeed		4000
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		35
+pitchLimit		60
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+//armor 			1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+//shields		600
+armor 		1500
+malfunctionArmorLevel	750
+//armor 		2400
+//malfunctionArmorLevel	1200
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields		700
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			DtAxing
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/XW_front"
+icon_back		"gfx/menus/radar/XW_back"
+icon_right		"gfx/menus/radar/XW_right"
+icon_left		"gfx/menus/radar/XW_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ships/xwing_exhaust"
+turboFX			"ships/xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser
+weap1Delay		150
+weap1Aim		1
+weap1AmmoMax	40
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		2000
+weap2Aim		1
+weap2AmmoMax	8
+weap2Link		1
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+weapMuzzle3		rebel_laser
+weapMuzzle4		rebel_laser
+weapMuzzle5		concussion_missile
+weapMuzzle6		concussion_missile
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+falconvm
+{
+name			falconvm
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			460
+width			500
+height			128
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		2600
+turboSpeed		4000
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		35
+pitchLimit		60
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+//armor 			1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+//shields		600
+armor 		1500
+malfunctionArmorLevel	750
+//armor 		2400
+//malfunctionArmorLevel	1200
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields		700
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			falconvm
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/XW_front"
+icon_back		"gfx/menus/radar/XW_back"
+icon_right		"gfx/menus/radar/XW_right"
+icon_left		"gfx/menus/radar/XW_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+maxPassengers	4
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser
+
+weap1Delay		100
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+
+cameraOverride		1
+cameraRange			900
+cameraVertOffset	256
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+gunshipx
+{
+name			gunshipx
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			460
+width			460
+height			60
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		1100
+turboSpeed		1400
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		35
+pitchLimit		60
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+//armor 			1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+//shields		600
+armor 		1500
+malfunctionArmorLevel	750
+//armor 		2400
+//malfunctionArmorLevel	1200
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields		700
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			gunshipvm
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/XW_front"
+icon_back		"gfx/menus/radar/XW_back"
+icon_right		"gfx/menus/radar/XW_right"
+icon_left		"gfx/menus/radar/XW_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ships/xwing_exhaust"
+turboFX			"ships/xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+maxPassengers	7
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			atst_rocket
+weap1Delay		500
+weap1Aim		1
+weap1AmmoMax	40
+weap1Link		1
+
+weap2			atst_rocket
+weap2Delay		500
+weap2Aim		1
+weap2AmmoMax	40
+weap2Link		1
+
+weapMuzzle1		atst_rocket
+weapMuzzle2		atst_rocket
+
+cameraOverride		1
+cameraRange			450
+cameraVertOffset	110
+cameraPitchOffset	10
+cameraFOV			100
+cameraAlpha			0
+}
+jawatank_hat
+{
+name			jawatank_hat
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+maxPassengers	3
+lookYaw			45
+lookPitch		45
+length			500
+width			300
+height			200
+centerOfGravity		"-.022 0 0"
+speedMax		1000
+speedMin		-300
+acceleration		2
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		4
+turnWhenStopped		1
+traction		100
+friction		100
+maxSlope		0.7
+mass			600
+armor 			20000
+toughness 		90.0
+model			jawatank_hat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 	500
+explosionDamage 	500
+explodeFX		"ships/ship_explosion2"
+explosionDelay		0
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+soundLoop 		"sound/tiecrawler/loop.wav"
+
+weap1			      rebel_turbolaser
+weap1Delay			100
+weap1AmmoMax		500
+weap1AmmoRechargeMS	100
+weap1Link			1
+
+weap2			apexdesign_droideka_flame
+weap2Delay			1
+weap2AmmoMax		500
+weap2AmmoRechargeMS	100
+weap1Link			1
+
+weapMuzzle1		rebel_turbolaser
+weapMuzzle2		rebel_turbolaser
+weapMuzzle3		rebel_turbolaser
+weapMuzzle4		apexdesign_droideka_flame
+weapMuzzle5		apexdesign_droideka_flame
+
+
+cameraOverride		1
+cameraRange			400
+cameraVertOffset		150
+//cameraPitchOffset		0
+cameraFOV			100
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
+JediStarFighter
+{
+name			JediStarFighter
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			350
+width			200
+height			128
+g2radius		460
+centerOfGravity		"0 0 0"
+speedMax		3600
+turboSpeed		5000
+turboDuration	2500
+turboRecharge	6000
+speedMin		0
+acceleration	20
+decelIdle		8
+accelIdle		10
+speedIdle		900
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.8
+rollLimit		75
+pitchLimit		70
+braking			30
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		6.2
+turnWhenStopped		1
+traction		10
+friction		0.3
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 			900
+//malfunctionArmorLevel	555
+//health_front	200
+//health_back		250
+//health_right	300
+//health_left		300
+//shields		500
+armor 		1000
+malfunctionArmorLevel	700
+//armor 		2000
+//malfunctionArmorLevel	1000
+health_front	550
+health_back		550
+health_right	600
+health_left		600
+shields		650
+//ms per point of recharge
+shieldRechargeMS	1
+toughness 		75.0
+model			jsfighter
+riderAnim		BOTH_VS_IDLE
+droidNPC		"r4"
+radarIcon		"gfx/menus/radar/js"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/js_front"
+icon_back		"gfx/menus/radar/js_back"
+icon_right		"gfx/menus/radar/js_right"
+icon_left		"gfx/menus/radar/js_left"
+crosshairShader	"gfx/menus/radar/js_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"jsf/JSF_exhaust"
+turboFX			"jsf/JSF_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		90
+hoverStrength		20
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			jsf_laser
+weap1Delay		150
+weap1Aim		1
+weap1AmmoMax	60
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		1000
+weap2Aim		1
+weap2AmmoMax	6
+weap2Link		1
+
+weapMuzzle1		jsf_laser
+weapMuzzle2		jsf_laser
+weapMuzzle3		jsf_laser
+weapMuzzle4		jsf_laser
+weapMuzzle5		concussion_missile
+weapMuzzle6		concussion_missile
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	100
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+juggernaut_hat
+{
+name			juggernaut_hat
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+maxPassengers	2
+lookYaw			45
+lookPitch		45
+length			5640
+width			485
+height			272
+centerOfGravity		"0 0 0"
+speedMax		500
+speedMin		-80
+acceleration		2
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		1
+turnWhenStopped		0
+traction		100
+friction		100
+maxSlope		0.7
+mass			800
+armor 			50000
+toughness 		95.0
+model			juggernaut_hat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 	1000
+explosionDamage 	1000
+explodeFX		"ships/ship_explosion2"
+explosionDelay		0
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+soundLoop 		"sound/juggernaut/loop.wav"
+
+weap1				imp_laser
+weap1Delay			20
+weap1AmmoMax		500
+weap1AmmoRechargeMS	50
+
+weap3				rebel_laser
+weap3Delay			100
+weap3AmmoMax		500
+weap3AmmoRechargeMS	100
+
+weap2			apexdesign_droideka_flame
+weap2Delay			1
+weap2AmmoMax		100
+weap2AmmoRechargeMS	300
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+weapMuzzle3		imp_laser
+weapMuzzle4		imp_laser
+weapMuzzle5		apexdesign_droideka_flame
+  	
+cameraOverride			1
+cameraRange			900
+cameraVertOffset		150
+cameraPitchOffset		30
+cameraFOV			500
+cameraPitchDependantVertOffset	0
+}
+n1_mst
+{
+name			n1_mst
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw		60
+length		350
+width			230
+height		128
+g2radius		350
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+turboSpeed		1500
+turboDuration	3000
+turboRecharge	2000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		10
+speedIdle		300
+//test: speed stays at whatever you last set it to...
+throttleSticks	0
+strafePerc		.05
+bankingSpeed	3.0
+rollLimit		45
+pitchLimit		60
+braking		100
+mouseYaw		.05
+mousePitch		.05
+turningSpeed	6.0
+turnWhenStopped	0
+traction		50
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 		2000
+malfunctionArmorLevel	600
+health_front	500
+health_back		700
+health_right	700
+health_left		700
+shields		500
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			n1_mst
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/N1_front"
+icon_back		"gfx/menus/radar/N1_back"
+icon_right		"gfx/menus/radar/N1_right"
+icon_left		"gfx/menus/radar/N1_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/N-1/N1_flyby.wav"
+soundFlyBy2 	"sound/vehicles/N-1/N1_flyby.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+exhaustFX		"ships/N1_exhaust"
+turboFX		"ships/N1_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/Z95_nose"
+lwingFX		"ships/Z95_lwing"
+rwingFX		"ships/Z95_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	20
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			imp_laser
+weap1Delay		100
+weap1Aim		1
+weap1AmmoMax	250
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		2000
+weap2Aim		1
+weap2AmmoMax	8
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+weapMuzzle3		concussion_missile
+
+
+cameraOverride	1
+cameraRange		500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+}
+n1bomber_hat
+{
+name			n1bomber_hat
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw		60
+length		350
+width			230
+height		188
+g2radius		350
+centerOfGravity	"-0.222 0 0"
+speedMax		2000
+turboSpeed		3000
+turboDuration	3000
+turboRecharge	2000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		10
+speedIdle		100
+//test: speed stays at whatever you last set it to...
+throttleSticks	0
+strafePerc		.05
+bankingSpeed	3.0
+rollLimit		45
+pitchLimit		60
+braking		100
+mouseYaw		.05
+mousePitch		.05
+turningSpeed	6.0
+turnWhenStopped	0
+traction		50
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 		2000
+malfunctionArmorLevel	600
+health_front	500
+health_back		700
+health_right	700
+health_left		700
+shields		500
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			n1bomber_hat
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/N1_front"
+icon_back		"gfx/menus/radar/N1_back"
+icon_right		"gfx/menus/radar/N1_right"
+icon_left		"gfx/menus/radar/N1_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/N-1/N1_flyby.wav"
+soundFlyBy2 	"sound/vehicles/N-1/N1_flyby.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/Z95_nose"
+lwingFX		"ships/Z95_lwing"
+rwingFX		"ships/Z95_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	20
+explosionRadius 	600
+explosionDamage 	1000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			imp_laser
+weap1Delay		100
+weap1Aim		1
+weap1AmmoMax	250
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		800
+weap2Aim		1
+weap2AmmoMax	30
+weap2Link		1
+
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+weapMuzzle3		concussion_missile
+weapMuzzle4		concussion_missile
+weapMuzzle5		concussion_missile
+
+cameraOverride	1
+cameraRange		500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+}
+naboocrusier_hat
+{
+name			naboocrusier_hat
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw		60
+length		2000
+width			1000
+height		400
+g2radius		350
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+turboSpeed		2000
+turboDuration	3000
+turboRecharge	2000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		10
+speedIdle		100
+//test: speed stays at whatever you last set it to...
+throttleSticks	0
+strafePerc		.05
+bankingSpeed	3.0
+rollLimit		45
+pitchLimit		60
+braking		100
+mouseYaw		.05
+mousePitch		.05
+turningSpeed	2.0
+turnWhenStopped	0
+traction		50
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 		2000
+malfunctionArmorLevel	600
+health_front	500
+health_back		700
+health_right	700
+health_left		700
+shields		500
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			naboocrusier_hat
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/N1_front"
+icon_back		"gfx/menus/radar/N1_back"
+icon_right		"gfx/menus/radar/N1_right"
+icon_left		"gfx/menus/radar/N1_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/N-1/N1_flyby.wav"
+soundFlyBy2 	"sound/vehicles/N-1/N1_flyby.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/Z95_nose"
+lwingFX		"ships/Z95_lwing"
+rwingFX		"ships/Z95_rwing"
+flammable		1
+hoverHeight		1000
+hoverStrength	20
+explosionRadius 	1000
+explosionDamage 	4000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			imp_laser
+weap1Delay		100
+weap1Aim		1
+weap1AmmoMax	250
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+
+cameraOverride	1
+cameraRange		700
+cameraVertOffset	210
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+}
+sebulba_pod
+{
+name			sebulba_pod
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			384
+width			112
+height			64
+centerOfGravity	"-0.222 0 0"
+speedMax		2050
+speedMin		-410
+turboSpeed		2600
+turboDuration		8000
+turboRecharge		24000
+acceleration		20
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.05
+turningSpeed		4
+turnWhenStopped		10
+traction		12
+friction		2.00
+maxSlope		0.65
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	20
+model			sebulba_pod
+radarIcon		"gfx/menus/radar/swoop"
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/sebulba/on.mp3"
+soundLoop 		"sound/sebulba/loop.wav"
+soundOff		"sound/sebulba/off.mp3"
+soundTakeOff		"sound/sebulba/on.mp3"
+soundEngineStart	"sound/sebulba/on.mp3"
+soundSpin		"sound/sebulba/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/sebulba/sb_shift1.mp3"
+soundShift2		"sound/sebulba/sb_shift2.mp3"
+soundShift3		"sound/sebulba/sb_shift3.mp3"
+soundShift4		"sound/sebulba/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX			"ships/jet"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 120
+explosionDamage 300
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		290
+hoverStrength		45
+
+cameraOverride		1
+cameraRange		175
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+
+}
+
+sithspeeder_mst
+{
+name			sithspeeder_mst
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			128
+width			32
+height			32
+centerOfGravity	"-0.222 0 0"
+speedMax		900
+speedMin		-350
+turboSpeed		1900
+turboDuration	2000
+turboRecharge	8000
+speedIdle		0
+acceleration	20
+decelIdle		10
+strafePerc		1.5
+bankingSpeed	0.5
+rollLimit		25
+pitchLimit		25
+braking		10
+mouseYaw		0.0038
+turningSpeed	10
+turnWhenStopped	0
+traction		12
+friction		1.5
+maxSlope		0.75
+mass			300
+armor 		2000
+shields		0
+toughness 		80.0
+malfunctionArmorLevel	1000
+model			sithspeeder_mst
+riderAnim		BOTH_VT_IDLE1
+radarIcon		"gfx/menus/radar/swoop"
+
+soundOn		"sound/vehicles/swoop/on.mp3"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundLoop		"sound/vehicles/swoop/loop.wav"
+soundTakeOff	"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius	100
+explosionDamage	250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX		"ships/vehicle_wake"
+gravity		800
+waterProof		1
+bouyancy		1
+hoverHeight		30
+hoverStrength	30
+
+cameraOverride	1
+cameraRange		125
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+
+weap1			sithmine
+weap1Aim		1
+
+weap1Delay		1000
+
+weap1AmmoMax		1
+weap1AmmoRechargeMS	6000
+
+weapMuzzle1		sithmine
+}
+
+slave2_hat
+{
+name			slave2_hat
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw		60
+length		350
+width			230
+height		288
+g2radius		350
+centerOfGravity	"-0.222 0 0"
+speedMax		2000
+turboSpeed		3000
+turboDuration	3000
+turboRecharge	2000
+speedMin		0
+acceleration	30
+decelIdle		10
+accelIdle		10
+speedIdle		100
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		.05
+bankingSpeed	3.0
+rollLimit		45
+pitchLimit		60
+braking		100
+mouseYaw		.05
+mousePitch		.05
+turningSpeed	6.0
+turnWhenStopped	0
+traction		50
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 		2000
+malfunctionArmorLevel	600
+health_front	500
+health_back		700
+health_right	700
+health_left		700
+shields		500
+//ms per point of recharge
+shieldRechargeMS	400
+toughness 		90.0
+model			slave2_hat
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/N1_front"
+icon_back		"gfx/menus/radar/N1_back"
+icon_right		"gfx/menus/radar/N1_right"
+icon_left		"gfx/menus/radar/N1_left"
+crosshairShader	"gfx/menus/radar/XW_reticle"
+//shieldShader	"gfx/misc/shields_blue"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/x-wing/on.wav"
+soundLoop 		"sound/vehicles/x-wing/loop.wav"
+soundOff 		"sound/vehicles/x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/N-1/N1_flyby.wav"
+soundFlyBy2 	"sound/vehicles/N-1/N1_flyby.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/x-wing/xwingby.wav"
+impactFX		"ships/scrape_sparks"
+explodeFX		"explosions/wedge_explosion1.efx"
+trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/Z95_nose"
+lwingFX		"ships/Z95_lwing"
+rwingFX		"ships/Z95_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	20
+explosionRadius 	600
+explosionDamage 	1000
+
+landingHeight	300.0
+
+surfDestruction	1
+
+weap1			rebel_laser
+weap1Delay		100
+weap1Aim		1
+weap1AmmoMax	250
+weap1AmmoRechargeMS	500
+weap1Link		1
+
+weap2			concussion_missile
+weap2Delay		800
+weap2Aim		1
+weap2AmmoMax	20
+weap2Link		1
+
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+weapMuzzle3		rebel_laser
+weapMuzzle4		rebel_laser
+weapMuzzle5		concussion_missile
+
+cameraOverride	1
+cameraRange		600
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV		100
+cameraAlpha		0
+}
+snow-speeder-tfp
+{
+name			snow-speeder-tfp
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			170
+width			150
+height			60
+g2radius		460
+centerOfGravity		"-1 0 0"
+//speedMax		2200
+//turboSpeed	4400
+speedMax		1600
+turboSpeed		1600
+turboDuration	3000
+turboRecharge	6000
+speedMin		0
+acceleration	26
+decelIdle		10
+accelIdle		15
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1
+bankingSpeed	0.5
+rollLimit		15
+pitchLimit		25
+braking		25
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.00275
+mousePitch		0.00275
+//turningSpeed	5
+turningSpeed	7.25
+turnWhenStopped		0
+traction		14
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 		1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		300
+//health_right	200
+//health_left		200
+//shields			300
+armor 		1000
+malfunctionArmorLevel	600
+//armor 		2000
+//malfunctionArmorLevel	1300
+health_front	400
+health_back		400
+health_right	400
+health_left		400
+shields		500
+toughness 		85.0
+model			snow-speeder-tfp
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/SS_radar"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/SS_top"
+icon_back		"gfx/menus/radar/SS_bottom"
+icon_right		"gfx/menus/radar/SS_right"
+icon_left		"gfx/menus/radar/SS_left"
+crosshairShader	"gfx/menus/radar/z95_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/z-95/on.wav"
+soundLoop 		"sound/vehicles/z-95/loop.wav"
+soundOff 		"sound/vehicles/z-95/off.wav"
+soundFlyBy 		"sound/vehicles/z-95/flyby.wav"
+soundFlyBy2 	"sound/vehicles/z-95/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/z-95/flyby.wav"
+exhaustFX		"ships/xwing_exhaust"
+turboFX			"ships/xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/SS_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+flammable		1
+hoverHeight		0
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser
+weap1Delay		85
+
+weap1AmmoMax	30
+weap1AmmoRechargeMS	400
+
+weap2			test
+weap2Delay		100
+
+weap2AmmoMax	30
+weap2AmmoRechargeMS	400
+
+weap1Aim		1
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+weapMuzzle3		test
+
+//should *all* ships really be able to do this?
+weap1Link		1
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+speeder_bike_dun
+{
+name			speeder_bike_dun
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			192
+width			32
+height			32
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-400
+turboSpeed		2000
+turboDuration		4000
+turboRecharge		15000
+acceleration		30
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.05
+turningSpeed		5
+turnWhenStopped		10
+traction		12
+friction		3
+maxSlope		0.65
+mass			200
+armor 			560
+toughness 		80.0
+malfunctionArmorLevel	20
+model			speeder_bike_dun
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX			"ships/jet"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 200
+explosionDamage 500
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		35
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			125
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser
+
+weap1Delay		200
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser
+}
+
+speeder_bike_mst
+{
+name			speeder_bike_mst
+type			VH_SPEEDER
+numHands		2
+lookYaw		45
+lookPitch		20
+length		192
+width			32
+height		32
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+speedMin		-400
+turboSpeed		3000
+turboDuration	4000
+turboRecharge	15000
+speedIdle		0
+acceleration	80
+decelIdle		20
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.5
+bankingSpeed	0.5
+rollLimit		25
+pitchLimit		80
+braking		10
+mouseYaw		0.05
+turningSpeed	7
+turnWhenStopped	0
+traction		40
+friction		1.5
+maxSlope		0.75
+mass			400
+armor 		500
+toughness 		40.0
+malfunctionArmorLevel	200
+model			speeder_bike_mst
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff	"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX		"ships/jet"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 200
+explosionDamage 500
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX		"ships/vehicle_wake"
+gravity		800
+waterProof		1
+bouyancy		1
+hoverHeight		35
+hoverStrength	50
+
+cameraOverride	1
+cameraRange		200
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV		80
+cameraAlpha		0
+
+weap1			swoop_laser
+
+weap1Delay		100
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	100
+
+weapMuzzle1		swoop_laser
+}
+
+stap_dun
+{
+name			stap_dun
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1000
+speedMin		-200
+turboSpeed		2200
+turboDuration		8000
+turboRecharge		24000
+acceleration		30
+decelIdle		10
+strafePerc		0.5
+bankingSpeed		0.5
+rollLimit		45
+pitchLimit		80
+braking			10
+mouseYaw		0.05
+turningSpeed		6
+turnWhenStopped		10
+traction		12
+friction		2.00
+maxSlope		0.65
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	20
+model			stap_dun
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboFX			"ships/jet"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		45
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			125
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser
+
+weap1Delay		100
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser
+weapMuzzle2		swoop_laser
+}
+
+stap_mc
+{
+name			stap_mc
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration		40
+decelIdle		30
+strafePerc		0
+bankingSpeed		0.01
+rollLimit		0
+pitchLimit		0
+braking			85
+
+turningSpeed		14
+turnWhenStopped		1
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			default
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser_stap
+
+weap1Delay		70
+
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser_stap
+weapMuzzle2		swoop_laser_stap
+}
+
+stap_mcb
+{
+name			stap_mcb
+type			VH_SPEEDER
+numHands		2
+lookYaw		45
+lookPitch		20
+length		32
+width			32
+height		128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration	40
+decelIdle		30
+strafePerc		0
+bankingSpeed	0.01
+rollLimit		0
+pitchLimit		0
+braking		85
+
+turningSpeed	14
+turnWhenStopped	1
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 		400
+toughness 		80.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			blue
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff	"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 	100
+explosionDamage 	250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX		"ships/vehicle_wake"
+gravity		600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset		0
+cameraPitchOffset		0
+cameraFOV			100
+cameraAlpha			0
+
+weap1				swoop_laser_stap
+
+weap1Delay			70
+
+weap1AmmoMax		3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1			swoop_laser_stap
+weapMuzzle2			swoop_laser_stap
+}
+
+stap_mcg
+{
+name			stap_mcg
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration		40
+decelIdle		30
+strafePerc		0
+bankingSpeed		0.01
+rollLimit		0
+pitchLimit		0
+braking			85
+
+turningSpeed		14
+turnWhenStopped		1
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			green
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser_stap
+
+weap1Delay		70
+
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser_stap
+weapMuzzle2		swoop_laser_stap
+}
+
+stap_mci
+{
+name			stap_mci
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration		40
+decelIdle		30
+strafePerc		0
+bankingSpeed		0.01
+rollLimit		0
+pitchLimit		0
+braking			95
+
+turningSpeed		14
+turnWhenStopped		10
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 			500
+toughness 		100.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			inv
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser_mci
+
+weap1Delay		70
+
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser_mci
+weapMuzzle2		swoop_laser_mci
+}
+
+stap_mck
+{
+name			stap_mck
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration		40
+decelIdle		30
+strafePerc		0
+bankingSpeed		0.01
+rollLimit		0
+pitchLimit		0
+braking			85
+
+turningSpeed		14
+turnWhenStopped		1
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			black
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser_stap
+
+weap1Delay		70
+
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser_stap
+weapMuzzle2		swoop_laser_stap
+}
+
+stap_mcr
+{
+name			stap_mcr
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			32
+width			32
+height			128
+centerOfGravity	"-0.222 0 0"
+speedMax		1300
+speedMin		-100
+turboSpeed		2300
+turboDuration		2000
+turboRecharge		5000
+acceleration		40
+decelIdle		30
+strafePerc		0
+bankingSpeed		0.01
+rollLimit		0
+pitchLimit		0
+braking			85
+
+turningSpeed		14
+turnWhenStopped		1
+traction		18
+friction		1.5
+maxSlope		0.95
+mass			200
+armor 			400
+toughness 		80.0
+malfunctionArmorLevel	10
+model			stap_mc
+skin			red
+radarIcon		"gfx/menus/radar/swoop"
+
+riderAnim		BOTH_VS_IDLE
+soundOn 		"sound/vehicles/swoop/on.mp3"
+soundLoop 		"sound/vehicles/swoop/loop.wav"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/stap_burner"
+impactFX		"sparks/bluesparks_w_sound"
+turboFX		"ships/stap_burner"
+turboStartFX	"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			600
+waterProof		1
+bouyancy		45
+hoverHeight		55
+hoverStrength	95
+
+cameraOverride		1
+cameraRange			120
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser_stap
+
+weap1Delay		70
+
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser_stap
+weapMuzzle2		swoop_laser_stap
+}
+
+stap_mst
+{
+name			stap_mst
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			128
+width			32
+height			32
+centerOfGravity	"-0.222 0 0"
+speedMax		900
+speedMin		-150
+turboSpeed		1900
+turboDuration		2000
+turboRecharge		8000
+acceleration	20
+decelIdle		10
+strafePerc		1.0
+bankingSpeed	0.5
+rollLimit		45
+pitchLimit		30
+braking			10
+mouseYaw		0.0038
+turningSpeed	5
+turnWhenStopped	0
+traction		12
+friction		1.5
+maxSlope		0.75
+mass			200
+armor 			2000
+toughness 		80.0
+malfunctionArmorLevel	1000
+model			stap_mst
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/swoop"
+
+soundOn			"sound/vehicles/swoop/on.mp3"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundLoop		"sound/vehicles/swoop/loop.wav"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		45
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			125
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser
+weap1Aim		1
+
+weap1Delay		100
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser
+weapMuzzle2		swoop_laser
+}
+
+tankdroid_hat
+{
+name			tankdroid_hat
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+maxPassengers	2
+lookYaw			45
+lookPitch		45
+length			600
+width			400
+height			500
+centerOfGravity		"0 0 0"
+speedMax		500
+speedMin		-80
+acceleration		5
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		1
+turnWhenStopped		1
+traction		100
+friction		100
+maxSlope		0.7
+mass			800
+armor 			100000
+toughness 		95.0
+model			tankdroid_hat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 	1000
+explosionDamage 	1000
+explodeFX		"ships/ship_explosion2"
+explosionDelay		0
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+soundLoop 		"sound/juggernaut/loop.wav"
+
+weap1				imp_laser
+weap1Delay			20
+weap1AmmoMax		5000
+weap1AmmoRechargeMS	10
+
+weap3				atst_rocket
+weap3Delay			200
+weap3AmmoMax		50000
+weap3AmmoRechargeMS	10
+
+weap2				imp_turbolaser
+weap2Delay			1000
+weap2AmmoMax		50000
+weap2AmmoRechargeMS	10
+
+weapMuzzle1			imp_laser	
+weapMuzzle2			imp_laser
+weapMuzzle3			imp_laser
+weapMuzzle4			atst_rocket
+weapMuzzle5			imp_turbolaser
+
+//turret 1
+turret1Weap		imp_turbolaser
+turret1Delay		1000
+turret1AmmoMax		50000
+turret1AmmoRechargeMS	10
+turret1YawBone		Bone03
+turret1YawAxis		2
+turret1PitchBone	
+turret1PitchAxis	1
+turret1ClampPitchU	-0
+turret1ClampPitchD	 0
+turret1Muzzle1		
+turret1TurnSpeed	5
+turret1AI		0
+turret1AILead		0
+turret1AIRange		8000		
+turret1PassengerNum	1
+turret1GunnerViewTag	"*turretview_t"
+
+  	
+cameraOverride			1
+cameraRange			800
+cameraVertOffset		280
+cameraPitchOffset		30
+cameraFOV			500
+cameraPitchDependantVertOffset	0
+}
+tiecrawler_hat
+{
+name			tiecrawler_hat
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+maxPassengers	1
+lookYaw			45
+lookPitch		45
+length			200
+width			200
+height			100
+centerOfGravity		"-.022 0 0"
+speedMax		500
+speedMin		-100
+acceleration		6
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		6
+turnWhenStopped		1
+traction		100
+friction		100
+maxSlope		0.7
+mass			200
+armor 			800
+toughness 		45.0
+model			tiecrawler_hat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 	500
+explosionDamage 	500
+explodeFX		"ships/ship_explosion2"
+explosionDelay		0
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+soundLoop 		"sound/tiecrawler/loop.wav"
+
+weap1				imp_laser
+weap1Delay			100
+weap1AmmoMax		500
+weap1AmmoRechargeMS	50
+
+weap2			      imp_turbolaser
+weap2Delay			500
+weap2AmmoMax		100
+weap2AmmoRechargeMS	100
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+weapMuzzle3		imp_turbolaser
+
+cameraOverride		1
+cameraRange			300
+cameraVertOffset		150
+//cameraPitchOffset		0
+cameraFOV			100
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
+tievadervm
+{
+name			tievadervm
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 1
+lookYaw			45
+length			240
+width			320
+height			60
+g2radius		320
+centerOfGravity	"-0.222 0 0"
+speedMax		2400
+turboSpeed		4000
+turboDuration	2000
+turboRecharge	6000
+speedMin		0
+acceleration	25
+decelIdle		12
+accelIdle		20
+speedIdle		1200
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1125
+bankingSpeed	0.5
+rollLimit		45
+pitchLimit		80
+//rollLimit		-1
+//pitchLimit		-1
+braking			30
+mouseYaw		0.003
+mousePitch		0.003
+turningSpeed	6
+turnWhenStopped	0
+traction		18
+friction		0.75
+speedDependantTurning	1
+maxSlope		0.65
+mass			500
+//armor 		1000
+//malfunctionArmorLevel	500
+//health_front	300
+//health_back		200
+//health_right	250
+//health_left		250
+armor 		1000
+malfunctionArmorLevel	400
+//armor 		1800
+//malfunctionArmorLevel	600
+health_front	250
+health_back		250
+health_right	500
+health_left		500
+toughness 		75.0
+model			tievadervm
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/tieF"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_imp"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/TF_front"
+icon_back		"gfx/menus/radar/TF_back"
+icon_right		"gfx/menus/radar/TF_right"
+icon_left		"gfx/menus/radar/TF_left"
+crosshairShader	"gfx/menus/radar/TF_reticle"
+soundOn 		"sound/vehicles/tie/on.wav"
+soundLoop 		"sound/vehicles/tie/loop.wav"
+soundOff 		"sound/vehicles/tie/off.wav"
+soundFlyBy 		"sound/vehicles/tie/flyby.wav"
+soundFlyBy2 		"sound/vehicles/tie/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartimp.wav"
+soundTurbo 		"sound/vehicles/tie/flyby.wav"
+exhaustFX		"ships/tiefighter_exhaust"
+turboFX			"ships/tiefighter_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/TF_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/TF_nose"
+lwingFX		"ships/TF_lwing"
+rwingFX		"ships/TF_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength	10
+explosionRadius 400
+explosionDamage 1000
+
+surfDestruction	1
+
+landingHeight	300
+
+weap1			imp_laser
+weap1Delay		50
+
+weap1AmmoMax	30
+weap1AmmoRechargeMS	250
+
+weapMuzzle1		imp_laser
+weapMuzzle2		imp_laser
+
+//should *all* ships really be able to do this?
+weap1Link		1
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	20
+cameraPitchOffset	10
+cameraFOV			100
+cameraAlpha			0
+}
+
+twin_pod
+{
+name			twin_pod
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			170
+width			150
+height			60
+g2radius		460
+centerOfGravity		"-1 0 0"
+//speedMax		2200
+//turboSpeed	4400
+speedMax		1600
+turboSpeed		1600
+turboDuration	3000
+turboRecharge	6000
+speedMin		0
+acceleration	26
+decelIdle		10
+accelIdle		15
+speedIdle		1000
+//test: speed stays at whatever you last set it to...
+throttleSticks	1
+strafePerc		0.1
+bankingSpeed	0.5
+rollLimit		15
+pitchLimit		25
+braking		25
+//mouseYaw		0.0025
+//mousePitch	0.0025
+mouseYaw		0.00275
+mousePitch		0.00275
+//turningSpeed	5
+turningSpeed	7.25
+turnWhenStopped		0
+traction		14
+friction		0.5
+speedDependantTurning	1
+maxSlope		0.65
+mass			800
+//armor 		1000
+//malfunctionArmorLevel	666
+//health_front	300
+//health_back		300
+//health_right	200
+//health_left		200
+//shields			300
+armor 		1000
+malfunctionArmorLevel	600
+//armor 		2000
+//malfunctionArmorLevel	1300
+health_front	400
+health_back		400
+health_right	400
+health_left		400
+shields		500
+toughness 		85.0
+model			twin_pod
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/SS_radar"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/SS_top"
+icon_back		"gfx/menus/radar/SS_bottom"
+icon_right		"gfx/menus/radar/SS_right"
+icon_left		"gfx/menus/radar/SS_left"
+crosshairShader	"gfx/menus/radar/z95_reticle"
+//shieldShader	"gfx/misc/shields_green"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/z-95/on.wav"
+soundLoop 		"sound/vehicles/z-95/loop.wav"
+soundOff 		"sound/vehicles/z-95/off.wav"
+soundFlyBy 		"sound/vehicles/z-95/flyby.wav"
+soundFlyBy2 	"sound/vehicles/z-95/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/z-95/flyby.wav"
+exhaustFX		"ships/xwing_exhaust"
+turboFX			"ships/xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/SS_explosion"
+//trailFX		"ships/wingtrail"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+flammable		1
+hoverHeight		0
+hoverStrength		10
+explosionRadius 	400
+explosionDamage 	1000
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser
+weap1Delay		135
+
+weap1AmmoMax	30
+weap1AmmoRechargeMS	300
+
+weap1Aim		1
+
+weapMuzzle1		rebel_laser
+weapMuzzle2		rebel_laser
+
+//should *all* ships really be able to do this?
+weap1Link		1
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+vehicle_hazardtrooper
+{
+name			vehicle_hazardtrooper
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 1
+lookYaw			45
+lookPitch		45
+length		80
+width			80
+height		70
+centerOfGravity		"-0.222 0 0"
+speedMax		300
+speedMin		-80
+acceleration		8
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		5
+turnWhenStopped		0
+traction		100
+friction		100
+maxSlope		0.7
+mass			2000
+armor 			500
+toughness 		75.0
+model			vehicle_hazardtrooper
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 400
+explosionDamage 1000
+explodeFX		"ships/ship_explosion2"
+explosionDelay	2450
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+
+weap1			concussion_laser
+weap1Delay		1050
+weap1AmmoMax	3000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		concussion_laser
+
+cameraOverride		1
+cameraRange			150
+cameraVertOffset		60
+//cameraPitchOffset		0
+cameraFOV			80
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
+xj3_x-wing
+{
+name			xj3_x-wing
+type			VH_FIGHTER
+numHands		2
+hideRider		1
+killRiderOnDeath 	1
+lookYaw			45
+length			460
+width			460
+height			128
+g2radius		460
+centerOfGravity		"-0.222 0 0"
+speedMax		2800
+turboSpeed		4200
+turboDuration	2000
+turboRecharge	5500
+speedMin		0
+acceleration	15
+decelIdle		8
+accelIdle		10
+speedIdle		800
+throttleSticks	1
+strafePerc		0.085
+bankingSpeed		0.5
+rollLimit		375
+pitchLimit		75
+braking			20
+mouseYaw		0.0022
+mousePitch		0.0022
+turningSpeed		4.2
+turnWhenStopped		0
+traction		12
+friction		0.4
+speedDependantTurning	1
+maxSlope		0.65
+mass			1000
+armor 			2500
+malfunctionArmorLevel	1250
+health_front	600
+health_back		400
+health_right	500
+health_left		500
+shields			2500
+shieldRechargeMS	800
+toughness 		90.0
+model			xj3_x-wing
+riderAnim		BOTH_VS_IDLE
+droidNPC		"random"
+radarIcon		"gfx/menus/radar/XW"
+dmgIndicFrame	"gfx/menus/radar/circle_base_frame_reb"
+dmgIndicShield	"gfx/menus/radar/circle_base_shield"
+dmgIndicBackground "gfx/menus/radar/circle_base"
+icon_front		"gfx/menus/radar/XW_front"
+icon_back		"gfx/menus/radar/XW_back"
+icon_right		"gfx/menus/radar/XW_right"
+icon_left		"gfx/menus/radar/XW_left"
+crosshairShader	"gfx/menus/radar/xj3_reticle"
+shieldShader	"gfx/misc/shields_blue"
+soundOn 		"sound/vehicles/xj3_x-wing/on.wav"
+soundLoop 		"sound/vehicles/xj3_x-wing/loop.wav"
+soundOff 		"sound/vehicles/xj3_x-wing/off.wav"
+soundFlyBy 		"sound/vehicles/xj3_x-wing/flyby.wav"
+soundFlyBy2 	"sound/vehicles/xj3_x-wing/flyby2.wav"
+soundHyper		"sound/vehicles/common/hyperstartreb.wav"
+soundTurbo 		"sound/vehicles/xj3_x-wing/xwingby.wav"
+exhaustFX		"ships/xj3_xwing_exhaust"
+turboFX			"ships/xj3_xwing_exhaust_turbo"
+impactFX		"ships/scrape_sparks"
+explodeFX		"ships/XW_explosion"
+dmgFX			"ships/heavydmg"
+injureFX		"ships/lightdmg"
+noseFX		"ships/XW_nose"
+lwingFX		"ships/XW_lwing"
+rwingFX		"ships/XW_rwing"
+flammable		1
+hoverHeight		80
+hoverStrength		10
+explosionRadius 	500
+explosionDamage 	500
+
+landingHeight		300.0
+
+surfDestruction		1
+
+weap1			rebel_laser_new
+weap1Delay		75
+weap1Aim		1
+weap1AmmoMax		100
+weap1AmmoRechargeMS	600
+weap1Link		1
+
+weap2			proton_torpedo
+weap2Delay		1800
+weap2Aim		1
+weap2AmmoMax		12
+weap2Link		1
+
+weapMuzzle1		rebel_laser_new
+weapMuzzle2		rebel_laser_new
+weapMuzzle3		rebel_laser_new
+weapMuzzle4		rebel_laser_new
+weapMuzzle5		proton_torpedo
+weapMuzzle6		proton_torpedo
+
+cameraOverride		1
+cameraRange			500
+cameraVertOffset	110
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+}
+
+stap_mst
+{
+name			stap_mst
+type			VH_SPEEDER
+numHands		2
+lookYaw			45
+lookPitch		20
+length			128
+width			32
+height			32
+centerOfGravity	"-0.222 0 0"
+speedMax		900
+speedMin		-150
+turboSpeed		1900
+turboDuration		2000
+turboRecharge		8000
+acceleration	20
+decelIdle		10
+strafePerc		1.0
+bankingSpeed	0.5
+rollLimit		45
+pitchLimit		30
+braking			10
+mouseYaw		0.0038
+turningSpeed	5
+turnWhenStopped	0
+traction		12
+friction		1.5
+maxSlope		0.75
+mass			200
+armor 			2000
+toughness 		80.0
+malfunctionArmorLevel	1000
+model			stap_mst
+riderAnim		BOTH_VS_IDLE
+radarIcon		"gfx/menus/radar/swoop"
+
+soundOn			"sound/vehicles/swoop/on.mp3"
+soundOff		"sound/vehicles/swoop/off.mp3"
+soundLoop		"sound/vehicles/swoop/loop.wav"
+soundTakeOff		"sound/vehicles/swoop/on.mp3"
+soundEngineStart	"sound/vehicles/swoop/on.mp3"
+soundSpin		"sound/vehicles/swoop/loop.wav"
+soundTurbo		"sound/vehicles/swoop/sb_revup.mp3"
+soundFlyBy		"sound/vehicles/swoop/flyby1.mp3"
+soundFlyBy2		"sound/vehicles/swoop/flyby2.mp3"
+soundShift		"sound/vehicles/swoop/sb_shift1.mp3"
+soundShift2		"sound/vehicles/swoop/sb_shift2.mp3"
+soundShift3		"sound/vehicles/swoop/sb_shift3.mp3"
+soundShift4		"sound/vehicles/swoop/sb_shift4.mp3"
+
+exhaustFX		"ships/burner"
+impactFX		"ships/scrape_sparks"
+turboStartFX		"ships/swoop_turbo_start"
+armorLowFX		"volumetric/black_smoke"
+armorGoneFX		"ships/fire"
+flammable		1
+explosionRadius 100
+explosionDamage 250
+explodeFX		"ships/swoop_explosion"
+explosionDelay	4500
+wakeFX			"ships/vehicle_wake"
+gravity			800
+waterProof		1
+bouyancy		1
+hoverHeight		45
+hoverStrength	45
+
+cameraOverride		1
+cameraRange			125
+cameraVertOffset	0
+cameraPitchOffset	0
+cameraFOV			100
+cameraAlpha			0
+
+weap1			swoop_laser
+weap1Aim		1
+
+weap1Delay		100
+
+weap1AmmoMax	2000
+weap1AmmoRechargeMS	200
+
+weapMuzzle1		swoop_laser
+weapMuzzle2		swoop_laser
+}
+

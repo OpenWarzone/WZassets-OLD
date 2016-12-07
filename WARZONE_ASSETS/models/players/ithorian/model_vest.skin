@@ -1,0 +1,14 @@
+hips,models/players/ithorian/hips_vest  
+l_leg,models/players/ithorian/leg_vest  
+r_leg,models/players/ithorian/leg_vest  
+torso,models/players/ithorian/torso_vest  
+head,models/players/ithorian/head 
+head_face,models/players/ithorian/head 
+l_arm,models/players/ithorian/torso_vest  
+l_hand,models/players/ithorian/hand 
+r_arm,models/players/ithorian/torso_vest  
+r_hand,models/players/ithorian/hand 
+r_foot,models/players/ithorian/foot 
+l_foot,models/players/ithorian/foot 
+hips_belt,models/players/ithorian/extras 
+head_purty,*off

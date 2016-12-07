@@ -1,0 +1,98 @@
+// General-Windu personality
+// SW:JKII JO Bot Maker v1.00 by Firestorm [FirestormEmail@yandex.ru]
+
+//Bot name: General-Windu
+//Created by: Aaron Smith
+//E-mail: jediknightmas@hotmail.com
+
+
+GeneralBotInfo
+{
+	reflex	700
+	accuracy	20
+	turnspeed	0.04
+	turnspeed_combat	0.03
+	maxturn	360
+	perfectaim	0
+	chatability	1
+	chatfrequency	3
+	hatelevel	3
+	camper	1
+	saberspecialist	1
+	forceinfo	7-1-332320000220001330
+}
+
+BotWeaponWeights
+
+{
+	WP_STUN_BATON	1
+	WP_SABER	75
+	WP_BRYAR_PISTOL	9
+	WP_BLASTER	1
+	WP_DISRUPTOR	1
+	WP_BOWCASTER	1
+	WP_REPEATER	1
+	WP_DEMP2	1
+	WP_FLECHETTE	1
+	WP_ROCKET_LAUNCHER	1
+	WP_THERMAL	1
+	WP_TRIP_MINE	0
+	WP_DET_PACK	0
+}
+
+EmotionalAttachments
+{
+clone	2
+yoda	2
+
+}
+
+BEGIN_CHAT_GROUPS
+
+Died
+{
+nooooooo..........
+}
+
+Killed
+{
+This didn't have to hapen...........
+
+}
+
+BelovedKilled
+{
+%s! You'll pay dearly for that, %a!
+%s! NO!
+}
+
+Hatred
+{
+Now you will see the true power of the jedi.
+}
+
+KilledHatedOne
+{
+...........to many have died in this war..........
+}
+
+KilledOnPurposeByLove
+{
+%s, what are you doing?!
+}
+
+GeneralGreetings
+{
+Troopers advance on my lead.
+}
+
+ResponseGreetings
+{
+
+}
+
+OrderAccepted
+{
+Don't worry, I am on it.
+}
+

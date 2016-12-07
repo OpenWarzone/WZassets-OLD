@@ -1,0 +1,9 @@
+FxRunner
+{
+	name				Generic saber flare
+
+	playfx
+	[
+		saber/saber_clash.efx
+	]
+}

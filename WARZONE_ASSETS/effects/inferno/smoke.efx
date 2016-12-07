@@ -1,0 +1,53 @@
+repeatDelay				10000
+
+Particle
+{
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				20
+
+	life				7500
+
+	delay				0 1e+004
+
+	rotation			0 360
+
+	rotationDelta		-5 5
+
+	gravity				50
+
+	rgb
+	{
+		start			0.07843 0.07843 0.07843 0.07059 0.07059 0.07059
+	}
+
+	alpha
+	{
+		start			0.6
+		end				0
+		parm			50
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				200 400
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_128
+		gfx/atmospheric/cloud2_128
+		gfx/atmospheric/cloud3_128
+		gfx/atmospheric/cloud4_128
+		gfx/atmospheric/cloud5_128
+		gfx/atmospheric/cloud6_128
+		gfx/atmospheric/cloud7_128
+		gfx/atmospheric/cloud8_128
+		gfx/atmospheric/cloud9_128
+	]
+}

@@ -1,0 +1,168 @@
+repeatDelay				142
+
+Particle
+{
+	name				Steam
+
+	spawnFlags			evenDistribution
+
+	count				2 3
+
+	life				700 800
+
+	delay				0 600
+
+	origin				0 -6 -6 0 6 6
+
+	rotation			0 360
+
+	rotationDelta		-4 4
+
+	velocity			20 -12 -12 30 12 12
+
+	acceleration		-10 80 -10 10 110 10
+
+	gravity				12 24
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				10 24
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud7_add_256
+		gfx/atmospheric/cloud8_add_256
+		gfx/atmospheric/cloud9_add_256
+	]
+}
+
+Sound
+{
+	name				Boiling
+
+	sounds
+	[
+		sound/weapons/saber/boiling.wav
+	]
+}
+
+Particle
+{
+	name				Bubbles
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution
+
+	count				0.6 1.5
+
+	life				600 800
+
+	delay				0 400
+
+	origin				-5 -4 -4 -6 4 4
+
+	rotation			-10 10
+
+	rotationDelta		-4 4
+
+	velocity			5 -5 -5 -5 5 5
+
+	gravity				8 10
+
+	alpha
+	{
+		end				0
+		parm			50 60
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			2 3
+		end				16 18
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/alpha_bubbles
+		gfx/water/alpha_bubbles2
+		gfx/water/alpha_bubbles3
+		gfx/water/overlay_bubbles
+		gfx/water/overlay_bubbles2
+		gfx/water/overlay_bubbles3
+		gfx/water/overlay_bubbles4
+		gfx/water/overlay_bubbles5
+		gfx/water/overlay_bubbles6
+	]
+}
+
+OrientedParticle
+{
+	name				Ripples
+
+	spawnFlags			orgOnCylinder evenDistribution
+
+	count				0.6 2
+
+	life				700
+
+	delay				0 600
+
+	origin				0.5 0 0 1 0 0
+
+	radius				1 10
+
+	height				0
+
+	alpha
+	{
+		start			0.3 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				10 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/water/screen_ripple
+		gfx/water/screen_ripple_glow
+		gfx/water/screen_ripple2
+		gfx/water/screen_ripple2_glow
+		gfx/water/screen_ripple3
+		gfx/water/screen_ripple3_glow
+		gfx/water/screen_ripple4
+		gfx/water/screen_ripple4_glow
+		gfx/water/screen_ripple5
+		gfx/water/screen_ripple5_glow
+		gfx/water/screen_ripples
+		gfx/water/screen_ripples_glow
+	]
+}
+
+FxRunner
+{
+	name				Generic saberflare
+
+	playfx
+	[
+		saber/saber_friction
+	]
+}

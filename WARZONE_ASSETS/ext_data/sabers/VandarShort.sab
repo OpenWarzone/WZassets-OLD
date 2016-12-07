@@ -1,0 +1,14 @@
+VandarShort
+
+{
+
+	name		"^5Kotor^4VandarShort"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/Vandar/Vandar.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	30
+	saberColor     green
+
+}

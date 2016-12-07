@@ -1,0 +1,132 @@
+repeatDelay				200
+
+Electricity
+{
+	name				Electricity
+
+	flags				useModel usePhysics impactFx
+
+	count				3 5
+
+	bounce				0.8 5
+
+	origin				75 0 0
+
+	origin2				-20 0 0 90 0 0
+
+	size
+	{
+		start			5 6
+		end				1 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricity_glowy
+	]
+}
+
+Particle
+{
+	name				LightFlare
+
+	life				10
+
+	origin				75 0 0
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.102 0.3255 0.549 0 0.02353 0.3569
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			2 6
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_purple
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				10
+
+	cullrange			300
+
+	origin				75 0 0
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+		end				0 0.05882 0.2588 0 0.02353 0.2353
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			10 16
+		end				50 60
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}
+
+Particle
+{
+	name				ElectricityFiller
+
+	origin				75 0 0
+
+	rotation			-180 180
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			5 6
+		end				1 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/electricity/electricityburst
+	]
+}

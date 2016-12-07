@@ -1,0 +1,7 @@
+{
+map			"bespin_streets"
+bots			"Lando"
+longname		"^5{^3JK2^5}^7 Bespin Streets"
+fraglimit		10
+type			"ffa team campain n/a jedivmerc single coop rpg"
+}

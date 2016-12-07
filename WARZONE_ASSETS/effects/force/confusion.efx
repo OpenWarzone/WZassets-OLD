@@ -1,0 +1,83 @@
+Particle
+{
+	name				LightFlare
+
+	spawnFlags			cheapOrgCalc
+
+	life				600 800
+
+	origin				0 0 15
+
+	rotation			-20 30
+
+	rotationDelta		-5 6
+
+	rgb
+	{
+		end				0.9922 0.702 0.4078 0.8667 0.5961 0.302
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.6 0.7
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			20 30
+		end				2 3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_blue
+		gfx/flares/flare_golden
+		gfx/flares/flare_golden
+		gfx/flares/flare_purple
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	spawnFlags			cheapOrgCalc
+
+	life				600 800
+
+	origin				0 0 15
+
+	rgb
+	{
+		start			0 0.02353 0.3255 0.0549 0 0.3569
+		end				0 0.05882 0.2588 0 0.02353 0.2353
+		parm			80
+		flags			linear nonlinear
+	}
+
+	alpha
+	{
+		start			0.4 0.5
+		end				0
+		parm			60 75
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			50 60
+		end				5 6
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/flares/flare_beam
+	]
+}

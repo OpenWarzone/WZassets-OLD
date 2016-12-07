@@ -1,0 +1,212 @@
+repeatDelay				50
+
+Particle
+{
+	name				Fire
+
+	count				6
+
+	life				55 70
+
+	origin				-15 0 0 -20 0 0
+
+	rotation			-180 180
+
+	rotationDelta		-50 50
+
+	velocity			0 0 0 -80 0 0
+
+	rgb
+	{
+		start			0.7608 0.6118 0.3373 0.8 0.5451 0.3569
+	}
+
+	alpha
+	{
+		start			0.4 0.7
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+		end				5 6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/explosion1
+		gfx/flames/explosion2
+		gfx/flames/explosion3
+		gfx/flames/explosion4
+		gfx/flames/explosion5
+	]
+}
+
+Tail
+{
+	name				Flames
+
+	life				15
+
+	origin				-6 0 0 -10 0 0
+
+	velocity			-1 0 0
+
+	rgb
+	{
+		start			1 0.9255 0.702 1 0.8941 0.5843
+	}
+
+	size
+	{
+		start			7 8
+	}
+
+	length
+	{
+		start			-50 -60
+	}
+
+	shaders
+	[
+		gfx/flames/fire
+	]
+}
+
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3 4
+
+	life				800 1500
+
+	origin				-15 0 0 -45 0 0
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			-1 -1 -1 -27 1 1
+
+	gravity				3 10
+
+	rgb
+	{
+		start			0.7686 0.7686 0.8078 0.8431 0.8431 0.7569
+		end				0.2353 0.2353 0.2353
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			6 7
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_2
+		gfx/atmospheric/cloud3_2
+		gfx/atmospheric/cloud5_2
+	]
+}
+
+Tail
+{
+	name				Smoke2
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				2 3
+
+	life				350 450
+
+	origin				-15 0 0 -30 0 0
+
+	velocity			-1 0 0
+
+	rgb
+	{
+		start			1 0.8588 0.7176 1 0.9098 0.5412
+		end				0.9529 0.9529 0.9608
+		parm			20
+		flags			clamp
+	}
+
+	alpha
+	{
+		start			0.7 0.9
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			6 7
+		end				8 12
+		flags			linear
+	}
+
+	length
+	{
+		start			-40 -55
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail_alpha2
+		gfx/flames/smokeTrail_alpha3
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				10
+
+	origin				-20 0 0
+
+	rgb
+	{
+		start			0.7176 0.4824 0 0.7176 0.502 0
+	}
+
+	size
+	{
+		start			60
+		end				40
+		flags			linear
+	}
+}
+
+CameraShake
+{
+	name				Shake
+
+	flags				usePhysics
+
+	life				10
+
+	bounce				2
+
+	radius				60
+}

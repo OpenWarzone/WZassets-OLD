@@ -1,0 +1,151 @@
+Sound
+{
+	cullrange			800
+
+	sounds
+	[
+		sound/weapons/blasters/reflect11.wav
+		sound/weapons/blasters/reflect12.wav
+		sound/weapons/blasters/reflect13.wav
+		sound/weapons/blasters/reflect1.wav
+		sound/weapons/blasters/reflect2.wav
+		sound/weapons/blasters/reflect3.wav
+		sound/weapons/blasters/reflect4.wav
+		sound/weapons/blasters/reflect5.wav
+		sound/weapons/blasters/reflect6.wav
+		sound/weapons/blasters/reflect7.wav
+		sound/weapons/blasters/reflect8.wav
+		sound/weapons/blasters/reflect9.wav
+		sound/weapons/blasters/reflect10.wav
+	]
+}
+
+FxRunner
+{
+	name				Generic saber flare
+
+	cullrange			800
+
+	playfx
+	[
+		saber/saber_block
+	]
+}
+
+Tail
+{
+	name				Sparktails
+
+	flags				usePhysics useAlpha
+
+	spawnFlags			affectedByWind
+
+	count				8 10
+
+	life				400 500
+
+	delay				0 50
+
+	cullrange			500
+
+	bounce				0.2 0.4
+
+	origin				2 -2 -2 2 2 2
+
+	velocity			-50 -50 -50 50 50 50
+
+	gravity				-60 -80
+
+	rgb
+	{
+		start			0.9529 0.9529 0.9608 1 0.851 0.7176
+		end				1 0.7961 0.6078 1 0.6196 0.2745
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0 0.5
+	}
+
+	size
+	{
+		start			0.5 0.6
+		end				0.2
+		flags			linear
+	}
+
+	length
+	{
+		start			6 8
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/blasters/sparkblue
+		gfx/blasters/sparkorange
+		gfx/blasters/sparkpurple
+		gfx/blasters/sparkpurple
+		gfx/blasters/sparkpurple
+		gfx/blasters/sparkred
+		gfx/blasters/sparkyellow
+	]
+}
+
+Particle
+{
+	name				SmokepuffwhiteThick
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3
+
+	life				1200 2200
+
+	origin				1 0 0
+
+	wind				5 40
+
+	rotation			-180 180
+
+	rotationDelta		-18 18
+
+	velocity			2 -5 -5 3 5 5
+
+	gravity				5 6
+
+	rgb
+	{
+		start			0.6863 0.4039 0.6078 0.5765 0.3137 0.5961
+		end				0.2 0.2 0.2431 0.2039 0.2039 0.2549
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				25 35
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/atmospheric/cloud1_256
+		gfx/atmospheric/cloud2_256
+		gfx/atmospheric/cloud3_256
+		gfx/atmospheric/cloud4_256
+		gfx/atmospheric/cloud5_256
+		gfx/atmospheric/cloud6_256
+	]
+}

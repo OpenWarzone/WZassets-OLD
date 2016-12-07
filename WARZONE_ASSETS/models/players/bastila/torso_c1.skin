@@ -1,0 +1,12 @@
+torso,*off
+l_arm,*off
+l_hand,*off
+r_hand,*off
+r_arm,*off
+pagne,*off
+torsob,models/players/bastila/PFBI04.tga
+hipsb,models/players/bastila/PFBI04.tga
+r_armb,models/players/bastila/PFBI04.tga
+r_handb,models/players/bastila/PFBI04.tga
+l_handb,models/players/bastila/PFBI04.tga
+l_armb,models/players/bastila/PFBI04.tga

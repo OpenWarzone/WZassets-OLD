@@ -1,0 +1,19 @@
+phaser1
+{
+name		phaser1
+projectile	1
+muzzleFX	"ships/phasermuzzleflash1"
+shotFX		"ships/phasershot1"
+impactFX	"ships/phaserimpact1"
+g2MarkShader	"gfx/damage/bodybigburnmark1"
+g2MarkSize	150
+//loopSound	
+speed		20000
+damage		300
+//damage		50
+splashDamage	175
+splashRadius	200
+ammoPerShot	2
+lifetime	600
+explodeOnExpire	0
+}
