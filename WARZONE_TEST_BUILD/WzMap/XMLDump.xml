@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<q3map_feedback><message level="1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</message><message level="1"> Q3Map         - v1.0r (c) 1999 Id Software Inc.
+</message><message level="1"> Q3Map (ydnar) - v2.5.16 FS20g
+</message><message level="1"> GtkRadiant    - v1.5.0
+</message><message level="1"> BloodMap      - v1.5.3 - (c) Pavel [VorteX] Timofeyev
+</message><message level="1"> WzMap         - v1.5.3 - Jun 26 2016 14:52:40 - by UniqueOne
+</message><message level="1"> Q3Map2 with Warzone Enhancements
+</message><message level="1"> 8 threads
+</message><message level="1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</message><message level="1">--- Memory Usage ---
+</message><message level="1">mapplanes: 2048 MB.
+</message><message level="1">bspLeafs: 384 MB.
+</message><message level="1">bspPlanes: 1024 MB.
+</message><message level="1">bspBrushes: 12 MB.
+</message><message level="1">bspBrushSides: 180 MB.
+</message><message level="1">bspNodes: 288 MB.
+</message><message level="1">bspLeafSurfaces: 32 MB.
+</message><message level="1">bspLeafBrushes: 32 MB.
+</message><message level="1">bspVisBytes: 255 MB.
+</message><message level="1">--- InitPaths ---
+</message><message level="1">searching C:/Program Files (x86)/Lucasarts/Star Wars Jedi Knight Jedi Academy/GameData/warzone/
+</message><message level="1">searching C:/Program Files (x86)/Lucasarts/Star Wars Jedi Knight Jedi Academy/GameData/base/
+</message><message level="1">--- Vis ---
+</message><message level="1">--- CommandLine ---
+</message><message level="1"> FastVis = true
+</message><message level="1"> Saveprt = true
+</message><message level="1">--- LoadBSPFile ---
+</message><message level="1">loading C:\Program Files (x86)\Lucasarts\Star Wars Jedi Knight Jedi Academy\GameData\Warzone\maps\baldemnic3.bsp
+</message><message level="1">--- LoadPRTFile ---
+</message><message level="1">loading C:\Program Files (x86)\Lucasarts\Star Wars Jedi Knight Jedi Academy\GameData\Warzone\maps\baldemnic3.prt
+</message><message level="1">    36864 portalclusters
+</message><message level="1">   105344 numportals
+</message><message level="1">    10496 numfaces
+</message><message level="3">************ ERROR ************
+safe_malloc(..\src\vis.c:993) failed on allocation of -2146893824 bytes
+</message></q3map_feedback>

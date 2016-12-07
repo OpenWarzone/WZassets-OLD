@@ -1,0 +1,211 @@
+BSP  :-analyze,0
+BSP  :-custinfoparms,0
+BSP  :-debuginset,0
+BSP  :-debugportals,0
+BSP  :-debugsurfaces,0
+BSP  :-draw,0
+BSP  :-expand,0
+BSP  :-fakemap,0
+BSP  :-flat,0
+BSP  :-flares,1
+BSP  :-fulldetail,0
+BSP  :-glview,0
+BSP  :-info,0
+BSP  :-leaktest,0
+BSP  :-meta,1
+BSP  :-micro,0
+BSP  :-nocurves,0
+BSP  :-nodetail,0
+BSP  :-nofill,0
+BSP  :-noflares,0
+BSP  :-nofog,0
+BSP  :-nohint,0
+BSP  :-noopt,0
+BSP  :-nosubdivide,0
+BSP  :-notjunc,0
+BSP  :-nowater,0
+BSP  :-onlyents,0
+BSP  :-onlytextures,0
+BSP  :-patchmeta,1
+BSP  :-rename,0
+BSP  :-skyfix,0
+BSP  :-v,0
+BSP  :-verboseentities,0
+BSP  :-showseams,0
+BSP  :-snap %t,1
+BSP  :-convert -format %t,0
+BSP  :-scale %t,0
+BSP  :-de %t,0
+BSP  :-mi %t,0
+BSP  :-mv %t,0
+BSP  :-ne %t,0
+BSP  :-tempname %t,0
+BSP  :-texrange %t,0
+BSP  :-threads %t,0
+BSP  :-connect %t,0
+BSP  :> %t,0
+BSP  :txt-snap %t,4
+BSP  :txt-convert -format %t,
+BSP  :txt-scale %t,2
+BSP  :txt-de %t, 
+BSP  :txt-mi %t,3
+BSP  :txt-mv %t,3
+BSP  :txt-ne %t, 
+BSP  :txt-tempname %t, 
+BSP  :txt-texrange %t,0
+BSP  :txt-threads %t,1
+BSP  :txt-connect %t,host:ip
+BSP  :txt> %t,bsplog.txt
+VIS  :-fast,0
+VIS  :-hint,0
+VIS  :-merge,0
+VIS  :-nosort,0
+VIS  :-nopassage,1
+VIS  :-saveprt,1
+VIS  :-v,0
+VIS  :-threads %t,0
+VIS  : -tmpin %t,0
+VIS  :-tmpout %t,0
+VIS  :-connect %t,0
+VIS  :txt-threads %t,1
+VIS  :txt -tmpin %t,path
+VIS  :txt-tmpout %t,path
+VIS  :txt-connect %t,host:ip
+LIGHT:-border,0
+LIGHT:-bouncegrid,0
+LIGHT:-cheap,1
+LIGHT:-cheapgrid,0
+LIGHT:-cpma,0
+LIGHT:-custinfoparms,0
+LIGHT:-dark,0
+LIGHT:-debug,0
+LIGHT:-debugaxis,0
+LIGHT:-debugcluster,0
+LIGHT:-debugdeluxe,0
+LIGHT:-debugorigin,0
+LIGHT:-debugsurfaces,0
+LIGHT:-debugunused,0
+LIGHT:-deluxe,0
+LIGHT:-dirty,1
+LIGHT:-dirtdebug,0
+LIGHT:-dump,0
+LIGHT:-export,0
+LIGHT:-extra,0
+LIGHT:-extrawide,0
+LIGHT:-fast,1
+LIGHT:-faster,1
+LIGHT:-fastbounce,0
+LIGHT:-fastgrid,1
+LIGHT:-filter,1
+LIGHT:-import,0
+LIGHT:-nocollapse,0
+LIGHT:-nogrid,0
+LIGHT:-normalmap,0
+LIGHT:-nosurf,0
+LIGHT:-notrace,0
+LIGHT:-novertex,0
+LIGHT:-patchshadows,1
+LIGHT:-shade,1
+LIGHT:-sunonly,1
+LIGHT:-trisoup,0
+LIGHT:-v,0
+LIGHT:-wolf,1
+LIGHT: ,1
+LIGHT:-approx %t,0
+LIGHT:-areascale %t,0
+LIGHT:-bounce %t,0
+LIGHT:-bouncescale %t,0
+LIGHT:-compensate %t,0
+LIGHT:-dirtmode %t,1
+LIGHT:-dirtdepth %t,1
+LIGHT:-dirtscale %t,1
+LIGHT:-dirtgain %t,0
+LIGHT:-gamma %t,1
+LIGHT:-pointscale %t,0
+LIGHT:-samplesize %t,0
+LIGHT:-lightmapsize %t,0
+LIGHT:-samples %t,1
+LIGHT:-scale %t,0
+LIGHT:-shadeangle %t,0
+LIGHT:-super %t,0
+LIGHT:-threads %t,0
+LIGHT:-thresh %t,0
+LIGHT:-connect %t,0
+LIGHT:txt-approx %t,0
+LIGHT:txt-areascale %t,1.0
+LIGHT:txt-bounce %t,8
+LIGHT:txt-bouncescale %t,1.0
+LIGHT:txt-compensate %t,2.0
+LIGHT:txt-dirtmode %t,3
+LIGHT:txt-dirtdepth %t,8192
+LIGHT:txt-dirtscale %t,1.25
+LIGHT:txt-dirtgain %t,0
+LIGHT:txt-gamma %t,2.2
+LIGHT:txt-pointscale %t,1.0
+LIGHT:txt-samplesize %t,16
+LIGHT:txt-lightmapsize %t,128
+LIGHT:txt-samples %t,3
+LIGHT:txt-scale %t,1.0
+LIGHT:txt-shadeangle %t,0
+LIGHT:txt-super %t,2
+LIGHT:txt-threads %t,0
+LIGHT:txt-thresh %t,1.0
+LIGHT:txt-connect %t,host:ip
+GAME :+set bot_enable 1,1
+GAME :+set sv_pure 0,1
+GAME :+set r_vertexlight %i,0
+GAME :+set r_fullscreen %i,0
+GAME :+set logfile 3,0
+GAME :+set r_fastsky 0,0
+GAME :+set bot_developer %i,0
+GAME :+set bot_debug %i,0
+GAME :+set developer 1,0
+GAME :+set dedicated 1,0
+GAME :+set g_debugdoor 1,0
+GAME :+set g_debugitems 1,0
+GAME :+set r_overbrightbits %t,0
+GAME :+set r_mapoverbrightbits %t,0
+GAME :+set r_mode %t,0
+GAME :+set r_gamma %t,0
+GAME :+set r_picmip %t,0
+GAME :+set vm_game %t,0
+GAME :+set vm_cgame %t,0
+GAME :+set vm_ui %t,0
+GAME :+set g_gametype %t,0
+GAME :+set g_wf_warmup %t,1
+GAME :+set fs_game %t,1
+GAME :+set fs_basegame %t,1
+GAME :+set com_hunkmegs %t,0
+GAME :+set com_zonemegs %t,0
+GAME :+set com_soundmegs %t,0
+GAME :+set r_start %t,0
+GAME :txt+set r_overbrightbits %t,2
+GAME :txt+set r_mapoverbrightbits %t,1
+GAME :txt+set r_mode %t,4
+GAME :txt+set r_gamma %t,1
+GAME :txt+set r_picmip %t,1
+GAME :txt+set vm_game %t,2
+GAME :txt+set vm_cgame %t,2
+GAME :txt+set vm_ui %t,2
+GAME :txt+set g_gametype %t,0
+GAME :txt+set g_wf_warmup %t,0
+GAME :txt+set fs_game %t,warzone
+GAME :txt+set fs_basegame %t,base
+GAME :txt+set com_hunkmegs %t,90
+GAME :txt+set com_zonemegs %t,12
+GAME :txt+set com_soundmegs %t,12
+GAME :txt+set r_start %t,
+BSPC :-forcesidesvisible,1
+BSPC :-optimize,1
+BSPC :-breadthfirst,0
+BSPC :-nobrushmerge,0
+BSPC :-freetree,0
+BSPC :-nocsg,0
+BSPC :-grapplereach,1
+BSPC :-noverbose,0
+BSPC :-cfg %t,0
+BSPC :-output %t,0
+BSPC :-threads %t,0
+BSPC :txt-cfg %t,cfgq3.c
+BSPC :txt-output %t, 
+BSPC :txt-threads %t,1
