@@ -3,9 +3,9 @@ models/warzone/trees/anvilleafpalm02
   qer_editorimage	models/warzone/trees/anvilleafpalm02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -22,9 +22,9 @@ models/warzone/trees/anvil_leafs02
   qer_editorimage	models/warzone/trees/anvil_leafs02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -41,9 +41,9 @@ models/warzone/trees/bamboo
   qer_editorimage	models/warzone/trees/bamboo
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -60,9 +60,9 @@ models/warzone/trees/bananaplant
   qer_editorimage	models/warzone/trees/bananaplant
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -79,9 +79,9 @@ models/warzone/trees/bush01
   qer_editorimage	models/warzone/trees/bush01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -98,9 +98,9 @@ models/warzone/trees/bush03a
   qer_editorimage	models/warzone/trees/bush03a
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -117,9 +117,9 @@ models/warzone/trees/bush03b
   qer_editorimage	models/warzone/trees/bush03b
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -136,9 +136,9 @@ models/warzone/trees/bush04
   qer_editorimage	models/warzone/trees/bush04
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -155,9 +155,9 @@ models/warzone/trees/cactus
   qer_editorimage	models/warzone/trees/cactus
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -174,9 +174,9 @@ models/warzone/trees/cannabisplant
   qer_editorimage	models/warzone/trees/cannabisplant
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -193,9 +193,9 @@ models/warzone/trees/coconut1
   qer_editorimage	models/warzone/trees/coconut1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -212,9 +212,9 @@ models/warzone/trees/coconutpalmleaf2
   qer_editorimage	models/warzone/trees/coconutpalmleaf2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -231,9 +231,9 @@ models/warzone/trees/fanpalm2leaf
   qer_editorimage	models/warzone/trees/fanpalm2leaf
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -250,9 +250,9 @@ models/warzone/trees/fanpalm3
   qer_editorimage	models/warzone/trees/fanpalm3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -269,9 +269,9 @@ models/warzone/trees/fanpalm4
   qer_editorimage	models/warzone/trees/fanpalm4
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -288,9 +288,9 @@ models/warzone/trees/fanpalm6
   qer_editorimage	models/warzone/trees/fanpalm6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -307,9 +307,9 @@ models/warzone/trees/fanpalm7
   qer_editorimage	models/warzone/trees/fanpalm7
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -326,9 +326,9 @@ models/warzone/trees/frond
   qer_editorimage	models/warzone/trees/frond
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -345,9 +345,9 @@ models/warzone/trees/fronddead
   qer_editorimage	models/warzone/trees/fronddead
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -364,9 +364,9 @@ models/warzone/trees/gkbpalmleaf
   qer_editorimage	models/warzone/trees/gkbpalmleaf
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -383,9 +383,9 @@ models/warzone/trees/gkbpalmleaf2
   qer_editorimage	models/warzone/trees/gkbpalmleaf2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -402,9 +402,9 @@ models/warzone/trees/junglemapleaspen2
   qer_editorimage	models/warzone/trees/junglemapleaspen2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -421,9 +421,9 @@ models/warzone/trees/junglemapletest3
   qer_editorimage	models/warzone/trees/junglemapletest3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -440,9 +440,9 @@ models/warzone/trees/leaves21
   qer_editorimage	models/warzone/trees/leaves21
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -459,9 +459,9 @@ models/warzone/trees/leaves22
   qer_editorimage	models/warzone/trees/leaves22
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -478,9 +478,9 @@ models/warzone/trees/leaves26
   qer_editorimage	models/warzone/trees/leaves26
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -497,9 +497,9 @@ models/warzone/trees/leaves27
   qer_editorimage	models/warzone/trees/leaves27
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -516,9 +516,9 @@ models/warzone/trees/leaves34
   qer_editorimage	models/warzone/trees/leaves34
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -535,9 +535,9 @@ models/warzone/trees/leaves39
   qer_editorimage	models/warzone/trees/leaves39
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -554,9 +554,9 @@ models/warzone/trees/mp_valenwood_tree01
   qer_editorimage	models/warzone/trees/mp_valenwood_tree01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -573,9 +573,9 @@ models/warzone/trees/valenwood
   qer_editorimage	models/warzone/trees/valenwood
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -592,9 +592,9 @@ models/warzone/trees/palm1leaves
   qer_editorimage	models/warzone/trees/palm1leaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -611,9 +611,9 @@ models/warzone/trees/palmfond2
   qer_editorimage	models/warzone/trees/palmfond2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -630,9 +630,9 @@ models/warzone/trees/palmfond3
   qer_editorimage	models/warzone/trees/palmfond3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -649,9 +649,9 @@ models/warzone/trees/palmfond6
   qer_editorimage	models/warzone/trees/palmfond6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -668,9 +668,9 @@ models/warzone/trees/palmfond8
   qer_editorimage	models/warzone/trees/palmfond8
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -687,9 +687,9 @@ models/warzone/trees/palmleafnew3
   qer_editorimage	models/warzone/trees/palmleafnew3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -706,9 +706,9 @@ models/warzone/trees/palmleafnew3dead
   qer_editorimage	models/warzone/trees/palmleafnew3dead
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -725,9 +725,9 @@ models/warzone/trees/palmleafnew3full2
   qer_editorimage	models/warzone/trees/palmleafnew3full2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -744,9 +744,9 @@ models/warzone/trees/palmleafnew3full3
   qer_editorimage	models/warzone/trees/palmleafnew3full3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -763,9 +763,9 @@ models/warzone/trees/palmleafnew3full4
   qer_editorimage	models/warzone/trees/palmleafnew3full4
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -782,9 +782,9 @@ models/warzone/trees/palmleafnew3sat
   qer_editorimage	models/warzone/trees/palmleafnew3sat
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -801,9 +801,9 @@ models/warzone/trees/palmleafnew8
   qer_editorimage	models/warzone/trees/palmleafnew8
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -820,9 +820,9 @@ models/warzone/trees/palmmiddle2
   qer_editorimage	models/warzone/trees/palmmiddle2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -839,9 +839,9 @@ models/warzone/trees/palmmiddle3
   qer_editorimage	models/warzone/trees/palmmiddle3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -858,9 +858,9 @@ models/warzone/trees/palmplant
   qer_editorimage	models/warzone/trees/palmplant
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -877,9 +877,9 @@ models/warzone/trees/palmtree01
   qer_editorimage	models/warzone/trees/palmtree01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -896,9 +896,9 @@ models/warzone/trees/palmtree02
   qer_editorimage	models/warzone/trees/palmtree02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -915,9 +915,9 @@ models/warzone/trees/palmsleaf01
   qer_editorimage	models/warzone/trees/palmsleaf01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -934,9 +934,9 @@ models/warzone/trees/pumpkin
   qer_editorimage	models/warzone/trees/pumpkin
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -953,9 +953,9 @@ models/warzone/trees/tropicalplant01
   qer_editorimage	models/warzone/trees/tropicalplant01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -972,9 +972,9 @@ models/warzone/trees/tropicalplant02
   qer_editorimage	models/warzone/trees/tropicalplant02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -991,9 +991,9 @@ models/warzone/trees/tropicalshrub01
   qer_editorimage	models/warzone/trees/tropicalshrub01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1010,9 +1010,9 @@ models/warzone/trees/tropicalshrub02
   qer_editorimage	models/warzone/trees/tropicalshrub02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1029,9 +1029,9 @@ models/warzone/trees/tropicalshrub03
   qer_editorimage	models/warzone/trees/tropicalshrub03
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1048,9 +1048,9 @@ models/warzone/trees/tropicalshrub04
   qer_editorimage	models/warzone/trees/tropicalshrub04
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1067,9 +1067,9 @@ models/warzone/trees/tropicalshrub05
   qer_editorimage	models/warzone/trees/tropicalshrub05
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1086,9 +1086,9 @@ models/warzone/trees/uqbigtree1leaves
   qer_editorimage	models/warzone/trees/uqbigtree1leaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1105,9 +1105,9 @@ models/warzone/trees/uqbigtree2leaves
   qer_editorimage	models/warzone/trees/uqbigtree2leaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1124,9 +1124,9 @@ models/warzone/trees/uqconifer6leaves
   qer_editorimage	models/warzone/trees/uqconifer6leaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1143,9 +1143,9 @@ models/warzone/trees/uqconiferleaves
   qer_editorimage	models/warzone/trees/uqconiferleaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1162,9 +1162,9 @@ models/warzone/trees/uqgiantredwood36light
   qer_editorimage	models/warzone/trees/uqgiantredwood36light
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1181,9 +1181,9 @@ models/warzone/trees/uqgiantredwood36lighttop
   qer_editorimage	models/warzone/trees/uqgiantredwood36lighttop
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1200,9 +1200,9 @@ models/warzone/trees/uqgiantredwoodbranch3dark
   qer_editorimage	models/warzone/trees/uqgiantredwoodbranch3dark
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1219,9 +1219,9 @@ models/warzone/trees/uqpalmleafs1
   qer_editorimage	models/warzone/trees/uqpalmleafs1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1238,9 +1238,9 @@ models/warzone/trees/uqpalmleafs3
   qer_editorimage	models/warzone/trees/uqpalmleafs3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1257,9 +1257,9 @@ models/warzone/trees/uqpalmleafs3orig
   qer_editorimage	models/warzone/trees/uqpalmleafs3orig
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1276,9 +1276,9 @@ models/warzone/trees/uqpalmleafs5
   qer_editorimage	models/warzone/trees/uqpalmleafs5
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1295,9 +1295,9 @@ models/warzone/trees/uqpalmleafs5orig
   qer_editorimage	models/warzone/trees/uqpalmleafs5orig
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1314,9 +1314,9 @@ models/warzone/trees/uqpalmleafs6
   qer_editorimage	models/warzone/trees/uqpalmleafs6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1333,9 +1333,9 @@ models/warzone/trees/uqpalmleafs7
   qer_editorimage	models/warzone/trees/uqpalmleafs7
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1352,9 +1352,9 @@ models/warzone/trees/uqredwood6
   qer_editorimage	models/warzone/trees/uqredwood6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1371,9 +1371,9 @@ models/warzone/trees/uqredwood7
   qer_editorimage	models/warzone/trees/uqredwood7
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1390,9 +1390,9 @@ models/warzone/trees/uqsmalltree2leaves
   qer_editorimage	models/warzone/trees/uqsmalltree2leaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1409,9 +1409,9 @@ models/warzone/trees/uqsmalltreeleaves
   qer_editorimage	models/warzone/trees/uqsmalltreeleaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1428,9 +1428,9 @@ models/warzone/trees/uqsnowpineatlas1
   qer_editorimage	models/warzone/trees/uqsnowpineatlas1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1447,9 +1447,9 @@ models/warzone/trees/uqsnowpineatlas2
   qer_editorimage	models/warzone/trees/uqsnowpineatlas2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1466,9 +1466,9 @@ models/warzone/trees/uqsnowpineleaf1
   qer_editorimage	models/warzone/trees/uqsnowpineleaf1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1485,9 +1485,9 @@ models/warzone/trees/uqsnowpineleaf2
   qer_editorimage	models/warzone/trees/uqsnowpineleaf2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1504,9 +1504,9 @@ models/warzone/trees/uqsnowpineleaf3
   qer_editorimage	models/warzone/trees/uqsnowpineleaf3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1523,9 +1523,9 @@ models/warzone/trees/weepingtexture3
   qer_editorimage	models/warzone/trees/weepingtexture3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1542,9 +1542,9 @@ models/warzone/trees/weepingtexture4
   qer_editorimage	models/warzone/trees/weepingtexture4
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1561,9 +1561,9 @@ models/warzone/trees/weepingtexture5
   qer_editorimage	models/warzone/trees/weepingtexture5
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1580,9 +1580,9 @@ models/warzone/trees/weepingtexture6
   qer_editorimage	models/warzone/trees/weepingtexture6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1599,9 +1599,9 @@ models/warzone/trees/weepingtexture7
   qer_editorimage	models/warzone/trees/weepingtexture7
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1618,9 +1618,9 @@ models/warzone/trees/weepingtexture7b
   qer_editorimage	models/warzone/trees/weepingtexture7b
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1637,9 +1637,9 @@ models/warzone/trees/weepingtexture7half
   qer_editorimage	models/warzone/trees/weepingtexture7half
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1656,9 +1656,9 @@ models/warzone/trees/weepingtexture7top
   qer_editorimage	models/warzone/trees/weepingtexture7top
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1675,9 +1675,9 @@ models/warzone/trees/weepingtexture7topb
   qer_editorimage	models/warzone/trees/weepingtexture7topb
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1694,9 +1694,9 @@ models/warzone/trees/willowleaves
   qer_editorimage	models/warzone/trees/willowleaves
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1713,9 +1713,9 @@ models/warzone/trees/DB2X2_M01
   qer_editorimage	models/warzone/trees/DB2X2_M01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1736,9 +1736,9 @@ models/warzone/trees/ealderbranchcomp01
   qer_editorimage	models/warzone/trees/ealderbranchcomp01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1755,9 +1755,9 @@ models/warzone/trees/gkbbranch1
   qer_editorimage	models/warzone/trees/gkbbranch1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1774,9 +1774,9 @@ models/warzone/trees/gkbbranch5dark
   qer_editorimage	models/warzone/trees/gkbbranch5dark
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1793,9 +1793,9 @@ models/warzone/trees/gkbmapleconifer21
   qer_editorimage	models/warzone/trees/gkbmapleconifer21
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1812,9 +1812,9 @@ models/warzone/trees/gkbmapleconifer21blos
   qer_editorimage	models/warzone/trees/gkbmapleconifer21blos
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1831,9 +1831,9 @@ models/warzone/trees/gkbtreeaspenbranchcompbla
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompbla
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1850,9 +1850,9 @@ models/warzone/trees/gkbtreeaspenbranchcompbloco1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompbloco1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1869,9 +1869,9 @@ models/warzone/trees/gkbtreeaspenbranchcompblode1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompblode1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1888,9 +1888,9 @@ models/warzone/trees/gkbtreeaspenbranchcompbloss1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompbloss1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1907,9 +1907,9 @@ models/warzone/trees/gkbtreeaspenbranchcompcyp
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompcyp
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1926,9 +1926,9 @@ models/warzone/trees/gkbtreeaspenbranchcomppalm
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomppalm
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1945,9 +1945,9 @@ models/warzone/trees/gkbtreeaspenbranchcomppalm2
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomppalm2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1964,9 +1964,9 @@ models/warzone/trees/gkbtreeaspenbranchcompgreen1dark
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompgreen1dark
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -1983,9 +1983,9 @@ models/warzone/trees/gkbtreeaspenbranchcomporali1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomporali1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2002,9 +2002,9 @@ models/warzone/trees/gkbtreeaspenbranchcomporange1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomporange1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2021,9 +2021,9 @@ models/warzone/trees/gkbtreeaspenbranchcomporave1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomporave1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2040,9 +2040,9 @@ models/warzone/trees/gkbtreeaspenbranchcomppine1
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcomppine1
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2059,9 +2059,9 @@ models/warzone/trees/gkbtreeaspenbranchcompredtwig15
   qer_editorimage	models/warzone/trees/gkbtreeaspenbranchcompredtwig15
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2078,9 +2078,9 @@ models/warzone/trees/grandoak12
   qer_editorimage	models/warzone/trees/grandoak12
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2097,9 +2097,9 @@ models/warzone/trees/junglemoss6
   qer_editorimage	models/warzone/trees/junglemoss6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2116,9 +2116,9 @@ models/warzone/trees/junglemoss11
   qer_editorimage	models/warzone/trees/junglemoss11
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2135,9 +2135,9 @@ models/warzone/trees/junglemapleaspen2
   qer_editorimage	models/warzone/trees/junglemapleaspen2
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2154,9 +2154,9 @@ models/warzone/trees/junglemapletest3
   qer_editorimage	models/warzone/trees/junglemapletest3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2173,9 +2173,9 @@ models/warzone/trees/spanishmoss11
   qer_editorimage	models/warzone/trees/spanishmoss11
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2192,9 +2192,9 @@ models/warzone/trees/spanishmoss6
   qer_editorimage	models/warzone/trees/spanishmoss6
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2211,9 +2211,9 @@ models/warzone/trees/treeaspenaddon01
   qer_editorimage	models/warzone/trees/treeaspenaddon01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2230,9 +2230,9 @@ models/warzone/trees/treeaspenbranchcomp
   qer_editorimage	models/warzone/trees/treeaspenbranchcomp
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2249,9 +2249,9 @@ models/warzone/trees/treepineforestaddon01
   qer_editorimage	models/warzone/trees/treepineforestaddon01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2268,9 +2268,9 @@ models/warzone/trees/treepineforestbranchcomp
   qer_editorimage	models/warzone/trees/treepineforestbranchcomp
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2287,9 +2287,9 @@ models/warzone/trees/treepineforestcut01
   qer_editorimage	models/warzone/trees/treepineforestcut01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2306,9 +2306,9 @@ models/warzone/trees/treereachaddon01
   qer_editorimage	models/warzone/trees/treereachaddon01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2325,9 +2325,9 @@ models/warzone/trees/vurt_pine01
   qer_editorimage	models/warzone/trees/vurt_pine01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2344,9 +2344,9 @@ models/warzone/trees/vurt_pine02
   qer_editorimage	models/warzone/trees/vurt_pine02
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2367,9 +2367,9 @@ models/warzone/deadtrees/driftwoodbranches01
   qer_editorimage	models/warzone/deadtrees/driftwoodbranches01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2386,9 +2386,9 @@ models/warzone/deadtrees/gkbbranch10
   qer_editorimage	models/warzone/deadtrees/gkbbranch10
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2405,9 +2405,9 @@ models/warzone/deadtrees/gkbtreeaspenbranchcomp3
   qer_editorimage	models/warzone/deadtrees/gkbtreeaspenbranchcomp3
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2424,9 +2424,9 @@ models/warzone/deadtrees/treeaddon01
   qer_editorimage	models/warzone/deadtrees/treeaddon01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2444,9 +2444,9 @@ models/warzone/deadtrees/treebranch01
   qer_editorimage	models/warzone/deadtrees/treebranch01
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2463,9 +2463,9 @@ models/warzone/deadtrees/treepineforestbranchcompsnow
   qer_editorimage	models/warzone/deadtrees/treepineforestbranchcompsnow
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
@@ -2482,9 +2482,9 @@ models/warzone/deadtrees/treepineforestbranchcompsnowl
   qer_editorimage	models/warzone/deadtrees/treepineforestbranchcompsnowl
   q3map_alphashadow
   q3map_material	GreenLeaves
-  surfaceparm trans
-  surfaceparm	noimpact
-  surfaceparm	nomarks
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
   surfaceparm	nonsolid
   cull	twosided
   {
