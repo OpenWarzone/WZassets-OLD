@@ -36,3 +36,16 @@ models/warzone/rocks/mountainpeak01
     rgbGen identity
   }
 }
+
+models/warzone/rocks/snowycliff
+{
+  qer_editorimage	models/warzone/rocks/snowycliff
+  q3map_material	rock
+  q3map_clipModel
+  {
+    map models/warzone/rocks/snowycliff
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
