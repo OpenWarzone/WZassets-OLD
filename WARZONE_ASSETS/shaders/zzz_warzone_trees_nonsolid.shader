@@ -2358,6 +2358,101 @@ models/warzone/trees/vurt_pine02
   }
 }
 
+models/warzone/trees/datepalmdates7
+{
+  qer_editorimage	models/warzone/trees/datepalmdates7
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/datepalmdates7
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/datepalmdates8
+{
+  qer_editorimage	models/warzone/trees/datepalmdates8
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/datepalmdates8
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/palmfond8
+{
+  qer_editorimage	models/warzone/trees/palmfond8
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/palmfond8
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/palmleafnew3dead
+{
+  qer_editorimage	models/warzone/trees/palmleafnew3dead
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/palmleafnew3dead
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/palmleafnew3sat
+{
+  qer_editorimage	models/warzone/trees/palmleafnew3sat
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/palmleafnew3sat
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //

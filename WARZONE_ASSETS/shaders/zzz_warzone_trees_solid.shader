@@ -1233,6 +1233,45 @@ models/warzone/trees/tundradriftwoodbark02
   }
 }
 
+models/warzone/trees/datepalmbark2
+{
+  qer_editorimage	models/warzone/trees/datepalmbark2
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/datepalmbark2
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/datepalmbark3
+{
+  qer_editorimage	models/warzone/trees/datepalmbark3
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/datepalmbark2
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/palmbarknew9
+{
+  qer_editorimage	models/warzone/trees/palmbarknew9
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/palmbarknew9
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //
