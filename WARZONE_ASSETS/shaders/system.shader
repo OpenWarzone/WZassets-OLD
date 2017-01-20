@@ -152,6 +152,7 @@ textures/system/nodraw_solid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	q3map_nolightmap
+	q3map_clipModel
 }
 
 textures/system/nodraw_slime
