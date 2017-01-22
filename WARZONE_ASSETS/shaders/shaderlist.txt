@@ -48,8 +48,12 @@ zzZ_Warzone_Radar
 zzz_foliage
 zzz_foliage_dense
 zzz_foliage_light
+zzz_warzone_rocks_solid
 zzz_warzone_trees_nonsolid
 zzz_warzone_trees_solid
 zzz_warzone_mapobjects_nonsolid
 zzz_warzone_mapobjects_solid
-
+warzone_ilum
+warzone_oriental
+warzone_taanab
+warzone_tatooine
