@@ -14,11 +14,17 @@ models/warzone/oriental/501d6b0
 models/warzone/oriental/502ba70
 {
   qer_editorimage	models/warzone/oriental/502ba70
+  q3map_alphashadow
   q3map_material hollowwood
-  q3map_clipModel
+  surfaceparm trans
+  surfaceparm	noimpact
+  surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
   {
     map models/warzone/oriental/502ba70
     blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
     depthWrite
     rgbGen identity
   }
@@ -79,11 +85,17 @@ models/warzone/oriental/516d730
 models/warzone/oriental/516dd50
 {
   qer_editorimage	models/warzone/oriental/516dd50
+  q3map_alphashadow
   q3map_material fabric
-  q3map_clipModel
+  surfaceparm trans
+  surfaceparm	noimpact
+  surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
   {
     map models/warzone/oriental/516dd50
     blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
     depthWrite
     rgbGen identity
   }
@@ -199,11 +211,17 @@ models/warzone/oriental/7154f70
 models/warzone/oriental/76c9930
 {
   qer_editorimage	models/warzone/oriental/76c9930
+  q3map_alphashadow
   q3map_material solidwood
-  q3map_clipModel
+  surfaceparm trans
+  surfaceparm	noimpact
+  surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
   {
     map models/warzone/oriental/76c9930
     blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
     depthWrite
     rgbGen identity
   }
@@ -355,11 +373,17 @@ models/warzone/oriental/b142c70
 models/warzone/oriental/b155070
 {
   qer_editorimage	models/warzone/oriental/b155070
+  q3map_alphashadow
   q3map_material solidwood
-  q3map_clipModel
+  surfaceparm trans
+  surfaceparm	noimpact
+  surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
   {
     map models/warzone/oriental/b155070
     blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
     depthWrite
     rgbGen identity
   }
@@ -394,11 +418,17 @@ models/warzone/oriental/b155870
 models/warzone/oriental/b224830
 {
   qer_editorimage	models/warzone/oriental/b224830
+  q3map_alphashadow
   q3map_material solidwood
-  q3map_clipModel
+  surfaceparm trans
+  surfaceparm	noimpact
+  surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
   {
     map models/warzone/oriental/b224830
     blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
     depthWrite
     rgbGen identity
   }
