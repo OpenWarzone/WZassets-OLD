@@ -37,6 +37,10 @@ ledgeFacesScale=2.0
 // Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
 ledgeFacesCullScale=6.0
 
+// Minimum and Maximum surface angles to add slopes...
+ledgeMinSlope=22.0
+ledgeMaxSlope=28.0
+
 // Replace texture of the ledge faces with this one (generally should match your basic ground shader)... Can use splat maps with warzone...
 ledgeShader=models/warzone/rocks/ledge
 
