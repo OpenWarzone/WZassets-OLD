@@ -1,0 +1,281 @@
+[GENERAL]
+// Forces all models to use meta surfaces. Much slower.
+forcedModelMeta=0
+
+// Removes excess crap from the bsp file. Results in a smaller map file. I am yet to see any issues caused by this.
+caulkifyCrap=1
+
+[GRASS]
+grassImage0=models/warzone/foliage/maingrass2
+grassImage1=models/warzone/foliage/maingrass3
+grassImage2=models/warzone/foliage/maingrass4
+seaGrassImage=models/warzone/foliage/seagrass
+
+[CLIFFS]
+// Use the system that applies procedural cliff geometry to the map...
+addCliffFaces=1
+
+// Use the low poly cliff models only...
+cheapCliffs=1
+
+// Scale cliff sizes by this value...
+cliffFacesScale=1.0
+
+// Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
+cliffFacesCullScale=0.7
+
+// Replace texture of the cliff faces with this one... Can use splat maps with warzone...
+//cliffShader=models/warzone/rocks/cliff
+
+[LEDGES]
+// Use the system that applies procedural cliff geometry to the map...
+addLedgeFaces=1
+
+// Scale cliff sizes by this value...
+ledgeFacesScale=2.0
+
+// Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
+ledgeFacesCullScale=6.0
+
+// Replace texture of the ledge faces with this one (generally should match your basic ground shader)... Can use splat maps with warzone...
+ledgeShader=models/warzone/rocks/ledge
+
+[CITY]
+// Coordinates of the center of the city...
+cityLocationX=-618
+cityLocationY=8766
+cityLocationZ=60
+
+// Radius around the center to add buildings...
+//cityRadius=8192.0
+cityRadius=2048.0
+
+// Coordinates of the center of the second city...
+//city2LocationX=-25128
+//city2LocationY=25630
+//city2LocationZ=2599
+
+// Radius around the third city center to add buildings...
+//city2Radius=2048.0
+
+// Coordinates of the center of the second city...
+//city3LocationX=11072
+//city3LocationY=25210
+//city3LocationZ=2384
+
+// Radius around the third city center to add buildings...
+//city3Radius=1300.0
+
+// Over-all building scale multiplier...
+cityScaleMultiplier=1.0
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+cliffFacesCullScale=0.75
+
+// Per-building model filenames...
+cityModel0=models/warzone/oriental/Inn.md3
+//cityModel1=models/warzone/tatooine/tatooinebuilding02.md3
+//cityModel2=models/warzone/tatooine/tatooinebuilding03.md3
+//cityModel3=models/warzone/tatooine/tatooinebuilding04.md3
+//cityModel4=models/warzone/tatooine/tatooinebuilding05.md3
+//cityModel5=models/warzone/tatooine/tatooinebuilding06.md3
+
+// Per-building vertical offsets...
+cityZoffset0=21.0
+cityZoffset1=-96.0
+cityZoffset2=-36.0
+cityZoffset3=-36.0
+cityZoffset4=-36.0
+cityZoffset5=-48.0
+
+// Per-building model scales...
+cityScale0=1.0
+cityScale1=3.0
+cityScale2=1.0
+cityScale3=1.0
+cityScale4=1.0
+cityScale5=1.25
+
+// Only allow this type on slopes less steep then this...
+cityForcedMaxAngle0=1.0
+cityForcedMaxAngle1=6.0
+cityForcedMaxAngle2=1.0
+cityForcedMaxAngle3=1.0
+cityForcedMaxAngle4=1.0
+cityForcedMaxAngle5=1.25
+
+// Always force a buffer of this radius around the object...
+cityForcedBufferDistance0=2048.0
+cityForcedBufferDistance1=1500.0
+cityForcedBufferDistance2=1024.0
+cityForcedBufferDistance3=1500.0
+cityForcedBufferDistance4=1500.0
+cityForcedBufferDistance5=1024.0
+
+// Never place another of the same object within this radius...
+cityForcedDistanceFromSame0=32768.0
+cityForcedDistanceFromSame1=2048.0
+cityForcedDistanceFromSame2=0
+cityForcedDistanceFromSame3=0
+cityForcedDistanceFromSame4=0
+cityForcedDistanceFromSame5=1500.0
+
+// Force full solidity on this object (still culls tiny surfaces)...
+cityForcedFullSolid0=0
+cityForcedFullSolid1=1
+cityForcedFullSolid2=1
+cityForcedFullSolid3=1
+cityForcedFullSolid4=1
+cityForcedFullSolid5=1
+
+overrideShader0=
+overrideShader1=
+overrideShader2=
+overrideShader3=
+overrideShader4=
+overrideShader5=
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=1.0
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+cliffFacesCullScale=1.0
+
+// Per-tree model filenames...
+treeModel0=models/map_objects/warzone/standingstones2.md3
+treeModel1=models/map_objects/rift/crystal_floor.md3
+treeModel2=models/map_objects/rift/crystal_floor.md3
+treeModel3=models/map_objects/rift/crystal_floor.md3
+treeModel4=models/warzone/trees/junglepalm01.md3
+treeModel5=models/warzone/trees/junglepalm02.md3
+treeModel6=models/warzone/trees/junglepalm01.md3
+treeModel7=models/warzone/trees/junglepalm02.md3
+treeModel8=models/warzone/trees/junglepalm02.md3
+treeModel9=models/warzone/trees/junglepalm01.md3
+treeModel10=models/warzone/trees/junglepalm02.md3
+treeModel11=models/warzone/trees/junglepalm01.md3
+treeModel12=models/warzone/deadtrees/fallentree01.md3
+treeModel13=models/warzone/deadtrees/fallentree02.md3
+treeModel14=models/warzone/deadtrees/treestump01.md3
+treeModel15=models/warzone/deadtrees/treestump02.md3
+
+// Per-tree billboard texture filenames...
+treeBillboardShader0=
+treeBillboardShader1=
+treeBillboardShader2=
+treeBillboardShader3=
+treeBillboardShader4=
+treeBillboardShader5=
+treeBillboardShader6=
+treeBillboardShader7=
+treeBillboardShader8=
+
+// Per-tree billboard scales...
+treeBillboardSize0=128.0
+treeBillboardSize1=128.0
+treeBillboardSize2=128.0
+treeBillboardSize3=128.0
+treeBillboardSize4=128.0
+treeBillboardSize5=128.0
+treeBillboardSize6=128.0
+treeBillboardSize7=183.0
+treeBillboardSize8=203.0
+
+// Per-tree radius scales...
+treeRadius0=24.0
+treeRadius1=24.0
+treeRadius2=24.0
+treeRadius3=24.0
+treeRadius4=24.0
+treeRadius5=24.0
+treeRadius6=24.0
+treeRadius7=38.0
+treeRadius8=38.0
+
+// Per-tree vertical offsets...
+treeZoffset0=-36.0
+treeZoffset1=-24.0
+treeZoffset2=-24.0
+treeZoffset3=-24.0
+treeZoffset4=-48.0
+treeZoffset5=-48.0
+treeZoffset6=-64.0
+treeZoffset7=-64.0
+treeZoffset8=-96.0
+treeZoffset9=-96.0
+treeZoffset10=-128.0
+treeZoffset11=-128.0
+treeZoffset12=16.0
+treeZoffset13=16.0
+treeZoffset14=-12.0
+treeZoffset15=-12.0
+
+// Per-tree model scales...
+treeScale0=0.5
+treeScale1=1.3
+treeScale2=1.0
+treeScale3=1.5
+treeScale4=2.0
+treeScale5=2.5
+treeScale6=3.0
+treeScale7=3.5
+treeScale8=4.0
+treeScale9=5.0
+treeScale10=6.0
+treeScale11=7.0
+treeScale12=1.4
+treeScale13=1.9
+treeScale14=0.3
+treeScale15=0.4
+
+treeForcedMaxAngle0=12.0
+treeForcedMaxAngle1=0
+treeForcedMaxAngle2=0
+treeForcedMaxAngle3=0
+treeForcedMaxAngle4=0
+treeForcedMaxAngle5=0
+treeForcedMaxAngle6=0
+treeForcedMaxAngle7=0
+treeForcedMaxAngle8=0
+treeForcedMaxAngle9=0
+treeForcedMaxAngle10=0
+treeForcedMaxAngle11=0
+treeForcedMaxAngle12=14.0
+treeForcedMaxAngle13=14.0
+treeForcedMaxAngle14=4.0
+treeForcedMaxAngle15=6.0
+
+treeForcedBufferDistance0=512.0
+treeForcedBufferDistance1=384.0
+treeForcedBufferDistance2=384.0
+treeForcedBufferDistance3=384.0
+treeForcedBufferDistance4=128.0
+treeForcedBufferDistance5=128.0
+treeForcedBufferDistance6=256.0
+treeForcedBufferDistance7=256.0
+treeForcedBufferDistance8=256.0
+treeForcedBufferDistance9=256.0
+treeForcedBufferDistance10=384.0
+treeForcedBufferDistance11=384.0
+treeForcedBufferDistance12=512.0
+treeForcedBufferDistance13=512.0
+treeForcedBufferDistance14=384.0
+treeForcedBufferDistance15=384.0
+
+treeForcedDistanceFromSame0=25000.0
+treeForcedDistanceFromSame1=1024.0
+treeForcedDistanceFromSame2=1024.0
+treeForcedDistanceFromSame3=1024.0
+treeForcedDistanceFromSame4=512.0
+treeForcedDistanceFromSame5=512.0
+treeForcedDistanceFromSame6=512.0
+treeForcedDistanceFromSame7=512.0
+treeForcedDistanceFromSame8=512.0
+treeForcedDistanceFromSame9=512.0
+treeForcedDistanceFromSame10=512.0
+treeForcedDistanceFromSame11=512.0
+treeForcedDistanceFromSame12=24000.0
+treeForcedDistanceFromSame13=24000.0
+treeForcedDistanceFromSame14=20000.0
+treeForcedDistanceFromSame15=24000.0
