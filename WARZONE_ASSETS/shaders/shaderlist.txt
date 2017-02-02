@@ -58,3 +58,4 @@ warzone_ledges
 warzone_oriental
 warzone_taanab
 warzone_tatooine
+warzone_scarif
