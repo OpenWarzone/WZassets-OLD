@@ -205,6 +205,7 @@ textures/mp/s_flatblue
         map textures/mp/s_flatblue_blend
         blendFunc GL_ONE GL_ONE
         rgbGen wave sin 0.8 0.05 0 10
+        glow
     }
 }
 
@@ -1101,7 +1102,7 @@ textures/mp/s_ground
     {
         map textures/yavin/ground
         blendFunc GL_DST_COLOR GL_ZERO
-		tcMod scale 12.0 12.0
+		tcMod scale 2.0 2.0
     }
 }
 
@@ -1258,13 +1259,15 @@ textures/mp/s_ylight
     }
     {
         map textures/mp/ylight_blend
-        blendFunc GL_DST_COLOR GL_ONE
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
     }
 }
 
 textures/mp/s_ylight_blue
 {
-	q3map_lightimage	textures/mp/ylight_blue_blend.tga
+	/*q3map_lightimage	textures/mp/ylight_blue_blend.tga
 	qer_editorimage	textures/mp/ylight_blue.tga
 	q3map_surfacelight	3000
     {
@@ -1276,13 +1279,30 @@ textures/mp/s_ylight_blue
     }
     {
         map textures/mp/ylight_blue_blend
-        blendFunc GL_DST_COLOR GL_ONE
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
+    }*/
+    // UQ1: Let's use a better light, huh?
+    qer_editorimage	textures/byss/byss_light2
+    {
+        map $lightmap
+    }
+    {
+        map textures/byss/byss_light2
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map textures/byss/byss_light2_glow
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
     }
 }
 
 textures/mp/s_ylight_red
 {
-	q3map_lightimage	textures/mp/ylight_blue_red.tga
+	q3map_lightimage	textures/mp/ylight_red_blend.tga
 	qer_editorimage	textures/mp/ylight_red.tga
 	q3map_surfacelight	3000
     {
@@ -1294,7 +1314,9 @@ textures/mp/s_ylight_red
     }
     {
         map textures/mp/ylight_red_blend
-        blendFunc GL_DST_COLOR GL_ONE
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
     }
 }
 
@@ -1518,6 +1540,7 @@ textures/mp/s_vjun_light_vjun
         map textures/mp/light_vjun_blend
         blendFunc GL_ONE GL_ONE
         rgbGen identity
+        glow
     }
 }
 
@@ -1537,6 +1560,7 @@ textures/mp/s_vjun_light_vjuny
         map textures/mp/s_light_vjuny_blend
         blendFunc GL_ONE GL_ONE
         rgbGen identity
+        glow
     }
 }
 
@@ -1592,6 +1616,7 @@ textures/mp/s_vjun_lights
     {
         map textures/mp/s_lights_blend
         blendFunc GL_ONE GL_ONE
+        glow
     }
 }
 
@@ -2127,6 +2152,7 @@ textures/mp/s_tracklight_nolight
         map textures/mp/s_tracklight_blend
         blendFunc GL_ONE GL_ONE
         rgbGen wave sin 0.8 0.1 0 0.5
+        glow
     }
 }
 
@@ -2143,7 +2169,7 @@ textures/mp/s_ylight_nolight
     }
     {
         map textures/mp/ylight_red_blend
-        blendFunc GL_DST_COLOR GL_ONE
+        blendFunc GL_ONE GL_ONE
         glow
     }
 }

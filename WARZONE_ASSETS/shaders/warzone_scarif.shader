@@ -22,6 +22,46 @@ textures/scarif/cliff
     blendfunc GL_ONE GL_ZERO
     depthWrite
     rgbGen identity
-    tcMod scale 4.0 4.0
+    tcMod scale 8.0 8.0
   }
+}
+
+textures/skies/scarif
+{
+	q3map_lightimage	textures/colors/white
+	qer_editorimage	textures/skies/sky.tga
+	q3map_surfacelight	800
+	q3map_lightsubdivide	512
+	sun 1 1 1 400 300 50
+	surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+	skyParms	textures/skies/hevil 128 -
+    {
+        map textures/skies/scarif_clouds
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        tcMod scroll 0 0.00225
+        tcMod scale 4 4
+    }
+}
+
+textures/skies/scarif_clouds
+{
+  surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+    {
+        map textures/skies/scarif_clouds
+        blendFunc GL_DST_ALPHA GL_SRC_COLOR
+        tcMod scroll 0.005 0
+    }
+    {
+        map textures/skies/cloudlayer3
+        blendFunc GL_SRC_ALPHA GL_SRC_COLOR
+        tcMod scroll 0.01 0
+    }
 }
