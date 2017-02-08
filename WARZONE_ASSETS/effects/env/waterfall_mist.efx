@@ -1,9 +1,5 @@
-repeatDelay				200
-
 Particle
 {
-	flags				useAlpha
-
 	spawnFlags			cheapOrgCalc rgbComponentInterpolation
 
 	life				2200
@@ -28,7 +24,7 @@ Particle
 	alpha
 	{
 		start			0
-		end				0.1 0.2
+		end				0.3 0.4
 		parm			1
 		flags			wave
 	}
@@ -43,11 +39,6 @@ Particle
 
 	shaders
 	[
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud6_256
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
+		gfx/misc/steam
 	]
 }

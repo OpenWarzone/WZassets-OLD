@@ -1,10 +1,6 @@
-repeatDelay				200
-
 OrientedParticle
 {
-	name				Ripples
-
-	count				1 2
+	count				0 0.54
 
 	life				800 1600
 
@@ -16,7 +12,7 @@ OrientedParticle
 
 	rgb
 	{
-		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
+		start			0.1255 0.1255 0.1255 0.1255 0.1882 0.1882
 	}
 
 	alpha
@@ -28,36 +24,23 @@ OrientedParticle
 	size
 	{
 		start			5 16
-		end				100 150
+		end				64 96
 		flags			linear
 	}
 
 	shaders
 	[
-		gfx/water/screen_ripple
-		gfx/water/screen_ripple_glow
-		gfx/water/screen_ripple2
-		gfx/water/screen_ripple2_glow
-		gfx/water/screen_ripple3
-		gfx/water/screen_ripple3_glow
-		gfx/water/screen_ripple4
-		gfx/water/screen_ripple4_glow
-		gfx/water/screen_ripple5
-		gfx/water/screen_ripple5_glow
-		gfx/water/screen_ripples
-		gfx/water/screen_ripples
-		gfx/water/screen_ripples_glow
-		gfx/water/screen_ripples_glow
+		wake
 	]
 }
 
 OrientedParticle
 {
-	name				DropsRipples
+	name				Copy of Unnamed OrientedParticl
 
 	spawnFlags			orgOnSphere
 
-	count				3 4
+	count				1 2
 
 	life				800 500
 
@@ -73,7 +56,7 @@ OrientedParticle
 
 	rgb
 	{
-		start			0.6 0.6392 0.6824 0.502 0.502 0.502
+		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
 	}
 
 	alpha
@@ -92,19 +75,6 @@ OrientedParticle
 
 	shaders
 	[
-		gfx/water/screen_ripple
-		gfx/water/screen_ripple_glow
-		gfx/water/screen_ripple2
-		gfx/water/screen_ripple2_glow
-		gfx/water/screen_ripple3
-		gfx/water/screen_ripple3_glow
-		gfx/water/screen_ripple4
-		gfx/water/screen_ripple4_glow
-		gfx/water/screen_ripple5
-		gfx/water/screen_ripple5_glow
-		gfx/water/screen_ripples
-		gfx/water/screen_ripples
-		gfx/water/screen_ripples_glow
-		gfx/water/screen_ripples_glow
+		wake
 	]
 }

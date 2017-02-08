@@ -1,4 +1,4 @@
-repeatDelay				200
+repeatDelay				300
 
 Particle
 {
@@ -16,7 +16,7 @@ Particle
 
 	alpha
 	{
-		start			0.5
+		start			0.8 0.5
 		end				0
 		flags			linear
 	}
@@ -30,18 +30,7 @@ Particle
 
 	shaders
 	[
-		gfx/atmospheric/cloud7_add_256
-		gfx/atmospheric/cloud7_add_256
-		gfx/atmospheric/cloud8_add_256
-		gfx/atmospheric/cloud8_add_256
-		gfx/atmospheric/cloud9_add_256
-		gfx/atmospheric/cloud9_add_256
-		gfx/water/screen_bubbles
-		gfx/water/screen_bubbles_glow
-		gfx/water/screen_bubbles2
-		gfx/water/screen_bubbles2_glow
-		gfx/water/screen_bubbles3
-		gfx/water/screen_bubbles3_glow
+		gfx/misc/steam
 	]
 }
 
@@ -57,7 +46,6 @@ Tail
 
 	alpha
 	{
-		start			0.3 0.5
 		end				0
 		parm			50
 		flags			linear nonlinear
@@ -79,17 +67,6 @@ Tail
 
 	shaders
 	[
-		gfx/atmospheric/cloud7_add_256
-		gfx/atmospheric/cloud7_add_256
-		gfx/atmospheric/cloud8_add_256
-		gfx/atmospheric/cloud8_add_256
-		gfx/atmospheric/cloud9_add_256
-		gfx/atmospheric/cloud9_add_256
-		gfx/water/screen_bubbles
-		gfx/water/screen_bubbles_glow
-		gfx/water/screen_bubbles2
-		gfx/water/screen_bubbles2_glow
-		gfx/water/screen_bubbles3
-		gfx/water/screen_bubbles3_glow
+		gfx/misc/steam
 	]
 }

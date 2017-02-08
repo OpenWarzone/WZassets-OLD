@@ -1,10 +1,8 @@
-repeatDelay				200
+repeatDelay				5000
 
 Particle
 {
-	name				Mist
-
-	flags				useAlpha
+	name				mist
 
 	spawnFlags			evenDistribution
 
@@ -24,16 +22,15 @@ Particle
 
 	rgb
 	{
-		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
-		end				1 0.9843 0.9412
+		end				1 1 1 0 1 1
 	}
 
 	alpha
 	{
-		start			0.3 0.6
+		start			0.2 0.4
 		end				0
-		parm			70 90
-		flags			nonlinear
+		parm			20 80
+		flags			linear nonlinear
 	}
 
 	size
@@ -46,26 +43,13 @@ Particle
 
 	shaders
 	[
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud6_256
-		gfx/atmospheric/cloud6_256
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
+		gfx/effects/Wcloud
 	]
 }
 
 Particle
 {
-	name				Residual
-
-	flags				useAlpha
+	name				residual
 
 	count				5
 
@@ -83,16 +67,15 @@ Particle
 
 	rgb
 	{
-		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
-		end				1 0.9843 0.9412
+		end				1 1 1 0 1 1
 	}
 
 	alpha
 	{
-		start			0.3 0.6
+		start			0.2
 		end				0
-		parm			70 90
-		flags			nonlinear
+		parm			20 80
+		flags			linear nonlinear
 	}
 
 	size
@@ -105,26 +88,13 @@ Particle
 
 	shaders
 	[
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud6_256
-		gfx/atmospheric/cloud6_256
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
+		gfx/effects/Wcloud
 	]
 }
 
 Particle
 {
-	name				Burst
-
-	flags				useAlpha
+	name				burst
 
 	spawnFlags			cheapOrgCalc evenDistribution
 
@@ -146,16 +116,15 @@ Particle
 
 	rgb
 	{
-		start			0.7922 0.8118 0.8353 0.6745 0.7412 0.8157
-		end				1 0.9843 0.9412
+		end				1 1 1 0 1 1
 	}
 
 	alpha
 	{
-		start			0.3 0.6
+		start			0.4 0.3
 		end				0
-		parm			70 90
-		flags			nonlinear
+		parm			20 80
+		flags			linear
 	}
 
 	size
@@ -168,24 +137,13 @@ Particle
 
 	shaders
 	[
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud2_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud4_256
-		gfx/atmospheric/cloud6_256
-		gfx/atmospheric/cloud6_256
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
+		gfx/effects/Wcloud
 	]
 }
 
 Tail
 {
-	name				Pour
+	name				pour
 
 	flags				usePhysics impactKills impactFx useAlpha
 
@@ -200,13 +158,6 @@ Tail
 	velocity			90 0 0 120 0 0
 
 	gravity				-450 -400
-
-	alpha
-	{
-		end				0
-		parm			70 90
-		flags			nonlinear
-	}
 
 	size
 	{
@@ -225,15 +176,7 @@ Tail
 
 	shaders
 	[
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
-		gfx/water/overlay_woosh
-		gfx/water/overlay_woosh2
-		gfx/water/overlay_woosh3
+		gfx/effects/alpha_smoke
 	]
 
 	impactfx
@@ -244,7 +187,7 @@ Tail
 
 Tail
 {
-	name				Pour2
+	name				Copy of Unnamed Tail 3
 
 	flags				useAlpha
 
@@ -258,13 +201,6 @@ Tail
 
 	gravity				-200 -150
 
-	alpha
-	{
-		end				0
-		parm			70 90
-		flags			nonlinear
-	}
-
 	size
 	{
 		start			8 12
@@ -282,21 +218,13 @@ Tail
 
 	shaders
 	[
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
-		gfx/water/overlay_woosh
-		gfx/water/overlay_woosh2
-		gfx/water/overlay_woosh3
+		gfx/effects/alpha_smoke
 	]
 }
 
 Tail
 {
-	name				Pour3
+	name				Copy of Copy of Unnamed Tail 3
 
 	flags				useAlpha
 
@@ -308,13 +236,6 @@ Tail
 
 	gravity				-500 -400
 
-	alpha
-	{
-		end				0
-		parm			70 90
-		flags			nonlinear
-	}
-
 	size
 	{
 		start			8 12
@@ -332,14 +253,6 @@ Tail
 
 	shaders
 	[
-		gfx/water/alpha_bubbles
-		gfx/water/alpha_bubbles2
-		gfx/water/alpha_bubbles3
-		gfx/water/alpha_woosh
-		gfx/water/alpha_woosh2
-		gfx/water/alpha_woosh3
-		gfx/water/overlay_woosh
-		gfx/water/overlay_woosh2
-		gfx/water/overlay_woosh3
+		gfx/effects/alpha_smoke
 	]
 }

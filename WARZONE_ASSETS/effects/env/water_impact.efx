@@ -1,7 +1,222 @@
-FxRunner
+Tail
 {
-	playfx
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				50
+
+	life				500 600
+
+	delay				0 300
+
+	origin				0 -5 0
+
+	velocity			3 -2 -2 1.5 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			0.7686 0.9373 1
+	}
+
+	alpha
+	{
+		start			0.4
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				3 6
+		parm			50 80
+		flags			linear clamp
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-40 -20
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
 	[
-		materials/water_medium
+		gfx/effects/water_splash
+	]
+}
+
+Tail
+{
+	name				Copy of Unnamed Tail 0
+
+	spawnFlags			evenDistribution
+
+	count				50
+
+	life				500 600
+
+	delay				0 300
+
+	origin				0 5 0
+
+	velocity			3 -2 -2 1.5 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			0.7686 0.9373 1
+	}
+
+	alpha
+	{
+		start			0.4
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			1 2
+		end				3 6
+		parm			50 80
+		flags			linear clamp
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-40 -20
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/water_splash
+	]
+}
+
+Particle
+{
+	count				40
+
+	life				800 1200
+
+	velocity			100 -80 -80 175 80 80
+
+	gravity				-250 -300
+
+	alpha
+	{
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0.3 1
+	}
+
+	shaders
+	[
+		gfx/misc/steam2
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/player/bodyfall_water1.mp3
+		sound/player/bodyfall_water2.mp3
+		sound/player/bodyfall_water3.mp3
+	]
+}
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				12
+
+	life				600 900
+
+	delay				0 700
+
+	rotation			0 360
+
+	rotationDelta		0 10
+
+	velocity			50 -24 -24 50 24 24
+
+	gravity				12 24
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		parm			60 70
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			10 16
+		end				34 42
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	spawnFlags			evenDistribution
+
+	count				12
+
+	life				600 900
+
+	delay				0 500
+
+	rotation			0 360
+
+	rotationDelta		0 10
+
+	velocity			100 -24 -24 100 24 24
+
+	gravity				12 24
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5
+		end				24 32
+		parm			90 100
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/misc/steam
 	]
 }
