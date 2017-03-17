@@ -1740,13 +1740,14 @@
 		{	
 			name				bloom
 			group				video_advanced
-      		type				ITEM_TYPE_MULTI
+      type				ITEM_TYPE_MULTI
 			text				"Bloom:"
 			cvar				r_bloom
 			cvarFloatList		
 			{  
-				@MENUS_OFF 	0 
-				@MENUS_ON 	1 
+				@MENUS_OFF 	  0 
+				@MENUS_ON 	  1 
+				"Bloom Rays" 	2 
 			}
 			rect				220 63 300 20
 	   		textalign			ITEM_ALIGN_RIGHT
@@ -1756,7 +1757,7 @@
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			"Add even more glow to glowy objects."
+			descText			"ON - Add more glow to glowy objects. Bloom Rays - Volumetric Bloom Rays"
 			action
 			{ 
 				play			"sound/interface/button1"
