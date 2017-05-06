@@ -14,8 +14,8 @@ Howler
 	enemyTeam	TEAM_FREE
 	class		CLASS_HOWLER
 	yawSpeed	60
-	runSpeed	300
 	walkSpeed	100
+	runSpeed	385
 	hFOV		120
 	vfov		45
 	snd			howler

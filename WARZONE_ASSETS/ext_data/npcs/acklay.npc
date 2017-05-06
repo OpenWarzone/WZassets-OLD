@@ -12,11 +12,11 @@ Acklay_mst
 	aggression		3
 	evasion		1
 	intelligence	5
-	//showhealth		1
 	rank		crewman
 	playerTeam	TEAM_FREE
 	enemyTeam	TEAM_FREE
-	class		CLASS_RANCOR
+	//class		CLASS_RANCOR
+	class		CLASS_ACKLAY
 	height	120
 	crouchheight 	70
 	width		70
@@ -26,8 +26,8 @@ Acklay_mst
 	yawspeed	40
 //	walkSpeed	173
 //	runSpeed	173
-	walkSpeed	55
-	runSpeed	200
+	walkSpeed	100
+	runSpeed	325
 	dismemberProbHead		0
 	dismemberProbArms		0
 	dismemberProbLegs		0

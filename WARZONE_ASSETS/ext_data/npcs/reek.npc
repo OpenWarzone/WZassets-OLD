@@ -29,11 +29,30 @@ reek3
 {
 	weapon		WP_NONE
 	playerTeam	TEAM_NEUTRAL
-        playermodel     reek
-        customskin      default
+  playermodel     reek
+  customskin      default
 	enemyTeam	TEAM_NEUTRAL
-	class		CLASS_LUKE
+	//class		CLASS_LUKE
+	class		CLASS_REEK
 	snd		reek
+	sndcombat	reek
+	sndextra	reek
 	height		75
 	width		80
+	walkSpeed	40
+	runSpeed	325
+	health		300
+	headPitchRangeDown 30
+	reactions		4
+	aim			2
+	move			5
+	aggression		3
+	evasion		3
+	intelligence	5
+	rank		crewman
+	dismemberProbHead		10
+	dismemberProbArms		20
+	dismemberProbLegs		20
+	dismemberProbHands	20
+	dismemberProbWaist	5
 }

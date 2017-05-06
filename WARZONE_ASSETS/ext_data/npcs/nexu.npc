@@ -2,7 +2,7 @@ nexu
 {
 	playerModel 	nexu
 	weapon		WP_MELEE
-	health		100
+	health		300
 	headPitchRangeDown 30
 	reactions		4
 	aim			2
@@ -13,7 +13,8 @@ nexu
 	rank		crewman
 	playerTeam	TEAM_FREE
 	enemyTeam	TEAM_FREE
-	class		CLASS_RANCOR
+	//class		CLASS_RANCOR
+	class		CLASS_NEXU
 	height	64
 	crouchheight 	64
 	width		60
@@ -23,8 +24,8 @@ nexu
 	yawspeed	50
 //	walkSpeed	173
 //	runSpeed	173
-	walkSpeed	80
-	runSpeed	225
+	walkSpeed	130
+	runSpeed	425
 	dismemberProbHead		99
 	dismemberProbArms		99
 	dismemberProbLegs		99
