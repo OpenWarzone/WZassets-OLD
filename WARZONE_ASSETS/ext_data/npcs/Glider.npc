@@ -1,6 +1,7 @@
 Glider
 {
 	playerModel glider
+	scale		51
 	weapon		WP_MELEE
 	reactions	3
 	aim		1
@@ -17,5 +18,5 @@ Glider
 	walkSpeed	50
 	hFOV		120
 	vfov		45
-	snd			glider
+	snd		glider
 }

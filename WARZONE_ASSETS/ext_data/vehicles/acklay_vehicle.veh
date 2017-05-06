@@ -1,0 +1,46 @@
+acklay_vehicle_mst
+{
+name			acklay_vehicle_mst
+type			VH_ANIMAL
+numHands		2
+lookYaw		45
+lookPitch		45
+length		130
+width			40
+height		32
+centerOfGravity	"-0.222 0 0"
+speedMax		350
+speedMin		-80
+turboSpeed		700
+turboDuration	4000
+turboRecharge	8000
+acceleration	15
+decelIdle		20
+strafePerc		10.0
+bankingSpeed	0.0
+rollLimit		2
+pitchLimit		0
+braking		10
+mouseYaw		0.006
+turningSpeed	5
+turnWhenStopped	1
+traction		100
+friction		100
+maxSlope		0.65
+mass			250
+armor 		200
+toughness 		10.0
+health		100
+showhealth		1
+model			acklay_mst
+riderAnim		BOTH_FORCEHEAL_START
+radarIcon		"gfx/menus/radar/rancor"
+soundOn 		"sound/vehicles/rancor/on.mp3"
+
+cameraOverride		1
+cameraRange			160
+cameraVertOffset	0
+cameraPitchOffset	-30
+cameraFOV			100
+cameraAlpha			0
+}
