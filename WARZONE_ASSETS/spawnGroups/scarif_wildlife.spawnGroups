@@ -1,0 +1,49 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn howler
+    spawn howler
+    spawn howler
+    spawn howler
+  }
+  spawnGroup
+  {
+    spawn teran
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn howler
+    spawn howler
+    spawn howler
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn howler
+    spawn howler
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn howler
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn howler
+  }
+  //spawnGroup
+  //{
+  //  spawn glider
+  //}
+}
