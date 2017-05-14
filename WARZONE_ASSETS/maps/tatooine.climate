@@ -1,0 +1,302 @@
+[GENERAL]
+// Force WzMap to generate all models as meta surfaces... Much slower compiled, but better?
+forcedModelMeta=0
+
+[GRASS]
+grassImage0=models/warzone/foliage/maingrass2
+grassImage1=models/warzone/foliage/maingrass3
+grassImage2=models/warzone/foliage/maingrass4
+seaGrassImage=models/warzone/foliage/seagrass
+
+[CLIFFS]
+// Use the system that applies procedural cliff geometry to the map...
+addCliffFaces=1
+
+// Use the low poly cliff models only...
+cheapCliffs=1
+
+// Scale cliff sizes by this value...
+cliffFacesScale=0.74
+
+// Only scale the cliff's X and Y axis (horizontal)...
+cliffScaleOnlyXY=1
+
+// Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
+cliffFacesCullScale=1.0
+
+// Replace texture of the cliff faces with this one... Can use splat maps with warzone...
+cliffShader=textures/tatooine/cliff
+
+[CITY]
+// Coordinates of the center of the city...
+cityLocationX=-12657
+cityLocationY=-12751
+cityLocationZ=1781
+
+// Radius around the center to add buildings...
+cityRadius=8192.0
+
+// Coordinates of the center of the second city...
+city2LocationX=-25128
+city2LocationY=25630
+city2LocationZ=2599
+
+// Radius around the third city center to add buildings...
+city2Radius=2048.0
+
+// Coordinates of the center of the second city...
+city3LocationX=11072
+city3LocationY=25210
+city3LocationZ=2384
+
+// Radius around the third city center to add buildings...
+city3Radius=1300.0
+
+// Over-all building scale multiplier...
+cityScaleMultiplier=1.0
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+cliffFacesCullScale=0.75
+
+// Per-building model filenames...
+cityModel0=models/warzone/tatooine/cantina.md3
+cityModel1=models/map_objects/desert/landing_light.md3
+cityModel2=models/map_objects/desert/landing_light.md3
+cityModel3=models/map_objects/desert/landing_light.md3
+cityModel4=models/map_objects/desert/landing_light.md3
+cityModel5=models/map_objects/desert/landing_light.md3
+cityModel6=models/map_objects/desert/landing_light.md3
+cityModel7=models/map_objects/desert/landing_light.md3
+cityModel8=models/map_objects/desert/landing_light.md3
+cityModel9=models/map_objects/desert/landing_light.md3
+cityModel10=models/map_objects/desert/landing_light.md3
+cityModel11=models/map_objects/desert/landing_light.md3
+cityModel12=models/map_objects/desert/landing_light.md3
+cityModel13=models/warzone/tatooine/tatooinebuilding01.md3
+cityModel14=models/warzone/tatooine/tatooinebuilding02.md3
+cityModel15=models/warzone/tatooine/tatooinebuilding03.md3
+cityModel16=models/warzone/tatooine/tatooinebuilding04.md3
+cityModel17=models/warzone/tatooine/tatooinebuilding05.md3
+cityModel18=models/warzone/tatooine/tatooinebuilding06.md3
+cityModel19=models/map_objects/desert/landing_light.md3
+
+// Per-building model scales...
+cityScale0=0.5
+cityScale1=0.333
+cityScale2=0.333
+cityScale3=0.333
+cityScale4=0.333
+cityScale5=0.333
+cityScale6=0.333
+cityScale7=0.333
+cityScale8=0.333
+cityScale9=0.333
+cityScale10=0.333
+cityScale11=0.333
+cityScale12=0.333
+cityScale13=1.0
+cityScale14=3.0
+cityScale15=1.0
+cityScale16=1.0
+cityScale17=1.0
+cityScale18=1.25
+cityScale19=0.333
+
+// Per-building vertical offsets...
+//cityZoffset0=5.25
+cityZoffset0=8.5
+cityZoffset1=8.0
+cityZoffset2=8.0
+cityZoffset3=8.0
+cityZoffset4=8.0
+cityZoffset5=8.0
+cityZoffset6=8.0
+cityZoffset7=8.0
+cityZoffset8=8.0
+cityZoffset9=8.0
+cityZoffset10=8.0
+cityZoffset11=8.0
+cityZoffset12=8.0
+cityZoffset13=-36.0
+cityZoffset14=-96.0
+cityZoffset15=-36.0
+cityZoffset16=-36.0
+cityZoffset17=-36.0
+cityZoffset18=-48.0
+cityZoffset19=8.0
+
+// Only allow this type on slopes less steep then this...
+cityForcedMaxAngle0=0.1
+cityForcedMaxAngle1=16.0
+cityForcedMaxAngle2=16.0
+cityForcedMaxAngle3=16.0
+cityForcedMaxAngle4=16.0
+cityForcedMaxAngle5=16.0
+cityForcedMaxAngle6=16.0
+cityForcedMaxAngle7=16.0
+cityForcedMaxAngle8=16.0
+cityForcedMaxAngle9=16.0
+cityForcedMaxAngle10=16.0
+cityForcedMaxAngle11=16.0
+cityForcedMaxAngle12=16.0
+cityForcedMaxAngle13=1.0
+cityForcedMaxAngle14=6.0
+cityForcedMaxAngle15=1.0
+cityForcedMaxAngle16=1.0
+cityForcedMaxAngle17=1.0
+cityForcedMaxAngle18=1.25
+cityForcedMaxAngle19=16.0
+
+// Always force a buffer of this radius around the object...
+cityForcedBufferDistance0=768.0
+cityForcedBufferDistance1=256.0
+cityForcedBufferDistance2=256.0
+cityForcedBufferDistance3=256.0
+cityForcedBufferDistance4=256.0
+cityForcedBufferDistance5=256.0
+cityForcedBufferDistance6=256.0
+cityForcedBufferDistance7=256.0
+cityForcedBufferDistance8=256.0
+cityForcedBufferDistance9=256.0
+cityForcedBufferDistance10=256.0
+cityForcedBufferDistance11=256.0
+cityForcedBufferDistance12=256.0
+cityForcedBufferDistance13=1024.0
+cityForcedBufferDistance14=1500.0
+cityForcedBufferDistance15=1024.0
+cityForcedBufferDistance16=1500.0
+cityForcedBufferDistance17=1500.0
+cityForcedBufferDistance18=1024.0
+cityForcedBufferDistance19=64.0
+
+// Never place another of the same object within this radius...
+cityForcedDistanceFromSame0=0
+cityForcedDistanceFromSame1=256.0
+cityForcedDistanceFromSame2=256.0
+cityForcedDistanceFromSame3=256.0
+cityForcedDistanceFromSame4=256.0
+cityForcedDistanceFromSame5=256.0
+cityForcedDistanceFromSame6=256.0
+cityForcedDistanceFromSame7=256.0
+cityForcedDistanceFromSame8=256.0
+cityForcedDistanceFromSame9=256.0
+cityForcedDistanceFromSame10=256.0
+cityForcedDistanceFromSame11=256.0
+cityForcedDistanceFromSame12=256.0
+cityForcedDistanceFromSame13=0
+cityForcedDistanceFromSame14=1500.0
+cityForcedDistanceFromSame15=0
+cityForcedDistanceFromSame16=0
+cityForcedDistanceFromSame17=0
+cityForcedDistanceFromSame18=1200.0
+cityForcedDistanceFromSame19=1400.0
+
+// Force full solidity on this object (1 still culls tiny surfaces. 2 disabled all culling)... 
+cityForcedFullSolid0=1
+cityForcedFullSolid1=2
+cityForcedFullSolid2=2
+cityForcedFullSolid3=2
+cityForcedFullSolid4=2
+cityForcedFullSolid5=2
+cityForcedFullSolid6=2
+cityForcedFullSolid7=2
+cityForcedFullSolid8=2
+cityForcedFullSolid9=2
+cityForcedFullSolid10=2
+cityForcedFullSolid11=2
+cityForcedFullSolid12=2
+cityForcedFullSolid13=1
+cityForcedFullSolid14=1
+cityForcedFullSolid15=1
+cityForcedFullSolid16=1
+cityForcedFullSolid17=1
+cityForcedFullSolid18=1
+cityForcedFullSolid19=1
+
+overrideShader0=
+overrideShader1=
+overrideShader2=
+overrideShader3=
+overrideShader4=
+overrideShader5=
+overrideShader6=
+overrideShader7=
+overrideShader8=
+overrideShader9=
+overrideShader10=
+overrideShader11=
+overrideShader12=
+overrideShader13=
+overrideShader14=
+overrideShader15=
+overrideShader16=
+overrideShader17=
+overrideShader18=
+overrideShader19=
+
+cityCentralOneOnly0=1
+cityCentralOneOnly1=1
+cityCentralOneOnly2=1
+cityCentralOneOnly3=1
+cityCentralOneOnly4=1
+cityCentralOneOnly5=1
+cityCentralOneOnly6=1
+cityCentralOneOnly7=1
+cityCentralOneOnly8=1
+cityCentralOneOnly9=1
+cityCentralOneOnly10=1
+cityCentralOneOnly11=1
+cityCentralOneOnly12=1
+cityCentralOneOnly13=0
+cityCentralOneOnly14=0
+cityCentralOneOnly15=0
+cityCentralOneOnly16=0
+cityCentralOneOnly17=0
+cityCentralOneOnly18=0
+cityCentralOneOnly19=0
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=1.0
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+cliffFacesCullScale=0.75
+
+// Per-tree model filenames...
+treeModel0=models/map_objects/rocky_ruins/bone_pile.md3
+treeModel1=models/map_objects/rocky_ruins/bone_pile2.md3
+treeModel2=models/map_objects/rocky_ruins/bone_pile3.md3
+
+// Per-tree vertical offsets...
+treeZoffset0=-1.0
+treeZoffset1=-1.0
+treeZoffset2=-1.0
+
+// Per-tree model scales...
+treeScale0=1.0
+treeScale1=1.0
+treeScale2=1.0
+
+// Only allow this type on slopes less steep then this...
+treeForcedMaxAngle0=2.0
+treeForcedMaxAngle1=2.0
+treeForcedMaxAngle2=2.0
+
+// Always force a buffer of this radius around the object...
+treeForcedBufferDistance0=64.0
+treeForcedBufferDistance1=64.0
+treeForcedBufferDistance2=64.0
+
+// Never place another of the same object within this radius...
+treeForcedDistanceFromSame0=4096.0
+treeForcedDistanceFromSame1=4096.0
+treeForcedDistanceFromSame2=4096.0
+
+// Force full solidity on this object (still culls tiny surfaces)...
+treeForcedFullSolid0=1
+treeForcedFullSolid1=1
+treeForcedFullSolid2=1
+
+overrideShader0=
+overrideShader1=
+overrideShader2=
