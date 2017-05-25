@@ -16,6 +16,7 @@ gfx/effects/ep1sabers/saber_core
     {
         map gfx/effects/ep1sabers/saber_linea
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
     }
 }
 
@@ -85,6 +86,7 @@ gfx/effects/ep2sabers/saber_core
     {
         map gfx/effects/ep2sabers/saber_linea
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
     }
 }
 
@@ -175,6 +177,7 @@ gfx/effects/ep3sabers/saber_core
     {
         map gfx/effects/ep3sabers/saber_linea
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
     }
 }
 
