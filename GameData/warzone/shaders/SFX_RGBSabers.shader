@@ -1,20 +1,69 @@
-gfx/effects/sfx_sabers/saber_blade_rgb
+//[RGBSabers]
+gfx/effects/sabers/rgb_glow
 {
-	notc
 	cull	twosided
     {
-        map gfx/effects/sfx_sabers/saber_blade
+        map gfx/effects/sabers/rgb_glow2
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen vertex
+    }
+}
+
+gfx/effects/sabers/rgb_line
+{
+	cull	twosided
+    {
+        clampmap gfx/effects/sabers/rgb_line
+        blendFunc GL_ONE GL_ONE
+        rgbGen vertex
+    }
+}
+
+gfx/effects/sabers/rgb_core
+{
+	cull	twosided
+    {
+        clampmap gfx/effects/sabers/rgb_core
         blendFunc GL_ONE GL_ONE
         rgbGen identity
     }
 }
 
-gfx/effects/sfx_sabers/saber_end_rgb
+gfx/effects/sabers/black_glow
 {
-	notc
 	cull	twosided
     {
-        map gfx/effects/sfx_sabers/saber_end
+        clampmap gfx/effects/sabers/black_glow
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        rgbGen identity
+        alphaGen vertex
+    }
+}
+
+gfx/effects/sabers/black_line
+{
+	cull	twosided
+    {
+        clampmap gfx/effects/sabers/black_line
+        blendFunc GL_ONE GL_ONE
+        rgbGen identity
+    }
+}
+
+gfx/effects/sabers/blacksaberBlur
+{
+	cull	twosided
+    {
+        clampmap gfx/effects/sabers/black_trail_glow
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        rgbGen identity
+        alphaGen vertex
+    }
+    {
+        clampmap gfx/effects/sabers/blurcore
         blendFunc GL_ONE GL_ONE
         rgbGen identity
     }
