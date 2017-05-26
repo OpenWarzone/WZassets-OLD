@@ -1,0 +1,1 @@
+Warzoneded.x86 +set fs_game "WARZONE" +exec server.cfg
