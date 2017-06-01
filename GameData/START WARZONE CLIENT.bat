@@ -1,0 +1,1 @@
+Warzone.x86 +set fs_game "WARZONE" +set logfile 2
