@@ -2,6 +2,9 @@
 // NOTE: Dryleaves material type is used so GLSL will not add reflections and crap to the bolts...
 //
 
+//
+// Main bolt colors...
+//
 laserbolt_white
 {
   qer_editorimage	models/warzone/lasers/laserbolt_white
@@ -9,7 +12,7 @@ laserbolt_white
   q3map_clipModel
   {
     map models/warzone/lasers/laserbolt_white
-    blendfunc GL_ONE GL_ZERO
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     depthWrite
     rgbGen identity
     glow
@@ -23,7 +26,7 @@ laserbolt_yellow
   q3map_clipModel
   {
     map models/warzone/lasers/laserbolt_yellow
-    blendfunc GL_ONE GL_ZERO
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     depthWrite
     rgbGen identity
     glow
@@ -37,21 +40,21 @@ laserbolt_red
   q3map_clipModel
   {
     map models/warzone/lasers/laserbolt_red
-    blendfunc GL_ONE GL_ZERO
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     depthWrite
     rgbGen identity
     glow
   }
 }
 
-laserbolt_white
+laserbolt_blue
 {
   qer_editorimage	models/warzone/lasers/laserbolt_blue
   q3map_material	dryleaves
   q3map_clipModel
   {
     map models/warzone/lasers/laserbolt_blue
-    blendfunc GL_ONE GL_ZERO
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     depthWrite
     rgbGen identity
     glow
@@ -65,8 +68,67 @@ laserbolt_green
   q3map_clipModel
   {
     map models/warzone/lasers/laserbolt_green
-    blendfunc GL_ONE GL_ZERO
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     depthWrite
+    rgbGen identity
+    glow
+  }
+}
+
+
+//
+// Matching glow colors...
+//
+laserbolt_white_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_white_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_yellow_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_yellow_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_red_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_red_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_blue_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_blue_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_green_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_green_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
     rgbGen identity
     glow
   }
