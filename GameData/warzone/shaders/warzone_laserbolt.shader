@@ -75,6 +75,34 @@ laserbolt_green
   }
 }
 
+laserbolt_purple
+{
+  qer_editorimage	models/warzone/lasers/laserbolt_purple
+  q3map_material	dryleaves
+  q3map_clipModel
+  {
+    map models/warzone/lasers/laserbolt_purple
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+    depthWrite
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_orange
+{
+  qer_editorimage	models/warzone/lasers/laserbolt_orange
+  q3map_material	dryleaves
+  q3map_clipModel
+  {
+    map models/warzone/lasers/laserbolt_orange
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+    depthWrite
+    rgbGen identity
+    glow
+  }
+}
+
 
 //
 // Matching glow colors...
@@ -128,6 +156,28 @@ laserbolt_green_glow
   cull	twosided
   {
     map models/warzone/lasers/laserbolt_green_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_purple_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_purple_glow
+    blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+    rgbGen identity
+    glow
+  }
+}
+
+laserbolt_orange_glow
+{
+  cull	twosided
+  {
+    map models/warzone/lasers/laserbolt_orange_glow
     blendFunc GL_SRC_ALPHA GL_DST_ALPHA
     rgbGen identity
     glow
