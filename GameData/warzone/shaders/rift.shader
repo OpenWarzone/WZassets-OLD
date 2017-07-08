@@ -592,6 +592,8 @@ models/map_objects/rift/crystal_wall
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
+        emissiveColorScale 3.0
+        emissiveRadiusScale 2.0
     }
 }
 
@@ -609,6 +611,8 @@ models/map_objects/rift/crystal_floor
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
+        emissiveColorScale 3.0
+        emissiveRadiusScale 2.0
     }
 }
 
