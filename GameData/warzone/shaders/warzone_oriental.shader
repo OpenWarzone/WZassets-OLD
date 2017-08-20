@@ -429,9 +429,18 @@ models/warzone/oriental/b224830
     map models/warzone/oriental/b224830
     blendfunc GL_ONE GL_ZERO
     alphaFunc GE128
-    depthWrite
+    //blendFunc GL_DST_COLOR GL_ZERO
+    //depthWrite
     rgbGen identity
   }
+  {
+    map models/warzone/oriental/b224830_glow
+    //blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+    //detail
+    //blendFunc GL_ONE GL_ONE
+    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+    rgbGen identity
+   }
 }
 
 models/warzone/oriental/b224e90
