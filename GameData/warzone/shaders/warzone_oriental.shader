@@ -507,3 +507,146 @@ models/warzone/oriental/bb52bd0
     rgbGen identity
   }
 }
+
+models/warzone/buildings/base
+{
+  qer_editorimage	models/warzone/buildings/base
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/base
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/pillarbase
+{
+  qer_editorimage	models/warzone/buildings/pillarbase
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pillarbase
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/pillarcieling
+{
+  qer_editorimage	models/warzone/buildings/pillarcieling
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pillarcieling
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/pillarring
+{
+  qer_editorimage	models/warzone/buildings/pillarring
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pillarring
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/pillars
+{
+  qer_editorimage	models/warzone/buildings/pillars
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pillars
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/pillarstatue
+{
+  qer_editorimage	models/warzone/buildings/pillarstatue
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pillarstatue
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/roof
+{
+  qer_editorimage	models/warzone/buildings/roof
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/roof
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/stairs
+{
+  qer_editorimage	models/warzone/buildings/stairs
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/stairs
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/wall1
+{
+  qer_editorimage	models/warzone/buildings/wall1
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/wall1
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/wall2
+{
+  qer_editorimage	models/warzone/buildings/wall2
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/wall2
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/buildings/wall3
+{
+  qer_editorimage	models/warzone/buildings/wall3
+  q3map_material concrete
+  q3map_clipModel
+  {
+    map models/warzone/buildings/wall3
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
