@@ -1,4 +1,4 @@
-// JKG_ShaderPatches: BlasTech - moves wake into JKG_WaterFX and changes its blending. 
+// JKG_ShaderPatches: BlasTech - moves wake into JKG_WaterFX and changes its blending.
 
 // JKG styled hologram/datapad console - MUST BE UNPROTECTED
 
@@ -112,7 +112,7 @@ markShadow
 projectionShadow
 {
 	polygonOffset
-	deformvertexes	projectionShadow	
+	deformvertexes	projectionShadow
     {
 // just solid black
 
@@ -136,6 +136,17 @@ sun
 	cull	twosided
     {
         map gfx/misc/sun
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen vertex
+    }
+}
+
+moon
+{
+	cull	twosided
+    {
+        map gfx/misc/moon
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
