@@ -5,7 +5,11 @@ forcedModelMeta=0
 // Removes excess crap from the bsp file. Results in a smaller map file. I am yet to see any issues caused by this.
 caulkifyCrap=1
 
+// Force structural on everything... Not sure why anyone would want to though...
+forcedStructural=0
+
 [GRASS]
+// Unused by wzmap. used by warzone engine only...
 grassImage0=models/warzone/foliage/maingrass2
 grassImage1=models/warzone/foliage/maingrass3
 grassImage2=models/warzone/foliage/maingrass4
@@ -16,30 +20,30 @@ seaGrassImage=models/warzone/foliage/seagrass
 addCliffFaces=1
 
 // Use the low poly cliff models only...
-cheapCliffs=1
+cheapCliffs=0
 
 // Scale cliff sizes by this value...
-cliffFacesScale=1.0
+cliffFacesScale=1.2
 
 // Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
-cliffFacesCullScale=0.7
+cliffFacesCullScale=0.8
 
 // Replace texture of the cliff faces with this one... Can use splat maps with warzone...
 //cliffShader=models/warzone/rocks/cliff
 
 [LEDGES]
-// Use the system that applies procedural cliff geometry to the map...
+// Use the system that applies procedural ledge geometry to the map...
 addLedgeFaces=1
 
-// Scale cliff sizes by this value...
-ledgeFacesScale=2.0
+// Scale ledge sizes by this value...
+ledgeFacesScale=1.4
 
-// Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
-ledgeFacesCullScale=6.0
+// Ledge addition cull distance modifier (multiplier of distance from another to not add a new ledge)...
+ledgeFacesCullScale=8.5
 
-// Minimum and Maximum surface angles to add slopes...
-ledgeMinSlope=22.0
-ledgeMaxSlope=28.0
+// Minimum and maximum terrain angles that are ok to add ledges for...
+ledgeMinSlope=8.0
+ledgeMaxSlope=43.0
 
 // Replace texture of the ledge faces with this one (generally should match your basic ground shader)... Can use splat maps with warzone...
 ledgeShader=models/warzone/rocks/ledge
@@ -143,6 +147,9 @@ overrideShader5=
 // Over-all tree scale multiplier...
 treeScaleMultiplier=1.0
 
+// What percentage of the trees should we actually use? (Uses randomness to select - Handy to create groups of trees)
+treeAssignPercent=100
+
 // Cliff face cull radius (don't add object within this radius of a cliff)...
 cliffFacesCullScale=1.0
 
@@ -163,39 +170,6 @@ treeModel12=models/warzone/deadtrees/fallentree01.md3
 treeModel13=models/warzone/deadtrees/fallentree02.md3
 treeModel14=models/warzone/deadtrees/treestump01.md3
 treeModel15=models/warzone/deadtrees/treestump02.md3
-
-// Per-tree billboard texture filenames...
-treeBillboardShader0=
-treeBillboardShader1=
-treeBillboardShader2=
-treeBillboardShader3=
-treeBillboardShader4=
-treeBillboardShader5=
-treeBillboardShader6=
-treeBillboardShader7=
-treeBillboardShader8=
-
-// Per-tree billboard scales...
-treeBillboardSize0=128.0
-treeBillboardSize1=128.0
-treeBillboardSize2=128.0
-treeBillboardSize3=128.0
-treeBillboardSize4=128.0
-treeBillboardSize5=128.0
-treeBillboardSize6=128.0
-treeBillboardSize7=183.0
-treeBillboardSize8=203.0
-
-// Per-tree radius scales...
-treeRadius0=24.0
-treeRadius1=24.0
-treeRadius2=24.0
-treeRadius3=24.0
-treeRadius4=24.0
-treeRadius5=24.0
-treeRadius6=24.0
-treeRadius7=38.0
-treeRadius8=38.0
 
 // Per-tree vertical offsets...
 treeZoffset0=-36.0
@@ -283,3 +257,21 @@ treeForcedDistanceFromSame12=24000.0
 treeForcedDistanceFromSame13=24000.0
 treeForcedDistanceFromSame14=20000.0
 treeForcedDistanceFromSame15=24000.0
+
+// 0 uses normal methods. 1 forces clipping, but still tries to remove junk. 2 forces full clipping.
+treeForcedFullSolid0=0
+treeForcedFullSolid1=0
+treeForcedFullSolid2=0
+treeForcedFullSolid3=0
+treeForcedFullSolid4=0
+treeForcedFullSolid5=0
+treeForcedFullSolid6=0
+treeForcedFullSolid7=0
+treeForcedFullSolid8=0
+treeForcedFullSolid9=0
+treeForcedFullSolid10=0
+treeForcedFullSolid11=0
+treeForcedFullSolid12=0
+treeForcedFullSolid13=0
+treeForcedFullSolid14=0
+treeForcedFullSolid15=0
