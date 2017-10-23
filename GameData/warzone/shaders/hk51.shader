@@ -1,5 +1,6 @@
 models/players/hk51/hk51_body
 {
+  q3map_material	SolidMetal
 	cull	twosided
     {
         map models/players/hk51/hk51_body

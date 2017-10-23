@@ -1,6 +1,7 @@
 models/players/hk47/hk47_body
 {
 	q3map_nolightmap
+	q3map_material	SolidMetal
 	cull	twosided
     {
         map models/players/hk47/hk47_body
@@ -12,7 +13,7 @@ models/players/hk47/hk47_body
         tcGen environment
     }
     {
-        map models/players/hk47/hk47_body_g
+        map models/players/hk47/hk47_body_grey
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         detail
         alphaGen lightingSpecular
@@ -22,17 +23,13 @@ models/players/hk47/hk47_body
         blendFunc GL_ONE_MINUS_DST_COLOR GL_ONE
         rgbGen lightingDiffuse
     }
-    {
-        map models/players/hk47/hk47_eye
-        blendFunc GL_ONE GL_ONE
-        glow
-    }
 }
 
 models/players/hk47/hk47_body_blue
 {
 	qer_editorimage	models/players/hk47/hk47_body
 	q3map_nolightmap
+	q3map_material	SolidMetal
 	cull	twosided
     {
         map models/players/hk47/hk47_body_blue
@@ -44,7 +41,7 @@ models/players/hk47/hk47_body_blue
         tcGen environment
     }
     {
-        map models/players/hk47/hk47_body_g
+        map models/players/hk47/hk47_body_grey
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         detail
         alphaGen lightingSpecular
@@ -53,11 +50,6 @@ models/players/hk47/hk47_body_blue
         map models/players/hk47/hk47_body_blue
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen lightingDiffuse
-    }
-    {
-        map models/players/hk47/hk47_eye_b
-        blendFunc GL_ONE GL_ONE
-        glow
     }
 }
 
@@ -65,6 +57,7 @@ models/players/hk47/hk47_body_red
 {
 	qer_editorimage	models/players/hk47/hk47_body
 	q3map_nolightmap
+	q3map_material	SolidMetal
 	cull	twosided
     {
         map models/players/hk47/hk47_body_red
@@ -76,7 +69,7 @@ models/players/hk47/hk47_body_red
         tcGen environment
     }
     {
-        map models/players/hk47/hk47_body_g
+        map models/players/hk47/hk47_body_grey
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         detail
         alphaGen lightingSpecular
@@ -86,17 +79,13 @@ models/players/hk47/hk47_body_red
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen lightingDiffuse
     }
-    {
-        map models/players/hk47/hk47_eye_r
-        blendFunc GL_ONE GL_ONE
-        glow
-    }
 }
 
 models/players/hk47/hk47_body_old
 {
 	qer_editorimage	models/players/hk47/hk47_body
 	q3map_nolightmap
+	q3map_material	SolidMetal
 	cull	twosided
     {
         map models/players/hk47/hk47_body_old
@@ -106,11 +95,6 @@ models/players/hk47/hk47_body_old
         map models/players/hk47/hk47_body_oldnoeye
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen lightingDiffuse
-    }
-    {
-        map models/players/hk47/hk47_body_oldeye
-        blendFunc GL_ONE GL_ONE
-        glow
     }
 }
 
