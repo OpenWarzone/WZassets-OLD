@@ -3,19 +3,19 @@
 //
 [PALETTE]
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
-LATE_LIGHTING_ENABLED=0
+LATE_LIGHTING_ENABLED=2
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
 MAP_AMBIENT_CONTRAST=0.96
 MAP_AMBIENT_SATURATION=1.0
-MAP_AMBIENT_BRIGHTNESS=1.0
+MAP_AMBIENT_BRIGHTNESS=0.75
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
-MAP_GLOW_MULTIPLIER=0.75
+MAP_GLOW_MULTIPLIER=1.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=2.0
-MAP_EMISSIVE_COLOR_SCALE=0.2
+MAP_EMISSIVE_RADIUS_SCALE=0.25
+MAP_EMISSIVE_COLOR_SCALE=1.75
 [SUN]
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
@@ -83,8 +83,8 @@ SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
 AO_ENABLED=1
-AO_MINBRIGHT=0.5
-AO_MULTBRIGHT=0.5
+AO_MINBRIGHT=0.15
+AO_MULTBRIGHT=0.85
 [FOLIAGE]
 // note: this is the cgame foliage system, not the same as the renderer grass system.
 //FOLIAGE_SET=forest2

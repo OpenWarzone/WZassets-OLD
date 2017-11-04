@@ -22,7 +22,7 @@ MAP_GLOW_MULTIPLIER=0.7
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=1.5
+MAP_EMISSIVE_COLOR_SCALE=1.0
 [AURORA]
 AURORA_ENABLED=1
 AURORA_ENABLED_DAY=0
@@ -99,8 +99,8 @@ SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
 AO_ENABLED=1
-AO_MINBRIGHT=0.5
-AO_MULTBRIGHT=0.5
+AO_MINBRIGHT=0.15
+AO_MULTBRIGHT=0.85
 [FOLIAGE]
 // note: this is the cgame foliage system, not the same as the renderer grass system.
 //FOLIAGE_SET=forest2
@@ -113,7 +113,7 @@ CLIMATE_TYPE=springpineforest
 [GRASS]
 // note: this is the renderer grass system.
 GRASS_ENABLED=1
-GRASS_DENSITY=1
+GRASS_DENSITY=2
 GRASS_HEIGHT=42.0
 GRASS_DISTANCE=4096
 //GRASS_DISTANCE=2048
