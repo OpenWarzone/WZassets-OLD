@@ -1,6 +1,3 @@
-//
-// note: I am in the process of moving most cvars to mapInfo settings so they can be specified per map to let mappers customize how everything looks to suit their map.
-//
 [FIXES]
 // note: Hacky overrides for basejka maps. Don't ever use these options! Fix your maps!
 DISABLE_MERGED_GLOWS=0
@@ -12,20 +9,20 @@ LATE_LIGHTING_ENABLED=1
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
-MAP_AMBIENT_CONTRAST=0.9
-MAP_AMBIENT_SATURATION=1.3
-MAP_AMBIENT_BRIGHTNESS=0.9
+MAP_AMBIENT_CONTRAST=1.0
+MAP_AMBIENT_SATURATION=1.0
+MAP_AMBIENT_BRIGHTNESS=1.0
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
-MAP_GLOW_MULTIPLIER=0.7
+MAP_GLOW_MULTIPLIER=0.5
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=1.0
+MAP_EMISSIVE_RADIUS_SCALE=1.2
+MAP_EMISSIVE_COLOR_SCALE=1.2
 [SUN]
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=0.5
+SUN_PHONG_SCALE=1.0
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -98,7 +95,7 @@ AO_MULTBRIGHT=0.85
 //FOLIAGE_SET=mushroomforest
 [CLIMATE]
 // note: used by the cgame foliage system, also used to specify extra surfaces for the renderer grass system, if the mapper needs more then just grasses on MATERIAL_SHORTGRASS and MATERIAL_LONGGRASS.
-CLIMATE_TYPE=desert
+CLIMATE_TYPE=springpineforest
 [GRASS]
 // note: this is the renderer grass system.
 GRASS_ENABLED=0
@@ -126,13 +123,3 @@ PEBBLES_DISTANCE=2048
 pebblesImage0=models/warzone/pebbles/mainpebbles0
 pebblesImage1=models/warzone/pebbles/mainpebbles1
 pebblesImage2=models/warzone/pebbles/mainpebbles2
-[BOUNDS]
-MINS0=-1712.125000
-MINS1=-2000.125000
-MINS2=-184.125000
-MAXS0=2928.125000
-MAXS1=2736.125000
-MAXS2=1936.125000
-HIGHEST_SURFACE=1952.208374
-[MAPINFO]
-SKY_HEIGHT=1952.125000
