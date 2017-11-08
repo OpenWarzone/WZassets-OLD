@@ -92,6 +92,18 @@
 			visible			1
 			decoration
 		}
+		
+		itemDef 
+		{
+			name				background_bridge
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/background_bridge"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
 
 /////////////////////////////////////
 // Create Server title
