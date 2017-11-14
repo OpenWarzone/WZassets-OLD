@@ -161,3 +161,49 @@ models/warzone/naboo/naboo_house
     rgbGen identity
   }
 }
+
+models/warzone/buildings/structure_mtl1.jpg
+{
+  qer_editorimage	models/warzone/naboo/shipmain
+  q3map_nolightmap
+  q3map_material	solidmetal
+  cull	twosided
+  q3map_clipModel
+  {
+        map models/warzone/naboo/shipmain
+        blendfunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        //map models/warzone/naboo/shipreflect
+        map models/warzone/naboo/shipmain
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        detail
+        alphaGen const 0.7
+        tcGen environment
+        tcMod scale 1.5 1.5
+    }
+}
+
+models/warzone/buildings/structure_mtl1
+{
+  qer_editorimage	models/warzone/naboo/shipmain
+  q3map_nolightmap
+  q3map_material	solidmetal
+  cull	twosided
+  q3map_clipModel
+  {
+        map models/warzone/naboo/shipmain
+        blendfunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        //map models/warzone/naboo/shipreflect
+        map models/warzone/naboo/shipmain
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        detail
+        alphaGen const 0.7
+        tcGen environment
+        tcMod scale 1.5 1.5
+    }
+}
