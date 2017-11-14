@@ -178,7 +178,6 @@ models/warzone/buildings/structure_mtl1.jpg
         map models/warzone/buildings/structure_mtl1_reflect
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         detail
-        alphaGen const 0.5
         tcGen environment
         tcMod scale 1.5 1.5
     }
@@ -201,7 +200,6 @@ models/warzone/buildings/structure_mtl1
         map models/warzone/buildings/structure_mtl1_reflect
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         detail
-        alphaGen const 0.5
         tcGen environment
         tcMod scale 1.5 1.5
     }
