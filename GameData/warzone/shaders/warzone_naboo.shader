@@ -164,22 +164,21 @@ models/warzone/naboo/naboo_house
 
 models/warzone/buildings/structure_mtl1.jpg
 {
-  qer_editorimage	models/warzone/naboo/shipmain
+  qer_editorimage	models/warzone/buildings/structure_mtl1
   q3map_nolightmap
   q3map_material	solidmetal
-  cull	twosided
+  //cull	twosided
   q3map_clipModel
   {
-        map models/warzone/naboo/shipmain
+        map models/warzone/buildings/structure_mtl1
         blendfunc GL_ONE GL_ZERO
         rgbGen lightingDiffuse
     }
     {
-        //map models/warzone/naboo/shipreflect
-        map models/warzone/naboo/shipmain
+        map models/warzone/buildings/structure_mtl1_reflect
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         detail
-        alphaGen const 0.7
+        alphaGen const 0.5
         tcGen environment
         tcMod scale 1.5 1.5
     }
@@ -187,23 +186,54 @@ models/warzone/buildings/structure_mtl1.jpg
 
 models/warzone/buildings/structure_mtl1
 {
-  qer_editorimage	models/warzone/naboo/shipmain
+  warzoneEnabled
+  qer_editorimage	models/warzone/buildings/structure_mtl1
   q3map_nolightmap
   q3map_material	solidmetal
-  cull	twosided
+  //cull	twosided
   q3map_clipModel
   {
-        map models/warzone/naboo/shipmain
+        map models/warzone/buildings/structure_mtl1
         blendfunc GL_ONE GL_ZERO
         rgbGen lightingDiffuse
     }
     {
-        //map models/warzone/naboo/shipreflect
-        map models/warzone/naboo/shipmain
+        map models/warzone/buildings/structure_mtl1_reflect
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         detail
-        alphaGen const 0.7
+        alphaGen const 0.5
         tcGen environment
         tcMod scale 1.5 1.5
+    }
+}
+
+models/warzone/buildings/structure_windows.jpg
+{
+  warzoneEnabled
+  qer_editorimage	models/warzone/buildings/structure_windows
+  q3map_nolightmap
+  q3map_material	glass
+  //cull	twosided
+  q3map_clipModel
+  {
+        map models/warzone/buildings/structure_windows
+        blendfunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+        glow
+    }
+}
+
+models/warzone/buildings/structure_windows
+{
+  qer_editorimage	models/warzone/buildings/structure_windows
+  q3map_nolightmap
+  q3map_material	glass
+  //cull	twosided
+  q3map_clipModel
+  {
+        map models/warzone/buildings/structure_windows
+        blendfunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+        glow
     }
 }
