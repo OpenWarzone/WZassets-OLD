@@ -166,20 +166,13 @@ models/warzone/buildings/structure_mtl1.jpg
 {
   qer_editorimage	models/warzone/buildings/structure_mtl1
   q3map_nolightmap
-  q3map_material	solidmetal
+  q3map_material	rock
   //cull	twosided
   q3map_clipModel
   {
         map models/warzone/buildings/structure_mtl1
         blendfunc GL_ONE GL_ZERO
         rgbGen lightingDiffuse
-    }
-    {
-        map models/warzone/buildings/structure_mtl1_reflect
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        detail
-        tcGen environment
-        tcMod scale 1.5 1.5
     }
 }
 
@@ -188,20 +181,13 @@ models/warzone/buildings/structure_mtl1
   warzoneEnabled
   qer_editorimage	models/warzone/buildings/structure_mtl1
   q3map_nolightmap
-  q3map_material	solidmetal
+  q3map_material	rock
   //cull	twosided
   q3map_clipModel
   {
         map models/warzone/buildings/structure_mtl1
         blendfunc GL_ONE GL_ZERO
         rgbGen lightingDiffuse
-    }
-    {
-        map models/warzone/buildings/structure_mtl1_reflect
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        detail
-        tcGen environment
-        tcMod scale 1.5 1.5
     }
 }
 
