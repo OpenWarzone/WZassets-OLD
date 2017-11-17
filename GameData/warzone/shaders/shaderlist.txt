@@ -55,6 +55,7 @@ zzz_warzone_mapobjects_nonsolid
 zzz_warzone_mapobjects_solid
 warzone_Arrevanous7
 warzone_ilum
+warzone_ithor
 warzone_ledges
 warzone_naboo
 warzone_oriental
@@ -68,3 +69,5 @@ Lights
 rgoer_coruscant
 shfl
 WZ-AM-JH3
+zzz_s_statues
+statue_steel
