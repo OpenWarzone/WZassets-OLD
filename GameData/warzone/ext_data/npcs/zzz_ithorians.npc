@@ -204,7 +204,7 @@ Ithorian_Jedi1
 	FP_TELEPATHY	3
 	FP_GRIP			0
 	FP_LIGHTNING	0
-	FP_SABERTHROW	3
+	FP_SABERTHROW	0
 	FP_RAGE			0
 	FP_PROTECT		3
 	FP_ABSORB		3
@@ -255,7 +255,7 @@ Ithorian_Jedi2
 	FP_TELEPATHY	3
 	FP_GRIP			0
 	FP_LIGHTNING	0
-	FP_SABERTHROW	3
+	FP_SABERTHROW	0
 	FP_RAGE			0
 	FP_PROTECT		3
 	FP_ABSORB		3
@@ -306,7 +306,7 @@ Ithorian_Jedi3
 	FP_TELEPATHY	3
 	FP_GRIP			0
 	FP_LIGHTNING	0
-	FP_SABERTHROW	3
+	FP_SABERTHROW	0
 	FP_RAGE			0
 	FP_PROTECT		3
 	FP_ABSORB		3
@@ -343,10 +343,12 @@ Ithorian_Jedi3
 Ithorian_Jedi4
 {
 	playerModel	ithorian
-	saber		dual_3
+	saber		single_3
 	saberColor	green
 	weapon	WP_SABER
-	saberStyle	7
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
 	FP_HEAL			3
 	FP_LEVITATION	3
 	FP_SPEED		3
@@ -355,7 +357,7 @@ Ithorian_Jedi4
 	FP_TELEPATHY	3
 	FP_GRIP			0
 	FP_LIGHTNING	0
-	FP_SABERTHROW	3
+	FP_SABERTHROW	0
 	FP_RAGE			0
 	FP_PROTECT		3
 	FP_ABSORB		3
@@ -392,12 +394,12 @@ Ithorian_Jedi4
 Ithorian_Jedi5
 {
 	playerModel	ithorian
-	saber		jedi
-	saber2		jedi
+	saber		single_4
 	saberColor	purple
-	saber2Color	purple
 	weapon	WP_SABER
-	saberStyle	6
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
 	FP_HEAL			3
 	FP_LEVITATION	3
 	FP_SPEED		3
@@ -406,7 +408,7 @@ Ithorian_Jedi5
 	FP_TELEPATHY	3
 	FP_GRIP			0
 	FP_LIGHTNING	0
-	FP_SABERTHROW	3
+	FP_SABERTHROW	0
 	FP_RAGE			0
 	FP_PROTECT		3
 	FP_ABSORB		3
