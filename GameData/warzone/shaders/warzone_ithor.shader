@@ -4,7 +4,7 @@ textures/ithor/ground
   q3map_material	shortgrass
   q3map_clipModel
   {
-    map textures/ithor/sand
+    map textures/ithor/ground
     blendfunc GL_ONE GL_ZERO
     depthWrite
     rgbGen identity

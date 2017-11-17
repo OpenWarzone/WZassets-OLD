@@ -1,0 +1,204 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn Ithorian_Jedi1
+    spawn Ithorian6
+    spawn Ithorian2
+    spawn Ithorian3
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi2
+    spawn Ithorian4
+    spawn Ithorian5
+    spawn Ithorian6
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi3
+    spawn Ithorian7
+    spawn Ithorian3
+    spawn Ithorian2
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi4
+    spawn Ithorian3
+    spawn Ithorian4
+    spawn Ithorian5
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi5
+    spawn Ithorian6
+    spawn Ithorian7
+    spawn Ithorian4
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi1
+    spawn Ithorian2
+    spawn Ithorian3
+    spawn Ithorian4
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi2
+    spawn Ithorian5
+    spawn Ithorian6
+    spawn Ithorian7
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi3
+    spawn Ithorian5
+    spawn Ithorian2
+    spawn Ithorian3
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi4
+    spawn Ithorian4
+    spawn Ithorian5
+    spawn Ithorian6
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi5
+    spawn Ithorian7
+    spawn Ithorian4
+    spawn Ithorian2
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi1
+    spawn Ithorian3
+    spawn Ithorian4
+    spawn Ithorian5
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi2
+    spawn Ithorian6
+    spawn Ithorian7
+    spawn Ithorian6
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi3
+    spawn Ithorian5
+    spawn Ithorian4
+    spawn Ithorian3
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi4
+    spawn Ithorian2
+    spawn Ithorian3
+    spawn Ithorian7
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi5
+    spawn Ithorian6
+    spawn Ithorian5
+    spawn Ithorian4
+  }
+  spawnGroup
+  {
+    spawn Ithorian_Jedi1
+    spawn Ithorian3
+    spawn Ithorian2
+    spawn Ithorian5
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn Ithorian3
+    spawn Ithorian2
+    spawn Ithorian7
+    spawn Ithorian6
+  }
+  spawnGroup
+  {
+    spawn Ithorian3
+    spawn Ithorian4
+    spawn Ithorian5
+    spawn Ithorian4
+  }
+  spawnGroup
+  {
+    spawn Ithorian7
+    spawn Ithorian6
+    spawn Ithorian3
+    spawn Ithorian2
+  }
+  spawnGroup
+  {
+    spawn Ithorian5
+    spawn Ithorian4
+    spawn Ithorian2
+    spawn Ithorian7
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn Ithorian7
+    spawn Ithorian6
+    spawn Ithorian5
+    spawn Ithorian4
+  }
+  spawnGroup
+  {
+    spawn Ithorian6
+    spawn Ithorian3
+    spawn Ithorian1
+    spawn Ithorian1
+  }
+  spawnGroup
+  {
+    spawn Ithorian5
+    spawn Ithorian7
+    spawn Ithorian1
+    spawn Ithorian1
+  }
+  spawnGroup
+  {
+    spawn Ithorian1
+    spawn Ithorian1
+    spawn Ithorian3
+    spawn Ithorian2
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn Ithorian1
+    spawn Ithorian7
+    spawn Ithorian1
+    spawn Ithorian1
+  }
+  spawnGroup
+  {
+    spawn Ithorian4
+    spawn Ithorian1
+    spawn Ithorian1
+    spawn Ithorian1
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn Ithorian1
+    spawn Ithorian1
+    spawn Ithorian1
+    spawn Ithorian1
+  }
+}

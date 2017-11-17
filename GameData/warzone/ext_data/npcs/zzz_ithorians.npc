@@ -1,0 +1,441 @@
+Ithorian1
+{
+	playerModel Itho
+	weapon		WP_DC_15S_CLONE_PISTOL
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian2
+{
+	playerModel ithorian/fullblack
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian3
+{
+	playerModel ithorian/vest
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian4
+{
+	playerModel ithorian/fullblack
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian5
+{
+	playerModel	ithorian/vest
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian6
+{
+	playerModel	ithorian/fullblack
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian7
+{
+	playerModel	ithorian/vest
+	weapon		WP_CLONE_BLASTER
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_NATIVE_GUNNER
+	snd		itho
+	sndcombat	itho
+	sndextra	itho
+	yawspeed	120
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Ithorian_Jedi1
+{
+	playerModel	ithorian
+	saber		single_2
+	saberColor	yellow
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			itho
+	sndcombat	itho
+	sndjedi		itho
+	sndextra	itho
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+Ithorian_Jedi2
+{
+	playerModel	ithorian
+	saber		single_7
+	saberColor	orange
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			itho
+	sndcombat	itho
+	sndjedi		itho
+	sndextra	itho
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+Ithorian_Jedi3
+{
+	playerModel	ithorian
+	saber		single_1
+	saberColor	blue
+	weapon	WP_SABER
+	saberStyle	1
+	saberStyle	3
+	saberStyle	2
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			itho
+	sndcombat	itho
+	sndjedi		itho
+	sndextra	itho
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+Ithorian_Jedi4
+{
+	playerModel	ithorian
+	saber		dual_3
+	saberColor	green
+	weapon	WP_SABER
+	saberStyle	7
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			itho
+	sndcombat	itho
+	sndjedi		itho
+	sndextra	itho
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
+
+Ithorian_Jedi5
+{
+	playerModel	ithorian
+	saber		jedi
+	saber2		jedi
+	saberColor	purple
+	saber2Color	purple
+	weapon	WP_SABER
+	saberStyle	6
+	FP_HEAL			3
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			3
+	FP_TELEPATHY	3
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_SABERTHROW	3
+	FP_RAGE			0
+	FP_PROTECT		3
+	FP_ABSORB		3
+	FP_DRAIN		0
+	FP_SEE			3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	forcePowerMax	200
+	rank		captain
+	reactions	3
+	aim		3
+	move		3
+	aggression	3
+	evasion		5
+	intelligence	3
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_JEDI
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			itho
+	sndcombat	itho
+	sndjedi		itho
+	sndextra	itho
+	health		200
+	dismemberProbHead	0
+	dismemberProbArms	0
+	dismemberProbLegs	0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}
