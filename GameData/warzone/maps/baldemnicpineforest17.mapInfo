@@ -9,14 +9,14 @@ DISABLE_MERGED_GLOWS=0
 ENABLE_DISPLACEMENT_MAPPING=1
 [PALETTE]
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
-LATE_LIGHTING_ENABLED=0
+LATE_LIGHTING_ENABLED=1
 MAP_LIGHTMAP_DISABLED=1
-MAP_AMBIENT_COLOR_R=1.0
-MAP_AMBIENT_COLOR_G=1.0
-MAP_AMBIENT_COLOR_B=1.0
+MAP_AMBIENT_COLOR_R=0.7
+MAP_AMBIENT_COLOR_G=0.5
+MAP_AMBIENT_COLOR_B=0.8
 MAP_AMBIENT_CONTRAST=0.95
 MAP_AMBIENT_SATURATION=0.6
-MAP_AMBIENT_BRIGHTNESS=1.85
+MAP_AMBIENT_BRIGHTNESS=1.25
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=0.7
 [EMISSION]
@@ -36,7 +36,7 @@ WEATHER_TYPE=tropical_island
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=1.0
+SUN_PHONG_SCALE=0.5
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -62,7 +62,7 @@ MOON_GLOW_STRENGTH=0.5
 MOON_ROTATION_RATE=0.08
 [FOG]
 // note: fog systems. warzone distance fog and volumetric fogs.
-DISABLE_FOG=0
+DISABLE_FOG=1
 FOG_STANDARD_ENABLE=1
 FOG_DENSITY=0.25
 FOG_RANGE_MULTIPLIER=1.0
@@ -95,7 +95,7 @@ MAP_WATER_LEVEL=-1024.0
 [SHADOWS]
 // note: settings for the sun shadow system.
 SHADOWS_ENABLED=1
-SHADOW_MINBRIGHT=0.45
+SHADOW_MINBRIGHT=0.75
 SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
