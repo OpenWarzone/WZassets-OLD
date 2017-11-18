@@ -27,7 +27,8 @@ Ithorian1
 
 Ithorian2
 {
-	playerModel ithorian/fullblack
+	//playerModel ithorian/fullblack
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
@@ -54,7 +55,8 @@ Ithorian2
 
 Ithorian3
 {
-	playerModel ithorian/vest
+	//playerModel ithorian/vest
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
@@ -81,7 +83,8 @@ Ithorian3
 
 Ithorian4
 {
-	playerModel ithorian/fullblack
+	//playerModel ithorian/fullblack
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
@@ -108,7 +111,8 @@ Ithorian4
 
 Ithorian5
 {
-	playerModel	ithorian/vest
+	//playerModel	ithorian/vest
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
@@ -135,7 +139,8 @@ Ithorian5
 
 Ithorian6
 {
-	playerModel	ithorian/fullblack
+	//playerModel	ithorian/fullblack
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
@@ -162,7 +167,8 @@ Ithorian6
 
 Ithorian7
 {
-	playerModel	ithorian/vest
+	//playerModel	ithorian/vest
+	playerModel Itho
 	weapon		WP_CLONE_BLASTER
 	reactions	3
 	aim			1
