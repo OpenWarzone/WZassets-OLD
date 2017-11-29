@@ -18,7 +18,7 @@ MAP_AMBIENT_CONTRAST=0.95
 MAP_AMBIENT_SATURATION=0.6
 MAP_AMBIENT_BRIGHTNESS=1.85
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
-MAP_GLOW_MULTIPLIER=0.7
+MAP_GLOW_MULTIPLIER=1.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=3.0
