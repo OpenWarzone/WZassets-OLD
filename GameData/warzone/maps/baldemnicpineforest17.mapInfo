@@ -9,20 +9,20 @@ DISABLE_MERGED_GLOWS=0
 ENABLE_DISPLACEMENT_MAPPING=1
 [PALETTE]
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
-LATE_LIGHTING_ENABLED=1
+LATE_LIGHTING_ENABLED=0
 MAP_LIGHTMAP_DISABLED=1
-MAP_AMBIENT_COLOR_R=0.7
-MAP_AMBIENT_COLOR_G=0.5
-MAP_AMBIENT_COLOR_B=0.8
+MAP_AMBIENT_COLOR_R=1.0
+MAP_AMBIENT_COLOR_G=1.0
+MAP_AMBIENT_COLOR_B=1.0
 MAP_AMBIENT_CONTRAST=0.95
 MAP_AMBIENT_SATURATION=0.6
-MAP_AMBIENT_BRIGHTNESS=1.25
+MAP_AMBIENT_BRIGHTNESS=1.85
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=0.7
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=3.0
+MAP_EMISSIVE_COLOR_SCALE=1.0
 [AURORA]
 AURORA_ENABLED=1
 AURORA_ENABLED_DAY=0
