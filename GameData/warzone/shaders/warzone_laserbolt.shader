@@ -2,6 +2,23 @@
 // NOTE: glass material type is used so GLSL will not add reflections and crap to the bolts...
 //
 
+gfx/effects/sabers/saberBlur
+{
+  warzoneEnabled
+  q3map_material	glass
+  cull	twosided
+  glowStrength 1.0
+  cull	twosided
+    {
+        map $whiteimage
+        //blendFunc GL_ONE GL_ONE
+        //blendFunc GL_ONE GL_ZERO
+        blendFunc GL_SRC_ALPHA GL_DST_ALPHA
+        rgbGen identity
+        glow
+    }
+}
+
 //
 // Main bolt colors...
 //
