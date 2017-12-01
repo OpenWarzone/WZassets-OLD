@@ -1,0 +1,169 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn reborn_dual
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn reborn_new
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn reborn_staff
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn rebornrodian
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn reborntrandoshan
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn rebornweequay
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn rebornboss
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn tavion
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn tavion_new
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn alora
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn alora_dual
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn reborn
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn boba_fett
+    spawn impworker
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn imperial
+    spawn impworker
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn impofficer
+    spawn rockettrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn impworker
+    spawn impworker
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn imperial
+    spawn impworker
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn impofficer
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn stcommander
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+  spawnGroup
+  {
+    spawn stofficer
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+    spawn snowtrooper
+  }
+}

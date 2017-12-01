@@ -1,0 +1,38 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn wampa
+    spawn wampa
+    spawn wampa
+  }
+}
+spawnGroup_elite
+{
+  spawnGroup
+  {
+    spawn wampa
+    spawn wampa
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn wampa
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn wampa
+  }
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn wampa
+  }
+}

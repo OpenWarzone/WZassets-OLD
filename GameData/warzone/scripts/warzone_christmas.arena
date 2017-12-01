@@ -1,0 +1,7 @@
+{
+map			"warzone_christmas"
+bots			"stormtrooper bobafett jedi"
+longname		"^5{^3WARZONE^5}^7 Christmas"
+fraglimit		0
+type			"ffa team campain n/a jedivmerc single coop rpg"
+}
