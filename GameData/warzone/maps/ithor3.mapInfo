@@ -21,8 +21,8 @@ MAP_AMBIENT_BRIGHTNESS=1.85
 MAP_GLOW_MULTIPLIER=0.7
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=3.0
+MAP_EMISSIVE_RADIUS_SCALE=1.0
+MAP_EMISSIVE_COLOR_SCALE=1.0
 [AURORA]
 AURORA_ENABLED=1
 AURORA_ENABLED_DAY=0
