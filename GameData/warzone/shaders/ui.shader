@@ -7,11 +7,6 @@ cursor
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen identity
     }
-    {
-        clampmap gfx/menus/cursor2
-        blendFunc GL_ONE GL_ONE
-        rgbGen wave sin 0.5 0.35 0 0.6
-    }
 }
 
 warning
