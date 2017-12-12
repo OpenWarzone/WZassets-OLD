@@ -1,9 +1,10 @@
 cursor
 {
-	nopicmip
+	//nopicmip
 	nomipmaps
     {
-        clampmap gfx/menus/cursor1
+        //clampmap gfx/menus/cursor1
+        map gfx/menus/cursor1
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen identity
     }
