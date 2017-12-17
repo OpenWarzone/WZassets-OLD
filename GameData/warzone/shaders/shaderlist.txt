@@ -63,6 +63,7 @@ warzone_oriental
 warzone_taanab
 warzone_tatooine
 warzone_scarif
+warzone_skyscraper
 JH3-TE
 JH-Water
 kotor_mo
