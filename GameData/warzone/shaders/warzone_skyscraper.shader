@@ -14,7 +14,7 @@ textures/city/street
 textures/city/building00
 {
   qer_editorimage	textures/city/building00
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building00
@@ -27,7 +27,7 @@ textures/city/building00
 textures/city/building01
 {
   qer_editorimage	textures/city/building01
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building01
@@ -40,7 +40,7 @@ textures/city/building01
 textures/city/building02
 {
   qer_editorimage	textures/city/building02
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building02
@@ -53,7 +53,7 @@ textures/city/building02
 textures/city/building03
 {
   qer_editorimage	textures/city/building03
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building03
@@ -66,7 +66,7 @@ textures/city/building03
 textures/city/building04
 {
   qer_editorimage	textures/city/building04
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building04
@@ -79,7 +79,7 @@ textures/city/building04
 textures/city/building05
 {
   qer_editorimage	textures/city/building05
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building05
@@ -92,7 +92,7 @@ textures/city/building05
 textures/city/building06
 {
   qer_editorimage	textures/city/building06
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building06
@@ -105,7 +105,7 @@ textures/city/building06
 textures/city/building07
 {
   qer_editorimage	textures/city/building07
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building07
@@ -118,7 +118,7 @@ textures/city/building07
 textures/city/building08
 {
   qer_editorimage	textures/city/building08
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building08
@@ -131,7 +131,7 @@ textures/city/building08
 textures/city/building09
 {
   qer_editorimage	textures/city/building09
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building09
@@ -144,7 +144,7 @@ textures/city/building09
 textures/city/building10
 {
   qer_editorimage	textures/city/building10
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building10
@@ -157,7 +157,7 @@ textures/city/building10
 textures/city/building11
 {
   qer_editorimage	textures/city/building11
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building11
@@ -170,7 +170,7 @@ textures/city/building11
 textures/city/building12
 {
   qer_editorimage	textures/city/building12
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building12
@@ -183,7 +183,7 @@ textures/city/building12
 textures/city/building13
 {
   qer_editorimage	textures/city/building13
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building13
@@ -196,7 +196,7 @@ textures/city/building13
 textures/city/building14
 {
   qer_editorimage	textures/city/building14
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building14
@@ -209,7 +209,7 @@ textures/city/building14
 textures/city/building15
 {
   qer_editorimage	textures/city/building15
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building15
@@ -222,7 +222,7 @@ textures/city/building15
 textures/city/building16
 {
   qer_editorimage	textures/city/building16
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building16
@@ -235,7 +235,7 @@ textures/city/building16
 textures/city/building17
 {
   qer_editorimage	textures/city/building17
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building17
@@ -248,7 +248,7 @@ textures/city/building17
 textures/city/building18
 {
   qer_editorimage	textures/city/building18
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building18
@@ -261,7 +261,7 @@ textures/city/building18
 textures/city/building19
 {
   qer_editorimage	textures/city/building19
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map textures/city/building19
