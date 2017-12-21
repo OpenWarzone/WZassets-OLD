@@ -28,6 +28,9 @@
 // e-11a_rifle
 // e-11b_rifle
 // e-60r_rocketlauncher
+// ee-3_carbine
+// ee-3_pistol
+// ee-3_rifle
 // elg-3a_pistol
 // fwg-5_flechettepistol
 // grenade_c-14a
@@ -2137,6 +2140,53 @@ models/weapons/e-60r_rocketlauncher/launcher
     }
     {
         map models/weapons/e-60r_rocketlauncher/launcher_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        detail
+        alphaGen lightingSpecular
+    }
+}
+
+// EE-3 Carbine Rifle (Jonthe, texture by Pande, pistol variant by Silverfang)
+
+// models/weapons/ee-3_carbine/blaster
+// {
+// 	q3map_nolightmap
+//     {
+//         map models/weapons/ee-3_rifle/blaster
+//         rgbGen lightingDiffuse
+//     }
+//     {
+//         map models/weapons/ee-3_rifle/blaster_spec
+//         blendFunc GL_SRC_ALPHA GL_ONE
+//         detail
+//         alphaGen lightingSpecular
+//     }
+// }
+
+// models/weapons/ee-3_pistol/blaster
+// {
+// 	q3map_nolightmap
+//     {
+//         map models/weapons/ee-3_rifle/blaster
+//         rgbGen lightingDiffuse
+//     }
+//     {
+//         map models/weapons/ee-3_rifle/blaster_spec
+//         blendFunc GL_SRC_ALPHA GL_ONE
+//         detail
+//         alphaGen lightingSpecular
+//     }
+// }
+
+models/weapons/ee-3_rifle/blaster
+{
+	q3map_nolightmap
+    {
+        map models/weapons/ee-3_rifle/blaster
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/weapons/ee-3_rifle/blaster_spec
         blendFunc GL_SRC_ALPHA GL_ONE
         detail
         alphaGen lightingSpecular

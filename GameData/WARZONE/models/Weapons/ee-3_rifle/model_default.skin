@@ -1,0 +1,11 @@
+w_grip,models\weapons\ee-3_rifle\blaster.tga
+w_barrel,models\weapons\ee-3_rifle\blaster.tga
+w_scope,models\weapons\ee-3_rifle\blaster.tga
+w_receiver,models\weapons\ee-3_rifle\blaster.tga
+w_numbers1,models\weapons\ee-3_rifle\numbers1.tga
+w_numbers2,models\weapons\ee-3_rifle\numbers2.tga
+w_numbers3,models\weapons\ee-3_rifle\numbers3.tga
+w_rarm,models\Players\human_male\upperbody_b.tga
+w_rhand,models\Players\human_male\hands_b.tga
+w_larm,models\Players\human_male\upperbody_b.tga
+w_lhand,models\Players\human_male\hands_b.tga
