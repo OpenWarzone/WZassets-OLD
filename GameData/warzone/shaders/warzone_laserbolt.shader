@@ -8,7 +8,7 @@ gfx/effects/sabers/saberBlur
   q3map_material	glass
   cull	twosided
   glowStrength 1.0
-  cull	twosided
+  glowVibrancy 1.0
     {
         map $whiteimage
         //blendFunc GL_ONE GL_ONE
