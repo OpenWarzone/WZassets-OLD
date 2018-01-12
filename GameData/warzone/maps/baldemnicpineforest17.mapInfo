@@ -14,15 +14,18 @@ MAP_LIGHTMAP_DISABLED=1
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
-MAP_AMBIENT_CONTRAST=0.95
-MAP_AMBIENT_SATURATION=0.6
-MAP_AMBIENT_BRIGHTNESS=1.25
+MAP_AMBIENT_CONTRAST=0.9
+MAP_AMBIENT_SATURATION=0.75
+MAP_AMBIENT_BRIGHTNESS=1.85
+MAP_AMBIENT_BRIGHTNESS_NIGHT=0.35
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=1.0
+MAP_GLOW_MULTIPLIER_NIGHT=1.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=1.0
+MAP_EMISSIVE_RADIUS_SCALE=1.5
+MAP_EMISSIVE_COLOR_SCALE=1.25
+MAP_EMISSIVE_COLOR_SCALE_NIGHT=24.0
 [AURORA]
 AURORA_ENABLED=1
 AURORA_ENABLED_DAY=0
@@ -36,7 +39,7 @@ WEATHER_TYPE=tropical_island
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=1.0
+SUN_PHONG_SCALE=3.0
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -95,7 +98,7 @@ MAP_WATER_LEVEL=-1024.0
 [SHADOWS]
 // note: settings for the sun shadow system.
 SHADOWS_ENABLED=1
-SHADOW_MINBRIGHT=0.75
+SHADOW_MINBRIGHT=0.7
 SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
