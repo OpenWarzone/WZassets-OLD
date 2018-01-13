@@ -7,20 +7,20 @@ LATE_LIGHTING_ENABLED=2
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
-MAP_AMBIENT_CONTRAST=0.96
+MAP_AMBIENT_CONTRAST=0.8
 MAP_AMBIENT_SATURATION=1.0
-MAP_AMBIENT_BRIGHTNESS=0.75
+MAP_AMBIENT_BRIGHTNESS=0.6
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=1.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=0.25
-MAP_EMISSIVE_COLOR_SCALE=1.75
+MAP_EMISSIVE_RADIUS_SCALE=1.0
+MAP_EMISSIVE_COLOR_SCALE=1.0
 [SUN]
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=1.0
+SUN_PHONG_SCALE=2.0
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -124,3 +124,9 @@ pebblesImage2=models/warzone/pebbles/mainpebbles2
 [BOUNDS]
 [MAPINFO]
 SKY_HEIGHT=3392.125000
+MINS0=1984.000000
+MINS1=-1216.000000
+MINS2=-256.000000
+MAXS0=5568.000000
+MAXS1=2524.000000
+MAXS2=3264.000000
