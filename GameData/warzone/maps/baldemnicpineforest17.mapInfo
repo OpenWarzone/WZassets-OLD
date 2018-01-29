@@ -5,6 +5,7 @@
 [FIXES]
 // note: Horrible hack for basejka maps... Don't use it! Fix your maps for warzone!
 DISABLE_MERGED_GLOWS=0
+DISABLE_LIFTS_AND_PORTALS_MERGE=0
 [EFFECTS]
 ENABLE_DISPLACEMENT_MAPPING=1
 [PALETTE]
@@ -19,8 +20,8 @@ MAP_AMBIENT_SATURATION=0.75
 MAP_AMBIENT_BRIGHTNESS=1.85
 MAP_AMBIENT_BRIGHTNESS_NIGHT=0.35
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
-MAP_GLOW_MULTIPLIER=1.0
-MAP_GLOW_MULTIPLIER_NIGHT=1.0
+MAP_GLOW_MULTIPLIER=0.7
+MAP_GLOW_MULTIPLIER_NIGHT=2.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=1.5

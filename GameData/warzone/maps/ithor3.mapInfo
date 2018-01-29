@@ -5,6 +5,7 @@
 [FIXES]
 // note: Horrible hack for basejka maps... Don't use it! Fix your maps for warzone!
 DISABLE_MERGED_GLOWS=0
+DISABLE_LIFTS_AND_PORTALS_MERGE=0
 [EFFECTS]
 ENABLE_DISPLACEMENT_MAPPING=1
 DISPLACEMENT_MAPPING_STRENGTH=32.0
