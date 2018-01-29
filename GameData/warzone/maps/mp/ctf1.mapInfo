@@ -6,6 +6,7 @@
 DISABLE_MERGED_GLOWS=0
 [EFFECTS]
 ENABLE_DISPLACEMENT_MAPPING=0
+ENABLE_SCREEN_SPACE_REFLECTIONS=1
 [PALETTE]
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
 LATE_LIGHTING_ENABLED=2
@@ -128,3 +129,10 @@ pebblesImage1=models/warzone/pebbles/mainpebbles1
 pebblesImage2=models/warzone/pebbles/mainpebbles2
 [MAPINFO]
 SKY_HEIGHT=2304.125000
+[BOUNDS]
+MINS0=-6784.000000
+MINS1=-1392.000000
+MINS2=-1472.000000
+MAXS0=832.000000
+MAXS1=1392.000000
+MAXS2=2192.000000
