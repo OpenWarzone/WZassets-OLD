@@ -1,9 +1,14 @@
 //
 // note: I am in the process of moving most cvars to mapInfo settings so they can be specified per map to let mappers customize how everything looks to suit their map.
 //
+[FIXES]
+// note: Horrible hack for basejka maps... Don't use it! Fix your maps for warzone!
+DISABLE_MERGED_GLOWS=0
+DISABLE_LIFTS_AND_PORTALS_MERGE=1
 [PALETTE]
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
 LATE_LIGHTING_ENABLED=2
+MAP_LIGHTMAP_DISABLED=0
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
@@ -11,7 +16,7 @@ MAP_AMBIENT_CONTRAST=0.8
 MAP_AMBIENT_SATURATION=1.0
 MAP_AMBIENT_BRIGHTNESS=0.6
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
-MAP_GLOW_MULTIPLIER=1.0
+MAP_GLOW_MULTIPLIER=0.5
 [EFFECTS]
 ENABLE_SCREEN_SPACE_REFLECTIONS=1
 [EMISSION]
