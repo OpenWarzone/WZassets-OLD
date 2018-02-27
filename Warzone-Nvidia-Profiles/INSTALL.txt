@@ -1,0 +1,3 @@
+Use nVidia Inspector to load one of these profiles.
+
+MFAA version requires nVidia 9+ series cards.
