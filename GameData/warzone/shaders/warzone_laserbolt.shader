@@ -5,7 +5,7 @@
 gfx/effects/sabers/saberBlur
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 1.0
   glowVibrancy 1.0
@@ -26,7 +26,7 @@ laserbolt_white
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_white
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 1.0
@@ -43,7 +43,7 @@ laserbolt_yellow
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_yellow
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 4.0
@@ -60,7 +60,7 @@ laserbolt_red
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_red
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 8.0
@@ -77,7 +77,7 @@ laserbolt_blue
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_blue
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 16.0
@@ -94,7 +94,7 @@ laserbolt_green
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_green
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 4.0
@@ -111,7 +111,7 @@ laserbolt_purple
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_purple
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 16.0
@@ -128,7 +128,7 @@ laserbolt_orange
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_orange
-  q3map_material	glass
+  q3map_material	laserbolt
   q3map_clipModel
   glowStrength 0.58
   glowVibrancy 4.0
@@ -148,7 +148,7 @@ laserbolt_orange
 laserbolt_white_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -162,7 +162,7 @@ laserbolt_white_glow
 laserbolt_yellow_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -176,7 +176,7 @@ laserbolt_yellow_glow
 laserbolt_red_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -190,7 +190,7 @@ laserbolt_red_glow
 laserbolt_blue_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -204,7 +204,7 @@ laserbolt_blue_glow
 laserbolt_green_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -218,7 +218,7 @@ laserbolt_green_glow
 laserbolt_purple_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {
@@ -232,7 +232,7 @@ laserbolt_purple_glow
 laserbolt_orange_glow
 {
   warzoneEnabled
-  q3map_material	glass
+  q3map_material	efx
   cull	twosided
   glowStrength 0.5
   {

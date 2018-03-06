@@ -26,13 +26,13 @@ SKY_LIGHTING_SCALE=1.0
 ENABLE_SCREEN_SPACE_REFLECTIONS=1
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=0.1
+MAP_EMISSIVE_RADIUS_SCALE=1.0
+MAP_EMISSIVE_COLOR_SCALE=3.0
 [SUN]
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=0.1
+SUN_PHONG_SCALE=1.0
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -95,8 +95,9 @@ SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
 AO_ENABLED=1
-AO_MINBRIGHT=0.15
-AO_MULTBRIGHT=0.85
+AO_BLUR=0
+AO_MINBRIGHT=0.55
+AO_MULTBRIGHT=1.0
 [FOLIAGE]
 // note: this is the cgame foliage system, not the same as the renderer grass system.
 //FOLIAGE_SET=forest2
