@@ -1,7 +1,7 @@
 Rebel3
 {
 	playerModel rebel
-	weapon		WP_CLONE_BLASTER
+	weapon		WP_A280
 	reactions	3
 	aim			1
 	move		3
