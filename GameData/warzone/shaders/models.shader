@@ -31,6 +31,9 @@ models/map_objects/mp/flag2
 
 models/map_objects/imp_mine/psgun
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	qer_editorimage	models/items/psgun
 	q3map_nolightmap
 	q3map_onlyvertexlighting
@@ -58,6 +61,9 @@ models/map_objects/imp_mine/psgun
 
 models/players/swoop/swoop
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -81,6 +87,9 @@ models/players/swoop/swoop
 
 models/players/swoop/swoop_black
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -104,6 +113,9 @@ models/players/swoop/swoop_black
 
 models/players/swoop/swoop_blue
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -127,6 +139,9 @@ models/players/swoop/swoop_blue
 
 models/players/swoop/swoop_gold
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -150,6 +165,9 @@ models/players/swoop/swoop_gold
 
 models/players/swoop/swoop_green
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -173,6 +191,9 @@ models/players/swoop/swoop_green
 
 models/players/swoop/swoop_purple
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -196,6 +217,9 @@ models/players/swoop/swoop_purple
 
 models/players/swoop/swoop_silver
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -219,6 +243,9 @@ models/players/swoop/swoop_silver
 
 models/players/swoop/swoop2
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map $lightmap
     }
@@ -237,6 +264,9 @@ models/players/swoop/swoop2
 
 models/map_objects/ships/z95_wing
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map models/map_objects/ships/z95_wing
     }
@@ -260,6 +290,9 @@ models/map_objects/ships/z95_wing
 
 models/map_objects/ships/z95_cockpit
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map envmap
         tcGen environment
@@ -286,6 +319,9 @@ models/map_objects/ships/z95_cockpit
 
 models/map_objects/ships/z95_body
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
     {
         map models/map_objects/ships/z95_body
     }
@@ -312,6 +348,9 @@ models/map_objects/ships/z95_body
 
 models/map_objects/imp_mine/psd
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	q3map_nolightmap
 	q3map_onlyvertexlighting
     {
@@ -329,6 +368,9 @@ models/map_objects/imp_mine/psd
 
 models/map_objects/imp_mine/power_convertor_panel
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	qer_editorimage	models/map_objects/imp_mine/power_converter_panel
 	q3map_nolightmap
 	q3map_onlyvertexlighting
@@ -524,6 +566,9 @@ models/map_objects/imp_mine/mbay_control_panel
 
 models/map_objects/imp_mine/tubes
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	q3map_nolightmap
 	q3map_onlyvertexlighting
     {
@@ -605,6 +650,9 @@ models/map_objects/imp_mine/minelamp_on
 
 models/map_objects/imp_mine/turret_chair_on
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	qer_editorimage	gfx/effects/redline
 	q3map_nolightmap
 	q3map_onlyvertexlighting
@@ -622,6 +670,9 @@ models/map_objects/imp_mine/turret_chair_on
 
 models/map_objects/imp_mine/desk_shade
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	qer_editorimage	models/map_objects/imp_mine/desk_shade
 	q3map_nolightmap
 	q3map_onlyvertexlighting
@@ -653,6 +704,9 @@ models/map_objects/imp_mine/crystal_slag
 
 models/map_objects/imp_mine/mine_drill_body
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	q3map_nolightmap
 	q3map_onlyvertexlighting
     {
@@ -685,6 +739,9 @@ models/map_objects/imp_mine/mine_drill_body
 
 models/map_objects/imp_mine/turret_cannon_base
 {
+    warzoneEnabled
+    q3map_material	solidmetal
+    
 	q3map_nolightmap
     {
         map models/map_objects/imp_mine/turret_cannon_base
