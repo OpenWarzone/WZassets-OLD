@@ -6,7 +6,7 @@ STOfficer
 	customSkin		default_pauldron-o
 	//weapon		WP_FLECHETTE
 	weapon    WP_T21
-	health		60
+	health		260
 	headPitchRangeDown 30
 	reactions	5
 	aim			5
@@ -45,7 +45,7 @@ STOfficerAlt
 	//weapon		WP_FLECHETTE
 	weapon    WP_REPEATER
 	altFire		1
-	health		60
+	health		260
 	headPitchRangeDown 30
 	reactions	5
 	aim			5

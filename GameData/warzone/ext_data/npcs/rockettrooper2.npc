@@ -1,8 +1,8 @@
 RocketTrooper2
 {
 	playerModel rockettrooper
-	weapon	WP_ROCKET_LAUNCHER
-	health	200
+	weapon	WP_T21
+	health	350
 	headPitchRangeDown 30
 	reactions	3
 	aim			1
@@ -36,7 +36,7 @@ RocketTrooper2
 RocketTrooper2Officer
 {
 	playerModel rockettrooper
-	weapon	WP_REPEATER
+	weapon	WP_T21
 	health	400
 	headPitchRangeDown 30
 	reactions	3

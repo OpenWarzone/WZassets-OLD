@@ -1,9 +1,9 @@
 SwampTrooper
 {
 	playerModel swamptrooper
-	weapon		WP_A200_ACP_PISTOL
+	weapon		WP_T21
 	headPitchRangeDown 30
-	health		70
+	health		170
 	reactions	3
 	aim			3
 	move		3
@@ -33,9 +33,9 @@ SwampTrooper
 SwampTrooper2
 {
 	playerModel swamptrooper
-	weapon		WP_REPEATER
+	weapon		WP_T21
 	headPitchRangeDown 30
-	health		70
+	health		170
 	reactions	3
 	aim			3
 	move		3
