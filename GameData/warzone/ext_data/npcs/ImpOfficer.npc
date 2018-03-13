@@ -1,7 +1,7 @@
 ImpOfficer
 {
 	playerModel imperial
-	weapon		WP_BLASTER
+	weapon		WP_T21
 	surfOff		l_arm_key
 	customSkin	officer
 	health		40

@@ -4,7 +4,6 @@ boba_fett
 	playerModel	boba_fett
 	altFire		1
 	weapon		WP_MELEE
-	weapon		WP_WESTER_PISTOL
 	weapon		WP_EE3
 	weapon		WP_ROCKET_LAUNCHER
 	FP_HEAL			0

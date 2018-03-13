@@ -1,7 +1,7 @@
 human_merc
 {
 	playerModel human_merc
-	weapon		WP_BLASTER
+	weapon		WP_BRYAR_CARBINE
 	surfOff		"l_arm_pocket l_arm_key"
 	health		100
 	headPitchRangeDown 30
