@@ -14,13 +14,23 @@ textures/tatooine/sand
 
 textures/skies/tatooine
 {
+	q3map_lightimage	textures/colors/white
 	qer_editorimage	textures/skies/sky.tga
+	q3map_surfacelight	800
+	q3map_lightsubdivide	512
+	sun 1 1 1 400 300 50
 	surfaceparm	sky
 	surfaceparm	noimpact
 	surfaceparm	nomarks
 	notc
 	q3map_nolightmap
-	skyParms	textures/skies/desert 512 -
+	skyParms	textures/skies/scarif 128 -
+    {
+        map textures/skies/tatooine_clouds
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        tcMod scroll 0 0.00225
+        tcMod scale 0.3 0.3
+    }
 }
 
 models/warzone/tatooine/stucco2
