@@ -1,0 +1,131 @@
+repeatDelay				4000
+
+Tail
+{
+	name				Flame
+
+	flags				setShaderTime
+
+	spawnFlags			cheapOrgCalc absoluteVel
+
+	life				4000
+
+	origin				0 0 -5
+
+	origin2				0 -0.2 1 0 0.2 6
+
+	wind				-0.04 -0.07
+
+	velocity			0 0 -0.1
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+	}
+
+	size
+	{
+		start			20
+	}
+
+	length
+	{
+		start			50
+		end				0
+		parm			80 90
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/flames/fire_smooth
+	]
+}
+
+Tail
+{
+	name				SmokeTail
+
+	flags				useAlpha
+
+	spawnFlags			absoluteVel
+
+	count				1 2
+
+	life				4200 4600
+
+	delay				0 7700
+
+	origin				-4 -5 -5 4 4 3
+
+	origin2				0 -0.2 1 0 0.2 6
+
+	wind				-0.1 -0.3
+
+	velocity			0 0 -1
+
+	rgb
+	{
+		start			0.9922 0.3804 0.1765 0.9843 0.3412 0.1843
+		end				0.4588 0.4588 0.4588 0.4118 0.4118 0.4118
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			15 18
+		end				20 25
+		flags			linear
+	}
+
+	length
+	{
+		start			0
+		end				150 180
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/flames/smokeTrail_alpha2
+		gfx/flames/smokeTrail_alpha3
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	life				4000
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+		end				0 0 0
+		flags			linear
+	}
+
+	size
+	{
+		start			110 90
+		end				26
+		flags			linear
+	}
+}
+
+//Sound
+//{
+//	name				Sizzle
+
+//	sounds
+//	[
+//		sound/effects/sizzle.wav
+//	]
+//}

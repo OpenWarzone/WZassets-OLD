@@ -1,0 +1,41 @@
+repeatDelay				200
+
+Light
+{
+	name				Illumination
+
+	life				300
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+		end				0 0 0
+		flags			linear
+	}
+
+	size
+	{
+		start			110 90
+		end				26
+		flags			linear
+	}
+}
+
+Line
+{
+	spawnFlags			cheapOrgCalc cheapOrg2Calc
+
+	life				200
+
+	origin				0 0 192
+
+	size
+	{
+		start			64
+	}
+
+	shaders
+	[
+		warzoneFire
+	]
+}

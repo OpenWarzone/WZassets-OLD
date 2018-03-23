@@ -1,0 +1,130 @@
+repeatDelay				200
+
+Light
+{
+	name				Illumination
+
+	life				300
+
+	rgb
+	{
+		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+		end				0 0 0
+		flags			linear
+	}
+
+	size
+	{
+		start			110 90
+		end				26
+		flags			linear
+	}
+}
+
+Cylinder
+{
+	name				warzoneFireMainGLSL
+
+	life				200
+
+	size
+	{
+		start			0
+	}
+
+	size2
+	{
+		start			16
+	}
+
+	length
+	{
+		start			128
+	}
+
+	shaders
+	[
+		warzoneFire
+	]
+}
+
+Cylinder
+{
+	name				warzoneFireOuterGLSL
+
+	life				200
+
+	size
+	{
+		start			0
+	}
+
+	size2
+	{
+		start			24
+	}
+
+	length
+	{
+		start			128
+	}
+
+	shaders
+	[
+		warzoneFire
+	]
+}
+
+Cylinder
+{
+	name				warzoneFireSubInnerGLSL
+
+	life				200
+
+	size
+	{
+		start			0
+	}
+
+	size2
+	{
+		start			12
+	}
+
+	length
+	{
+		start			128
+	}
+
+	shaders
+	[
+		warzoneFire
+	]
+}
+
+Cylinder
+{
+	name				warzoneFireInnerGLSL
+
+	life				200
+
+	size
+	{
+		start			0
+	}
+
+	size2
+	{
+		start			8
+	}
+
+	length
+	{
+		start			128
+	}
+
+	shaders
+	[
+		warzoneFire
+	]
+}

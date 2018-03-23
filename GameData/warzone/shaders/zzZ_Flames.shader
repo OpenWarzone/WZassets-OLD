@@ -4,6 +4,7 @@ gfx/flames/fire
 {
 	qer_editorimage	gfx/flames/fire10
 	cull	twosided
+	glowStrength 0.25
     {
         animMap 20 gfx/flames/fire01 gfx/flames/fire02 gfx/flames/fire03 gfx/flames/fire04 gfx/flames/fire05 gfx/flames/fire06 gfx/flames/fire07 gfx/flames/fire08 gfx/flames/fire09 gfx/flames/fire10 gfx/flames/fire11 gfx/flames/fire12 gfx/flames/fire13 gfx/flames/fire14 gfx/flames/fire15 gfx/flames/fire16 gfx/flames/fire17 gfx/flames/fire18 gfx/flames/fire19 gfx/flames/fire20 
         blendFunc GL_ONE GL_ONE
@@ -17,6 +18,7 @@ gfx/flames/fire_smooth
 {
 	qer_editorimage	gfx/flames/fire05
 	cull	twosided
+	glowStrength 0.25
     {
         animMap 20 gfx/flames/fire01 gfx/flames/fire02 gfx/flames/fire03 gfx/flames/fire04 gfx/flames/fire05 gfx/flames/fire06 gfx/flames/fire07 gfx/flames/fire08 gfx/flames/fire09 gfx/flames/fire10 gfx/flames/fire11 gfx/flames/fire12 gfx/flames/fire13 gfx/flames/fire14 gfx/flames/fire15 gfx/flames/fire16 gfx/flames/fire17 gfx/flames/fire18 gfx/flames/fire19 gfx/flames/fire20 
         blendFunc GL_ONE GL_ONE
@@ -35,6 +37,7 @@ gfx/flames/fire01
 {
 	qer_editorimage	gfx/flames/fire01
 	cull	twosided
+	glowStrength 0.25
     {
         animMap 20 gfx/flames/fire01 gfx/flames/fire02 gfx/flames/fire03 gfx/flames/fire04 gfx/flames/fire05 gfx/flames/fire06 gfx/flames/fire07 gfx/flames/fire08 gfx/flames/fire09 gfx/flames/fire10 gfx/flames/fire11 gfx/flames/fire12 gfx/flames/fire13 gfx/flames/fire14 gfx/flames/fire15 gfx/flames/fire16 gfx/flames/fire17 gfx/flames/fire18 gfx/flames/fire19 gfx/flames/fire20 
         blendFunc GL_SRC_ALPHA GL_ONE
@@ -47,6 +50,7 @@ gfx/flames/fire02
 {
 	qer_editorimage	gfx/flames/fire02
 	cull	twosided
+	glowStrength 0.25
     {
         animMap 20 gfx/flames/fire02 gfx/flames/fire03 gfx/flames/fire04 gfx/flames/fire05 gfx/flames/fire06 gfx/flames/fire07 gfx/flames/fire08 gfx/flames/fire09 gfx/flames/fire10 gfx/flames/fire11 gfx/flames/fire12 gfx/flames/fire13 gfx/flames/fire14 gfx/flames/fire15 gfx/flames/fire16 gfx/flames/fire17 gfx/flames/fire18 gfx/flames/fire19 gfx/flames/fire20 gfx/flames/fire01 
         blendFunc GL_SRC_ALPHA GL_ONE
@@ -61,6 +65,7 @@ gfx/flames/fire_debris
 {
 	qer_editorimage	gfx/flames/fire10
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/fire_debris
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -79,6 +84,7 @@ gfx/flames/fire_debris
 gfx/flames/particle_fire1
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire1
         blendFunc GL_ONE GL_ONE
@@ -90,6 +96,7 @@ gfx/flames/particle_fire1
 gfx/flames/particle_blue1
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue1
         blendFunc GL_ONE GL_ONE
@@ -101,6 +108,7 @@ gfx/flames/particle_blue1
 gfx/flames/particle_white1
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white1
         blendFunc GL_ONE GL_ONE
@@ -112,6 +120,7 @@ gfx/flames/particle_white1
 gfx/flames/particle_blur1
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur1
         blendFunc GL_ONE GL_ONE
@@ -123,6 +132,7 @@ gfx/flames/particle_blur1
 gfx/flames/particle_fire2
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire2
         blendFunc GL_ONE GL_ONE
@@ -134,6 +144,7 @@ gfx/flames/particle_fire2
 gfx/flames/particle_blue2
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue2
         blendFunc GL_ONE GL_ONE
@@ -145,6 +156,7 @@ gfx/flames/particle_blue2
 gfx/flames/particle_white2
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white2
         blendFunc GL_ONE GL_ONE
@@ -156,6 +168,7 @@ gfx/flames/particle_white2
 gfx/flames/particle_blur2
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur2
         blendFunc GL_ONE GL_ONE
@@ -167,6 +180,7 @@ gfx/flames/particle_blur2
 gfx/flames/particle_fire3
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire3
         blendFunc GL_ONE GL_ONE
@@ -178,6 +192,7 @@ gfx/flames/particle_fire3
 gfx/flames/particle_blue3
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue3
         blendFunc GL_ONE GL_ONE
@@ -189,6 +204,7 @@ gfx/flames/particle_blue3
 gfx/flames/particle_white3
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white3
         blendFunc GL_ONE GL_ONE
@@ -200,6 +216,7 @@ gfx/flames/particle_white3
 gfx/flames/particle_blur3
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur3
         blendFunc GL_ONE GL_ONE
@@ -211,6 +228,7 @@ gfx/flames/particle_blur3
 gfx/flames/particle_fire4
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire4
         blendFunc GL_ONE GL_ONE
@@ -222,6 +240,7 @@ gfx/flames/particle_fire4
 gfx/flames/particle_blue4
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue4
         blendFunc GL_ONE GL_ONE
@@ -233,6 +252,7 @@ gfx/flames/particle_blue4
 gfx/flames/particle_white4
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white4
         blendFunc GL_ONE GL_ONE
@@ -244,6 +264,7 @@ gfx/flames/particle_white4
 gfx/flames/particle_blur4
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur4
         blendFunc GL_ONE GL_ONE
@@ -255,6 +276,7 @@ gfx/flames/particle_blur4
 gfx/flames/particle_fire5
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire5
         blendFunc GL_ONE GL_ONE
@@ -266,6 +288,7 @@ gfx/flames/particle_fire5
 gfx/flames/particle_blue5
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue5
         blendFunc GL_ONE GL_ONE
@@ -277,6 +300,7 @@ gfx/flames/particle_blue5
 gfx/flames/particle_white5
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white5
         blendFunc GL_ONE GL_ONE
@@ -288,6 +312,7 @@ gfx/flames/particle_white5
 gfx/flames/particle_blur5
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur5
         blendFunc GL_ONE GL_ONE
@@ -299,6 +324,7 @@ gfx/flames/particle_blur5
 gfx/flames/particle_fire6
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire6
         blendFunc GL_ONE GL_ONE
@@ -310,6 +336,7 @@ gfx/flames/particle_fire6
 gfx/flames/particle_blue6
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue6
         blendFunc GL_ONE GL_ONE
@@ -321,6 +348,7 @@ gfx/flames/particle_blue6
 gfx/flames/particle_white6
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white6
         blendFunc GL_ONE GL_ONE
@@ -332,6 +360,7 @@ gfx/flames/particle_white6
 gfx/flames/particle_blur6
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur6
         blendFunc GL_ONE GL_ONE
@@ -343,6 +372,7 @@ gfx/flames/particle_blur6
 gfx/flames/particle_fire7
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire7
         blendFunc GL_ONE GL_ONE
@@ -354,6 +384,7 @@ gfx/flames/particle_fire7
 gfx/flames/particle_blue7
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue7
         blendFunc GL_ONE GL_ONE
@@ -365,6 +396,7 @@ gfx/flames/particle_blue7
 gfx/flames/particle_white7
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white7
         blendFunc GL_ONE GL_ONE
@@ -376,6 +408,7 @@ gfx/flames/particle_white7
 gfx/flames/particle_blur7
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur7
         blendFunc GL_ONE GL_ONE
@@ -387,6 +420,7 @@ gfx/flames/particle_blur7
 gfx/flames/particle_fire8
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_fire8
         blendFunc GL_ONE GL_ONE
@@ -398,6 +432,7 @@ gfx/flames/particle_fire8
 gfx/flames/particle_blue8
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blue8
         blendFunc GL_ONE GL_ONE
@@ -409,6 +444,7 @@ gfx/flames/particle_blue8
 gfx/flames/particle_white8
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_white8
         blendFunc GL_ONE GL_ONE
@@ -420,6 +456,7 @@ gfx/flames/particle_white8
 gfx/flames/particle_blur8
 {
 	cull	twosided
+	glowStrength 0.25
     {
         map gfx/flames/particle_blur8
         blendFunc GL_ONE GL_ONE

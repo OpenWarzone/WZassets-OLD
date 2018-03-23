@@ -54,6 +54,7 @@ zzz_warzone_trees_solid
 zzz_warzone_mapobjects_nonsolid
 zzz_warzone_mapobjects_solid
 warzone_Arrevanous7
+warzone_campfire
 warzone_christmas
 warzone_ilum
 warzone_ithor
@@ -62,6 +63,7 @@ warzone_naboo
 warzone_oriental
 warzone_taanab
 warzone_tatooine
+warzone_toujane
 warzone_scarif
 warzone_skyscraper
 JH3-TE
