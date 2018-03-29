@@ -16,16 +16,16 @@ MAP_LIGHTMAP_DISABLED=1
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
-MAP_AMBIENT_CONTRAST=0.7
+MAP_AMBIENT_CONTRAST=0.9
 MAP_AMBIENT_SATURATION=0.85
-MAP_AMBIENT_BRIGHTNESS=1.25
-MAP_AMBIENT_BRIGHTNESS_NIGHT=0.35
+MAP_AMBIENT_BRIGHTNESS=2.25
+MAP_AMBIENT_BRIGHTNESS_NIGHT=0.95
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=0.7
 MAP_GLOW_MULTIPLIER_NIGHT=2.0
 MAP_HDR_MIN=48.0
 MAP_HDR_MAX=244.0
-SKY_LIGHTING_SCALE=0.5
+SKY_LIGHTING_SCALE=2.0
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=3.5
@@ -44,7 +44,7 @@ WEATHER_TYPE=forest_island
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
-SUN_PHONG_SCALE=1.0
+SUN_PHONG_SCALE=0.02
 SUN_COLOR_MAIN_R=1.0
 SUN_COLOR_MAIN_G=0.8
 SUN_COLOR_MAIN_B=0.4
@@ -112,7 +112,7 @@ SHADOW_MAXBRIGHT=1.35
 AO_ENABLED=1
 AO_BLUR=0
 AO_DIRECTIONAL=0
-AO_MINBRIGHT=0.35
+AO_MINBRIGHT=0.55
 AO_MULTBRIGHT=1.35
 [FOLIAGE]
 // note: this is the cgame foliage system, not the same as the renderer grass system.

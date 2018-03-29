@@ -1,15 +1,15 @@
-gfx_base/effects/shock_ripple
+gfx/effects/shock_ripple
 {
 	cull	twosided
     {
-        map gfx_base/effects/shock_ripple
+        map gfx/effects/shock_ripple
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
         tcMod scale 3 1
         tcMod scroll 0.9 0
     }
     {
-        map gfx_base/effects/shock_ripple
+        map gfx/effects/shock_ripple
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
         tcMod scale 2 1
@@ -17,122 +17,122 @@ gfx_base/effects/shock_ripple
     }
 }
 
-gfx_base/effects/sho
+gfx/effects/sho
 {
 	cull	twosided
     {
-        map gfx_base/effects/sho
+        map gfx/effects/sho
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
         tcMod scale 1 0.5
         tcMod scroll 0 2.9
     }
     {
-        map gfx_base/effects/sho
+        map gfx/effects/sho
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
         tcMod scroll 0 -1.8
     }
 }
 
-gfx_base/effects/shock_ball
+gfx/effects/shock_ball
 {
 	cull	twosided
     {
-        map gfx_base/effects/shock_ball
+        map gfx/effects/shock_ball
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
     }
 }
 
-gfx_base/effects/saberDamageGlow
+gfx/effects/saberDamageGlow
 {
 	polygonOffset
 	cull	twosided
     {
-        map gfx_base/effects/saberdamageglow
+        map gfx/effects/saberdamageglow
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/fire2
+gfx/effects/fire2
 {
 	cull	twosided
     {
-        map gfx_base/effects/fire2
-        blendFunc GL_ONE GL_ONE
-        glow
-        rgbGen vertex
-    }
-}
-
-gfx_base/effects/fire3
-{
-	cull	twosided
-    {
-        map gfx_base/effects/fire3
+        map gfx/effects/fire2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/fire4
+gfx/effects/fire3
 {
 	cull	twosided
     {
-        map gfx_base/effects/fire4
+        map gfx/effects/fire3
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/white_fire1
+gfx/effects/fire4
 {
 	cull	twosided
     {
-        map gfx_base/effects/white_fire1
+        map gfx/effects/fire4
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen vertex
+    }
+}
+
+gfx/effects/white_fire1
+{
+	cull	twosided
+    {
+        map gfx/effects/white_fire1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/white_fire2
+gfx/effects/white_fire2
 {
 	cull	twosided
     {
-        map gfx_base/effects/white_fire2
+        map gfx/effects/white_fire2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/white_fire1mult
+gfx/effects/white_fire1mult
 {
 	cull	twosided
     {
-        map gfx_base/effects/white_fire1
+        map gfx/effects/white_fire1
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/white_fire2mult
+gfx/effects/white_fire2mult
 {
 	cull	twosided
     {
-        map gfx_base/effects/white_fire2
+        map gfx/effects/white_fire2
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/cloakedShader
+gfx/effects/cloakedShader
 {
     {
-        map gfx_base/effects/chrome2
+        map gfx/effects/chrome2
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen entity
         tcGen environment
@@ -141,80 +141,80 @@ gfx_base/effects/cloakedShader
     }
 }
 
-gfx_base/effects/wookie1
+gfx/effects/wookie1
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/wookie1
+        map gfx/effects/wookie1
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
     }
 }
 
-gfx_base/effects/wookie2
+gfx/effects/wookie2
 {
 	polygonOffset
 	cull	twosided
     {
-        map gfx_base/effects/wookie2
+        map gfx/effects/wookie2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/whiteGlow
+gfx/effects/whiteGlow
 {
     {
-        map gfx_base/effects/whiteglow
+        map gfx/effects/whiteglow
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/blaster_blob
+gfx/effects/blaster_blob
 {
 	cull	twosided
     {
-        map gfx_base/effects/blaster_blob
+        map gfx/effects/blaster_blob
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         alphaGen vertex
     }
 }
 
-gfx_base/effects/bryar_blob
+gfx/effects/bryar_blob
 {
 	cull	twosided
     {
-        map gfx_base/effects/bryar_blob
+        map gfx/effects/bryar_blob
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         alphaGen vertex
     }
 }
 
-gfx_base/effects/forcePush
+gfx/effects/forcePush
 {
 	cull	twosided
     {
-        map gfx_base/effects/force_push
+        map gfx/effects/force_push
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/saberFlare
+gfx/effects/saberFlare
 {
 	nomipmaps
     {
-        map gfx_base/effects/saberflare
+        map gfx/effects/saberflare
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/redsideflash
+gfx/effects/redsideflash
 {
 	cull	twosided
     {
@@ -224,7 +224,7 @@ gfx_base/effects/redsideflash
     }
 }
 
-gfx_base/effects/redfrontflash
+gfx/effects/redfrontflash
 {
 	cull	twosided
     {
@@ -234,158 +234,158 @@ gfx_base/effects/redfrontflash
     }
 }
 
-gfx_base/effects/blasterSideFlash
+gfx/effects/blasterSideFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/blastersideflash
+        map gfx/effects/blastersideflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/blasterFrontFlash
+gfx/effects/blasterFrontFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/blasterfrontflash
+        map gfx/effects/blasterfrontflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/bryarSideFlash
+gfx/effects/bryarSideFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/bryarsideflash
+        map gfx/effects/bryarsideflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/bryarFrontFlash
+gfx/effects/bryarFrontFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/bryarfrontflash
+        map gfx/effects/bryarfrontflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/greenSideFlash
+gfx/effects/greenSideFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/greensideflash
+        map gfx/effects/greensideflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/greenFrontFlash
+gfx/effects/greenFrontFlash
 {
 	cull	twosided
     {
-        map gfx_base/effects/greenfrontflash
+        map gfx/effects/greenfrontflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/redLine
+gfx/effects/redLine
 {
 	cull	twosided
     {
-        map gfx_base/effects/redline
+        map gfx/effects/redline
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/blueLine
+gfx/effects/blueLine
 {
 	cull	twosided
     {
-        map gfx_base/effects/blueline
+        map gfx/effects/blueline
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/redLine2
+gfx/effects/redLine2
 {
 	cull	twosided
     {
-        map gfx_base/mp/redline
+        map gfx/mp/redline
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/greenShot
+gfx/effects/greenShot
 {
 	cull	twosided
     {
-        map gfx_base/effects/green_shot
+        map gfx/effects/green_shot
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/rorangeShot
+gfx/effects/rorangeShot
 {
 	cull	twosided
     {
-        map gfx_base/effects/rorange_shot
+        map gfx/effects/rorange_shot
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/plume1
+gfx/effects/plume1
 {
 	cull	twosided
     {
-        map gfx_base/effects/plume1
+        map gfx/effects/plume1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/plume2
+gfx/effects/plume2
 {
 	cull	twosided
     {
-        map gfx_base/effects/plume2
+        map gfx/effects/plume2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/plume3
+gfx/effects/plume3
 {
 	cull	twosided
     {
-        map gfx_base/effects/plume3
+        map gfx/effects/plume3
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/light_cone
+gfx/effects/light_cone
 {
 	cull	twosided
     {
-        map gfx_base/effects/light_cone
+        map gfx/effects/light_cone
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
         tcMod scale 3 1
         tcMod scroll 0.3 0
     }
     {
-        map gfx_base/effects/light_cone
+        map gfx/effects/light_cone
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
         tcMod scale 4 1
@@ -393,60 +393,60 @@ gfx_base/effects/light_cone
     }
 }
 
-gfx_base/effects/lava
+gfx/effects/lava
 {
 	cull	twosided
     {
-        map gfx_base/effects/lava
+        map gfx/effects/lava
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/lava2
+gfx/effects/lava2
 {
 	cull	twosided
     {
-        map gfx_base/effects/lava2
+        map gfx/effects/lava2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/rocket_muz
+gfx/effects/rocket_muz
 {
 	cull	twosided
     {
-        map gfx_base/effects/rocket_muz
+        map gfx/effects/rocket_muz
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/rocket_muz2
+gfx/effects/rocket_muz2
 {
 	cull	twosided
     {
-        map gfx_base/effects/rocket_muz2
+        map gfx/effects/rocket_muz2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/irid_shield
+gfx/effects/irid_shield
 {
 	cull	twosided
     {
-        map gfx_base/effects/mp_weapon_holo2
+        map gfx/effects/mp_weapon_holo2
         blendFunc GL_ONE GL_ONE
         rgbGen const ( 0.200000 0.200000 0.200000 )
         tcMod scroll 0 -0.2
         tcMod scale 2 6
     }
     {
-        map gfx_base/effects/mp_weapon_holo2
+        map gfx/effects/mp_weapon_holo2
         blendFunc GL_SRC_ALPHA GL_ONE
         rgbGen identity
         alphaGen lightingSpecular
@@ -455,440 +455,440 @@ gfx_base/effects/irid_shield
     }
 }
 
-gfx_base/effects/slime1
+gfx/effects/slime1
 {
 	cull	twosided
     {
-        map gfx_base/effects/slime1
+        map gfx/effects/slime1
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/slime2
+gfx/effects/slime2
 {
 	cull	twosided
     {
-        map gfx_base/effects/slime2
+        map gfx/effects/slime2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/shard
+gfx/effects/shard
 {
 	cull	twosided
     {
-        map gfx_base/effects/shard
+        map gfx/effects/shard
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/drained
+gfx/effects/drained
 {
 	cull	twosided
     {
-        map gfx_base/effects/drained
+        map gfx/effects/drained
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/drainedadd
+gfx/effects/drainedadd
 {
 	cull	twosided
     {
-        map gfx_base/effects/drainedadd
+        map gfx/effects/drainedadd
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/ripple
+gfx/effects/ripple
 {
 	cull	twosided
     {
-        map gfx_base/effects/ripple
+        map gfx/effects/ripple
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/protectionfield
+gfx/effects/protectionfield
 {
 	cull	twosided
     {
-        map gfx_base/effects/protectionfield
+        map gfx/effects/protectionfield
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/yellow_glow
+gfx/effects/yellow_glow
 {
 	cull	twosided
     {
-        map gfx_base/effects/sabers/yellow_glow
+        map gfx/effects/sabers/yellow_glow
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/water_splash
+gfx/effects/water_splash
 {
 	cull	twosided
     {
-        map gfx_base/effects/water_splash
+        map gfx/effects/water_splash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/gcircle
-{
-	q3map_nolightmap
-	cull	twosided
-    {
-        map gfx_base/effects/gcircle
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
-    }
-}
-
-gfx_base/effects/burst
+gfx/effects/gcircle
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/burst
+        map gfx/effects/gcircle
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/snowpuff2
+gfx/effects/burst
+{
+	q3map_nolightmap
+	cull	twosided
+    {
+        map gfx/effects/burst
+        blendFunc GL_ONE GL_ONE
+        rgbGen vertex
+    }
+}
+
+gfx/effects/snowpuff2
 {
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/snowpuff2
+        map gfx/effects/snowpuff2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/ftail
+gfx/effects/ftail
 {
 	surfaceparm	trans
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/ftail
+        map gfx/effects/ftail
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/ftail1
+gfx/effects/ftail1
 {
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/ftail1
+        map gfx/effects/ftail1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/mring1
+gfx/effects/mring1
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/mring1
+        map gfx/effects/mring1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/cmuzzle
+gfx/effects/cmuzzle
 {
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/cmuzzle
+        map gfx/effects/cmuzzle
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/caustic1
+gfx/effects/caustic1
 {
 	surfaceparm	trans
 	q3map_nolightmap
     {
-        map gfx_base/effects/caustic2
+        map gfx/effects/caustic2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/tractor
+gfx/effects/tractor
 {
     {
-        map gfx_base/effects/tractor
+        map gfx/effects/tractor
         blendFunc GL_ONE GL_SRC_COLOR
         tcMod scroll -0.5 0
     }
 }
 
-gfx_base/effects/hyper01
+gfx/effects/hyper01
 {
 	q3map_nolightmap
     {
-        map gfx_base/effects/hyper01
+        map gfx/effects/hyper01
         blendFunc GL_ONE GL_ZERO
         tcMod scroll 1 0
         tcMod turb 0 0.25 0 0.25
     }
     {
-        map gfx_base/effects/hyper02
+        map gfx/effects/hyper02
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         tcMod scroll 1.5 0
         tcMod turb 0 0.1 0 0.1
     }
 }
 
-gfx_base/effects/engine
+gfx/effects/engine
 {
 	cull	twosided
     {
-        map gfx_base/effects/engine
+        map gfx/effects/engine
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/puffdark
+gfx/effects/puffdark
 {
-	qer_editorimage	gfx_base/effects/snowpuff2
+	qer_editorimage	gfx/effects/snowpuff2
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/darkpuff
+        map gfx/effects/darkpuff
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/Fpuff
+gfx/effects/Fpuff
 {
-	qer_editorimage	gfx_base/effects/snowpuff2
+	qer_editorimage	gfx/effects/snowpuff2
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/fpuff
+        map gfx/effects/fpuff
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/blaster_blob_gs
+gfx/effects/blaster_blob_gs
 {
 	cull	twosided
     {
-        map gfx_base/effects/blaster_blob_gs
+        map gfx/effects/blaster_blob_gs
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         alphaGen vertex
     }
 }
 
-gfx_base/effects/Wcloud
+gfx/effects/Wcloud
 {
-	qer_editorimage	gfx_base/effects/snowpuff2
+	qer_editorimage	gfx/effects/snowpuff2
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/wcloud
+        map gfx/effects/wcloud
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/hspit
+gfx/effects/hspit
 {
-	qer_editorimage	gfx_base/effects/snowpuff2
+	qer_editorimage	gfx/effects/snowpuff2
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/hspit
+        map gfx/effects/hspit
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/gb_dot
+gfx/effects/gb_dot
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/gb_dot
+        map gfx/effects/gb_dot
         blendFunc GL_ONE GL_ONE
         rgbGen identity
     }
 }
 
-gfx_base/effects/jk_mist
+gfx/effects/jk_mist
 {
 	q3map_nolightmap
     {
-        map gfx_base/effects/jk_mist
+        map gfx/effects/jk_mist
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL1
+gfx/effects/FL1
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/fl1
+        map gfx/effects/fl1
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL2
+gfx/effects/FL2
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/fl2
+        map gfx/effects/fl2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL3
+gfx/effects/FL3
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/fl3
+        map gfx/effects/fl3
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL4
+gfx/effects/FL4
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/fl4
+        map gfx/effects/fl4
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL5
+gfx/effects/FL5
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/flc1
+        map gfx/effects/flc1
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/FL6
+gfx/effects/FL6
 {
-	qer_editorimage	gfx_base/effects/fire4
+	qer_editorimage	gfx/effects/fire4
 	cull	twosided
     {
-        map gfx_base/effects/flc2
+        map gfx/effects/flc2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/effects/jk_mist_alpha
+gfx/effects/jk_mist_alpha
 {
-	qer_editorimage	gfx_base/effects/jk_mist
+	qer_editorimage	gfx/effects/jk_mist
 	q3map_nolightmap
     {
-        map gfx_base/effects/jk_mist_alpha
+        map gfx/effects/jk_mist_alpha
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen lightingDiffuse
     }
 }
 
-gfx_base/effects/WcloudA
+gfx/effects/WcloudA
 {
-	qer_editorimage	gfx_base/effects/wclouda
+	qer_editorimage	gfx/effects/wclouda
 	surfaceparm	nonsolid
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/wclouda
+        map gfx/effects/wclouda
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/effects/eplosion_wave
+gfx/effects/eplosion_wave
 {
 	cull	twosided
     {
-        map gfx_base/effects/eplosion_wave
+        map gfx/effects/eplosion_wave
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/fire_radial
+gfx/effects/fire_radial
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/fire_radial
+        map gfx/effects/fire_radial
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
     }
 }
 
-gfx_base/effects/hyper_stars
+gfx/effects/hyper_stars
 {
 	qer_editorimage	textures/common/stars
 	q3map_nolightmap
@@ -902,37 +902,37 @@ gfx_base/effects/hyper_stars
     }
 }
 
-gfx_base/effects/metal_shard
+gfx/effects/metal_shard
 {
 	q3map_nolightmap
     {
-        map gfx_base/effects/metal_shard
+        map gfx/effects/metal_shard
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     }
     {
-        map gfx_base/effects/metal_shard_spec
+        map gfx/effects/metal_shard_spec
         blendFunc GL_SRC_ALPHA GL_ONE
         detail
         alphaGen lightingSpecular
     }
 }
 
-gfx_base/effects/scorch
+gfx/effects/scorch
 {
 	polygonOffset
 	q3map_nolightmap
     {
-        map gfx_base/effects/scorch
+        map gfx/effects/scorch
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
     }
     {
-        clampmap gfx_base/effects/embers
+        clampmap gfx/effects/embers
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
     {
-        clampmap gfx_base/effects/embers
+        clampmap gfx/effects/embers
         blendFunc GL_ONE GL_ONE
         glow
         detail
@@ -940,25 +940,25 @@ gfx_base/effects/scorch
     }
 }
 
-gfx_base/effects/scorch_mp
+gfx/effects/scorch_mp
 {
 	polygonOffset
 	q3map_nolightmap
 	sort	decal
 	cull	twosided
     {
-        clampmap gfx_base/effects/scorch_mp
+        clampmap gfx/effects/scorch_mp
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         alphaGen vertex
     }
 }
 
-gfx_base/effects/embers
+gfx/effects/embers
 {
 	polygonOffset
 	q3map_nolightmap
     {
-        clampmap gfx_base/effects/embers
+        clampmap gfx/effects/embers
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
@@ -966,35 +966,35 @@ gfx_base/effects/embers
     }
 }
 
-gfx_base/effects/greenline
+gfx/effects/greenline
 {
-	qer_editorimage	gfx_base/effects/redline
+	qer_editorimage	gfx/effects/redline
 	cull	twosided
     {
-        map gfx_base/effects/greenline
+        map gfx/effects/greenline
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/sd_glow
+gfx/effects/sd_glow
 {
 	q3map_nolightmap
 	cull	twosided
     {
-        map gfx_base/effects/sd_glow
+        map gfx/effects/sd_glow
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
     }
 }
 
-gfx_base/effects/possessedShell
+gfx/effects/possessedShell
 {
-	qer_editorimage	gfx_base/effects/white_fire1
+	qer_editorimage	gfx/effects/white_fire1
 	deformvertexes	bulge	1 1 0
     {
-        map gfx_base/effects/hyper01
+        map gfx/effects/hyper01
         blendFunc GL_DST_COLOR GL_ONE
         glow
         rgbGen wave noise 1 0.2 0 207
@@ -1003,220 +1003,220 @@ gfx_base/effects/possessedShell
     }
 }
 
-gfx_base/effects/jk_dirt_grey
+gfx/effects/jk_dirt_grey
 {
 	cull	twosided
     {
-        map gfx_base/effects/jk_dirt_grey
+        map gfx/effects/jk_dirt_grey
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/jk_smoke5
+gfx/effects/jk_smoke5
 {
 	cull	twosided
     {
-        map gfx_base/effects/jk_smoke5
+        map gfx/effects/jk_smoke5
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/jk_terra_chunk2
+gfx/effects/jk_terra_chunk2
 {
 	cull	twosided
     {
-        map gfx_base/effects/jk_terra_chunk2
+        map gfx/effects/jk_terra_chunk2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/bp_blob
+gfx/effects/bp_blob
 {
 	cull	twosided
     {
-        map gfx_base/effects/bp_blob
+        map gfx/effects/bp_blob
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/specs
+gfx/effects/specs
 {
 	cull	twosided
     {
-        map gfx_base/effects/specs
+        map gfx/effects/specs
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/jk_smoke
+gfx/effects/jk_smoke
 {
 	cull	twosided
     {
-        map gfx_base/effects/jk_smoke
+        map gfx/effects/jk_smoke
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/effects/bp_smoke01
+gfx/effects/bp_smoke01
 {
 	cull	twosided
     {
-        map gfx_base/effects/bp_smoke01
+        map gfx/effects/bp_smoke01
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/effects/bp_smoke02
+gfx/effects/bp_smoke02
 {
 	cull	twosided
     {
-        map gfx_base/effects/bp_smoke02
+        map gfx/effects/bp_smoke02
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/misc/spark
+gfx/misc/spark
 {
 	cull	twosided
     {
-        map gfx_base/misc/spark
+        map gfx/misc/spark
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/spark2
+gfx/misc/spark2
 {
 	cull	twosided
     {
-        map gfx_base/misc/spark2
+        map gfx/misc/spark2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/spark3
+gfx/misc/spark3
 {
 	cull	twosided
     {
-        map gfx_base/misc/spark3
+        map gfx/misc/spark3
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/steam
+gfx/misc/steam
 {
 	cull	twosided
     {
-        map gfx_base/misc/steam
+        map gfx/misc/steam
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/steam2
+gfx/misc/steam2
 {
 	cull	twosided
     {
-        map gfx_base/misc/steam2
+        map gfx/misc/steam2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/steam3
+gfx/misc/steam3
 {
 	cull	twosided
     {
-        map gfx_base/misc/steam3
+        map gfx/misc/steam3
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/black_smoke
+gfx/misc/black_smoke
 {
 	cull	twosided
     {
-        map gfx_base/effects/black_smoke
+        map gfx/effects/black_smoke
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/black_smoke2
+gfx/misc/black_smoke2
 {
 	cull	twosided
     {
-        map gfx_base/effects/black_smoke2
+        map gfx/effects/black_smoke2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/dotfill
+gfx/misc/dotfill
 {
 	cull	twosided
     {
-        map gfx_base/misc/dotfill
+        map gfx/misc/dotfill
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/dotfill_a
+gfx/misc/dotfill_a
 {
 	cull	twosided
     {
-        map gfx_base/misc/dotfill_a
+        map gfx/misc/dotfill_a
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/dots
+gfx/misc/dots
 {
 	cull	twosided
     {
-        map gfx_base/misc/dots
+        map gfx/misc/dots
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/smoke2
+gfx/misc/smoke2
 {
 	cull	twosided
     {
-        map gfx_base/effects/smoke2
+        map gfx/effects/smoke2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/personalshield
+gfx/misc/personalshield
 {
 	deformvertexes	bulge	0 0.75 0
     {
-        map gfx_base/effects/p_shield
+        map gfx/effects/p_shield
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen entity
         tcGen environment
@@ -1224,7 +1224,7 @@ gfx_base/misc/personalshield
         tcMod turb 0.6 0.3 0 0.6
     }
     {
-        map gfx_base/effects/p_shield
+        map gfx/effects/p_shield
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen entity
         tcMod rotate -600
@@ -1232,11 +1232,11 @@ gfx_base/misc/personalshield
     }
 }
 
-gfx_base/misc/ion_shield
+gfx/misc/ion_shield
 {
 	deformvertexes	bulge	0 12 0
     {
-        map gfx_base/effects/p_shield
+        map gfx/effects/p_shield
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen entity
         tcGen environment
@@ -1245,7 +1245,7 @@ gfx_base/misc/ion_shield
         tcMod scale 5 8
     }
     {
-        map gfx_base/effects/p_shield
+        map gfx/effects/p_shield
         blendFunc GL_DST_COLOR GL_ONE
         rgbGen entity
         tcMod rotate -600
@@ -1253,109 +1253,109 @@ gfx_base/misc/ion_shield
     }
 }
 
-gfx_base/misc/spark_group
+gfx/misc/spark_group
 {
 	cull	twosided
     {
-        map gfx_base/misc/spark_group
+        map gfx/misc/spark_group
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/exp01_1
+gfx/misc/exp01_1
 {
 	cull	twosided
     {
-        map gfx_base/misc/exp01_1
+        map gfx/misc/exp01_1
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/exp01_2
+gfx/misc/exp01_2
 {
 	cull	twosided
     {
-        map gfx_base/misc/exp01_2
+        map gfx/misc/exp01_2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/exp02_2
+gfx/misc/exp02_2
 {
 	cull	twosided
     {
-        map gfx_base/misc/exp02_2
+        map gfx/misc/exp02_2
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/exp02_3
+gfx/misc/exp02_3
 {
 	cull	twosided
     {
-        map gfx_base/misc/exp02_3
+        map gfx/misc/exp02_3
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/test_crackle
+gfx/misc/test_crackle
 {
 	q3map_material	Glass
 	cull	twosided
     {
-        map gfx_base/misc/test_crackle
+        map gfx/misc/test_crackle
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/smallGlassChunk1
+gfx/misc/smallGlassChunk1
 {
 	cull	twosided
     {
-        map gfx_base/misc/small_glass1
+        map gfx/misc/small_glass1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/smallGlassChunk2
+gfx/misc/smallGlassChunk2
 {
 	cull	twosided
     {
-        map gfx_base/misc/small_glass2
+        map gfx/misc/small_glass2
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/blueLine
+gfx/misc/blueLine
 {
 	cull	twosided
     {
-        map gfx_base/misc/blueline
+        map gfx/misc/blueline
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/electric
+gfx/misc/electric
 {
-	qer_editorimage	gfx_base/misc/lightning3
+	qer_editorimage	gfx/misc/lightning3
 	cull	twosided
 	deformvertexes	bulge	0 2 0
     {
-        map gfx_base/misc/lightning3
+        map gfx/misc/lightning3
         blendFunc GL_ONE GL_ONE
         rgbGen identity
         tcMod scroll 0.5 1
@@ -1363,12 +1363,12 @@ gfx_base/misc/electric
     }
 }
 
-gfx_base/misc/fullbodyelectric2
+gfx/misc/fullbodyelectric2
 {
 	cull	twosided
 	deformvertexes	bulge	0 0.25 0
     {
-        map gfx_base/misc/lightning3
+        map gfx/misc/lightning3
         blendFunc GL_ONE GL_ONE
         rgbGen identity
         tcMod scroll 0.5 1
@@ -1376,53 +1376,53 @@ gfx_base/misc/fullbodyelectric2
     }
 }
 
-gfx_base/misc/lightningFlash
+gfx/misc/lightningFlash
 {
 	cull	twosided
     {
-        map gfx_base/misc/lightningflash
+        map gfx/misc/lightningflash
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/dust
+gfx/misc/dust
 {
 	cull	twosided
     {
-        map gfx_base/misc/dust
+        map gfx/misc/dust
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/wring1
+gfx/misc/wring1
 {
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	cull	twosided
     {
-        animMap 8 gfx_base/misc/wring1 gfx_base/misc/wring2 gfx_base/misc/wring3 
+        animMap 8 gfx/misc/wring1 gfx/misc/wring2 gfx/misc/wring3 
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/misc/cring
+gfx/misc/cring
 {
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/misc/csparks
+        map gfx/misc/csparks
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/csparks
+gfx/misc/csparks
 {
-	qer_editorimage	gfx_base/misc/cring
+	qer_editorimage	gfx/misc/cring
 	surfaceparm	trans
 	cull	twosided
     {
@@ -1432,124 +1432,124 @@ gfx_base/misc/csparks
     }
 }
 
-gfx_base/misc/spikeflare
+gfx/misc/spikeflare
 {
-	qer_editorimage	gfx_base/misc/cring
+	qer_editorimage	gfx/misc/cring
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/misc/cring
+        map gfx/misc/cring
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/bluebolt
+gfx/misc/bluebolt
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/misc/blueline1
+        map gfx/misc/blueline1
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
         tcMod scroll 0 -3
     }
 }
 
-gfx_base/misc/bball
+gfx/misc/bball
 {
-	qer_editorimage	gfx_base/misc/cring
+	qer_editorimage	gfx/misc/cring
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/bball
+        map gfx/effects/bball
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/spikeb
+gfx/misc/spikeb
 {
-	qer_editorimage	gfx_base/misc/cring
+	qer_editorimage	gfx/misc/cring
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/spikeb
+        map gfx/effects/spikeb
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/spblast
+gfx/misc/spblast
 {
-	qer_editorimage	gfx_base/misc/cring
+	qer_editorimage	gfx/misc/cring
 	surfaceparm	trans
 	cull	twosided
     {
-        map gfx_base/effects/spikeb1
+        map gfx/effects/spikeb1
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/rline
+gfx/misc/rline
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/misc/rline
+        map gfx/misc/rline
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/bline
+gfx/misc/bline
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/misc/bline
+        map gfx/misc/bline
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
     }
 }
 
-gfx_base/misc/spark4
+gfx/misc/spark4
 {
-	qer_editorimage	gfx_base/misc/spark3
+	qer_editorimage	gfx/misc/spark3
 	cull	twosided
     {
-        map gfx_base/misc/spark4
+        map gfx/misc/spark4
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/misc/mine
+gfx/misc/mine
 {
 	nopicmip
 	notc
 	q3map_nolightmap
 	cull	twosided
     {
-        clampmap gfx_base/misc/mine
+        clampmap gfx/misc/mine
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen identity
     }
 }
 
-gfx_base/misc/forceprotect
+gfx/misc/forceprotect
 {
-	qer_editorimage	gfx_base/effects/p_shield
+	qer_editorimage	gfx/effects/p_shield
 	deformvertexes	wave	100 sin 1 1 0 1
     {
-        map gfx_base/effects/whiteglow
+        map gfx/effects/whiteglow
         blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
         rgbGen entity
         tcGen environment
@@ -1558,7 +1558,7 @@ gfx_base/misc/forceprotect
         tcMod stretch sin 1.5 0.5 0 1
     }
     {
-        map gfx_base/effects/caustic1
+        map gfx/effects/caustic1
         blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
         rgbGen entity
         tcMod rotate -600
@@ -1566,24 +1566,24 @@ gfx_base/misc/forceprotect
     }
 }
 
-gfx_base/misc/bline_w
+gfx/misc/bline_w
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/misc/bline-w
+        map gfx/misc/bline-w
         blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         tcMod scroll 0 2.5
     }
 }
 
-gfx_base/misc/redbolt
+gfx/misc/redbolt
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/misc/redline
+        map gfx/misc/redline
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
@@ -1595,7 +1595,7 @@ effects/fire
 {
 	cull	twosided
     {
-        map gfx_base/effects/fire
+        map gfx/effects/fire
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
@@ -1634,93 +1634,93 @@ effects/refract_2
     }
 }
 
-gfx_base/chunks/chain1
+gfx/chunks/chain1
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/chunks/chain1
+        map gfx/chunks/chain1
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/chunks/chain2
+gfx/chunks/chain2
 {
-	qer_editorimage	gfx_base/misc/blueline
+	qer_editorimage	gfx/misc/blueline
 	cull	twosided
     {
-        map gfx_base/chunks/chain2
+        map gfx/chunks/chain2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen vertex
         alphaGen vertex
     }
 }
 
-gfx_base/2d/wedge
+gfx/2d/wedge
 {
 	nomipmaps
 	cull	twosided
     {
-        map gfx_base/2d/wedge
+        map gfx/2d/wedge
         blendFunc GL_ONE GL_ONE
         rgbGen vertex
     }
 }
 
-gfx_base/2d/lock
+gfx/2d/lock
 {
 	cull	twosided
     {
-        map gfx_base/2d/lock
-        blendFunc GL_ONE GL_ONE
-        glow
-        rgbGen vertex
-    }
-}
-
-gfx_base/2d/insertTick
-{
-	nomipmaps
-	cull	twosided
-    {
-        map gfx_base/2d/tick
+        map gfx/2d/lock
         blendFunc GL_ONE GL_ONE
         glow
         rgbGen vertex
     }
 }
 
-gfx_base/2d/cropCircle
+gfx/2d/insertTick
 {
 	nomipmaps
 	cull	twosided
     {
-        map gfx_base/2d/cropcircle
+        map gfx/2d/tick
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen vertex
+    }
+}
+
+gfx/2d/cropCircle
+{
+	nomipmaps
+	cull	twosided
+    {
+        map gfx/2d/cropcircle
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         detail
         rgbGen vertex
     }
 }
 
-gfx_base/2d/cropCircle2
+gfx/2d/cropCircle2
 {
 	nomipmaps
 	cull	twosided
     {
-        map gfx_base/2d/cropcircle2
+        map gfx/2d/cropcircle2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen identity
     }
 }
 
-gfx_base/2d/cropCircleGlow
+gfx/2d/cropCircleGlow
 {
 	nomipmaps
 	cull	twosided
     {
-        map gfx_base/2d/cropcircleglow
+        map gfx/2d/cropcircleglow
         blendFunc GL_DST_COLOR GL_SRC_COLOR
         rgbGen identity
     }
