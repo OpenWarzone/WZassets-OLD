@@ -95,7 +95,7 @@ AURORA_ENABLED=0
 AURORA_ENABLED_DAY=0
 [SHADOWS]
 // JH3 is too slow with shadows at the moment... Marking the indoor stuff as indoors should fix this now...
-SHADOWS_ENABLED=1
+SHADOWS_ENABLED=0
 SHADOW_MINBRIGHT=0.75
 SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
