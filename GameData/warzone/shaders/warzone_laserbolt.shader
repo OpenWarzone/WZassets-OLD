@@ -62,7 +62,7 @@ laserbolt_red
   qer_editorimage	models/warzone/lasers/laserbolt_red
   q3map_material	laserbolt
   q3map_clipModel
-  glowStrength 0.58
+  glowStrength 1.16
   glowVibrancy 8.0
   {
     map models/warzone/lasers/laserbolt_red
