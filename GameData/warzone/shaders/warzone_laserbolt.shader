@@ -8,11 +8,9 @@ gfx/effects/sabers/saberBlur
   q3map_material	efx
   cull	twosided
   glowStrength 1.0
-  glowVibrancy 1.0
+  glowVibrancy 16.0
     {
         map $whiteimage
-        //blendFunc GL_ONE GL_ONE
-        //blendFunc GL_ONE GL_ZERO
         blendFunc GL_SRC_ALPHA GL_DST_ALPHA
         rgbGen identity
         glow
@@ -26,15 +24,15 @@ laserbolt_white
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_white
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 1.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.5
   {
     map models/warzone/lasers/laserbolt_white
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -43,15 +41,15 @@ laserbolt_yellow
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_yellow
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 4.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.55
   {
     map models/warzone/lasers/laserbolt_yellow
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -60,15 +58,15 @@ laserbolt_red
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_red
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 1.16
-  glowVibrancy 8.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.55
   {
     map models/warzone/lasers/laserbolt_red
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -77,15 +75,15 @@ laserbolt_blue
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_blue
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 16.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.55
   {
     map models/warzone/lasers/laserbolt_blue
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -94,15 +92,15 @@ laserbolt_green
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_green
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 4.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.5
   {
     map models/warzone/lasers/laserbolt_green
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -111,15 +109,15 @@ laserbolt_purple
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_purple
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 16.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 1.55
   {
     map models/warzone/lasers/laserbolt_purple
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
@@ -128,15 +126,15 @@ laserbolt_orange
 {
   warzoneEnabled
   qer_editorimage	models/warzone/lasers/laserbolt_orange
-  q3map_material	laserbolt
-  q3map_clipModel
-  glowStrength 0.58
-  glowVibrancy 4.0
+  q3map_material	blasterbolt
+  //q3map_clipModel
+  glowStrength 0.57
+  glowVibrancy 0.7
   {
     map models/warzone/lasers/laserbolt_orange
     blendFunc GL_ONE GL_ZERO
     depthWrite
-    rgbGen identity
+    //rgbGen identity
     glow
   }
 }
