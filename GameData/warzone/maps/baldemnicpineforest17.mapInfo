@@ -18,20 +18,20 @@ MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
 MAP_AMBIENT_CONTRAST=1.0
-MAP_AMBIENT_SATURATION=1.0
-MAP_AMBIENT_BRIGHTNESS=1.85
-MAP_AMBIENT_BRIGHTNESS_NIGHT=0.65
+MAP_AMBIENT_SATURATION=1.25
+MAP_AMBIENT_BRIGHTNESS=1.0
+MAP_AMBIENT_BRIGHTNESS_NIGHT=0.15
 // MAP_GLOW_MULTIPLIER can be used to adjust the strength/power of glows per map on all related post processes.
 MAP_GLOW_MULTIPLIER=1.0
 MAP_GLOW_MULTIPLIER_NIGHT=1.0
-MAP_HDR_MIN=24.0
-MAP_HDR_MAX=225.0
+MAP_HDR_MIN=8.0
+MAP_HDR_MAX=245.0
 SKY_LIGHTING_SCALE=0.5
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
-MAP_EMISSIVE_RADIUS_SCALE=3.0
+MAP_EMISSIVE_RADIUS_SCALE=2.5
 MAP_EMISSIVE_COLOR_SCALE=1.0
-MAP_EMISSIVE_COLOR_SCALE_NIGHT=3.0
+MAP_EMISSIVE_COLOR_SCALE_NIGHT=4.5
 [AURORA]
 AURORA_ENABLED=1
 AURORA_ENABLED_DAY=0
@@ -109,7 +109,7 @@ WATER_WAVE_HEIGHT=4.0
 [SHADOWS]
 // note: settings for the sun shadow system.
 SHADOWS_ENABLED=1
-SHADOW_MINBRIGHT=0.8
+SHADOW_MINBRIGHT=0.55
 SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
@@ -117,7 +117,7 @@ AO_ENABLED=1
 AO_BLUR=0
 AO_DIRECTIONAL=0
 AO_MINBRIGHT=0.35
-AO_MULTBRIGHT=1.5
+AO_MULTBRIGHT=1.0
 [FOLIAGE]
 // note: this is the cgame foliage system, not the same as the renderer grass system.
 //FOLIAGE_SET=forest2
@@ -128,6 +128,10 @@ FOLIAGE_SET=mushroomforest2
 [CLIMATE]
 // note: used by the cgame foliage system, also used to specify extra surfaces for the renderer grass system, if the mapper needs more then just grasses on MATERIAL_SHORTGRASS and MATERIAL_LONGGRASS.
 CLIMATE_TYPE=springpineforest
+[ROADS]
+ROADS_TEXTURE=textures/roads/defaultRoad01.png
+//ROADS_TEXTURE=textures/roads/defaultRoad33.png
+//ROADS_TEXTURE=models/warzone/buildings/base.jpg
 [GRASS]
 // note: this is the renderer grass system.
 GRASS_ENABLED=0

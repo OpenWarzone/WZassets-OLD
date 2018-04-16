@@ -269,7 +269,7 @@ models/warzone/oriental/7766790
 models/warzone/oriental/7766e10
 {
   qer_editorimage	models/warzone/oriental/7766e10
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/oriental/7766e10
@@ -334,7 +334,7 @@ models/warzone/oriental/7788310
 models/warzone/oriental/7788970
 {
   qer_editorimage	models/warzone/oriental/7788970
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/oriental/7788970
@@ -446,7 +446,7 @@ models/warzone/oriental/b224830
 models/warzone/oriental/b224e90
 {
   qer_editorimage	models/warzone/oriental/b224e90
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/oriental/b224e90
@@ -498,7 +498,7 @@ models/warzone/oriental/bb52270
 models/warzone/oriental/bb52bd0
 {
   qer_editorimage	models/warzone/oriental/bb52bd0
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/oriental/bb52bd0
@@ -511,7 +511,7 @@ models/warzone/oriental/bb52bd0
 models/warzone/buildings/base
 {
   qer_editorimage	models/warzone/buildings/base
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/base
@@ -524,7 +524,7 @@ models/warzone/buildings/base
 models/warzone/buildings/pillarbase
 {
   qer_editorimage	models/warzone/buildings/pillarbase
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/pillarbase
@@ -537,7 +537,7 @@ models/warzone/buildings/pillarbase
 models/warzone/buildings/pillarcieling
 {
   qer_editorimage	models/warzone/buildings/pillarcieling
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/pillarcieling
@@ -550,7 +550,7 @@ models/warzone/buildings/pillarcieling
 models/warzone/buildings/pillarring
 {
   qer_editorimage	models/warzone/buildings/pillarring
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/pillarring
@@ -563,7 +563,7 @@ models/warzone/buildings/pillarring
 models/warzone/buildings/pillars
 {
   qer_editorimage	models/warzone/buildings/pillars
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/pillars
@@ -576,7 +576,7 @@ models/warzone/buildings/pillars
 models/warzone/buildings/pillarstatue
 {
   qer_editorimage	models/warzone/buildings/pillarstatue
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/pillarstatue
@@ -589,7 +589,7 @@ models/warzone/buildings/pillarstatue
 models/warzone/buildings/roof
 {
   qer_editorimage	models/warzone/buildings/roof
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/roof
@@ -602,7 +602,7 @@ models/warzone/buildings/roof
 models/warzone/buildings/stairs
 {
   qer_editorimage	models/warzone/buildings/stairs
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/stairs
@@ -615,7 +615,7 @@ models/warzone/buildings/stairs
 models/warzone/buildings/wall1
 {
   qer_editorimage	models/warzone/buildings/wall1
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/wall1
@@ -628,7 +628,7 @@ models/warzone/buildings/wall1
 models/warzone/buildings/wall2
 {
   qer_editorimage	models/warzone/buildings/wall2
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/wall2
@@ -641,7 +641,7 @@ models/warzone/buildings/wall2
 models/warzone/buildings/wall3
 {
   qer_editorimage	models/warzone/buildings/wall3
-  q3map_material concrete
+  q3map_material rock
   q3map_clipModel
   {
     map models/warzone/buildings/wall3
