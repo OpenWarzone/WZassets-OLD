@@ -1285,6 +1285,32 @@ models/warzone/trees/YavinBroadleafBark
   }
 }
 
+models/warzone/trees/bark_0007
+{
+  qer_editorimage	models/warzone/trees/bark_0007
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/bark_0007
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+bark_0007
+{
+  qer_editorimage	models/warzone/trees/bark_0007
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/bark_0007
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //

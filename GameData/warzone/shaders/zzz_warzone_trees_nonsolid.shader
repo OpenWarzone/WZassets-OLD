@@ -2453,6 +2453,63 @@ models/warzone/trees/palmleafnew3sat
   }
 }
 
+models/warzone/trees/YavinLeaf_1
+{
+  qer_editorimage	models/warzone/trees/YavinLeaf_1
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/YavinLeaf_1
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/willow
+{
+  qer_editorimage	models/warzone/trees/willow
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/willow
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+willow
+{
+  qer_editorimage	models/warzone/trees/willow
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/willow
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //
