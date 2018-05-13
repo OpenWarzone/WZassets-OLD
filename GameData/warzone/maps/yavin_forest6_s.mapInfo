@@ -13,6 +13,7 @@ DISPLACEMENT_MAPPING_STRENGTH=8.0
 // note: LATE_LIGHTING_ENABLED - 0 is normal. 1 is late in post process. 2 is right at the end. Can cause very different map looks.
 LATE_LIGHTING_ENABLED=0
 MAP_LIGHTMAP_DISABLED=1
+MAP_LIGHTING_METHOD=0
 MAP_AMBIENT_COLOR_R=1.0
 MAP_AMBIENT_COLOR_G=1.0
 MAP_AMBIENT_COLOR_B=1.0
@@ -29,7 +30,8 @@ SKY_LIGHTING_SCALE=0.5
 [EMISSION]
 // note: these specify basic values for how much lighting the surrounding objects get from 'glow' shader surfaces. All map 'glow' shaders in warzone are real lights.
 MAP_EMISSIVE_RADIUS_SCALE=3.0
-MAP_EMISSIVE_COLOR_SCALE=3.0
+MAP_EMISSIVE_COLOR_SCALE=1.0
+MAP_EMISSIVE_RADIUS_SCALE_NIGHT=16.0
 MAP_EMISSIVE_COLOR_SCALE_NIGHT=16.0
 [AURORA]
 AURORA_ENABLED=1
