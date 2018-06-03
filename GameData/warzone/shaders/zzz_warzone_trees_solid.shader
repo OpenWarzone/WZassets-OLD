@@ -1311,6 +1311,32 @@ bark_0007
   }
 }
 
+bamboobark
+{
+  qer_editorimage	models/warzone/trees/bamboobark
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/bamboobark
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/bamboobark
+{
+  qer_editorimage	models/warzone/trees/bamboobark
+  q3map_material	solidwood
+  q3map_clipModel
+  {
+    map models/warzone/trees/bamboobark
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //

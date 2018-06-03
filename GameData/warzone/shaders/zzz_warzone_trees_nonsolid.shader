@@ -2510,6 +2510,44 @@ willow
   }
 }
 
+bamboononsolidbk
+{
+  qer_editorimage	models/warzone/trees/bamboononsolidbk
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/bamboononsolidbk
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
+models/warzone/trees/bamboononsolidbk
+{
+  qer_editorimage	models/warzone/trees/bamboononsolidbk
+  q3map_alphashadow
+  q3map_material	GreenLeaves
+  //surfaceparm trans
+  //surfaceparm	noimpact
+  //surfaceparm	nomarks
+  surfaceparm	nonsolid
+  cull	twosided
+  {
+    map models/warzone/trees/bamboononsolidbk
+    blendfunc GL_ONE GL_ZERO
+    alphaFunc GE128
+    depthWrite
+    rgbGen identity
+  }
+}
+
 //
 //
 //
