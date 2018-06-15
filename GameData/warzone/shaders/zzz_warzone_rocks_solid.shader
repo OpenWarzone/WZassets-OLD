@@ -49,3 +49,17 @@ models/warzone/rocks/snowycliff
     rgbGen identity
   }
 }
+
+models/warzone/rocks/desertcliff
+{
+  qer_editorimage	textures/tatooine/cliff
+  q3map_material	rock
+  q3map_clipModel
+  {
+    map textures/tatooine/cliff
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+    tcMod scale 2.0 2.0
+  }
+}

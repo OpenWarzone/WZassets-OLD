@@ -17,6 +17,9 @@ textures/scarif/cliff
   qer_editorimage	textures/scarif/cliff
   q3map_material	rock
   q3map_clipModel
+  //tesselation
+  //tesselationLevel 3.0
+  //tesselationAlpha 1.0
   {
     map textures/scarif/cliff
     blendfunc GL_ONE GL_ZERO
@@ -31,6 +34,9 @@ textures/scarif/clif2
   qer_editorimage	textures/scarif/clif2
   q3map_material	rock
   q3map_clipModel
+  //tesselation
+  //tesselationLevel 3.0
+  //tesselationAlpha 1.0
   {
     map textures/scarif/clif2
     blendfunc GL_ONE GL_ZERO
