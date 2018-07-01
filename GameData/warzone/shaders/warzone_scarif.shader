@@ -59,12 +59,14 @@ textures/skies/scarif
 	notc
 	q3map_nolightmap
 	skyParms	textures/skies/scarif 128 -
-    {
-        map textures/skies/scarif_clouds
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        tcMod scroll 0 0.00225
-        tcMod scale 0.3 0.3
-    }
+  //  {
+  //      map textures/skies/scarif_clouds
+  //      blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+  //      //blendFunc GL_SRC_COLOR GL_ONE_MINUS_SRC_ALPHA
+  //      //blendFunc GL_ONE GL_ONE
+  //      tcMod scroll 0 0.00225
+  //      tcMod scale 3.03 3.03
+  //  }
 }
 
 textures/skies/scarif_clouds
@@ -72,16 +74,22 @@ textures/skies/scarif_clouds
   surfaceparm	sky
 	surfaceparm	noimpact
 	surfaceparm	nomarks
-	notc
+	//notc
 	q3map_nolightmap
     {
         map textures/skies/scarif_clouds
-        blendFunc GL_DST_ALPHA GL_SRC_COLOR
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        //blendFunc GL_SRC_ALPHA GL_SRC_COLOR
+        //blendFunc GL_DST_ALPHA GL_SRC_COLOR
         tcMod scroll 0.005 0
+        tcMod turb 1 0.01 0.1 0.1
     }
     {
-        map textures/skies/cloudlayer3
-        blendFunc GL_SRC_ALPHA GL_SRC_COLOR
+        map textures/skies/scarif_clouds2
+        //blendFunc GL_SRC_ALPHA GL_SRC_COLOR
+        //blendFunc GL_DST_ALPHA GL_SRC_COLOR
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         tcMod scroll 0.01 0
+        tcMod turb 1 0.01 0.1 0.1
     }
 }
