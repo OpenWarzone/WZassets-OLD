@@ -358,13 +358,14 @@ textures/skies/hevil
 	surfaceparm	nomarks
 	notc
 	q3map_nolightmap
-	skyParms	textures/skies/hevil 128 -
-    {
-        map textures/skies/cloudlayer2
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        tcMod scroll 0 0.00225
-        tcMod scale 4 4
-    }
+	//skyParms	textures/skies/hevil 128 -
+	skyParms	textures/skies/baldemnic 512 -
+    //{
+    //    map textures/skies/cloudlayer2
+    //    blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+    //    tcMod scroll 0 0.00225
+    //    tcMod scale 4 4
+    //}
 }
 
 textures/skies/cloudlayer2
