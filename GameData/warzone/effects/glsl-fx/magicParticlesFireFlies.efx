@@ -8,15 +8,15 @@ Light
 
 	rgb
 	{
-		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
-		end				0 0 0
+		start			0.4078 0.08235 0.02353
+		end				0.4078 0.08235 0.02353
 		flags			linear
 	}
 
 	size
 	{
-		start			110 90
-		end				26
+		start			110
+		end				110
 		flags			linear
 	}
 }
@@ -36,6 +36,6 @@ Line
 
 	shaders
 	[
-		warzoneFire
+		warzoneMagicParticlesFireFlies
 	]
 }

@@ -8,7 +8,7 @@ Light
 
 	rgb
 	{
-		start			0.4078 0.08235 0.02353 0.3294 0.04706 0.003922
+		start			0.04078 0.02353 0.4078 0.04706 0.003922 0.3294
 		end				0 0 0
 		flags			linear
 	}
@@ -36,6 +36,6 @@ Line
 
 	shaders
 	[
-		warzoneFire
+		warzoneMagicParticlesTreeBlue
 	]
 }

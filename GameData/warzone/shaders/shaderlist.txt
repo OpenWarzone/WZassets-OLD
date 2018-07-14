@@ -61,6 +61,7 @@ warzone_ithor
 warzone_ledges
 warzone_naboo
 warzone_oriental
+warzone_particles
 warzone_taanab
 warzone_tatooine
 warzone_toujane
