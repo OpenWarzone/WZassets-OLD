@@ -18,7 +18,7 @@ Tail
 
 	origin				0 -50 -150 0 50 -100
 
-	velocity			0 -300 -100 0 -350 100
+	velocity			0 300 -100 0 350 100
 
 	gravity				-1500 -1800
 
@@ -83,7 +83,7 @@ Particle
 
 	rotationDelta		10 -10
 
-	velocity			0 -50 0 0 50 0
+	velocity			0 50 0 0 -50 0
 
 	gravity				-50 50
 
