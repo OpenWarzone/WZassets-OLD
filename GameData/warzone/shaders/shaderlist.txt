@@ -57,6 +57,7 @@ warzone_Arrevanous7
 warzone_campfire
 warzone_christmas
 warzone_ilum
+warzone_imperial
 warzone_ithor
 warzone_ledges
 warzone_naboo
@@ -64,6 +65,7 @@ warzone_oriental
 warzone_particles
 warzone_taanab
 warzone_tatooine
+warzone_titanic
 warzone_toujane
 warzone_scarif
 warzone_skyscraper
