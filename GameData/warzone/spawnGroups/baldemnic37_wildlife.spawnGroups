@@ -1,0 +1,53 @@
+spawnGroup_boss
+{
+  spawnGroup
+  {
+    spawn Acklay_mst
+    spawn Acklay_mst
+  }
+  spawnGroup
+  {
+    spawn teran
+  }
+}
+spawnGroup_elite
+{
+  //spawnGroup
+  //{
+  //  spawn reek3
+  //}
+  spawnGroup
+  {
+    spawn nexu
+    spawn nexu
+    spawn nexu
+  }
+}
+spawnGroup_officer
+{
+  spawnGroup
+  {
+    spawn howler
+    spawn howler
+    spawn howler
+  }
+}
+spawnGroup_common
+{
+  spawnGroup
+  {
+    spawn howler
+    spawn howler
+  }
+  //spawnGroup
+  //{
+  //  spawn glider
+  //}
+}
+spawnGroup_spam
+{
+  spawnGroup
+  {
+    spawn howler
+  }
+}

@@ -124,13 +124,13 @@ textures/lights/SinkingLight1
 	surfaceparm trans
 	//glowStrength 100.00
 	//glowVibrancy 0.01
-	emissiveColorScale 40.00
-	emissiveRadiusScale 4.0
 	{
 	map textures/lights/SinkingLight1
 	blendfunc GL_ONE GL_ZERO
 	depthWrite
 	rgbGen identity
+	emissiveColorScale 1.00
+	emissiveRadiusScale 2.0
 	}
 }
 
@@ -143,13 +143,13 @@ textures/lights/SinkingLight2
 	surfaceparm trans
 	//glowStrength 100.00
 	//glowVibrancy 0.01
-	emissiveColorScale 40.00
-	emissiveRadiusScale 4.0
 	{
 	map textures/lights/SinkingLight1
 	blendfunc GL_ONE GL_ZERO
 	depthWrite
 	rgbGen identity
+	emissiveColorScale 1.00
+	emissiveRadiusScale 2.0
 	}
 }
 

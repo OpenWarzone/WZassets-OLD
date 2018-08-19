@@ -161,16 +161,16 @@ textures/WZ-Imperial/Light-Imp1
 	//glowStrength 1.0
 	//glowVibrancy 1.0
 	//emissiveHeightScale 1.0
-	emissiveRadiusscale 100.0 
-	emissiveColorScale 4.0
-	tesselation
-	tesselationLevel 1.0
-	tesselationAlpha 1.0
+	//tesselation
+	//tesselationLevel 1.0
+	//tesselationAlpha 1.0
 	{
 	map textures/WZ-Imperial/Light-Imp1
 	blendfunc GL_ONE GL_ZERO
 	depthWrite
 	rgbGen identity
+	emissiveRadiusscale 2.0
+	emissiveColorScale 1.0
   }
 }
 
@@ -183,8 +183,6 @@ textures/WZ-Imperial/Light-Imp2
 	glowStrength 1.0
 	glowVibrancy 1.0
 	//emissiveHeightScale 1.0
-	emissiveColorScale 2.0
-	emissiveRadius 16.0
 	//tesselation
 	//tesselationLevel 1.0
 	//tesselationAlpha 1.0
@@ -193,6 +191,8 @@ textures/WZ-Imperial/Light-Imp2
 	blendfunc GL_ONE GL_ZERO
 	depthWrite
 	rgbGen identity
+	emissiveColorScale 2.0
+	emissiveRadiusScale 1.0
   }
 }
 
@@ -204,18 +204,16 @@ textures/WZ-Imperial/Light-Imp3
 	q3map_clipModel
 	glowStrength 1.0
 	glowVibrancy 1.0
-	emissiveColorScale 1.0
-	emissiveHeightScale 1.0
-	emissiveColorScale 1.0
-	emissiveRadius 100.0 
-	tesselation
-	tesselationLevel 1.0
-	tesselationAlpha 1.0
+	//tesselation
+	//tesselationLevel 1.0
+	//tesselationAlpha 1.0
 	{
 	map textures/WZ-Imperial/Light-Imp3
 	blendfunc GL_ONE GL_ZERO
 	depthWrite
 	rgbGen identity
+	emissiveColorScale 2.0
+	emissiveRadiusScale 1.0
   }
 }
 
