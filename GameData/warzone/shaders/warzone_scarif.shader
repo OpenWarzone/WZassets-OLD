@@ -25,7 +25,7 @@ textures/scarif/cliff
     blendfunc GL_ONE GL_ZERO
     depthWrite
     rgbGen identity
-    tcMod scale 8.0 8.0
+    //tcMod scale 8.0 8.0
   }
 }
 
@@ -42,7 +42,7 @@ textures/scarif/clif2
     blendfunc GL_ONE GL_ZERO
     depthWrite
     rgbGen identity
-    tcMod scale 1.0 1.0
+    //tcMod scale 1.0 1.0
   }
 }
 
