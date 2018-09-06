@@ -247,6 +247,17 @@ seaGrassImage0=models/warzone/foliage/seagrass0
 seaGrassImage1=models/warzone/foliage/seagrass1
 seaGrassImage2=models/warzone/foliage/seagrass2
 seaGrassImage3=models/warzone/foliage/seagrass3
+[VINES]
+VINES_ENABLED=1
+VINES_DENSITY=1
+VINES_HEIGHT=7.0
+VINES_WIDTH_REPEATS=0
+VINES_MIN_SLOPE=95.0
+VINES_DISTANCE=8192
+VINES_SURFACE_MINIMUM_SIZE=16.0
+VINES_SURFACE_SIZE_DIVIDER=65536.0
+VINES_TYPE_UNIFORMALITY=0.85
+VINES_TYPE_UNIFORMALITY_SCALER=0.04
 [MATERIAL_SPECULAR]
 solidmetal=0.0055
 hollowmetal=0.0055
