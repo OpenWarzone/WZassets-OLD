@@ -1193,61 +1193,91 @@ gfx/blasters/sideflash6
 
 gfx/blasters/sparkblue
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkblue
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
 gfx/blasters/sparkgreen
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkgreen
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
 gfx/blasters/sparkorange
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkorange
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
 gfx/blasters/sparkpurple
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkpurple
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
 gfx/blasters/sparkred
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkred
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
 gfx/blasters/sparkyellow
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
+  glowStrength 1.25
+  glowVibrancy 0.5
     {
         map gfx/blasters/sparkyellow
-        blendFunc GL_ONE GL_ONE
-        rgbGen vertex
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        glow
+        noScreenMap
     }
 }
 
@@ -1255,7 +1285,9 @@ gfx/blasters/sparkyellow
 
 gfx/blasters/whiteLine
 {
-	cull	twosided
+	warzoneEnabled
+  q3map_material	efx
+  cull	twosided
     {
         map gfx/blasters/whiteLine
         blendFunc GL_ONE GL_ONE

@@ -1,0 +1,85 @@
+//repeatDelay				100
+
+Sound
+{
+	name				WallhitSounds
+
+	cullrange			1100
+
+	sounds
+	[
+		sound/weapons/impacts/flesh_impact1.wav
+		sound/weapons/impacts/flesh_impact2.wav
+		sound/weapons/impacts/flesh_impact3.wav
+		sound/weapons/impacts/flesh_impact4.wav
+		sound/weapons/impacts/flesh_impact5.wav
+		sound/weapons/impacts/flesh_impact6.wav
+		sound/weapons/impacts/flesh_impact7.wav
+		sound/weapons/impacts/flesh_impact8.wav
+		sound/weapons/impacts/flesh_impact9.wav
+		sound/weapons/impacts/flesh_impact10.wav
+		sound/weapons/impacts/oldie_bolthit.wav
+	]
+}
+
+Tail
+{
+	name				Sparktails
+
+	//flags				usePhysics useAlpha
+	flags				usePhysics
+
+	spawnFlags			affectedByWind
+
+	count				8 18
+
+	life				300 500
+
+	delay				0 50
+
+	cullrange			500
+
+	bounce				0.2 0.4
+
+	origin				2 -2 -2 2 2 2
+
+	velocity			-50 -50 -50 50 50 50
+
+	gravity				-60 -80
+
+	rgb
+	{
+		start			0.9529 0.9529 0.9608 1 0.851 0.7176
+		end				1 0.7961 0.6078 1 0.6196 0.2745
+		flags			linear
+	}
+
+	//alpha
+	//{
+	//	end				0 0.5
+	//}
+
+	size
+	{
+		start			0.5 0.6
+		end				0.2
+		flags			linear
+	}
+
+	length
+	{
+		start			6 8
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		//gfx/blasters/sparkorange
+		//gfx/blasters/sparkpurple
+		//gfx/blasters/sparkred
+		//gfx/blasters/sparkred
+		//gfx/blasters/sparkred
+		gfx/blasters/sparkyellow
+	]
+}

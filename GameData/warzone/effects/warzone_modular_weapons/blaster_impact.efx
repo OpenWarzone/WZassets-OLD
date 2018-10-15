@@ -1,0 +1,107 @@
+//repeatDelay				100
+
+Sound
+{
+	name				WallhitSounds
+
+	cullrange			1100
+
+	sounds
+	[
+		sound/weapons/impacts/bolthit1.wav
+		sound/weapons/impacts/bolthit2.wav
+		sound/weapons/impacts/bolthit3.wav
+		sound/weapons/impacts/bolthit4.wav
+		sound/weapons/impacts/bolthit5.wav
+		sound/weapons/impacts/bolthit6.wav
+		sound/weapons/impacts/bolthit7.wav
+		sound/weapons/impacts/bolthit8.wav
+		sound/weapons/impacts/bolthit9.wav
+		sound/weapons/impacts/bolthit10.wav
+		sound/weapons/impacts/bolthit11.wav
+		sound/weapons/impacts/bolthit12.wav
+		sound/weapons/impacts/bolthit13.wav
+		sound/weapons/impacts/bolthit14.wav
+		sound/weapons/impacts/bolthit15.wav
+		sound/weapons/impacts/bolthit16.wav
+		sound/weapons/impacts/bolthit17.wav
+		sound/weapons/impacts/bolthit18.wav
+		sound/weapons/impacts/bolthit19.wav
+		sound/weapons/impacts/bolthit20.wav
+		sound/weapons/impacts/bolthit21.wav
+		sound/weapons/impacts/bolthit22.wav
+		sound/weapons/impacts/bolthit23.wav
+		sound/weapons/impacts/bolthit24.wav
+		sound/weapons/impacts/bolthit25.wav
+		sound/weapons/impacts/bolthit26.wav
+		sound/weapons/impacts/bolthit27.wav
+		sound/weapons/impacts/bolthit28.wav
+		sound/weapons/impacts/bolthit29.wav
+		sound/weapons/impacts/bolthit30.wav
+		sound/weapons/impacts/oldie_bolthit.wav
+	]
+}
+
+Tail
+{
+	name				Sparktails
+
+	//flags				usePhysics useAlpha
+	flags				usePhysics
+
+	spawnFlags			affectedByWind
+
+	count				8 18
+
+	life				300 500
+
+	delay				0 50
+
+	cullrange			500
+
+	bounce				0.2 0.4
+
+	origin				2 -2 -2 2 2 2
+
+	velocity			-50 -50 -50 50 50 50
+
+	gravity				-60 -80
+
+	rgb
+	{
+		start			0.9529 0.9529 0.9608 1 0.851 0.7176
+		end				1 0.7961 0.6078 1 0.6196 0.2745
+		flags			linear
+	}
+
+	//alpha
+	//{
+	//	end				0 0.5
+	//}
+
+	size
+	{
+		start			0.5 0.6
+		end				0.2
+		flags			linear
+	}
+
+	length
+	{
+		start			6 8
+		end				0
+		flags			linear
+	}
+
+	shaders
+	[
+		//gfx/blasters/sparkorange
+		//gfx/blasters/sparkpurple
+		//gfx/blasters/sparkred
+		//gfx/blasters/sparkred
+		//gfx/blasters/sparkred
+		gfx/blasters/sparkyellow
+	]
+}
+
+
