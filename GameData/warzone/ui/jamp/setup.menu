@@ -2343,7 +2343,7 @@
 			name				music_volume
 			group				sound
 			type				ITEM_TYPE_SLIDER
-			text				@MENUS_MUSIC_VOLUME
+			text				"Radio Volume:"
 			cvarfloat			"s_volumeMusic" 0 0 1
 			rect				220 61 300 20
 	   		textalign			ITEM_ALIGN_RIGHT
@@ -2353,7 +2353,7 @@
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			"Adjust the volume for music."
+			descText			"Adjust the volume for radio."
 			action 
 			{ 
 				play			"sound/interface/button1.wav" ;

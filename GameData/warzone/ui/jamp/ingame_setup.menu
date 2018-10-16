@@ -2333,7 +2333,7 @@
 			name				music_volume
 			group				sound
 			type				ITEM_TYPE_SLIDER
-			text				@MENUS_MUSIC_VOLUME
+			text				"Radio Volume:"
 			cvarfloat			"s_volumeMusic" 0 0 1
 			rect				220 61 300 20
 	   		textalign			ITEM_ALIGN_RIGHT
@@ -2343,7 +2343,7 @@
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			"Adjust the volume for music."
+			descText			"Adjust the volume for radio."
 			action 
 			{ 
 				play			"sound/interface/button1.wav" ;
@@ -2581,9 +2581,9 @@
 			name				music_selection
 			group				sound
       			type				ITEM_TYPE_MULTI
-			text				"Music Selection"
+			text				"Radio Station"
 			cvar				"s_musicSelection"
-			cvarFloatList			{ "JKA" 0  "Psychedelic" 1 "Custom" 2 "ALL" 3 }
+			cvarFloatList			{ "Galactic Radio" 0  "Mind Worm Radio" 1 "Relaxing In The Rim Radio" 2 "Custom Radio" 3 }
 			rect				220 241 300 20
 	   		textalign			ITEM_ALIGN_RIGHT
 			textalignx			174
@@ -2592,7 +2592,7 @@
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			"Select the style of music you prefer."
+			descText			"Select the radio station you prefer. TODO: It's own UI in datapad..."
 
 			mouseenter 
 			{ 
