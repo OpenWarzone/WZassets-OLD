@@ -2591,9 +2591,9 @@
 			name				music_selection
 			group				sound
       			type				ITEM_TYPE_MULTI
-			text				"Music Selection"
+			text				"Radio Station"
 			cvar				"s_musicSelection"
-			cvarFloatList			{ "JKA" 0  "Psychedelic" 1 "Custom" 2 "ALL" 3 }
+			cvarFloatList			{ "Galactic Radio" 0  "Central Hub Radio" 1 "Custom Radio" 2 "ALL" 3 }
 			rect				240 241 280 20
 	   		textalign			ITEM_ALIGN_RIGHT
 			textalignx			174
@@ -2602,7 +2602,7 @@
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			"Select the style of music you prefer."
+			descText			"Select the radio station you prefer. TODO: It's own UI in datapad..."
 
 			mouseenter 
 			{ 
