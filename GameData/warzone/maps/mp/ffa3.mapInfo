@@ -32,7 +32,8 @@ MAP_EMISSIVE_COLOR_SCALE=3.0
 [SUN]
 // note: settings for the procedural sun system, the light systems, and day/night cycle systems.
 DAY_NIGHT_CYCLE_ENABLED=1
-DAY_NIGHT_CYCLE_SPEED=0.02
+DAY_NIGHT_CYCLE_SPEED=0.0
+DAY_NIGHT_START_TIME=14.32
 SUN_PHONG_SCALE=0.3
 SUN_VOLUMETRIC_SCALE=1.75
 SUN_COLOR_MAIN_R=1.0
