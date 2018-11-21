@@ -1,7 +1,7 @@
 models/warzone/trees/anvilbarkpalm
 {
   qer_editorimage	models/warzone/trees/anvilbarkpalm
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/anvilbarkpalm
@@ -14,7 +14,7 @@ models/warzone/trees/anvilbarkpalm
 models/warzone/trees/bananabark1
 {
    qer_editorimage	models/warzone/trees/bananabark1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bananabark1
@@ -27,7 +27,7 @@ models/warzone/trees/bananabark1
 models/warzone/trees/bananabarktop2
 {
   qer_editorimage	models/warzone/trees/bananabarktop2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bananabarktop2
@@ -40,7 +40,7 @@ models/warzone/trees/bananabarktop2
 models/warzone/trees/bananabarktop3
 {
   qer_editorimage	models/warzone/trees/bananabarktop3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bananabarktop3
@@ -53,7 +53,7 @@ models/warzone/trees/bananabarktop3
 models/warzone/trees/barkdecidious01
 {
   qer_editorimage	models/warzone/trees/barkdecidious01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/barkdecidious01
@@ -66,7 +66,7 @@ models/warzone/trees/barkdecidious01
 models/warzone/trees/barkdecidious04
 {
   qer_editorimage	models/warzone/trees/barkdecidious04
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/barkdecidious04
@@ -79,7 +79,7 @@ models/warzone/trees/barkdecidious04
 models/warzone/trees/barkdecidious05
 {
   qer_editorimage	models/warzone/trees/barkdecidious05
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/barkdecidious05
@@ -92,7 +92,7 @@ models/warzone/trees/barkdecidious05
 models/warzone/trees/barkdecidious06
 {
   qer_editorimage	models/warzone/trees/barkdecidious06
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/barkdecidious06
@@ -105,7 +105,7 @@ models/warzone/trees/barkdecidious06
 models/warzone/trees/coconutpalmtrunk1
 {
   qer_editorimage	models/warzone/trees/coconutpalmtrunk1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/coconutpalmtrunk1
@@ -118,7 +118,7 @@ models/warzone/trees/coconutpalmtrunk1
 models/warzone/trees/datepalmbark1
 {
   qer_editorimage	models/warzone/trees/datepalmbark1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark1
@@ -131,7 +131,7 @@ models/warzone/trees/datepalmbark1
 models/warzone/trees/datepalmbark2
 {
   qer_editorimage	models/warzone/trees/datepalmbark2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark2
@@ -144,7 +144,7 @@ models/warzone/trees/datepalmbark2
 models/warzone/trees/datepalmbark3
 {
   qer_editorimage	models/warzone/trees/datepalmbark3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark3
@@ -157,7 +157,7 @@ models/warzone/trees/datepalmbark3
 models/warzone/trees/datepalmbark7
 {
   qer_editorimage	models/warzone/trees/datepalmbark7
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark7
@@ -170,7 +170,7 @@ models/warzone/trees/datepalmbark7
 models/warzone/trees/datepalmbark8
 {
   qer_editorimage	models/warzone/trees/datepalmbark8
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark8
@@ -183,7 +183,7 @@ models/warzone/trees/datepalmbark8
 models/warzone/trees/fernbark
 {
   qer_editorimage	models/warzone/trees/fernbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/fernbark
@@ -196,7 +196,7 @@ models/warzone/trees/fernbark
 models/warzone/trees/giant_tree
 {
   qer_editorimage	models/warzone/trees/giant_tree
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/giant_tree
@@ -209,7 +209,7 @@ models/warzone/trees/giant_tree
 models/warzone/trees/gkbpalmbark
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark
@@ -222,7 +222,7 @@ models/warzone/trees/gkbpalmbark
 models/warzone/trees/gkbpalmbark10
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark10
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark10
@@ -235,7 +235,7 @@ models/warzone/trees/gkbpalmbark10
 models/warzone/trees/gkbpalmbark11
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark11
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark11
@@ -248,7 +248,7 @@ models/warzone/trees/gkbpalmbark11
 models/warzone/trees/gkbpalmbark12
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark12
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark12
@@ -261,7 +261,7 @@ models/warzone/trees/gkbpalmbark12
 models/warzone/trees/gkbpalmbark13
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark13
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark13
@@ -274,7 +274,7 @@ models/warzone/trees/gkbpalmbark13
 models/warzone/trees/gkbpalmbark14
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark14
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark14
@@ -287,7 +287,7 @@ models/warzone/trees/gkbpalmbark14
 models/warzone/trees/gkbpalmbark2
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark2
@@ -300,7 +300,7 @@ models/warzone/trees/gkbpalmbark2
 models/warzone/trees/gkbpalmbark22
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark22
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark22
@@ -313,7 +313,7 @@ models/warzone/trees/gkbpalmbark22
 models/warzone/trees/gkbpalmbark3
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark3
@@ -326,7 +326,7 @@ models/warzone/trees/gkbpalmbark3
 models/warzone/trees/gkbpalmbark3top
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark3top
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark3top
@@ -339,7 +339,7 @@ models/warzone/trees/gkbpalmbark3top
 models/warzone/trees/gkbpalmbark4
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark4
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark4
@@ -352,7 +352,7 @@ models/warzone/trees/gkbpalmbark4
 models/warzone/trees/gkbpalmbark5
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark5
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark5
@@ -365,7 +365,7 @@ models/warzone/trees/gkbpalmbark5
 models/warzone/trees/gkbpalmbark6
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark6
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark6
@@ -378,7 +378,7 @@ models/warzone/trees/gkbpalmbark6
 models/warzone/trees/gkbpalmbark8
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark8
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark8
@@ -391,7 +391,7 @@ models/warzone/trees/gkbpalmbark8
 models/warzone/trees/gkbpalmbark9
 {
   qer_editorimage	models/warzone/trees/gkbpalmbark9
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbpalmbark9
@@ -404,7 +404,7 @@ models/warzone/trees/gkbpalmbark9
 models/warzone/trees/gkbsmoothdarkbark22
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark22
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark22
@@ -417,7 +417,7 @@ models/warzone/trees/gkbsmoothdarkbark22
 models/warzone/trees/gkbtundradriftwoodbark01
 {
   qer_editorimage	models/warzone/trees/gkbtundradriftwoodbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbtundradriftwoodbark01
@@ -430,7 +430,7 @@ models/warzone/trees/gkbtundradriftwoodbark01
 models/warzone/trees/palmbark01
 {
   qer_editorimage	models/warzone/trees/palmbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palmbark01
@@ -443,7 +443,7 @@ models/warzone/trees/palmbark01
 models/warzone/trees/palmbarknew14
 {
   qer_editorimage	models/warzone/trees/palmbarknew14
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palmbarknew14
@@ -456,7 +456,7 @@ models/warzone/trees/palmbarknew14
 models/warzone/trees/palmbarknew9
 {
   qer_editorimage	models/warzone/trees/palmbarknew9
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palmbarknew9
@@ -469,7 +469,7 @@ models/warzone/trees/palmbarknew9
 models/warzone/trees/palmsbark01
 {
   qer_editorimage	models/warzone/trees/palmsbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palmsbark01
@@ -482,7 +482,7 @@ models/warzone/trees/palmsbark01
 models/warzone/trees/uqredwoodbark14
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark14
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark14
@@ -495,7 +495,7 @@ models/warzone/trees/uqredwoodbark14
 models/warzone/trees/uqredwoodbark15
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark15
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark15
@@ -508,7 +508,7 @@ models/warzone/trees/uqredwoodbark15
 models/warzone/trees/uqredwoodbark16
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark16
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark16
@@ -521,7 +521,7 @@ models/warzone/trees/uqredwoodbark16
 models/warzone/trees/uqredwoodbark17
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark17
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark17
@@ -534,7 +534,7 @@ models/warzone/trees/uqredwoodbark17
 models/warzone/trees/uqredwoodbark17old
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark17old
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark17old
@@ -547,7 +547,7 @@ models/warzone/trees/uqredwoodbark17old
 models/warzone/trees/uqredwoodbark19
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark19
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark19
@@ -560,7 +560,7 @@ models/warzone/trees/uqredwoodbark19
 models/warzone/trees/uqredwoodbark32
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark32
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark32
@@ -573,7 +573,7 @@ models/warzone/trees/uqredwoodbark32
 models/warzone/trees/uqredwoodbark34
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark34
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark34
@@ -586,7 +586,7 @@ models/warzone/trees/uqredwoodbark34
 models/warzone/trees/uqredwoodbark39
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark39
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark39
@@ -599,7 +599,7 @@ models/warzone/trees/uqredwoodbark39
 models/warzone/trees/uqredwoodbark43
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark43
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark43
@@ -612,7 +612,7 @@ models/warzone/trees/uqredwoodbark43
 models/warzone/trees/uqredwoodbark44
 {
   qer_editorimage	models/warzone/trees/uqredwoodbark44
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqredwoodbark44
@@ -625,7 +625,7 @@ models/warzone/trees/uqredwoodbark44
 models/warzone/trees/coniferbark
 {
   qer_editorimage	models/warzone/trees/coniferbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/coniferbark
@@ -638,7 +638,7 @@ models/warzone/trees/coniferbark
 models/warzone/trees/palm1bark
 {
   qer_editorimage	models/warzone/trees/palm1bark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palm1bark
@@ -651,7 +651,7 @@ models/warzone/trees/palm1bark
 models/warzone/trees/uqhugetreebark1
 {
   qer_editorimage	models/warzone/trees/uqhugetreebark1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqhugetreebark1
@@ -664,7 +664,7 @@ models/warzone/trees/uqhugetreebark1
 models/warzone/trees/uqhugetreebark2
 {
   qer_editorimage	models/warzone/trees/uqhugetreebark2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqhugetreebark2
@@ -677,7 +677,7 @@ models/warzone/trees/uqhugetreebark2
 models/warzone/trees/uqpalmtrunk1
 {
   qer_editorimage	models/warzone/trees/uqpalmtrunk1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqpalmtrunk1
@@ -690,7 +690,7 @@ models/warzone/trees/uqpalmtrunk1
 models/warzone/trees/uqpalmtrunk2
 {
   qer_editorimage	models/warzone/trees/uqpalmtrunk2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqpalmtrunk2
@@ -703,7 +703,7 @@ models/warzone/trees/uqpalmtrunk2
 models/warzone/trees/uqsmalltree2bark
 {
   qer_editorimage	models/warzone/trees/uqsmalltree2bark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqsmalltree2bark
@@ -716,7 +716,7 @@ models/warzone/trees/uqsmalltree2bark
 models/warzone/trees/uqsmalltreebark
 {
   qer_editorimage	models/warzone/trees/uqsmalltreebark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqsmalltreebark
@@ -729,7 +729,7 @@ models/warzone/trees/uqsmalltreebark
 models/warzone/trees/uqsnowpinebark
 {
   qer_editorimage	models/warzone/trees/uqsnowpinebark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/uqsnowpinebark
@@ -742,7 +742,7 @@ models/warzone/trees/uqsnowpinebark
 models/warzone/trees/willowbark
 {
   qer_editorimage	models/warzone/trees/willowbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/willowbark
@@ -755,7 +755,7 @@ models/warzone/trees/willowbark
 models/warzone/trees/vine01
 {
   qer_editorimage	models/warzone/trees/vine01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/vine01
@@ -768,7 +768,7 @@ models/warzone/trees/vine01
 models/warzone/trees/bark_0010
 {
   qer_editorimage	models/warzone/trees/bark_0010
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bark_0010
@@ -785,7 +785,7 @@ models/warzone/trees/bark_0010
 models/warzone/trees/-trunk
 {
   qer_editorimage	models/warzone/trees/-trunk
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/-trunk
@@ -798,7 +798,7 @@ models/warzone/trees/-trunk
 models/warzone/trees/cypressbark3
 {
   qer_editorimage	models/warzone/trees/cypressbark3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/cypressbark3
@@ -811,7 +811,7 @@ models/warzone/trees/cypressbark3
 models/warzone/trees/cypressbark4
 {
   qer_editorimage	models/warzone/trees/cypressbark4
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/cypressbark4
@@ -824,7 +824,7 @@ models/warzone/trees/cypressbark4
 models/warzone/trees/gkbbark
 {
   qer_editorimage	models/warzone/trees/gkbbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbbark
@@ -837,7 +837,7 @@ models/warzone/trees/gkbbark
 models/warzone/trees/gkbbark27
 {
   qer_editorimage	models/warzone/trees/gkbbark27
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbbark27
@@ -850,7 +850,7 @@ models/warzone/trees/gkbbark27
 models/warzone/trees/gkbbark30
 {
   qer_editorimage	models/warzone/trees/gkbbark30
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbbark30
@@ -863,7 +863,7 @@ models/warzone/trees/gkbbark30
 models/warzone/trees/gkbsmoothbark
 {
   qer_editorimage	models/warzone/trees/gkbsmoothbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothbark
@@ -876,7 +876,7 @@ models/warzone/trees/gkbsmoothbark
 models/warzone/trees/gkbsmoothdarkbark
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark
@@ -889,7 +889,7 @@ models/warzone/trees/gkbsmoothdarkbark
 models/warzone/trees/gkbsmoothdarkbark20
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark20
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark20
@@ -902,7 +902,7 @@ models/warzone/trees/gkbsmoothdarkbark20
 models/warzone/trees/gkbsmoothdarkbark20b
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark20b
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark20b
@@ -915,7 +915,7 @@ models/warzone/trees/gkbsmoothdarkbark20b
 models/warzone/trees/gkbsmoothdarkbark22
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark22
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark22
@@ -928,7 +928,7 @@ models/warzone/trees/gkbsmoothdarkbark22
 models/warzone/trees/gkbsmoothdarkbark22m
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark22m
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark22m
@@ -941,7 +941,7 @@ models/warzone/trees/gkbsmoothdarkbark22m
 models/warzone/trees/gkbsmoothdarkbark23
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbark23
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbark23
@@ -954,7 +954,7 @@ models/warzone/trees/gkbsmoothdarkbark23
 models/warzone/trees/gkbsmoothdarkbarkbloco
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbarkbloco
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbarkbloco
@@ -967,7 +967,7 @@ models/warzone/trees/gkbsmoothdarkbarkbloco
 models/warzone/trees/gkbsmoothdarkbarkblocororjio
 {
   qer_editorimage	models/warzone/trees/gkbsmoothdarkbarkblocororjio
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbsmoothdarkbarkblocororjio
@@ -980,7 +980,7 @@ models/warzone/trees/gkbsmoothdarkbarkblocororjio
 models/warzone/trees/gkbtundradriftwoodbark01
 {
   qer_editorimage	models/warzone/trees/gkbtundradriftwoodbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/gkbtundradriftwoodbark01
@@ -993,7 +993,7 @@ models/warzone/trees/gkbtundradriftwoodbark01
 models/warzone/trees/treeaspenbarkcomp
 {
   qer_editorimage	models/warzone/trees/treeaspenbarkcomp
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treeaspenbarkcomp
@@ -1007,7 +1007,7 @@ models/warzone/trees/treeaspenbarkcomp
 models/warzone/trees/treepineforestbarkcomp
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp
@@ -1021,7 +1021,7 @@ models/warzone/trees/treepineforestbarkcomp
 models/warzone/trees/treepineforestbarkcomp1
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp1
@@ -1035,7 +1035,7 @@ models/warzone/trees/treepineforestbarkcomp1
 models/warzone/trees/treepineforestbarkcomp2
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp2
@@ -1049,7 +1049,7 @@ models/warzone/trees/treepineforestbarkcomp2
 models/warzone/trees/treepineforestbarkcomp3
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp3
@@ -1063,7 +1063,7 @@ models/warzone/trees/treepineforestbarkcomp3
 models/warzone/trees/treepineforestbarkcomp4
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp4
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp4
@@ -1077,7 +1077,7 @@ models/warzone/trees/treepineforestbarkcomp4
 models/warzone/trees/treepineforestbarkcomp5
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp5
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp5
@@ -1091,7 +1091,7 @@ models/warzone/trees/treepineforestbarkcomp5
 models/warzone/trees/treepineforestbarkcomp6
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomp6
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomp6
@@ -1105,7 +1105,7 @@ models/warzone/trees/treepineforestbarkcomp6
 models/warzone/trees/treepineforestbarkcompbaj
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompbaj
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompbaj
@@ -1119,7 +1119,7 @@ models/warzone/trees/treepineforestbarkcompbaj
 models/warzone/trees/treepineforestbarkcompcut1
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompcut1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompcut1
@@ -1132,7 +1132,7 @@ models/warzone/trees/treepineforestbarkcompcut1
 models/warzone/trees/treepineforestbarkcompcut2
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompcut2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompcut2
@@ -1145,7 +1145,7 @@ models/warzone/trees/treepineforestbarkcompcut2
 models/warzone/trees/treepineforestbarkcompdead
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompdead
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompdead
@@ -1158,7 +1158,7 @@ models/warzone/trees/treepineforestbarkcompdead
 models/warzone/trees/treepineforestbarkcomplog1
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcomplog1
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcomplog1
@@ -1171,7 +1171,7 @@ models/warzone/trees/treepineforestbarkcomplog1
 models/warzone/trees/treepineforestbarkcompmill
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompmill
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompmill
@@ -1184,7 +1184,7 @@ models/warzone/trees/treepineforestbarkcompmill
 models/warzone/trees/treepineforestbarkcompsnow
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompsnow
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompsnow
@@ -1197,7 +1197,7 @@ models/warzone/trees/treepineforestbarkcompsnow
 models/warzone/trees/treepineforestbarkcompsnowl
 {
   qer_editorimage	models/warzone/trees/treepineforestbarkcompsnowl
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/treepineforestbarkcompsnowl
@@ -1210,7 +1210,7 @@ models/warzone/trees/treepineforestbarkcompsnowl
 models/warzone/trees/tundradriftwoodbark01
 {
   qer_editorimage	models/warzone/trees/tundradriftwoodbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/tundradriftwoodbark01
@@ -1223,7 +1223,7 @@ models/warzone/trees/tundradriftwoodbark01
 models/warzone/trees/tundradriftwoodbark02
 {
   qer_editorimage	models/warzone/trees/tundradriftwoodbark02
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/tundradriftwoodbark02
@@ -1236,7 +1236,7 @@ models/warzone/trees/tundradriftwoodbark02
 models/warzone/trees/datepalmbark2
 {
   qer_editorimage	models/warzone/trees/datepalmbark2
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark2
@@ -1249,7 +1249,7 @@ models/warzone/trees/datepalmbark2
 models/warzone/trees/datepalmbark3
 {
   qer_editorimage	models/warzone/trees/datepalmbark3
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/datepalmbark2
@@ -1262,7 +1262,7 @@ models/warzone/trees/datepalmbark3
 models/warzone/trees/palmbarknew9
 {
   qer_editorimage	models/warzone/trees/palmbarknew9
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/palmbarknew9
@@ -1275,7 +1275,7 @@ models/warzone/trees/palmbarknew9
 models/warzone/trees/YavinBroadleafBark
 {
   qer_editorimage	models/warzone/trees/YavinBroadleafBark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/YavinBroadleafBark
@@ -1288,7 +1288,7 @@ models/warzone/trees/YavinBroadleafBark
 models/warzone/trees/bark_0007
 {
   qer_editorimage	models/warzone/trees/bark_0007
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bark_0007
@@ -1301,7 +1301,7 @@ models/warzone/trees/bark_0007
 bark_0007
 {
   qer_editorimage	models/warzone/trees/bark_0007
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bark_0007
@@ -1314,7 +1314,7 @@ bark_0007
 bamboobark
 {
   qer_editorimage	models/warzone/trees/bamboobark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bamboobark
@@ -1327,7 +1327,7 @@ bamboobark
 models/warzone/trees/bamboobark
 {
   qer_editorimage	models/warzone/trees/bamboobark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/trees/bamboobark
@@ -1344,7 +1344,7 @@ models/warzone/trees/bamboobark
 models/warzone/deadtrees/driftwoodbark01
 {
   qer_editorimage	models/warzone/deadtrees/driftwoodbark01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/deadtrees/driftwoodbark01
@@ -1357,7 +1357,7 @@ models/warzone/deadtrees/driftwoodbark01
 models/warzone/deadtrees/gkbbark
 {
   qer_editorimage	models/warzone/deadtrees/gkbbark
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/deadtrees/gkbbark
@@ -1370,7 +1370,7 @@ models/warzone/deadtrees/gkbbark
 models/warzone/deadtrees/gkbtreeaspenbarkcomp
 {
   qer_editorimage	models/warzone/deadtrees/gkbtreeaspenbarkcomp
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/deadtrees/gkbtreeaspenbarkcomp
@@ -1383,7 +1383,7 @@ models/warzone/deadtrees/gkbtreeaspenbarkcomp
 models/warzone/deadtrees/treeaspenaddon01
 {
   qer_editorimage	models/warzone/deadtrees/treeaspenaddon01
-  q3map_material	solidwood
+  q3map_material	treebark
   q3map_clipModel
   {
     map models/warzone/deadtrees/treeaspenaddon01

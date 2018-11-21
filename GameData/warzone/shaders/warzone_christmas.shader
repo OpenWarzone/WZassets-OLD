@@ -1,7 +1,7 @@
 models/map_objects/christmastree/cap_04
 {
     warzoneEnabled
-    q3map_material	solidwood
+    q3map_material	treebark
   entityMergable
     {
         map models/map_objects/christmastree/cap_04
@@ -12,7 +12,7 @@ models/map_objects/christmastree/cap_04
 models/map_objects/christmastree/fraserfirbark
 {
   warzoneEnabled
-  q3map_material	solidwood
+  q3map_material	treebark
   entityMergable
     {
         map models/map_objects/christmastree/fraserfirbark

@@ -1,5 +1,6 @@
 models/warzone/oriental/501d6b0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/501d6b0
   q3map_material solidwood
   q3map_clipModel
@@ -13,6 +14,7 @@ models/warzone/oriental/501d6b0
 
 models/warzone/oriental/502ba70
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/502ba70
   q3map_alphashadow
   q3map_material hollowwood
@@ -32,6 +34,7 @@ models/warzone/oriental/502ba70
 
 models/warzone/oriental/502bbb0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/502bbb0
   q3map_material solidwood
   q3map_clipModel
@@ -45,6 +48,7 @@ models/warzone/oriental/502bbb0
 
 models/warzone/oriental/516d070
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/516d070
   q3map_material solidwood
   q3map_clipModel
@@ -58,6 +62,7 @@ models/warzone/oriental/516d070
 
 models/warzone/oriental/516d630
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/516d630
   q3map_material solidwood
   q3map_clipModel
@@ -71,6 +76,7 @@ models/warzone/oriental/516d630
 
 models/warzone/oriental/516d730
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/516d730
   q3map_material canvas
   q3map_clipModel
@@ -84,6 +90,7 @@ models/warzone/oriental/516d730
 
 models/warzone/oriental/516dd50
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/516dd50
   q3map_alphashadow
   q3map_material fabric
@@ -103,6 +110,7 @@ models/warzone/oriental/516dd50
 
 models/warzone/oriental/55ad1b0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/55ad1b0
   q3map_material solidwood
   q3map_clipModel
@@ -116,6 +124,7 @@ models/warzone/oriental/55ad1b0
 
 models/warzone/oriental/55ad770
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/55ad770
   q3map_material solidwood
   q3map_clipModel
@@ -129,6 +138,7 @@ models/warzone/oriental/55ad770
 
 models/warzone/oriental/64e5d10
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/64e5d10
   q3map_material solidwood
   q3map_clipModel
@@ -142,6 +152,7 @@ models/warzone/oriental/64e5d10
 
 models/warzone/oriental/64f0130
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/64f0130
   q3map_material fabric
   q3map_clipModel
@@ -155,6 +166,7 @@ models/warzone/oriental/64f0130
 
 models/warzone/oriental/64f07b0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/64f07b0
   q3map_material tiles
   q3map_clipModel
@@ -168,6 +180,7 @@ models/warzone/oriental/64f07b0
 
 models/warzone/oriental/6ad6950
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/trees/6ad6950
   q3map_alphashadow
   q3map_material GreenLeaves
@@ -184,6 +197,7 @@ models/warzone/oriental/6ad6950
 
 models/warzone/oriental/6ad6a90
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/6ad6a90
   q3map_material solidwood
   q3map_clipModel
@@ -197,6 +211,7 @@ models/warzone/oriental/6ad6a90
 
 models/warzone/oriental/7154f70
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7154f70
   q3map_material solidwood
   q3map_clipModel
@@ -210,6 +225,7 @@ models/warzone/oriental/7154f70
 
 models/warzone/oriental/76c9930
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/76c9930
   q3map_alphashadow
   q3map_material solidwood
@@ -229,6 +245,7 @@ models/warzone/oriental/76c9930
 
 models/warzone/oriental/76d5dd0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/76d5dd0
   q3map_material solidwood
   q3map_clipModel
@@ -242,6 +259,7 @@ models/warzone/oriental/76d5dd0
 
 models/warzone/oriental/7750a90
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7750a90
   q3map_material solidwood
   q3map_clipModel
@@ -255,6 +273,7 @@ models/warzone/oriental/7750a90
 
 models/warzone/oriental/7766790
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7766790
   q3map_material solidwood
   q3map_clipModel
@@ -268,8 +287,9 @@ models/warzone/oriental/7766790
 
 models/warzone/oriental/7766e10
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7766e10
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/oriental/7766e10
@@ -281,6 +301,7 @@ models/warzone/oriental/7766e10
 
 models/warzone/oriental/7783970
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7783970
   q3map_material solidwood
   q3map_clipModel
@@ -294,6 +315,7 @@ models/warzone/oriental/7783970
 
 models/warzone/oriental/7783ad0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7783ad0
   q3map_material solidwood
   q3map_clipModel
@@ -307,6 +329,7 @@ models/warzone/oriental/7783ad0
 
 models/warzone/oriental/77881b0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/77881b0
   q3map_material solidwood
   q3map_clipModel
@@ -320,6 +343,7 @@ models/warzone/oriental/77881b0
 
 models/warzone/oriental/7788310
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7788310
   q3map_material tiles
   q3map_clipModel
@@ -333,8 +357,9 @@ models/warzone/oriental/7788310
 
 models/warzone/oriental/7788970
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/7788970
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/oriental/7788970
@@ -346,6 +371,7 @@ models/warzone/oriental/7788970
 
 models/warzone/oriental/b142070
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b142070
   q3map_material solidwood
   q3map_clipModel
@@ -359,6 +385,7 @@ models/warzone/oriental/b142070
 
 models/warzone/oriental/b142c70
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b142c70
   q3map_material solidwood
   q3map_clipModel
@@ -372,6 +399,7 @@ models/warzone/oriental/b142c70
 
 models/warzone/oriental/b155070
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b155070
   q3map_alphashadow
   q3map_material solidwood
@@ -391,6 +419,7 @@ models/warzone/oriental/b155070
 
 models/warzone/oriental/b155710
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b155710
   q3map_material solidwood
   q3map_clipModel
@@ -404,6 +433,7 @@ models/warzone/oriental/b155710
 
 models/warzone/oriental/b155870
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b155870
   q3map_material solidwood
   q3map_clipModel
@@ -417,6 +447,7 @@ models/warzone/oriental/b155870
 
 models/warzone/oriental/b224830
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b224830
   q3map_alphashadow
   q3map_material solidwood
@@ -445,8 +476,9 @@ models/warzone/oriental/b224830
 
 models/warzone/oriental/b224e90
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/b224e90
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/oriental/b224e90
@@ -458,6 +490,7 @@ models/warzone/oriental/b224e90
 
 models/warzone/oriental/ba59210
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/ba59210
   q3map_material solidwood
   q3map_clipModel
@@ -471,6 +504,7 @@ models/warzone/oriental/ba59210
 
 models/warzone/oriental/ba59830
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/ba59830
   q3map_material solidwood
   q3map_clipModel
@@ -484,6 +518,7 @@ models/warzone/oriental/ba59830
 
 models/warzone/oriental/bb52270
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/bb52270
   q3map_material solidwood
   q3map_clipModel
@@ -497,8 +532,9 @@ models/warzone/oriental/bb52270
 
 models/warzone/oriental/bb52bd0
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/oriental/bb52bd0
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/oriental/bb52bd0
@@ -510,8 +546,9 @@ models/warzone/oriental/bb52bd0
 
 models/warzone/buildings/base
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/base
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/base
@@ -523,8 +560,9 @@ models/warzone/buildings/base
 
 models/warzone/buildings/pillarbase
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/pillarbase
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/pillarbase
@@ -536,8 +574,9 @@ models/warzone/buildings/pillarbase
 
 models/warzone/buildings/pillarcieling
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/pillarcieling
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/pillarcieling
@@ -549,8 +588,9 @@ models/warzone/buildings/pillarcieling
 
 models/warzone/buildings/pillarring
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/pillarring
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/pillarring
@@ -562,8 +602,9 @@ models/warzone/buildings/pillarring
 
 models/warzone/buildings/pillars
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/pillars
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/pillars
@@ -575,8 +616,9 @@ models/warzone/buildings/pillars
 
 models/warzone/buildings/pillarstatue
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/pillarstatue
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/pillarstatue
@@ -588,8 +630,9 @@ models/warzone/buildings/pillarstatue
 
 models/warzone/buildings/roof
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/roof
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/roof
@@ -601,8 +644,9 @@ models/warzone/buildings/roof
 
 models/warzone/buildings/stairs
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/stairs
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/stairs
@@ -614,8 +658,9 @@ models/warzone/buildings/stairs
 
 models/warzone/buildings/wall1
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/wall1
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/wall1
@@ -627,8 +672,9 @@ models/warzone/buildings/wall1
 
 models/warzone/buildings/wall2
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/wall2
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/wall2
@@ -640,8 +686,9 @@ models/warzone/buildings/wall2
 
 models/warzone/buildings/wall3
 {
+  warzoneEnabled
   qer_editorimage	models/warzone/buildings/wall3
-  q3map_material rock
+  q3map_material stone
   q3map_clipModel
   {
     map models/warzone/buildings/wall3
