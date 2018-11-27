@@ -2583,7 +2583,7 @@
       			type				ITEM_TYPE_MULTI
 			text				"Radio Station"
 			cvar				"s_musicSelection"
-			cvarFloatList			{ "Galactic Radio" 0  "Mind Worm Radio" 1 "Relaxing In The Rim Radio" 2 "Custom Radio" 3 }
+			cvarFloatList			{ "Galactic Radio" 0  "Mind Worm Radio" 1 "Relaxing In The Rim Radio" 2 "Map Radio" 3 "Custom Radio" 4 }
 			rect				220 241 300 20
 	   		textalign			ITEM_ALIGN_RIGHT
 			textalignx			174
