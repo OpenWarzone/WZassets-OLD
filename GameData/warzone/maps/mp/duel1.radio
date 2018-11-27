@@ -1,5 +1,6 @@
 [STATION]
 NAME=Bespin Beats
+ICON=bespinBeats
 MUSIC_TRACK0=relaxing/01.mp3
 MUSIC_TRACK1=relaxing/05.mp3
 MUSIC_TRACK2=relaxing/06.mp3

@@ -1,3 +1,4 @@
 [STATION]
-NAME=Internet Radio Test
+NAME=Core Radio
+ICON=coreRadio
 MUSIC_TRACK0=http://listen.shoutcast.com/starwarsquebec-radiossountracks
