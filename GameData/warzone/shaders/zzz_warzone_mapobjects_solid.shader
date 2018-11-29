@@ -245,3 +245,17 @@ models/map_objects/imp_detention/transport
     rgbGen identity
   }
 }
+
+models/warzone/buildings/pyramid
+{
+  warzoneEnabled
+  qer_editorimage	models/warzone/buildings/pyramid
+  q3map_material	stone
+  q3map_clipModel
+  {
+    map models/warzone/buildings/pyramid
+    blendfunc GL_ONE GL_ZERO
+    depthWrite
+    rgbGen identity
+  }
+}

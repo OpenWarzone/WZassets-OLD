@@ -1,0 +1,425 @@
+[GENERAL]
+// Force WzMap to generate all models as meta surfaces... Much slower compiled, but better?
+forcedModelMeta=0
+
+// Remove surfaces that are just wasting space... (under/outside-of the playable map, etc)
+caulkifyCrap=1
+
+// Run CullSides a second time, after adding the surfaces of statics, forest, city, cliffs, ledges, etc...
+cullSidesAfterModelAddition=0
+
+// Removed caulk surfaces from final BSP (when using meta only).
+removeCaulk=1
+
+forcedStructural=0
+
+// Allow usage of low precision convex hull <modelname>_collision_convex models, if found.
+// Convex hull models do a faster compile and less planes, but also less precision then the <modelname>_collision versions.
+useConvexHullModels=1
+
+// Use misc_lodmodel instead of misc_model. Retain collisions but let the game's model code draw the visible model. Much faster compiles.
+useLodModel=0
+
+//roadScanWidthMultiplier=0.125
+roadScanWidthMultiplier=0.435
+
+[CLIFFS]
+// Use the system that applies procedural cliff geometry to the map...
+addCliffFaces=1
+
+// Use the low poly cliff models only...
+cheapCliffs=1
+
+// Scale cliff sizes by this value...
+cliffFacesScale=1.5
+
+// Only scale the cliff's X and Y axis (horizontal)...
+cliffScaleOnlyXY=1
+
+// Cliff face addition cull distance modifier (multiplier of distance from another to not add a new cliff)...
+cliffFacesCullScale=0.7
+
+cliffPlaneSnap=16
+
+//cliffModel0=models/warzone/rocks/mountaincliff01.md3
+
+// Replace texture of the cliff faces with this one... Can use splat maps with warzone...
+cliffShader=textures/scarif/cliff
+
+[LEDGES]
+// Use the system that applies procedural ledge geometry to the map...
+addLedgeFaces=0
+
+// Scale ledge sizes by this value...
+ledgeFacesScale=1.8
+
+// Ledge addition cull distance modifier (multiplier of distance from another to not add a new ledge)...
+ledgeFacesCullScale=8.0
+
+// Minimum and maximum terrain angles that are ok to add ledges for...
+ledgeMinSlope=12.0
+//ledgeMaxSlope=43.0
+ledgeMaxSlope=18.0
+
+ledgePlaneSnap=4
+
+// Replace texture of the ledge faces with this one (generally should match your basic ground shader)... Can use splat maps with warzone...
+ledgeShader=textures/scarif/sand
+
+[STATIC]
+staticModel0=models/warzone/buildings/pyramid.md3
+staticOriginX0=3114
+staticOriginY0=11573
+staticOriginZ0=0
+staticScale0=32
+staticAngle0=0
+staticAllowSimplify0=0
+staticForcedFullSolid0=0
+staticPlaneSnap0=4
+
+staticModel1=models/warzone/buildings/pyramid.md3
+staticOriginX1=7524
+staticOriginY1=2641
+staticOriginZ1=0
+staticScale1=40
+staticAngle1=0
+staticAllowSimplify1=0
+staticForcedFullSolid1=0
+staticPlaneSnap1=4
+
+staticModel2=models/warzone/buildings/pyramid.md3
+staticOriginX2=9087
+staticOriginY2=-5751
+staticOriginZ2=0
+staticScale2=28
+staticAngle2=0
+staticAllowSimplify2=0
+staticForcedFullSolid2=0
+staticPlaneSnap2=4
+
+[CITY]
+// Coordinates of the center of the city...
+//cityLocationX=-1157
+//cityLocationY=-126
+//cityLocationZ=1183
+
+//cityLocationX=6000
+//cityLocationY=14216
+//cityLocationZ=-1400
+
+// Radius around the center to add buildings...
+//cityRadius=3192.0
+
+// Coordinates of the center of the second city...
+//city2LocationX=-25128
+//city2LocationY=25630
+//city2LocationZ=2599
+
+// Radius around the third city center to add buildings...
+//city2Radius=2048.0
+
+// Coordinates of the center of the second city...
+//city3LocationX=11072
+//city3LocationY=25210
+//city3LocationZ=2384
+
+// Radius around the third city center to add buildings...
+//city3Radius=1300.0
+
+// Over-all building scale multiplier...
+cityScaleMultiplier=1.0
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+cliffFacesCullScale=0.75
+
+// Per-building model filenames...
+cityModel0=models/warzone/bamboohut/bamboohut01.md3
+cityModel1=models/warzone/campfire/campfire01.md3
+cityModel2=models/warzone/trees/scarifpalm01.md3
+cityModel3=models/warzone/trees/scarifpalm02.md3
+cityModel4=models/warzone/trees/scarifpalm01.md3
+cityModel5=models/warzone/trees/scarifpalm02.md3
+
+// Per-building model scales...
+cityScale0=0.55
+cityScale1=0.65
+cityScale2=2.0
+cityScale3=2.0
+cityScale4=3.0
+cityScale5=3.0
+
+// Per-building vertical offsets...
+cityZoffset0=-28.5
+cityZoffset1=5.0
+cityZoffset2=-32.0
+cityZoffset3=-32.0
+cityZoffset4=-32.0
+cityZoffset5=-32.0
+
+// Only allow this type on slopes less steep then this...
+cityForcedMaxAngle0=28.0
+cityForcedMaxAngle1=8.0
+cityForcedMaxAngle2=0.0
+cityForcedMaxAngle3=0.0
+cityForcedMaxAngle4=0.0
+cityForcedMaxAngle5=0.0
+
+// Always force a buffer of this radius around the object...
+cityForcedBufferDistance0=256.0
+cityForcedBufferDistance1=96.0
+cityForcedBufferDistance2=64.0
+cityForcedBufferDistance3=64.0
+cityForcedBufferDistance4=64.0
+cityForcedBufferDistance5=64.0
+
+// Never place another of the same object within this radius...
+cityForcedDistanceFromSame0=512.0
+cityForcedDistanceFromSame1=1024.0
+cityForcedDistanceFromSame2=256.0
+cityForcedDistanceFromSame3=256.0
+cityForcedDistanceFromSame4=256.0
+cityForcedDistanceFromSame5=256.0
+
+cityRandomizeAngles0=1
+cityRandomizeAngles1=1
+cityRandomizeAngles2=1
+cityRandomizeAngles3=1
+cityRandomizeAngles4=1
+cityRandomizeAngles5=1
+
+// Force full solidity on this object (1 still culls tiny surfaces. 2 disabled all culling)... 
+cityForcedFullSolid0=0
+cityForcedFullSolid1=0
+cityForcedFullSolid2=0
+cityForcedFullSolid3=0
+cityForcedFullSolid4=0
+cityForcedFullSolid5=0
+
+overrideShader0=
+overrideShader1=
+overrideShader2=
+overrideShader3=
+overrideShader4=
+overrideShader5=
+
+cityCentralOneOnly0=0
+cityCentralOneOnly1=0
+cityCentralOneOnly2=0
+cityCentralOneOnly3=0
+cityCentralOneOnly4=0
+cityCentralOneOnly5=0
+
+cityPlaneSnap0=12
+cityPlaneSnap1=16
+cityPlaneSnap2=16
+cityPlaneSnap3=16
+cityPlaneSnap4=16
+cityPlaneSnap5=16
+
+[TREES]
+// Over-all tree scale multiplier...
+treeScaleMultiplier=1.0
+
+// What percentage of the trees should we actually use? (Uses randomness to select - Handy to create groups of trees)
+//treeAssignPercent=65
+treeAssignPercent=4
+
+// Cliff face cull radius (don't add object within this radius of a cliff)...
+//cliffFacesCullScale=0.55
+cliffFacesCullScale=0.35
+
+// Per-tree model filenames...
+treeModel0=models/warzone/trees/scarifpalmsmall01.md3
+treeModel1=models/warzone/trees/scarifpalmsmall02.md3
+treeModel2=models/warzone/trees/scarifpalmsmall01.md3
+treeModel3=models/warzone/trees/scarifpalmsmall02.md3
+treeModel4=models/warzone/trees/scarifpalm01.md3
+treeModel5=models/warzone/trees/scarifpalm02.md3
+treeModel6=models/warzone/trees/scarifpalm03.md3
+treeModel7=models/warzone/trees/scarifpalm04.md3
+treeModel8=models/warzone/trees/scarifpalm01.md3
+treeModel9=models/warzone/trees/scarifpalm02.md3
+treeModel10=models/warzone/trees/scarifpalm03.md3
+treeModel11=models/warzone/trees/scarifpalm04.md3
+treeModel12=models/warzone/trees/scarifpalm01.md3
+treeModel13=models/warzone/trees/scarifpalm02.md3
+treeModel14=models/warzone/trees/scarifpalm03.md3
+treeModel15=models/warzone/trees/scarifpalm04.md3
+
+// Per-tree vertical offsets...
+treeZoffset0=-32.0
+treeZoffset1=-32.0
+treeZoffset2=-32.0
+treeZoffset3=-32.0
+treeZoffset4=-32.0
+treeZoffset5=-32.0
+treeZoffset6=-32.0
+treeZoffset7=-32.0
+treeZoffset8=-48.0
+treeZoffset9=-48.0
+treeZoffset10=-48.0
+treeZoffset11=-48.0
+treeZoffset12=-64.0
+treeZoffset13=-64.0
+treeZoffset14=-64.0
+treeZoffset15=-64.0
+treeZoffset16=0.0
+
+// Per-tree model scales...
+treeScale0=2.0
+treeScale1=2.0
+treeScale2=2.0
+treeScale3=2.0
+treeScale4=2.0
+treeScale5=2.0
+treeScale6=2.0
+treeScale7=2.0
+treeScale8=4.0
+treeScale9=4.0
+treeScale10=4.0
+treeScale11=4.0
+treeScale12=6.0
+treeScale13=6.0
+treeScale14=6.0
+treeScale15=6.0
+
+// Only allow this type on slopes less steep then this...
+treeForcedMaxAngle0=0.0
+treeForcedMaxAngle1=0.0
+treeForcedMaxAngle2=0.0
+treeForcedMaxAngle3=0.0
+treeForcedMaxAngle4=0.0
+treeForcedMaxAngle5=0.0
+treeForcedMaxAngle6=0.0
+treeForcedMaxAngle7=0.0
+treeForcedMaxAngle8=0.0
+treeForcedMaxAngle9=0.0
+treeForcedMaxAngle10=0.0
+treeForcedMaxAngle11=0.0
+treeForcedMaxAngle12=0.0
+treeForcedMaxAngle13=0.0
+treeForcedMaxAngle14=0.0
+treeForcedMaxAngle15=0.0
+
+// Always force a buffer of this radius around the object...
+treeForcedBufferDistance0=64.0
+treeForcedBufferDistance1=64.0
+treeForcedBufferDistance2=64.0
+treeForcedBufferDistance3=64.0
+treeForcedBufferDistance4=64.0
+treeForcedBufferDistance5=64.0
+treeForcedBufferDistance6=64.0
+treeForcedBufferDistance7=64.0
+treeForcedBufferDistance8=64.0
+treeForcedBufferDistance9=64.0
+treeForcedBufferDistance10=64.0
+treeForcedBufferDistance11=64.0
+treeForcedBufferDistance12=64.0
+treeForcedBufferDistance13=64.0
+treeForcedBufferDistance14=64.0
+treeForcedBufferDistance15=64.0
+
+// Never place another of the same object within this radius...
+treeForcedDistanceFromSame0=0.0
+treeForcedDistanceFromSame1=0.0
+treeForcedDistanceFromSame2=0.0
+treeForcedDistanceFromSame3=0.0
+treeForcedDistanceFromSame4=2048.0
+treeForcedDistanceFromSame5=2048.0
+treeForcedDistanceFromSame6=2048.0
+treeForcedDistanceFromSame7=2048.0
+treeForcedDistanceFromSame8=2048.0
+treeForcedDistanceFromSame9=2048.0
+treeForcedDistanceFromSame10=2048.0
+treeForcedDistanceFromSame11=2048.0
+treeForcedDistanceFromSame12=4096.0
+treeForcedDistanceFromSame13=4096.0
+treeForcedDistanceFromSame14=4096.0
+treeForcedDistanceFromSame15=4096.0
+
+// Force full solidity on this object (still culls tiny surfaces)...
+treeForcedFullSolid0=0
+treeForcedFullSolid1=0
+treeForcedFullSolid2=0
+treeForcedFullSolid3=0
+treeForcedFullSolid4=0
+treeForcedFullSolid5=0
+treeForcedFullSolid6=0
+treeForcedFullSolid7=0
+treeForcedFullSolid8=0
+treeForcedFullSolid9=0
+treeForcedFullSolid10=0
+treeForcedFullSolid11=0
+treeForcedFullSolid12=0
+treeForcedFullSolid13=0
+treeForcedFullSolid14=0
+treeForcedFullSolid15=0
+
+overrideShader0=
+overrideShader1=
+overrideShader2=
+overrideShader3=
+overrideShader4=
+overrideShader5=
+overrideShader6=
+overrideShader7=
+overrideShader8=
+overrideShader9=
+overrideShader10=
+overrideShader11=
+overrideShader12=
+overrideShader13=
+overrideShader14=
+overrideShader15=
+
+// allowSimplify : 0 = allow none. 1 = allow convex hull. 2 = allow simplify. 3 = allow both.
+treeAllowSimplify0=0
+treeAllowSimplify1=0
+treeAllowSimplify2=0
+treeAllowSimplify3=0
+treeAllowSimplify4=0
+treeAllowSimplify5=0
+treeAllowSimplify6=0
+treeAllowSimplify7=0
+treeAllowSimplify8=0
+treeAllowSimplify9=0
+treeAllowSimplify10=0
+treeAllowSimplify11=0
+treeAllowSimplify12=0
+treeAllowSimplify13=0
+treeAllowSimplify14=0
+treeAllowSimplify15=0
+
+treeUseOriginAsLowPoint0=0
+treeUseOriginAsLowPoint1=0
+treeUseOriginAsLowPoint2=0
+treeUseOriginAsLowPoint3=0
+treeUseOriginAsLowPoint4=0
+treeUseOriginAsLowPoint5=0
+treeUseOriginAsLowPoint6=0
+treeUseOriginAsLowPoint7=0
+treeUseOriginAsLowPoint8=0
+treeUseOriginAsLowPoint9=0
+treeUseOriginAsLowPoint10=0
+treeUseOriginAsLowPoint11=0
+treeUseOriginAsLowPoint12=0
+treeUseOriginAsLowPoint13=0
+treeUseOriginAsLowPoint14=0
+treeUseOriginAsLowPoint15=0
+
+treePlaneSnap0=16
+treePlaneSnap1=16
+treePlaneSnap2=16
+treePlaneSnap3=16
+treePlaneSnap4=16
+treePlaneSnap5=16
+treePlaneSnap6=16
+treePlaneSnap7=16
+treePlaneSnap8=16
+treePlaneSnap9=16
+treePlaneSnap10=16
+treePlaneSnap11=16
+treePlaneSnap12=16
+treePlaneSnap13=16
+treePlaneSnap14=16
+treePlaneSnap15=16
