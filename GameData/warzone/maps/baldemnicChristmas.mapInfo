@@ -208,7 +208,7 @@ MAP_WATER_LEVEL=-1024.0
 // note: settings for the sun shadow system.
 SHADOWS_ENABLED=1
 SHADOW_MINBRIGHT=0.55
-SHADOW_MAXBRIGHT=1.85
+SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
 AO_ENABLED=1

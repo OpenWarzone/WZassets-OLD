@@ -96,7 +96,7 @@ WEATHER_TYPE=forest_island
 DAY_NIGHT_CYCLE_ENABLED=1
 DAY_NIGHT_CYCLE_SPEED=0.02
 DAY_NIGHT_START_TIME=10.32
-SUN_PHONG_SCALE=1.0
+SUN_PHONG_SCALE=6.0
 SUN_VOLUMETRIC_SCALE=1.75
 SUN_VOLUMETRIC_FALLOFF=0.5
 SUN_COLOR_MAIN_R=0.85
@@ -207,7 +207,7 @@ MAP_WATER_LEVEL=-1024.0
 // note: settings for the sun shadow system.
 SHADOWS_ENABLED=1
 SHADOW_MINBRIGHT=0.55
-SHADOW_MAXBRIGHT=1.85
+SHADOW_MAXBRIGHT=1.0
 [AMBIENT_OCCLUSION]
 // note: settings for the ambient occlusion system.
 AO_ENABLED=1
@@ -328,6 +328,19 @@ vinesImage12=models/warzone/vines/jungleivy02
 vinesImage13=models/warzone/vines/jungleivy02
 vinesImage14=models/warzone/vines/jungleivy02
 vinesImage15=models/warzone/vines/jungleivy02
+[MATERIAL_SPECULAR]
+solidmetal=0.0055
+hollowmetal=0.0055
+plastic=0.0050
+shatterglass=0.0055
+armor=0.0055
+ice=0.0055
+glass=0.0055
+bpglass=0.0055
+computer=0.0055
+puddle=0.0055
+greenleaves=0.006
+flesh=0.0005
 [MAPINFO]
 SKY_HEIGHT=4851.687500
 [BOUNDS]
