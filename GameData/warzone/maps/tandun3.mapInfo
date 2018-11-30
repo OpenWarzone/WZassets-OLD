@@ -243,6 +243,7 @@ vinesImage14=models/warzone/vines/jungleivy03
 vinesImage15=models/warzone/vines/jungleivy03
 [SHADOWS]
 SHADOWS_ENABLED=1
+SHADOWS_FULL_SOLID=1
 SHADOW_MINBRIGHT=0.65
 SHADOW_MAXBRIGHT=1.85
 [AMBIENT_OCCLUSION]
