@@ -64,6 +64,7 @@ warzone_naboo
 warzone_oriental
 warzone_particles
 warzone_taanab
+warzone_tandun3
 warzone_tatooine
 warzone_titanic
 warzone_toujane
